@@ -5,7 +5,7 @@
          url('Wasted-Vindey.woff2') format('woff2'),
          url('Wasted-Vindey.woff') format('woff');
     font-weight: normal;
-    line-height: 125%;
+    line-height: 100%;
     font-style: normal;
     font-feature-settings: 'ordn' on, 'salt' on;
 }
