@@ -33,7 +33,7 @@
 .text5{margin-top: 20px;margin-left: -4px;position: absolute;text-align-last: left;width: 443px!important;} 
 .instaid3{font-family: poppins;position: absolute;font-size: 16px;color: var(--textColor);margin-left: 48px;letter-spacing: -0.2px;} 
 .iconinstapost{max-width: 50px;border-radius: 50px;margin-top: -12px;margin-left: -11px;background-attachment: fixed;max-height: 70px;border: 4px solid var(--neutralDark);float: left;}
-
+img.postimg2 {width: 500px;object-fit: cover;}
 .iconignotif{max-width: 65px;border-radius: 50px;margin-top: 7px;position: absolute;margin-left: -224px;background-attachment: fixed;max-height: 65px;border: 4px solid var(--neutralDark);float: left;}
 .idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weight: 500;letter-spacing: -0.2px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;}
 idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weight: 500;letter-spacing: -0.2px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;}
