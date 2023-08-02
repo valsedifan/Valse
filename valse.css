@@ -11,6 +11,9 @@
 .backs {background: var(--transp2);border-radius: 0px 0px 15px 15px;width: 508px;}
 .avatarhoverf {width: 196px;height: 327px;margin-top: -330px;margin-left: 13px;border-radius: 20px;transition: 300ms;position: absolute;opacity: 0;background: var(--transp2);}
 .avatarhoverf:hover {opacity:1;}
+.imgfiche {transition: 300ms;}
+img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
+
 
 /*****rp & trucs******/
 .sujet1{margin:auto;} 
