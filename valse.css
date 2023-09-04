@@ -14,7 +14,6 @@
 .imgfiche {transition: 300ms;}
 img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
 
-
 /*****rp & trucs******/
 .sujet1{margin:auto;} 
 .backsujet{box-shadow: 0px 0px 10px -10px black;background: var(--transp2);border-radius: 30px;border: 1px solid var(--whiteborder2);width:500px;padding: 30px;margin-bottom: 8px;}aes1{line-height: 3;background: var(--accentClr);letter-spacing: 1px;font-size: 12px;text-transform: uppercase;border-radius: 5px;padding: 3px;font-weight: 800;} 
