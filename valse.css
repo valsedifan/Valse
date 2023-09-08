@@ -1,6 +1,6 @@
 /****fiche présentation****/
-.pres1{background: var(--neutralDark);border: var(--whiteborder);height: 334px;width: 466px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -368px;margin-left: -57px;overflow: auto;} 
-.pres2{background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;margin-left: -59px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
+.pres1{background: var(--neutralDark);border: var(--whiteborder);height: 334px;width: 466px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -354px;margin-left: -2px;overflow: auto;} 
+.pres2{background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
 .pres3{background: var(--neutralDark);border: var(--whiteborder);height: 90px;width: 671px;border-radius: 15px;text-align: justify;padding: 19px;overflow: auto;} 
 .whitecircle{height: 38px;width: 38px;border: var(--whiteborder);display: inline-block;margin-top: -39px;margin-inline: 6px;border-radius: 50px;background: var(--transp2);transition: 300ms;} 
 .cwtw{width: 550;height: 40px;background: var(--transp2);border-radius: 15px;padding: 5px;} 
