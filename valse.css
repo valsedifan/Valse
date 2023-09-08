@@ -1,6 +1,6 @@
 /****fiche présentation****/
-.pres1{background: background: var(--neutralDark);border: var(--whiteborder);height: 291px;width: 455px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -365px;margin-left: -39px;overflow: auto;} 
-.pres2{background: background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;margin-left: -59px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
+.pres1{background: var(--neutralDark);border: var(--whiteborder);height: 291px;width: 455px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -365px;margin-left: -39px;overflow: auto;} 
+.pres2{background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;margin-left: -59px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
 .pres3{background: var(--neutralDark);border: var(--whiteborder);height: 90px;width: 490px;margin-left: -58px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
 .whitecircle{height: 38px;width: 38px;border: var(--whiteborder);display: inline-block;margin-top: -39px;margin-inline: 6px;border-radius: 50px;background: var(--transp2);transition: 300ms;} 
 .cwtw{width: 550;height: 40px;background: var(--transp2);border-radius: 15px;padding: 5px;} 
