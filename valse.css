@@ -1,6 +1,6 @@
 /****fiche présentation****/
-.pres1{background: var(--neutralDark);border: var(--whiteborder);height: 325px;width: 266px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -364px;margin-left: 170px;overflow: auto;} 
-.pres2{background: var(--neutralDark);border: var(--whiteborder);height: 242px;width: 490px;margin-left: -70px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
+.pres1{background: background: var(--neutralDark);border: var(--whiteborder);height: 291px;width: 455px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -365px;margin-left: -39px;overflow: auto;} 
+.pres2{background: background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;margin-left: -59px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
 .pres3{background: var(--neutralDark);border: var(--whiteborder);height: 90px;width: 490px;margin-left: -58px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;} 
 .whitecircle{height: 38px;width: 38px;border: var(--whiteborder);display: inline-block;margin-top: -39px;margin-inline: 6px;border-radius: 50px;background: var(--transp2);transition: 300ms;} 
 .cwtw{width: 550;height: 40px;background: var(--transp2);border-radius: 15px;padding: 5px;} 
@@ -9,7 +9,7 @@
 .details[open]{width: 550px;background: var(--neutralDark);border-radius: 15px;padding: 0.5em;} 
 .details[open] summary{width: 550px;background: var(--neutralDark);border-radius: 15px;border-bottom: 1px solid #aaa;margin-bottom: 0.5em;}
 .backs {background: var(--transp2);border-radius: 0px 0px 15px 15px;width: 508px;}
-.avatarhoverf {width: 196px;height: 327px;margin-top: -330px;margin-left: 13px;border-radius: 20px;transition: 300ms;position: absolute;opacity: 0;background: var(--transp2);}
+.avatarhoverf {width: 207px;height: 334px;margin-top: -334px;margin-left: 471px;border-radius: 10px;filter: grayscale(1);transition: 500ms;position: absolute;backdrop-filter: blur(1px)!important;opacity: 0;}
 .avatarhoverf:hover {opacity:1;}
 .imgfiche {transition: 300ms;}
 img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
