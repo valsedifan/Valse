@@ -13,6 +13,7 @@
 .avatarhoverf:hover {opacity:1;}
 .imgfiche {transition: 300ms;}
 img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
+.l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
 
 /*****rp & trucs******/
 .sujet1{margin:auto;} 
