@@ -71,6 +71,6 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 .rep3 {background: var(--neutralDark);border-radius: 15px;padding: 10px;width: 255px;margin-top: 8px;overflow: auto;height: 70px;}
 .répertoirefull {height: 300px;overflow: auto;border: 1px solid var(--couleur1);border-radius: 15px;}
 
-.container42 {width: 520px;margin: auto;}
-.quote1 {background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;font-size: 400px;opacity: 0.5;margin-left: 532px;margin-bottom: -352px;position: relative;z-index: 1;font-family: 'Wasted Vindey';}
+.container42 {width: 422px;margin: auto;}
+.quote1 {background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;font-size: 400px;opacity: 0.5;margin-left: 366px;margin-bottom: -363px;position: relative;z-index: 1;font-family: 'Wasted Vindey';}
 .textquote {position: relative;text-align: justify;z-index: 2;}
