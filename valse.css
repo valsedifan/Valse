@@ -1,7 +1,7 @@
 /****fiche présentation****/
 .pres1{background: var(--neutralDark);border: var(--whiteborder);height: 334px;width: 426px;border-radius: 15px;text-align: justify;padding: 30px;margin-top: -354px;overflow: auto;} 
 .pres2{background: var(--neutralDark);border: var(--whiteborder);height: 238px;width: 671px;border-radius: 15px;text-align: justify;padding: 37px;overflow: auto;animation: apparitionpa 1s forwards;} 
-.pres3{background: var(--neutralDark);border: var(--whiteborder);height: 90px;width: 633px;border-radius: 15px;text-align: justify;padding: 19px;overflow: auto;margin-left: 101px;} 
+.pres3{background: var(--neutralDark);border: var(--whiteborder);height: 90px;width: 539px;border-radius: 15px;text-align: justify;padding: 19px;overflow: auto;margin-left: 101px;} 
 .whitecircle{height: 38px;width: 38px;border: var(--whiteborder);display: inline-block;margin-top: -39px;margin-inline: 6px;border-radius: 50px;background: var(--transp2);transition: 300ms;} 
 .cwtw{width: 550;height: 40px;background: var(--transp2);border-radius: 15px;padding: 5px;} 
 .details{width: 550px;background: var(--neutralDark);border-radius: 15px;border: 1px solid #aaa;padding: 0.5em 0.5em 0;} 
