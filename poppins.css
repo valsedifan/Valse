@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Wasted Vindey';
+    src: url('Wasted-Vindey.otf') format('otf'),
+         url('Wasted-Vindey.ttf') format('ttf'),
+         url('Wasted-Vindey.woff2') format('woff2'),
+         url('Wasted-Vindey.woff') format('woff');
+    font-weight: normal;
+    line-height: 100%;
+    font-style: normal;
+    font-feature-settings: 'ordn' on, 'salt' on;
+}
