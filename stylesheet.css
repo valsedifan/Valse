@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'NF Ultra';
+    src: url('NFUltra-Regular.eot');
+    src: local('NF Ultra Regular'), local('NFUltra-Regular'),
+        url('NFUltra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NFUltra-Regular.woff2') format('woff2'),
+        url('NFUltra-Regular.woff') format('woff'),
+        url('NFUltra-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
