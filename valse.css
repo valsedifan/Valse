@@ -1,6 +1,6 @@
 /****fiche présentation****/
 
-.prezbody{background: var(--transp5);border-radius: 15px;width: 690px;padding: 30px;margin-bottom: 8px;}
+.prezbody{background: var(--transp5);border-radius: 15px;width: 690px;padding: 30px;margin-bottom: 8px;outline: 1px solid var(--neutralDark);outline-offset: 2px;}
 .blocpseudofc {margin-top: -20px;}
 .pseudoprez {font-family: var(--titlefont2);margin-bottom: -25px;font-weight: 900;font-size: 22px;text-transform: uppercase;}
 .fcprez {font-size: 12px;text-transform: uppercase;padding: 7px;margin-left: -3px;font-family: 'Poppins';letter-spacing: 1px;}
