@@ -6,7 +6,7 @@
 .fcprez {font-size: 12px;text-transform: uppercase;padding: 7px;margin-left: -3px;font-family: 'Poppins';letter-spacing: 1px;}
 .hautprez {float: left;margin-top: 11px;}
 .minicardgradient {background: var(--gradient3);height: 146px;width: 368px;float: right;border-radius: 5px;text-align: justify;padding: 13px;margin-top: -49px;margin-left: 8px;display: grid;grid-template-rows: 1fr max-content;overflow: auto;}
-.minicardprez {background: var(--neutralDark);height: 140px;width: 363px;float: right;border-radius: 5px;text-align: justify;padding: 13px;margin-top: -150px;margin-right: 3px;display: grid;grid-template-rows: 1fr max-content;}
+.minicardprez {background: var(--neutralDark);height: 140px;width: 363px;float: right;border-radius: 5px;text-align: justify;padding: 13px;margin-top: -152px;margin-right: 3px;display: grid;grid-template-rows: 1fr max-content;}
 .boutonshautprez {display: flex;flex-wrap: wrap;justify-content: space-around;margin-right: -5px;margin-top: 15px; margin-bottom: 77px;}
 .boutonprez {text-transform: uppercase;font-size: 12px;padding: 1px 5px;border-radius: 3px;border: 1px solid var(--transp6);letter-spacing: 1px;color: var(--textColor);margin: 2px;font-family: 'Poppins';}
 .prezl1 {height: 1;width: 80%;background: var(--transp6);margin-top: 15px;position: relative;}
