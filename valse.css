@@ -13,7 +13,7 @@
 .details[open] summary{width: 550px;background: var(--neutralDark);border-radius: 10px;border-bottom: 1px solid #aaa;margin-bottom: 0.5em;}
 .backs {background: var(--transp2);border-radius: 0px 0px 10px 10px;width: 508px;}
 .imgfiche {transition: 300ms;}
-img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
+img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
 .iconsjt {display: flex;flex-direction: column;float: left;margin: 5px 13px 35px 36px;}
 
