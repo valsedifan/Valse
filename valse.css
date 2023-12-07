@@ -12,8 +12,6 @@
 .details[open]{width: 550px;background: var(--neutralDark);border-radius: 10px;padding: 0.5em;} 
 .details[open] summary{width: 550px;background: var(--neutralDark);border-radius: 10px;border-bottom: 1px solid #aaa;margin-bottom: 0.5em;}
 .backs {background: var(--transp2);border-radius: 0px 0px 10px 10px;width: 508px;}
-.avatarhoverf {width: 207px;height: 335px;margin-top: -335px;margin-left: 429px;border-radius: 0px 5px 5px 0px;filter: grayscale(1);transition: 500ms;position: absolute;opacity: 0;}
-.avatarhoverf:hover {opacity:1;}
 .imgfiche {transition: 300ms;}
 img.imgfiche:hover {background: var(--transp2);filter: blur(1px);opacity: 1;}
 .l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
