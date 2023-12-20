@@ -19,7 +19,7 @@
 .imgfiche {transition: 300ms;}
 img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
-.iconsjt {display: flex;flex-direction: column;float: left;margin: 0 15px 35px 35px;}
+.iconsjt {display: flex;flex-direction: column;float: left;margin: -3px 15px 35px 35px;}
 .ecdsjt {background: var(--neutralDark);padding: 20px;border-radius: 5px;outline: 1px solid var(--neutralDark);outline-offset: 2px;}
 
 /*****rp & trucs******/
