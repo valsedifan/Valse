@@ -1,4 +1,8 @@
-/****fiche présentation****/
+/****trucs bottin****/
+ .lebobottin{margin-top: 10px;}
+.faceclaim{float: left!important;font-family: var(--titlefont2);font-size: 12px;text-transform: uppercase}
+.personnage{float: right!important;font-family: poppins;text-transform: uppercase;font-weight: 700;font-size: 12px;margin-top: -6px;background: var(--neutralDark);padding: 4px;border-radius: 20px;}
+.resa{float: right!important;font-family: poppins;text-transform: uppercase;font-weight: 700;font-size: 12px;margin-top: -1px;padding: 4px;color: var(--couleur1);}
 
 
 /****fiche présentation bis****/
