@@ -46,7 +46,11 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .textdeco1::after {position: absolute;font-weight: bold;content: "」";font-size: 20px;margin-left: 200px;margin-top: -30px;}
 
 .rpcarnetdetails {display: grid;grid-template-columns: 150px 150px 150px;}.rpcarnetdetails span {display: block;margin: 0 0 10px;font-size: var(--body-size);border-radius: 15px;}
-
+.heartmessage1 {content: url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png);height: 50px;float: right;margin-left: 15px;margin-top: -7px;}
+:root {--heartmessage1:url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png); }
+[data-color-scheme="dark"] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
+ @media (prefers-color-scheme: dark) {   [data-color-scheme=dark] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
+ 
 /****posts insta****/
 .iconinsta{max-width: 80px;border-radius: 70px;margin-top: 18px;background-attachment: fixed;max-height: 80px;border: 4px solid var(--neutralDark);float: left;}
 .instahead, .pseudoinsta{font-size: 12px;font-family: 'Poppins';display: flex;text-align: -webkit-left;line-height: .9;margin-left: 8px;flex-direction: column;margin-top: 12px;}
