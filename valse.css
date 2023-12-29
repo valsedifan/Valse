@@ -20,7 +20,7 @@
 img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
 .iconsjt {display: flex;flex-direction: column;float: left;margin: -3px 15px 0 0;}
-.ecdsjt {background: var(--bw2);padding: 20px;border-radius: 5px;outline: 1px solid var(--bw2);outline-offset: 2px;animation: fadeIn 1s;}
+.ecdsjt {background: var(--bw2);padding: 20px;border-radius: 5px;outline: 1px solid var(--transp6);outline-offset: 2px;animation: fadeIn 1s;}
 
 /*****rp & trucs******/
 .sujet1{margin:auto;} 
