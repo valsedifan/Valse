@@ -49,7 +49,7 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .heartmessage1 {content: url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png);height: 50px;float: right;margin-left: 15px;margin-top: -7px;}
 :root {--heartmessage1:url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png); }
 [data-color-scheme="dark"] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
- @media (prefers-color-scheme: dark) {   [data-color-scheme=dark] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
+ @media (prefers-color-scheme: dark) {   [data-color-scheme=dark] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} }
  /****fin rp trucs****/
 
 /****posts insta****/
