@@ -21,6 +21,7 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .l1prez{ height: 2;width: 80%;background: linear-gradient(110deg, transparent,var(--gradient), transparent);color: var(--textColor);}
 .iconsjt {display: flex;flex-direction: column;float: left;margin: -3px 15px 0 0;}
 .ecdsjt {background: var(--bw2);padding: 20px;border-radius: 5px;outline: 1px solid var(--transp6);outline-offset: 2px;animation: fadeIn 1s;}
+/****fin pres****/
 
 /*****rp & trucs******/
 .sujet1{margin:auto;} 
@@ -50,12 +51,31 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 :root {--heartmessage1:url(https://images2.imgbox.com/94/3e/5P6ziEC0_o.png); }
 [data-color-scheme="dark"] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
  @media (prefers-color-scheme: dark) {   [data-color-scheme=dark] {--heartmessage1:url(https://images2.imgbox.com/39/2e/GSwQFiu1_o.png);} 
- 
+ /****fin rp trucs****/
+
 /****posts insta****/
-.iconinsta{max-width: 80px;border-radius: 70px;margin-top: 18px;background-attachment: fixed;max-height: 80px;border: 4px solid var(--neutralDark);float: left;}
-.instahead, .pseudoinsta{font-size: 12px;font-family: 'Poppins';display: flex;text-align: -webkit-left;line-height: .9;margin-left: 8px;flex-direction: column;margin-top: 12px;}
-.instainfos {margin-left: 17px;}.text4 {text-align: justify;margin-top: 20px;font-size: 12px;background: var(--neutralDark);border-radius: 10px;padding: 17px;width: 320px!important;margin-left: 14px;}
-.postimg:hover{opacity: 0.7;filter: grayscale(1);}
+.backsujet {height: 1035px!important;background: var(--transp2);border-radius: 10px;border: 1px solid var(--whiteborder2);width: 600px;padding: 30px;margin-bottom: 8px;}
+.baninsta {text-align: justify;font-size: 12px;width: 600px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;margin-left: -30px;margin-top: -31px;margin-bottom: 20px;}
+.instaid {text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColor);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;font-weight: 700;position: absolute;}
+.icongradient {background: var(--gradient3);width: 100px;height: 100px;border-radius: 100%;float: left;margin-top: 8px;}
+.iconinsta {max-width: 90px;width: 100%;border-radius: 70px;margin-top: 5px;margin-left: 5px;background-attachment: fixed;max-height: 90px;border: 5px solid var(--bw2);float: left;object-fit: cover;} 
+.iconinsta2 {max-width: 65px;width: 100%;border-radius: 70px;background-attachment: fixed;max-height: 65px;border: 5px solid var(--bw2);float: left;margin-bottom: 5px;object-fit: cover;}
+.instahead, .pseudoinsta {font-size: 12px; font-family: 'Poppins';display: flex;text-align: -webkit-left;line-height: .9;margin-left: 8px;flex-direction: column;margin-top: -3px;margin-bottom: 2px;}
+.instainfos {margin-left: 17px;}
+.bioig {text-align: justify;margin-top: 20px;font-size: 12px;background: var(--bw2);border-radius: 10px;padding: 17px;width: 419px!important;margin-left: 14px;}
+.fllwdby {margin-left: 24px;margin-top: 17px;}
+.storiesig{position: relative;margin-bottom: 156px;margin-top: 50px;}
+.storiesig1 {background: transparent;width: 67px;height: 67px;border-radius: 100%;margin-right: 25px;float: left;border: 1px solid var(--transp6);}
+.instaphotos {margin-top: -21px; margin-bottom:25px;display: flex;justify-content: space-around;min-height: 198px;animation: fadeIn 1s;}
+.postimg {margin-inline: 2px;object-fit: cover;min-width: 198px;max-height: 198px;border-radius: 0px;transition-duration: 0.5s;}
+.storiesig2 {text-align-last: center;font-size: 12px;}
+.igic1 {text-transform: uppercase;font-size: 20px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;position: absolute;cursor: pointer;font-family: 'cappuccicons';content: '\e920';}
+.certified{height: 15px;position: absolute;margin-top: 6px;margin-left:5px;}
+label[for=tab1] {position: absolute;margin-left: -299px;z-index: 2;background: var(--bw2);width: 297px;padding: 9px;border-radius: 5px;}
+label[for=tab2] {position: absolute;margin-left: 5px;z-index: 2;background: var(--bw2);width: 294px;padding: 9px;border-radius: 5px;}
+/****fin post insta****/
+                                      
+.text4 {text-align: justify;margin-top: 20px;font-size: 12px;background: var(--neutralDark);border-radius: 10px;padding: 17px;width: 320px!important;margin-left: 14px;}
 .datuminsta{background: linear-gradient(60deg, var(--gradient));letter-spacing: 1px;font-size: 9px;color: #ffffff;text-transform: uppercase;border-radius: 10px;padding: 3px;} 
 .baninsta{text-align: justify;font-size: 12px;width: 500px;background: var(--neutralDark);border-radius: 15px 15px 0px 0px;padding: 17px;height: 51px;margin-left: -30px;margin-top: -31px;margin-bottom: 20px;} 
 .instaid{font-family: 'Poppins';font-size: 16px;color: var(--textColor);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;position: absolute;}
@@ -82,3 +102,4 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 .container42 {width: 422px;margin: auto;}
 .quote1 {background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;font-size: 400px;opacity: 0.5;margin-left: 366px;margin-bottom: -363px;position: relative;z-index: 1;font-family: 'Wasted Vindey';}
 .textquote {position: relative;text-align: justify;z-index: 2;}
+
