@@ -24,8 +24,7 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 /****fin pres****/
 
 /*****rp & trucs******/
-.sujet1{margin:auto;} 
-.backsujet{box-shadow: 0px 0px 10px -10px black;background: var(--transp2);border-radius: 10px;border: 1px solid var(--whiteborder2);width:500px;padding: 30px;margin-bottom: 8px;}aes1{line-height: 3;background: var(--accentClr);letter-spacing: 1px;font-size: 12px;text-transform: uppercase;border-radius: 5px;padding: 3px;font-weight: 800;} 
+.sujet1{margin:auto;}
 .topicbody{background: var(--transp2);border-radius: 10px;width:400px;padding: 30px;margin-bottom: 8px; box-shadow: 0px 0px 8px -10px black;}
 .topicbody2{background: var(--transp2);border-radius: 10px;width:550px;padding: 30px;margin-bottom: 8px; box-shadow: 0px 0px 8px -10px black;}
 .topicbody4{background: var(--bw1);border-radius: 15px;width: 665px;padding: 25px 25px 30px 25px;outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
