@@ -76,9 +76,7 @@ label[for=tab2] {position: absolute;margin-left: 5px;z-index: 2;background: var(
                                       
 .text4 {text-align: justify;margin-top: 20px;font-size: 12px;background: var(--neutralDark);border-radius: 10px;padding: 17px;width: 320px!important;margin-left: 14px;}
 .datuminsta{background: linear-gradient(60deg, var(--gradient));letter-spacing: 1px;font-size: 9px;color: #ffffff;text-transform: uppercase;border-radius: 10px;padding: 3px;} 
-.baninsta{text-align: justify;font-size: 12px;width: 500px;background: var(--neutralDark);border-radius: 15px 15px 0px 0px;padding: 17px;height: 51px;margin-left: -30px;margin-top: -31px;margin-bottom: 20px;} 
-.instaid{font-family: 'Poppins';font-size: 16px;color: var(--textColor);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;position: absolute;}
-
+                                      
 .instaphotos1 {margin-top: 7px;display: flex;justify-content: space-around;}
 .banpost2{text-align: justify;font-size: 12px;width: 500px;height: 186px;background: var(--transp2);border-radius: 0px 0px 15px 15px;padding: 17px;margin-left: -2px;margin-top: -194px;} 
 .text5{margin-top: 20px;margin-left: -4px;position: absolute;text-align-last: left;width: 443px!important;} 
