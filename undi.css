@@ -146,3 +146,23 @@ hs{cursor: pointer;color: var(--couleur1)}
 .notif1 {border: 1px solid var(--transp8);text-align: justify;margin-top: -17px;font-size: 15px;background: var(--bw2);border-radius: 5px;padding: 17px;margin-left: 77px;}
 notifid{cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-size: 15px;color: var(--textColor);letter-spacing: -0.2px;font-weight: 700;}
 .certifiednotif{height: 15px;margin-left: 5px;position: relative;top: 3px;}
+
+/*****instagram story******/
+
+.stryln{background-color: #f3f3f3;height: 5px;border-radius: 5px;float: right;width: 285px;}
+.strybd{width: 600px;background: var(--bw1);border-radius: 10px;cursor: pointer;}
+.stryht{display: flex;gap: 10px;position: absolute;margin-left: 10px;z-index: 3;}
+.stryln1{background-color: #dbdbdb52;height: 5px;border-radius: 5px;float: right;width: 285px;}
+.stryln2{background: #f3f3f3;height: 5px;border-radius: 5px;float: left;}
+.stryg{background: var(--gradient3);padding: 10px;border-radius: 50px;width: 60px;height: 60px;float: left;margin-left: 22px;z-index: 3;position: relative;}
+.stryicon{max-width: 50px;border-radius: 50px;background-attachment: fixed;max-height: 60px;width: 100;border: 3px solid #f3f3f3;float: left;margin-left: -5px;margin-top: -5px;object-fit: cover;z-index: 3;position: relative;}
+.stryid{margin-top: 14px;margin-left: 94px;position: relative;z-index: 3;}
+stryid{text-transform: lowercase;font-family: 'Poppins';font-size: 15px;color: #fefefe;letter-spacing: -0.2px;font-weight: 700;float: left;}
+.certifiedstry{height: 15px;margin-left: 4px;position: relative;top: 3px;float: left;margin-top: 2px;}
+.stryimg{width: 600px;margin-top: -108px;border-radius: 10px;object-fit: cover;height: 900px;}
+.stybs{background: var(--bw2);border: 1px solid var(--transp8);position: relative;margin-top: -65px;height: 80px;border-radius: 0px 0px 10px 10px;display: flex;justify-content: space-between;}
+.strymssg{border: 1px solid var(--transp6);height: 48px;padding: 13px 165px;border-radius: 43px;margin-top: 13px;margin-left: 12px;}
+mssg{color: var(--transp6);}
+.strybt{display: flex;gap: 20px;padding: 20px;}
+.strytag{position: absolute;z-index: 3;margin-top: -369px;margin-left: 390px;}
+tag{border-radius: 2px;font-family: var(--font1);color: #f3f3f3;font-size: 20px;text-shadow: 0 0 2px #2b2b2b;background: #ffffff36;padding: 2px 9px;}
