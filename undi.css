@@ -155,7 +155,7 @@ notifid{cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-si
 .stryln1{background-color: #dbdbdb52;height: 5px;border-radius: 5px;float: right;width: 285px;}
 .stryln2{background: #f3f3f3;height: 5px;border-radius: 5px;float: left;}
 .stryg{background: var(--gradient3);padding: 10px;border-radius: 50px;width: 60px;height: 60px;float: left;margin-left: 22px;z-index: 3;position: relative;}
-.stryicon{max-width: 50px;border-radius: 50px;background-attachment: fixed;max-height: 60px;width: 100;border: 3px solid #f3f3f3;float: left;margin-left: -5px;margin-top: -5px;object-fit: cover;z-index: 3;position: relative;}
+.stryicon{max-width: 50px;border-radius: 50px;background-attachment: fixed;max-height: 50px;width: 100;border: 3px solid #f3f3f3;float: left;margin-left: -5px;margin-top: -5px;object-fit: cover;z-index: 3;position: relative;}
 .stryid{margin-top: 14px;margin-left: 94px;position: relative;z-index: 3;}
 stryid{text-transform: lowercase;font-family: 'Poppins';font-size: 15px;color: #fefefe;letter-spacing: -0.2px;font-weight: 700;float: left;}
 .certifiedstry{height: 15px;margin-left: 4px;position: relative;top: 3px;float: left;margin-top: 2px;}
