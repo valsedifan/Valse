@@ -150,7 +150,7 @@ notifid{cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-si
 /*****instagram story******/
 
 .stryln{background-color: #f3f3f3;height: 5px;border-radius: 5px;float: right;width: 285px;}
-.strybd{width: 600px;background: var(--bw1);border-radius: 10px;cursor: pointer;}
+.strybd{width: 600px;border-radius: 10px;cursor: pointer;}
 .stryht{display: flex;gap: 10px;position: absolute;margin-left: 10px;z-index: 3;}
 .stryln1{background-color: #dbdbdb52;height: 5px;border-radius: 5px;float: right;width: 285px;}
 .stryln2{background: #f3f3f3;height: 5px;border-radius: 5px;float: left;}
