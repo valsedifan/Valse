@@ -37,3 +37,49 @@ sztl{text-transform: uppercase;font-family: var(--titlefont2);background-image: 
 szif2 a{font-family: var(--stfont);text-transform: uppercase;box-shadow: inset 0 -5px 0 0 var(--transp8);color: var(--textColorAccent);}
 szif1 {font-family: var(--stfont);text-transform: uppercase;color: var(--textColorAccent);}
 .szrp{background: var(--bw2);padding: 30px;text-align: justify;margin-top: 20px;border-radius: 10px;border: 1px solid var(--transp8);}
+
+/*****fiche de présentation******/
+
+.ic {float: left;}
+.icpres {transition: 0.5s all ease-in-out;width: 100px;height: 80px;object-fit: cover;border: 5px solid var(--bw2);border-radius: 10px;outline: 1px solid var(--transp6);margin-left: 5px;margin-bottom: 5px;}
+.bodypres{background: var(--bw1);border-radius: 10px;width: 690px;padding: 30px;margin-bottom: 8px;outline: 1px solid var(--bw2);outline-offset: 2px;border: 5px solid var(--bw2);}
+.bpf {margin-top: -20px;text-align: justify;width: 554px;margin-left: -65px;}
+namepres {font-family: var(--titlefont2);color: var(--textColorAccent);margin-bottom: -30px;font-weight: 900;font-size: 30px;position: relative;text-transform: uppercase;}
+fcpres {font-size: 16px;text-transform: uppercase;padding: 7px;margin-left: -3px;font-family: var(--stfont);color: var(--transp6);}
+.hautpres {float: left;margin-top: 11px;}
+.cg {background: var(--gradient3);height: 170px;width: 385px;float: right;border-radius: 5px;text-align: justify;padding: 13px;margin-top: 1px;margin-left: 8px;}
+.cpres {background: var(--bw2);height: 160px;width: 375px;float: right;border-radius: 5px;text-align: justify;padding: 13px;margin-top: -165px;margin-right: 5px;display: grid;grid-template-rows: 1fr max-content;}
+.bpres {position: relative;display: flex;justify-content: space-evenly;align-items: baseline;margin-top: 20px;}
+.boutonprez {text-transform: uppercase;font-size: 12px;padding: 1px 5px;border-radius: 3px;border: 1px solid var(--transp6);letter-spacing: 1px;color: var(--textColor);margin: 2px;font-family: 'Poppins';}
+.l1pres {height: 1;width: 100%;background: var(--transp6);margin-top: -68px;position: relative;}
+.l1pres1{height: 1;width: 100%;background: var(--transp6);margin-top: 15px;position: relative;}
+.apres {display: flex;flex-direction: column;align-items: center;}
+.atxt {font-family: var(--titlefont2);text-transform: uppercase;color: var(--transp3);position: relative;margin-top: -62px;float: right;font-size: 60px;}
+alias {font-family: var(--titlefont2);text-transform: uppercase;position: relative;margin-top: -67px;font-size: 22px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;}
+.rgpres{outline: 4px solid var(--bw2);background: var(--gradient3); height: 80px;width: 80px;border-radius: 100%;padding: 13px;margin-top: -103px;margin-left: 583px;z-index: 2;position: absolute;}
+.rpres {background: var(--bw1);height: 70px;width: 70px;float: right;border-radius: 100%;padding: 16px;margin-top: -8px;margin-right: -8px;text-transform: uppercase;font-size: 12px;}
+.blcpres2::-webkit-scrollbar{display: none;}ch {font-family: var(--titlefont2);font-size: 22px;margin-bottom: -22px;text-align: center;color: var(--textColorAccent);}
+ch1 {font-family: var(--stfont);font-size: 14px;}.prezmiddle {margin-top: 160px;}
+.quoteprez {width: 100%;height: 100%;max-height: 60px;text-align: justify;position: relative;overlay: auto;font-size: 12px;text-transform: uppercase;padding: 8px;font-family: 'Poppins';letter-spacing: 1px;border-radius: 5px;outline: 1px solid var(--transp6);}
+.jpres1 {margin-top: 27px;display: flex;flex-direction: row;justify-content: space-between;}
+.jtpres {position: relative;font-size: 12px;text-transform: uppercase;font-family: var(--font1);color: var(--textColorAccent);}
+.jlpres {outline: 1px solid var(--transp8);background-color: var(--bw2);width: 306px;height: 12px;border-radius: 5px;font-size: 7px;margin-top: 20px;position: absolute;}
+.jlpres1 {background: var(--gradient3);height: 12px;border-radius: 5px;float: left;}
+.blcpres {z-index: 2;background: var(--gradient3);width: 420px;height: 295px;border-radius: 5px;margin-top: -217px;position: absolute;}
+.blcpres2 {z-index: 2;background: var(--bw2);width: 410px;height: 285px;border-radius: 5px;margin-left: 5px;margin-top: 5px;position: absolute;text-align: justify;overflow: auto;padding: 32px;}
+.mpres3{margin-top: 114px;}
+.blcpres3{background: var(--bw2);height: 286px;width: 476px;border-radius: 5px;outline: 1px solid var(--transp6);overlay: auto;margin-top: -190px;margin-left: 147px;text-align: justify;padding: 39px;text-align: justify;overflow: auto;animation: fadeIn 1s;}
+.blcpres3::-webkit-scrollbar{display: none;}.epres{margin-top: -73px;}.eicp {float: left;margin-left: 42px;margin-top: -32px;}
+info1{text-transform: uppercase;font-size: 12px;padding: 3px 9px;border-radius: 3px;border: 1px solid var(--transp6);color: var(--textColor);margin: 2px;font-family: var(--font2);}
+.prezword {background: var(--gradient3);width: 100%;border-radius: 5px;overlay: auto;text-align: justify;padding: 16px;margin-left: 8px;}
+.prezword2 {background: var(--neutralDark);width: 434px;margin-top: -12px;height: 103px;border-radius: 5px;overlay: auto;text-align: justify;padding: 16px;position: absolute;margin-left: -13px;}
+.prezonglet {position: absolute;display: flex;flex-direction: column;margin-top: -105px;margin-left: 599px;}
+.btpres{grid-gap: 20px;font-family: var(--titlefont2);text-transform: uppercase;position: absolute;margin-top: -27px;margin-left: 57px;;display: flex;flex-direction: column;cursor: pointer;}
+.infpres{display: flex;flex-direction: row;flex-wrap: wrap;grid-column-gap: 20px;place-content: center;position: relative;margin-top: 29px;}
+.avapres {width: 300px;height: 400px;margin-top: -138px;margin-left: 322px;object-fit: cover;border-radius: 5px;overflow: hidden;outline: 1px solid var(--transp6);outline-offset: 2px;}
+.avapres img {transition: 0.5s all ease-in-out;margin-left: 0;margin-top: 0px;border: 5px solid var(--bw2);}
+.avapres:hover img{transform: scale(1.1, 1.1);filter: grayscale(1);}.icpres:hover {filter: grayscale(1);}
+.icpres1 {transition: 0.5s all ease-in-out;margin-left: 1px;width: 90px;height: 90px;object-fit: cover;border: 5px solid var(--bw2);margin-top: 5px;border-radius: 50px;}
+.icpres1:hover {filter: grayscale(1);}.icg {background: var(--gradient3);width: 100px;height: 100px;border-radius: 50px;margin-left: -15px;}
+label[for=tpres1]{position: absolute;margin-top: 102px;margin-left: 290px;z-index: 2;}
+label[for=tpres2]{z-index: 2;position: absolute;margin-top: 131px;margin-left: 290px;}
