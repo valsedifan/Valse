@@ -95,8 +95,9 @@ label[for=tpres2]{z-index: 2;position: absolute;margin-top: 131px;margin-left: 2
 hour{cursor: pointer;font-size: 14px;font-weight: 700;}
 .phbody{border: 1px solid var(--transp8);background: var(--bw1);border-radius: 10px;width: 500px;padding: 30px;margin-bottom: 8px;}
 .banph {border-bottom: 1px solid var(--transp8);margin-top: -30px;margin-left: -30px;text-align: justify;font-size: 12px;width: 497px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;margin-bottom: 11px;}
-.iconsp:hover {filter: grayscale(1);}nph2 {font-family: var(--stfont);color: var(--transp6);text-transform: uppercase;}nph1 {font-family: var(--font1);font-size: 15px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-weight: 600;text-transform: uppercase;}
-nph1 a {font-size: 15px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-weight: 600;text-transform: uppercase;font-family: var(--font1);}
+.iconsp:hover {filter: grayscale(1);}nph2 {font-family: var(--stfont);color: var(--transp6);text-transform: uppercase;}
+nph1 {letter-spacing: -.5px;font-family: var(--font1);font-size: 15px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-weight: 600;text-transform: uppercase;}
+nph1 a {letter-spacing: -.5px;font-size: 15px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-weight: 600;text-transform: uppercase;font-family: var(--font1);}
 
 /*****instagram******/
 
