@@ -31,12 +31,12 @@ tst {font-family: var(--stfont);background: var(--bw2);padding: 3px;text-transfo
 szif1{font-family: var(--stfont);text-transform: uppercase;}
 sztl{text-transform: uppercase;font-family: var(--titlefont2);background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;}
 .szbd {width: 440px;background-color: var(--bw1);padding: 20px;margin: 0 auto;border-radius: 10px;border: 10px solid var(--bw2);outline: 1px solid var(--transp8);outline-offset: 5px;}
-.gig {position: absolute;margin-left: 165px;margin-top: -2px;display: flex;gap: 5px;}
+.gig {position: absolute;margin-left: 135px;margin-top: -2px;display: flex;gap: 5px;}
 .szig{filter: grayscale(1);object-fit: cover;width: 50px;height: 50px;border-radius: 100%;border: 5px solid var(--bw2);outline: 1px solid var(--transp8);}
 .szh{background: var(--bw2);padding: 20px;width: 220px;text-align: -webkit-center;margin-top: 20px;border-radius: 10px;border: 1px solid var(--transp8);margin-left: 80px;}
 szif2 a{font-family: var(--font1);text-transform: uppercase;box-shadow: inset 0 -5px 0 0 var(--bw5);font-size: 11px;}
-szif1 {font-family: var(--stfont);text-transform: uppercase;font-size: 12px;}
-.szrp{background: var(--bw2);padding: 30px;text-align: justify;margin-top: 20px;border-radius: 10px;border: 1px solid var(--transp8);}
+szif1 {font-family: var(--font2);text-transform: uppercase;font-size: 12px;}
+.szrp{background: var(--bw2);padding: 30px;text-align: justify;margin-top: 20px;border-radius: 10px;border: 1px solid var(--bw4);font-size: 12px;}
 
 /*****fiche de présentation******/
 
