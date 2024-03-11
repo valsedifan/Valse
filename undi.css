@@ -189,7 +189,7 @@ tag{border-radius: 2px;font-family: var(--font1);color: #f3f3f3;font-size: 20px;
 .pl2txt{background: var(--bw2);text-align: justify;padding: 20px;border-radius: 10px;margin-top: 15px;border: 1px solid var(--bw4);}
 .pl2nav{width: 204px;display: flex;flex-direction: column;gap: 5px;}
 .pl2c{padding: 5px;position: absolute;margin-top: 39px;margin-left: 113px;}
-infopl2{text-transform: lowercase;font-family: var(--font1);font-size: 18px;color: var(--textColorAccent);letter-spacing: -2px;}
+infopl2{text-transform: lowercase;font-family: var(--font1);font-size: 15px;color: var(--textColorAccent);letter-spacing: -1px;}
 infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit-background-clip:text;margin-right:8px;color:transparent;background-image:linear-gradient(60deg,var(--gradient));}
 .pl2crc{position: absolute;background: var(--gradient3);z-index: 2;height: 30px;width: 30px;padding: 8px;border-radius: 100%;margin-top: -9px;margin-left: -9px;outline: 1px solid var(--bw4);}
 .pl2title{width: 215px;height: auto;padding: 5px 20px;border: 1px solid var(--bw4);position: absolute;margin-top: 92px;margin-left: 327px;font-family: var(--font1);text-transform: lowercase;font-size: 20px;color: var(--bw4);line-height: 100%;border-radius: 15px;background: var(--gradient3);letter-spacing: -2px;text-align: center;}
