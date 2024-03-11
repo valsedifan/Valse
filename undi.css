@@ -187,8 +187,9 @@ tag{border-radius: 2px;font-family: var(--font1);color: #f3f3f3;font-size: 20px;
 .pl2blc2{align-items: center;display: flex;width: 204px;height: 160px;border: 2px solid var(--bw2);background: var(--transp9);border-radius: 5px;backdrop-filter: blur(2px);padding: 20px;box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;}
 .pl2body{padding: 202px 20px 20px 20px;}
 .pl2txt{background: var(--bw2);text-align: justify;padding: 20px;border-radius: 10px;margin-top: 15px;border: 1px solid var(--bw4);}
-.pl2txt2{background: var(--bw2);text-align: justify;padding: 30px;border-radius: 10px;margin-top: 15px;border: 1px solid var(--bw4);overflow: auto;height: 170px;}
-.pl2txt2::-webkit-scrollbar{display: none;}
+.pl2txt2{background: var(--bw2);text-align: justify;padding: 30px;border-radius: 10px;margin-top: 15px;border: 1px solid var(--bw4);height: 170px;}
+.txtpl2{overflow: scroll;width: fit-content;height: 117px;}
+.txtpl2::-webkit-scrollbar{display: none;}
 .pl2nav{width: 204px;display: flex;flex-direction: column;gap: 5px;}
 .pl2c{padding: 5px;position: absolute;margin-top: 39px;margin-left: 113px;}
 infopl2{text-transform: lowercase;font-family: var(--font1);font-size: 15px;color: var(--textColorAccent);letter-spacing: -1px;}
