@@ -227,7 +227,7 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 .pl3time::-webkit-scrollbar{height: 5px;}
 .pl3year{font-family: var(--font1);text-transform: lowercase;letter-spacing: -1px;font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;margin-bottom: -12px;}
 .yeardesc{font-size: 12px;padding: 10px;white-space: normal;text-align: justify;line-height: 13px;width: 150px;height: 70px;}
-.pl3mb{gap: 10px;width: 623px;margin: auto;border-radius: 5px;display: grid;grid-template-columns: auto auto;margin-bottom: 20px;}
+.pl3mb{gap: 15px;width: 623px;margin: auto;border-radius: 5px;display: grid;grid-template-columns: auto auto;margin-bottom: 20px;}
 .pl3mb1{width: 306px;display: flex;gap: 15px;padding: 10px 19px 10px 10px;background: var(--bw2);border: 1px solid var(--bw4);border-radius: 5px;}
 .mb1img{border: 1px solid var(--transp6);padding: 5px;height: 60px;width: 60px;object-fit: cover;border-radius: 100%;filter: grayscale(1) brightness(0.8);opacity: .9;}
 .mb1alias{font-family: var(--font1);text-transform: lowercase;letter-spacing: -1px;font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;}
