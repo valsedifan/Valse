@@ -113,7 +113,6 @@ nph1 a {letter-spacing: -.5px;font-size: 15px;background-image: linear-gradient(
 
 /*****instagram******/
 fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform: uppercase;border: 1px solid var(--transp8);text-align: center;line-height: 15px;font-weight: bold;}
-.tabset{line-height: 22px;}
 .bdinsta {height: 1035px!important;background: var(--bw1);border-radius: 10px;width: 600px;padding: 30px;margin-bottom: 8px;border: 1px solid var(--transp8);}
 .baninsta {text-align: justify;font-size: 12px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;width: 598px!important;margin-left: -30px;margin-top: -29px;margin-bottom: 20px;border-bottom: 1px solid var(--transp8);}
 .instaid {text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColorAccent);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;font-weight: 700;position: absolute;}
@@ -126,14 +125,14 @@ fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform
 .fllwdby {margin-left: 24px;margin-top: 17px;}
 .storiesig{position: relative;margin-bottom: 156px;margin-top: 50px;}
 .storiesig1 {background: transparent;width: 67px;height: 67px;border-radius: 100%;margin-right: 25px;float: left;border: 1px solid var(--transp6);}
-.instaphotos {margin-top: -21px; margin-bottom:25px;display: flex;justify-content: space-around;min-height: 198px;animation: fadeIn 1s;}
-.postimg {margin-inline: 2px;object-fit: cover;min-width: 198px;max-height: 198px;border-radius: 0px;transition-duration: 0.5s;}
+.instaphotos {margin-top: -21px;margin-bottom: 25px;display: flex;justify-content: space-around;min-height: 197px;animation: fadeIn 1s;margin-left: -32px;}
+.postimg {margin-inline: 2px;object-fit: cover;min-width: 197px;max-height: 197px;border-radius: 0px;transition-duration: 0.5s;}
 .postimg:hover {opacity: 0.8;filter: grayscale(1);}
 .storiesig2 {text-align-last: center;font-size: 12px;}
 .igic1 {text-transform: uppercase;font-size: 20px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;position: absolute;cursor: pointer;font-family: 'cappuccicons';content: '\e920';}
 .certified{height: 15px;position: absolute;margin-top: 6px;margin-left:5px;}
-label[for=tabig1] {border: 1px solid var(--transp8);position: absolute;margin-left: -299px;z-index: 2;background: var(--bw2);width: 297px;padding: 9px;border-radius: 5px;}
-label[for=tabig2] {position: absolute;margin-left: 5px;z-index: 2;background: var(--bw2);width: 294px;padding: 9px;border-radius: 5px;border: 1px solid var(--transp8);}
+label[for=tabig1] {border-top: 1px solid var(--transp8);position: absolute;margin-left: -300px;z-index: 2;background: var(--bw2);width: 300px;padding: 9px;border-left: 1px solid var(--transp8);}
+label[for=tabig2] {position: absolute;z-index: 2;background: var(--bw2);width: 300px;padding: 9px;border-top: 1px solid var(--transp8);border-right: 1px solid var(--transp8);}
 
 /*****instagram post******/
 
