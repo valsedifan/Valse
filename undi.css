@@ -266,3 +266,13 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 .szrp3body{background: var(--bw2);padding: 20px;text-align: justify;width: 368px;margin: auto;border-radius: 5px;border: 1px solid var(--bw4);}
 szrp3tag a{font-size: 12px;font-family: var(--font1);text-transform: uppercase;color: var(--transp6);}
 szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;color: var(--transp6);}
+
+/*****code rp 3 ******/
+
+.szbd1{background: var(--bw1);width: 470px;display: flex;border: 8px solid var(--bw2);outline: 1px solid var(--bw4);outline-offset: 5px;border-radius: 10px;gap: 12px;}
+.szfirst{background: var(--gradient3);padding: 11px;border-radius: 5px 0px 0px 5px;}
+.szig1{margin-top: 20px;width: 65px;height: 65px;border-radius: 100%;object-fit: cover;filter: grayscale(1);border: 8px solid var(--bw2);outline: 1px solid var(--bw2);outline-offset: 2px;}
+.sztl1{font-family: var(--font1);font-size: 30px;float: right;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;margin-right: 2px;letter-spacing: -1px;position: relative;}
+.szrp1{background: var(--bw2);width: 345px;padding: 20px;text-align: justify;border: 1px solid var(--transp8);border-radius: 5px;margin: auto;}
+.szft{float: right;font-family: var(--font1);color: var(--transp6);font-size: 11px;margin-right: 5px;}.szbd2 {margin: auto;background: var(--bw1);width: 400px;border: 8px solid var(--bw2);outline: 1px solid var(--bw4);outline-offset: 5px;border-radius: 10px;}.sztl2 {font-family: var(--font1);font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;letter-spacing: -1.5px;position: relative;}.szft1 {position: relative;z-index: 2;font-family: var(--font1);color: var(--transp6);font-size: 11px;margin-top: -20px;}.szft1 a{color: var(--transp6)}
+.szhaut{height: 70px;display: grid;justify-content: end;justify-items: end;margin-right: 20px;margin-top: 20px;}
