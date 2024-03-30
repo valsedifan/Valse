@@ -113,7 +113,7 @@ nph1 a {letter-spacing: -.5px;font-size: 15px;background-image: linear-gradient(
 
 /*****instagram******/
 fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform: uppercase;border: 1px solid var(--transp8);text-align: center;line-height: 15px;font-weight: bold;}
-.bdinsta {height: 1035px!important;background: var(--bw1);border-radius: 10px;width: 600px;margin-bottom: 8px;border: 1px solid var(--transp8);}
+.bdinsta {background: var(--bw1);border-radius: 10px;width: 600px;margin-bottom: 8px;border: 1px solid var(--transp8);}
 .baninsta {text-align: justify;font-size: 12px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;width: 598px!important;border-bottom: 1px solid var(--transp8);}
 .instaid {text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColorAccent);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;font-weight: 700;position: absolute;}
 .icongradient {background: var(--gradient3);width: 100px;height: 100px;border-radius: 100%;float: left;margin-top: 8px;}
