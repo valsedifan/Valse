@@ -126,7 +126,7 @@ fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform
 .storiesig{position: relative;margin-bottom: 60px;margin-top: -40px;padding: 35px;}
 .storiesig1 {background: transparent;width: 67px;height: 67px;border-radius: 100%;margin-right: 25px;float: left;border: 1px solid var(--transp6);}
 .instaphotos {display: grid;animation: fadeIn 1s;grid-template-columns: auto auto auto;grid-gap: 2px;margin: auto;margin-top: -7px;}
-.postimg {object-fit: cover;min-width: 198px;max-height: 198px;border-radius: 0px;transition-duration: 0.5s;}
+.postimg {object-fit: cover;min-width: 198px;width: 100%;max-height: 198px;height: 100%;border-radius: 0px;transition-duration: 0.5s;}
 .postimg:hover {opacity: 0.8;filter: grayscale(1);}
 .storiesig2 {text-align-last: center;font-size: 12px;}
 .igic1 {text-transform: uppercase;font-size: 20px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;position: absolute;cursor: pointer;font-family: 'cappuccicons';content: '\e920';}
