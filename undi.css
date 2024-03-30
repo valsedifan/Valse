@@ -158,6 +158,7 @@ hs{cursor: pointer;color: var(--couleur1)}
 .notif1 {border: 1px solid var(--transp8);text-align: justify;margin-top: -17px;font-size: 15px;background: var(--bw2);border-radius: 5px;padding: 17px;margin-left: 77px;}
 notifid{cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-size: 15px;color: var(--textColor);letter-spacing: -0.2px;font-weight: 700;}
 .certifiednotif{height: 15px;margin-left: 5px;position: relative;top: 3px;}
+.notifp{padding: 25px;margin-bottom: 15px;}
 
 /*****instagram story******/
 
