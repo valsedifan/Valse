@@ -115,7 +115,7 @@ nph1 a {background: var(--gradient);-webkit-background-clip: text;-webkit-text-f
 fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform: uppercase;border: 1px solid var(--transp8);text-align: center;line-height: 15px;font-weight: bold;}
 .bdinsta {background: var(--bw1);border-radius: 10px;width: 600px;margin-bottom: 8px;border: 1px solid var(--transp8);}
 .baninsta {text-align: justify;font-size: 12px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;width: 598px!important;border-bottom: 1px solid var(--transp8);}
-.instaid {text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColorAccent);letter-spacing: -0.2px;margin-top: -3px;margin-left: 34px;font-weight: 700;position: absolute;}
+.instaid {text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColorAccent);letter-spacing: -0.2px;margin-top: -2px;margin-left: 34px;font-weight: 700;position: absolute;}
 .icongradient {background: var(--gradient3);width: 100px;height: 100px;border-radius: 100%;float: left;margin-top: 8px;}
 .iconinsta {max-width: 90px;width: 100%;border-radius: 70px;margin-top: 5px;margin-left: 5px;background-attachment: fixed;max-height: 90px;border: 5px solid var(--bw2);float: left;object-fit: cover;}
 .iconinsta2 {max-width: 65px;width: 100%;border-radius: 70px;background-attachment: fixed;max-height: 65px;border: 5px solid var(--bw2);float: left;margin-bottom: 5px;object-fit: cover;}
