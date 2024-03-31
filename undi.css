@@ -130,7 +130,7 @@ fllws{background: var(--bw2);padding: 2px 10px;border-radius: 2px;text-transform
 .postimg:hover {opacity: 0.8;filter: grayscale(1);}
 .storiesig2 {text-align-last: center;font-size: 12px;}
 .igic1 {text-transform: uppercase;font-size: 20px;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;position: absolute;cursor: pointer;font-family: 'cappuccicons';content: '\e920';}
-.certified{height: 15px;position: absolute;margin-top: 6px;margin-left:5px;}
+.certified{height: 15px;position: absolute;margin-top: 5px;margin-left:5px;}
 label[for=tabig1] {border-top: 1px solid var(--transp8);position: absolute;margin-left: -300px;z-index: 2;background: var(--bw2);width: 300px;padding: 9px;border-left: 1px solid var(--transp8);}
 label[for=tabig2] {position: absolute;z-index: 2;background: var(--bw2);width: 300px;padding: 9px;border-top: 1px solid var(--transp8);border-right: 1px solid var(--transp8);}
 .igprofil{padding: 30px;}
@@ -141,7 +141,7 @@ label[for=tabig2] {position: absolute;z-index: 2;background: var(--bw2);width: 3
 .banigp {border-bottom: 1px solid var(--transp8);margin-top: -30px;margin-left: -30px;text-align: justify;font-size: 12px;width: 598px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;margin-bottom: 11px;}
 .gicig{background: var(--gradient3);padding: 20px;width: 50px;height: 50px;border-radius: 100%;float: left;}
 .iconigpost {max-width: 50px;border-radius: 50px;margin-top: -15px;margin-left: -15px;background-attachment: fixed;max-height: 50px;float: left;border: 4px solid var(--bw2);}
-.igidp {cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColor);letter-spacing: -0.2px;margin-top: 9px;margin-left: 61px;font-weight: 700;position: absolute;}
+.igidp {cursor: pointer;text-transform: lowercase;font-family: 'Poppins';font-size: 16px;color: var(--textColor);letter-spacing: -0.2px;margin-top: 12px;margin-left: 61px;font-weight: 700;position: absolute;}
 .igpic1 {margin-top: 19px;margin-left: -30px;}
 .postpic{width: 598px;object-fit: cover;}
 .igicp { display: flex;flex-direction: row;gap: 15px;}
