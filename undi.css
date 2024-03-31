@@ -254,7 +254,7 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 .rp4inf a{font-size: 12px;font-weight: 900;letter-spacing: -.5px;}
 .rp4rgt{background: var(--bw2);padding: 50px;width: 350px;height: 475px;text-align: justify;border-radius: 5px;border: 1px solid var(--transp8);}
 .rp4txt::-webkit-scrollbar{display: none;}
-.rp4txt{position: absolute;overflow: scroll;width: 260px;height: 375px;}
+.rp4txt{position: absolute;overflow: scroll;width: 250px;height: 375px;}
 .rp4credit{font-size: 9px;color: var(--transp6);letter-spacing: 5px;top: 4px;position: relative;}
 
 /*****code rp 2 ******/
