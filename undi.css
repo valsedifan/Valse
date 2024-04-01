@@ -246,7 +246,7 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 /*****code rp 1 ******/
 
 .szrp4{width: 650px;background: var(--bw1);display: flex;align-items: center;border: 10px solid var(--bw2);border-radius: 10px;gap: 15px;outline: 1px solid var(--transp8);margin: 0 auto;}
-.rp4img{ width: 250px;height: 520px;object-fit: cover;filter: grayscale(1) brightness(0.8);border-radius: 5px 0px 0px 5px;}
+.rp4img{border-right: 1px solid var(--bw2);width: 250px;height: 520px;object-fit: cover;filter: grayscale(1) brightness(0.8);border-radius: 5px 0px 0px 5px;}
 .rp4cd{width: 200px;min-height: 90px;background: var(--bw2);border: 1px solid var(--transp8);position: absolute;margin-left: 25px;margin-top: -210px;border-radius: 5px;padding: 10px;}
 .rp4title{background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-family: var(--font1);font-size: 25px;letter-spacing: -2px;text-transform: lowercase;}
 .rp4bt{align-items: center;display: flex;justify-content: space-evenly;margin-top: 8px;}
