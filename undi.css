@@ -292,3 +292,22 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .mentoric{max-height: 60px;max-width: 60px;border-radius: 100%;object-fit: cover;filter: grayscale(1);border: 5px solid var(--bw4);outline: 1px solid var(--transp6);outline-offset: 2px;}
 .élèvename{letter-spacing: -.5px;margin-bottom: -15px;border-radius: 5px;background: var(--bw5);padding: 3px;width: 189px;border: 1px solid var(--transp8);font-size: 12px;}
 .mentorclass{font-family: var(--stfont);font-size: 12px;color: var(--transp6);text-transform: uppercase;}
+
+/*****carnet de bord******/
+
+.szcb{width: 670px; margin: 0 auto; border-radius: 15px; outline: 10px solid var(--bw2); background: var(--bw1); display: flex; border: 1px solid var(--transp6);}
+.szcbl{display: grid; gap: 15px; padding: 15px; border-right: 1px solid var(--transp6);}
+.szcbimg{border: 8px solid var(--bw2); height: 120px; outline: 1px solid var(--transp6); width: 120px; object-fit: cover; border-radius: 10px; transition: 300ms;}
+.szcbr{width: 520px;padding: 15px;}
+.szcbh{justify-items: end;display: grid; border: 1px solid var(--transp6); border-radius: 5px; padding: 15px; background: var(--bw2);}
+.szcbt{text-align: right; font-size: 50px; font-style: italic; font-family: var(--font1); text-transform: lowercase; letter-spacing: -5px; background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text; padding-right: 10px; margin-bottom: 15px;}
+.szcbm{margin: auto; display: flex; gap: 15px;}
+.szcbm1{padding: 2px 9px; border: 1px solid var(--transp6); border-radius: 10px; font-size: 12px; font-weight: 900; letter-spacing: -.5px; color: var(--textColorAccent); cursor: pointer;}
+.szcbc{background: var(--bw2); outline: 1px solid var(--transp6); border-radius: 5px; padding: 15px;}
+.sztxt{overflow: scroll; width: auto; height: 100px; margin: auto; text-align: justify;}
+.szcbm1::before{content: "\eb02"; font-size: 12px; font-family: 'cappuccicons'; margin-right: 8px;background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text;}
+.sztxt::-webkit-scrollbar{display: none;}.szcbl1{height: 1; width: 106.5%; background: var(--transp6); position: relative; margin-right: -14px; margin-bottom: 15px;}
+.szcbg{background: var(--gradient3); padding: 15px; width: 700px; margin: auto; border-radius: 30px;}
+.szcbl2{height: 1; width: 515px; background: var(--transp6); margin-left: -14px; margin-top: 55px; margin-bottom: -20px;}
+.szcbic{display: flex; gap: 50px; justify-content: center; align-items: center;}
+.bckic{background: var(--bw2); padding: 8px; border-radius: 50px; outline: 1px solid var(--transp6); height: 46px;}
