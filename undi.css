@@ -308,6 +308,6 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .szcbm1::before{content: "\eb02"; font-size: 12px; font-family: 'cappuccicons'; margin-right: 8px;background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text;}
 .sztxt::-webkit-scrollbar{display: none;}.szcbl1{height: 1; width: 106.5%; background: var(--transp6); position: relative; margin-right: -14px; margin-bottom: 15px;}
 .szcbg{background: var(--gradient3); padding: 15px; width: 680px; margin: auto; border-radius: 30px;}
-.szcbl2{height: 1; width: 515px; background: var(--transp6); margin-left: -14px; margin-top: 55px; margin-bottom: -20px;}
+.szcbl2{height: 1; width: 500px; background: var(--transp6); margin-left: -14px; margin-top: 55px; margin-bottom: -20px;}
 .szcbic{display: flex; gap: 50px; justify-content: center; align-items: center;}
 .bckic{background: var(--bw2); padding: 8px; border-radius: 50px; outline: 1px solid var(--transp6); height: 46px;}
