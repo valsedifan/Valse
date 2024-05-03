@@ -311,3 +311,19 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .szcbl2{height: 1; width: 500px; background: var(--transp6); margin-left: -14px; margin-top: 55px; margin-bottom: -20px;}
 .szcbic{display: flex; gap: 50px; justify-content: center; align-items: center;}
 .bckic{background: var(--bw2); padding: 8px; border-radius: 50px; outline: 1px solid var(--transp6); height: 46px;}
+
+/*****album carte******/
+
+.galbum{width: 675px; background: var(--gradient3); border-radius: 15px; margin: 50px auto 0 auto; outline-offset: -20px; }
+.album{ margin: 0 auto; background: var(--bw1); border-radius: 15px; width: 665px; border: 15px solid var(--bw2);}
+.albhaut{display: flex; flex-direction: column; align-items: center; margin-top: -50px;}
+.alimg{ filter: grayscale(1); border-radius: 100%; width: 80px; transition: 300ms; height: 80px; margin-bottom: 20px; border: 15px solid var(--bw2); object-fit: cover; outline: 1px solid var(--transp6);}
+.alltitre{ transition: 300ms; font-family: var(--titlefont2); font-size: 18px; text-transform: UPPERCASE; background-image: var(--gradient3); color: transparent; -webkit-background-clip: text; }
+.cllctntt1::after { content: ''; width: 100%; height: 1px; background: var(--transp6); }
+.cllctntt1::before { content: ''; width: 100%; height: 1px; background: var(--transp6); }
+.cllctntt1{display: flex;align-items: center;}
+.cllctntt2{text-transform: uppercase;font-size: 15.5px;margin-right: 12px;}
+.cllctntt { margin-left: 12px; font-size: 15px; font-family: var(--font1); text-transform: uppercase; letter-spacing: -1px; color: var(--textColorAccent); margin-right: 5px; width: 170px; }
+.carterang{display: grid; grid-gap: 20px 10px; grid-template-columns: auto auto auto auto auto; justify-content: space-evenly; justify-items: center;}
+.carteimg{height: 150px;outline: 2px solid var(--bw4);outline-offset: 3px;}
+.rglsny{animation: fadeIn 1s;}
