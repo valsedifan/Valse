@@ -225,7 +225,7 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 .pl3time{border-radius: 5px;padding: 20px 20px 14px 20px;width: 623px;margin: auto;background: var(--bw2);border: 1px solid var(--bw4);white-space: nowrap;overflow: auto;}
 .pl3timec{background: var(--bw5);height: 150px;width: 173px;border-radius: 5px;border: 1px solid var(--transp8);padding: 10px;position: relative;overflow: hidden;display: inline-block;}
 .pl3time::-webkit-scrollbar{height: 5px;}
-.pl3year{font-family: var(--font1);text-transform: lowercase;letter-spacing: -1px;font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;margin-bottom: -12px;}
+.pl3year{font-family: var(--font1);text-transform: lowercase;letter-spacing: -1px;font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;margin-bottom: -9px;}
 .yeardesc{font-size: 12px;padding: 10px;white-space: normal;text-align: justify;line-height: 13px;width: 150px;height: 70px;}
 .pl3mb{gap: 15px;width: 623px;margin: auto;border-radius: 5px;display: grid;grid-template-columns: auto auto;margin-bottom: 20px;}
 .pl3mb1{width: 304px;display: flex;gap: 15px;padding: 10px 19px 10px 10px;background: var(--bw2);border: 1px solid var(--bw4);border-radius: 5px;}
