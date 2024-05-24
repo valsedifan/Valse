@@ -241,7 +241,7 @@ infopl2:before{content:"\eb02";font-size:10px;font-family:'cappuccicons';-webkit
 .lstblctxt::-webkit-scrollbar{display:none}
 .pl3mention a {color: var(--transp6)!important;font-size: 14px;font-family: var(--font2);color:var(--transp6)!important;font-size:15px}
 .pl3mention {color: var(--transp6)!important;font-size: 14px;font-family: var(--font2);color:var(--transp6)!important;font-size:15px}
-.pl3mbn{display: flex;gap: 10px;align-items: center;}
+.pl3mbn{display: flex;gap: 10px;align-items: baseline;}
 
 /*****code rp 1 ******/
 
