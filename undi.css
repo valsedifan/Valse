@@ -276,6 +276,7 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .sztl1{font-family: var(--font1);font-size: 30px;float: right;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;margin-right: 2px;letter-spacing: -1px;position: relative;}
 .szrp1{background: var(--bw2);width: 345px;padding: 20px;text-align: justify;border: 1px solid var(--transp8);border-radius: 5px;margin: auto;}
 .szft{float: right;font-family: var(--font1);color: var(--transp6);font-size: 11px;margin-right: 5px;}
+.szft a{color: var(--transp6)}
 .szbd2 {margin: auto;background: var(--bw1);width: 400px;border: 8px solid var(--bw2);outline: 1px solid var(--bw4);outline-offset: 5px;border-radius: 10px;}
 .sztl2 {font-family: var(--font1);font-size: 20px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;letter-spacing: -1.5px;position: relative;}
 .szft1 {position: relative;z-index: 2;font-family: var(--font1);color: var(--transp6);font-size: 11px;margin-top: -20px;}
