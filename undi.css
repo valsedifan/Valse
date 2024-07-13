@@ -328,3 +328,21 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .carterang{display: grid; grid-gap: 20px 10px; grid-template-columns: auto auto auto auto auto; justify-content: space-evenly; justify-items: center;}
 .carteimg{height: 150px;outline: 2px solid var(--bw4);outline-offset: 3px;}
 .rglsny{animation: fadeIn 1s;}
+
+/*****single heroes******/
+
+.shbg{background: var(--gradient3); margin: auto; width: 520px; border-radius: 10px;}
+.shback{margin: auto; background: var(--bw1); width: 510px; border: 8px solid var(--bw2); border-radius: 10px; padding: 20px;}
+.sh1{display: flex; align-items: flex-end; gap: 15px;}
+.shimg1{padding: 5px; border-radius: 5px; outline: 1px solid var(--transp6);}
+.shimg2{width: 220px;transition: 300ms;height: 300px; object-fit: cover; border: 5px solid var(--bw2);}
+.shg{background: var(--gradient3); padding: 8px; position: absolute; top: 110px; right: 270px; border: 1px solid var(--bw4); border-radius: 5px;}
+.shname{background: var(--bw2); width: 280px; height: 100px; border-radius: 5px; outline-offset: 5px; display: flex; align-items: center; justify-content: center;}
+.shname1{background-image: var(--gradient3); color: transparent; -webkit-background-clip: text; font-family: var(--titlefont2); font-size: 20px; text-transform: uppercase;}
+.shinfo{background: var(--bw2); padding: 20px 10px 20px 10px; width: 205px; position: relative; top: -5px; border-radius: 5px; border: 1px solid var(--transp8);}
+.shinfo2{display: grid; grid-gap: 15px;}
+sgi1{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase; color: var(--couleur1);}
+sgi2{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase; color: var(--couleur2);
+.shtitle{letter-spacing: -.5px; font-family: var(--font1); background: linear-gradient(60deg, var(--gradient)); font-size: 12px; color: var(--bw2); text-transform: uppercase; border-radius: 5px; padding: 5px 10px; border: 1px solid var(--bw4); margin-bottom: 10px;}
+.shintro2{background: var(--bw2); padding: 10px; border-radius: 5px; outline: 1px solid var(--transp6); text-align: justify;}.shimg2:hover{filter: grayscale(1);}
+shcred{font-family: var(--stfont); text-transform: uppercase; font-size: 12px; color: var(--transp6)}
