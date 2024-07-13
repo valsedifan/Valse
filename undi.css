@@ -342,7 +342,7 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .shinfo{background: var(--bw2); padding: 20px 10px 20px 10px; width: 205px; position: relative; top: -5px; border-radius: 5px; border: 1px solid var(--transp8);}
 .shinfo2{display: grid; grid-gap: 15px;}
 sgi1{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase; color: var(--couleur1);}
-sgi2{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase; color: var(--couleur2);
+sgi2{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase; color: var(--couleur2);}
 .shtitle{letter-spacing: -.5px; font-family: var(--font1); background: linear-gradient(60deg, var(--gradient)); font-size: 12px; color: var(--bw2); text-transform: uppercase; border-radius: 5px; padding: 5px 10px; border: 1px solid var(--bw4); margin-bottom: 10px;}
 .shintro2{background: var(--bw2); padding: 10px; border-radius: 5px; outline: 1px solid var(--transp6); text-align: justify;}
 .shimg2:hover{filter: grayscale(1);}
