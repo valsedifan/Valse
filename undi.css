@@ -347,3 +347,13 @@ sgi2{letter-spacing: -.5px; font-family: var(--font1); text-transform: uppercase
 .shintro2{background: var(--bw2); padding: 10px; border-radius: 5px; outline: 1px solid var(--transp6); text-align: justify;}
 .shimg2:hover{filter: grayscale(1);}
 shcred{font-family: var(--stfont); text-transform: uppercase; font-size: 12px; color: var(--transp6);}
+
+.sgl1{display: flex; align-items: center; justify-content: flex-start; background: var(--bw2); padding: 0 20px 0 0; border-radius: 5px; border: 1px solid var(--bw4);}
+.sglnm{text-align: center;position: relative; font-family: var(--titlefont2); text-transform: uppercase; background-image: var(--gradient3); color: transparent; -webkit-background-clip: text;}
+.shduo{margin: auto; background: var(--bw1);width: max-content; border: 8px solid var(--bw2); border-radius: 10px; padding: 10px;}
+.sglimg1{-webkit-mask-image: linear-gradient(90deg, var(--bw1), transparent 80%); height: 100px; filter: grayscale(1) brightness(0.6); object-fit: cover;}
+.sgl2{display: flex; align-items: center; justify-content: flex-end; background: var(--bw2); padding: 0 0 0 20px; border-radius: 5px; border: 1px solid var(--bw4);}
+.sglimg2{-webkit-mask-image: linear-gradient(270deg, var(--bw1), transparent 80%); height: 100px; filter: grayscale(1) brightness(0.6); object-fit: cover;}
+.shimg{display: grid;gap: 10px;}.gsh{background: var(--gradient3); margin: auto; width: fit-content; border-radius: 10px; padding: 0 5px;}
+sgdt{letter-spacing: -.5px;font-family: var(--font1);background: var(--bw2);font-size: 10px;color: var(--textcolorAccent);text-transform: uppercase;border-radius: 10px;padding: 3px 10px;}
+.sglinfo{display: flex;gap: 10px;justify-content: center;}
