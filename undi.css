@@ -357,3 +357,48 @@ shcred{font-family: var(--stfont); text-transform: uppercase; font-size: 12px; c
 .shimg{display: grid;gap: 10px;}.gsh{background: var(--gradient3); margin: auto; width: fit-content; border-radius: 10px; padding: 0 5px;}
 sgdt{letter-spacing: -.5px;font-family: var(--font1);background: var(--bw2);font-size: 10px;color: var(--textcolorAccent);text-transform: uppercase;border-radius: 10px;padding: 3px 10px;}
 .sglinfo{display: flex;gap: 10px;justify-content: center;}
+
+.creddesc {font-size: 12px;text-align: justify;background: var(--bw2);padding: 20px;border-radius: 38px 5px 5px 5px;border: 1px solid var(--transp8);}
+credname {letter-spacing: -.5px;font-family: var(--font1);text-transform: uppercase;font-size: 12px;}
+.credic:hover{filter: grayscale(1);}
+.credic {transition:300ms;outline: 1px solid var(--transp6);outline-offset: 1px;height: 70px;width: 70px;border-radius: 100%;object-fit: cover;border: 5px solid var(--bw2);float: left;margin-right: 12px}
+.icintw:hover{filter: grayscale(1);}
+.icintw {transition:300ms;outline: 1px solid var(--transp6);outline-offset: 1px;height: 70px;width: 70px;border-radius: 100%;object-fit: cover;border: 5px solid var(--bw2);}
+.bullintw { margin-top: 5px; border: 1px solid var(--bw2); cursor: pointer; background: var(--gradient3); border-radius: 30px 5px 30px 30px; padding: 20px; color: var(--bw2); width: 308px; text-align: left; }
+.bulldh {margin-top: 5px;width: 308px;border: 1px solid var(--transp8);cursor: pointer;background: var(--bw2);border-radius: 5px 30px 30px 30px;padding: 20px;color: var(--textColorAccent);}dh1 {text-transform: uppercase;color: var(--textColorAccent);font-family: var(--font1);letter-spacing: -.5px;} .1bulle {float: left;text-align: left;}
+.firstnews {text-align: justify;}
+.intronews {text-align: justify!important;font-weight: bold;font-size: 15px;}
+datnews{color: var(--transp6);float: left;font-family: var(--font2);}
+ext{background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;}
+.ntitle {color: var(--textColorAccent);font-family: var(--font1);text-transform: uppercase;font-size: 28px;text-align: justify;letter-spacing: -1px;}
+labelnews {cursor: pointer;float: left;text-align: left;color: var(--couleur1);text-transform: uppercase;font-family: var(--stfont);font-size: 14px;}
+flagnews{cursor: pointer;background: var(--gradient3);color: #fefefe;font-size: 18px;padding: 8px;width: 107px;font-weight: 700;float: left;font-family: var(--font1);letter-spacing: -.5px;}
+.titredaily{color: var(--bw2);text-transform: uppercase;text-align: left;font-family: var(--titlefont2);font-size: 45px;line-height: 35px;padding: 10px;}
+.hautdaily{background: var(--gradient3);width: 665px;height: 183px;padding: 25px 25px 30px 25px;border: 2px solid var(--bw2);}
+#daily_magnifier::before {font-family: 'cappuccicons';content: '\ec5f';font-size: 20px;color: var(--bw1);font-weight: 600;position: absolute;margin-left: 270px;margin-top: -89px;cursor: pointer;}
+.l1daily{height: 5px;width: 100%;background: var(--bw2);}
+.menudaily_li{cursor: pointer;color: var(--bw2);text-transform: uppercase;font-size: 14px;font-family: var(--font1);letter-spacing: -.5px;}
+.menudaily{display: flex;justify-content: center;gap: 37px;padding: 20px;}
+.barredaily1{background: var(--bw1);width: 665px;border: 2px solid var(--bw2);height: 39px;border-bottom: none;}
+.barredaily2{background: var(--bw2);width: 630px;height: 20px;margin-top: 8px;border-radius: 10px;border: 1px solid var(--transp6);}
+.adressedaily{cursor: text;text-align: left;padding-left: 10px;font-family: var(--stfont);color: var(--transp6);margin-top: 2px;}
+.disabled{pointer-events: none;text-decoration: none;}
+.dailybody{background: var(--bw1);border-radius: 0px 0px 15px 15px;width: 665px;padding: 25px 25px 30px 25px;border: 2px solid var(--bw2);border-top: none;}
+.adsdaily2{position: absolute;background: var(--transp5);padding: 5px;font-family: var(--stfont);margin-left: 8px;margin-top: 10px;color: var(--textColorAccent);}
+.adsdaily{display: flex;}.adsdailyimg{height: 118px;width: 200px;object-fit: cover;border-radius: 5px;transition: 300ms;border: 5px solid var(--bw2);}
+.adsdesc1{cursor: pointer;padding: 4px;position: absolute;width: 200px;text-align: justify;font-family: var(--stfont);font-size: 13px;}
+.dailyimg1:hover{filter: grayscale(1);}
+.dailyimg1{transition:300ms;width: 610px;object-fit: cover;border-radius: 5px;transition: 300ms;border: 5px solid var(--bw2);outline: 1px solid var(--transp8);}
+.headline{position: absolute;width: 610px;margin-top: -200px;padding: 22px;line-height: 15px;cursor: pointer;}
+.descmainnews{color: #fefefe;text-transform: uppercase;margin-top: -9px;}
+.labelmainnews{text-align: left;color: var(--couleur1);margin-top: 14px;text-transform: uppercase;font-family: var(--stfont);font-size: 14px;}
+.subnews{display: flex;gap: 24px;}
+.dailyimg2{width: 367px;object-fit: cover;border-radius: 5px;transition: 300ms;border: 5px solid var(--bw2);}
+.subnews2{display: flex;flex-direction: column;}
+.dailyimg3{width: 222px;height: 96px;object-fit: cover;border-radius: 5px;transition: 300ms;border: 5px solid var(--bw2);}
+.headline2{cursor: pointer;background: var(--bw2);padding: 10px;border-radius: 5px;}
+.subnewsdesc1{text-align: justify;font-size: 14px;}
+.subnewslabel2{text-align: left;color: var(--couleur1);margin-top: 14px;text-transform: uppercase;font-family: var(--stfont);font-size: 14px;}
+.headline3{cursor: pointer;background: var(--bw2);padding: 8px;border-radius: 5px;}
+.subnewsdesc2{font-size: 12px;text-align: justify;}
+.l1daily2{height: 1px;width: 100%;background: var(--transp6);}
