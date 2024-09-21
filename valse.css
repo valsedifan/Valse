@@ -103,7 +103,7 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 classname {color: var(--textColorAccent);letter-spacing: -1px;font-family: var(--font1);font-size: 14px;text-transform: uppercase;margin-right: 10px;}
 .mbcard {transition: 300ms;width: 300px;padding: 10px;background: var(--bw2); border-radius: 5px; outline: 1px solid var(--bw4); display: flex; align-items: center; justify-content: space-evenly;}
 .gmbav {background: var(--gradient3);padding: 5px;border-radius: 100%;}
-.mbav {transition: 0.5s all ease-in-out; border-radius: 100%; object-fit: cover; height: 80px; width: 80px; border: 5px solid var(--bw2);}
+.mbav {filter: grayscale(1);transition: 0.5s all ease-in-out; border-radius: 100%; object-fit: cover; height: 80px; width: 80px; border: 5px solid var(--bw2);}
 .mbav:hover {filter: brightness(0.7);}
 .mbdesc {border: 1px solid var(--transp8);text-align: justify;overflow: auto;background: var(--bw2);padding: 10px;border-radius: 5px;}
 n1 {font-family: var(--titlefont2);text-transform: uppercase;font-size: 18px;color: var(--textColorAccent);}
