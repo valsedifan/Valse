@@ -101,10 +101,11 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 .glist {background: var(--gradient3);width: 385px;height: 140px;padding: 8px;border-radius: 10px;position: relative;margin-top: -48px;margin-left: 383px;}
 .listblock2 {background: var(--bw2);padding: 30px 0px;border-radius: 5px;outline-offset: 2px;animation: fadeIn 1s;width: 375px;text-align: justify;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;line-height: 25px;height: 130px;margin-top: -3px;margin-left: -3px;}
 classname {color: var(--textColorAccent);letter-spacing: -1px;font-family: var(--font1);font-size: 14px;text-transform: uppercase;margin-right: 10px;}
-.mbcard {height: 386px;background: var(--bw1);padding: 8px;border-radius: 10px;outline: 1px solid var(--transp6);display: flex;outline-offset: 2px;flex-direction: column;width: 200px;border: 5px solid var(--bw2);}
-.gmbav {background: var(--gradient3);padding: 5px;border-radius: 5px;}
-.mbav {transition: 0.5s all ease-in-out;border-radius: 5px;object-fit: cover;height: 224px;width: 163px;border: 5px solid var(--bw2);}
+.mbcard {background: var(--bw2); border-radius: 5px; outline: 1px solid var(--bw4); display: flex; align-items: center; justify-content: space-evenly;}
+.gmbav {background: var(--gradient3);padding: 5px;border-radius: 100%;}
+.mbav {transition: 0.5s all ease-in-out; border-radius: 100%; object-fit: cover; height: 80px; width: 80px; border: 5px solid var(--bw2);}
 .mbav:hover {filter: brightness(0.7);}
 .mbdesc {border: 1px solid var(--transp8);text-align: justify;overflow: auto;background: var(--bw2);padding: 10px;border-radius: 5px;}
-y1 {font-family: var(--titlefont2);text-transform: uppercase;font-size: 10px;color: var(--textColorAccent);}
+n1 {font-family: var(--titlefont2);text-transform: uppercase;font-size: 18px;color: var(--textColorAccent);}
+a1 {font-family: var(--font1); text-transform: uppercase; letter-spacing: -1px; background: var(--gten); color: transparent; -webkit-background-clip: text; font-size: 18px;}
 .onglettierlist {animation: fadeIn 1s;}
