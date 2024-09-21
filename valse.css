@@ -80,3 +80,12 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 .quote1 {background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;font-size: 400px;opacity: 0.5;margin-left: 366px;margin-bottom: -363px;position: relative;z-index: 1;font-family: 'Wasted Vindey';}
 .textquote {position: relative;text-align: justify;z-index: 2;}
 
+.points a {color:var(--textColor)!important}
+.btq{transition: 300ms;display: flex;border-radius: 5px;border: 1px solid var(--transp8);margin-bottom: -15px;flex-direction: column;}
+.hbtq{transition: 300ms;grid-template-columns: auto auto;display: grid;align-items: center;background: var(--bw2);padding: 10px;border-radius: 5px 5px 0px 0px;border-bottom: 1px solid var(--transp8); margin-bottom: -21px;justify-items: stretch;justify-content: space-between;}
+.descbtq{font-size: 12px;background: var(--bw5);text-align: justify;padding: 10px;}
+.item{text-transform: uppercase;font-family: var(--font1);color: var(--couleur1);background-color: var(--couleur1);background-image: var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 14px;letter-spacing: -1px;}
+.points{text-transform: uppercase;font-size: 12px;border-radius: 2px;border: 1px solid var(--transp6);font-family: var(--font2);padding: 2px 9px;letter-spacing: 1px;}
+.pbottin {display: grid;gap: 10px;line-height: 10px;} .pname {display: grid;gap: 10px;grid-template-columns: auto 1fr;} 
+.pname::after {content: '';border-bottom: 1px solid var(--transp8);}
+.pname2 {text-transform: uppercase;font-size: 12px;border-radius: 2px;border: 1px solid var(--transp6);font-family: var(--font2);padding: 2px 9px;letter-spacing: 1px;}
