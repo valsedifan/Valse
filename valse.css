@@ -94,7 +94,7 @@ idnotif{font-family: 'Poppins';font-size: 14px;color: var(--textColor);font-weig
 .listbanner{margin: auto;height: 73px;padding-left: 20px;background: var(--gradient3);width: 1000px;border: 1px solid var(--bw2);border-radius: 15px 15px 0 0;}
 .listbody {width: 1000px;background: var(--transp5);height: auto;margin: auto;padding: 50px;border-radius: 0px 0px 15px 15px;backdrop-filter: blur(2px);outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
 .bookongdet{float: right;margin: 15px;font-size: 12px;gap: 10px;display: flex;color: var(--bw2);}
-.rang1 {display: grid;justify-content: center;grid-template-columns: auto auto auto;gap: 70px;}
+.rang1 {display: grid; justify-content: center; grid-template-columns: auto auto; gap: 20px;}
 .nmpcards {display: flex;justify-content: space-around;}
 .hero1 {background: var(--transp5);padding: 8px;border-radius: 10px;outline: 1px solid var(--neutralDark);display: flex;outline-offset: 2px;flex-direction: column;}
 .listblock1 {background: var(--bw2);padding: 20px;border-radius: 5px;outline: 1px solid var(--transp6);outline-offset: 2px;animation: fadeIn 1s;text-align: justify;}
