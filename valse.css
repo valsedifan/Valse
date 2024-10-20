@@ -1,37 +1,4 @@
-c1{color: var(--couleur1);}
-c2{color: var(--couleur2);}
-c3{color: var(--couleur3);}
-c4{color: #c6b9e0;}
-c5{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}
-c6{color: #e3b2c9;}
-b1{color: var(--couleur1);font-weight: 900;}
-b2{color: var(--couleur2);font-weight: 900;}
-b3{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;font-weight: 800}
-b4{color: var(--couleur3);font-weight: 900;}
-i1{color: var(--couleur1);font-style: italic;}
-i2{color: var(--couleur2);font-style: italic;}
-i3{color: #c6b9e0;font-style: italic;}
-i4{color: #e3b2c9;font-style: italic;}
-i5{color: var(--couleur3);font-style: italic;}
-u1{border-bottom: 3px solid var(--couleur1);}
-u2{border-bottom: 3px solid var(--couleur2);}
-u3{box-shadow: inset 0 -5px 0 var(--couleur1);}
-u4{box-shadow: inset 0 -5px 0 var(--couleur2);}
-u5{background: var(--gradient3) no-repeat bottom left/100% 3px;}
-u6{border-bottom: 3px solid var(--couleur3);}
-u7{box-shadow: inset 0 -5px 0 var(--couleur3);}
-s1{padding: 2px 9px;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;background: var(--bw2);font-family: var(--font2);color: var(--textColorAccent);}
-s2{font-size: 12px;text-transform: uppercase;letter-spacing: 1px;color: var(--bw2);border-radius: 2px;padding: 2px 7px;background: var(--gradient3);font-family: var(--font2);}
-s3{padding: 2px 7px;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;background: var(--couleur1);font-family: var(--font2);color: var(--bw2);}
-s4{padding: 2px 7px;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;background: var(--couleur2);font-family: var(--font2);color: var(--bw2);}
-s6{padding: 2px 7px;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;background: var(--couleur3);font-family: var(--font2);color: var(--bw2);}
-s5{text-transform: uppercase;font-size: 12px;border-radius: 2px;border: 1px solid var(--transp6);font-family: var(--font2);padding: 2px 7px;letter-spacing: 1px;}
-t1{font-family: var(--stfont);text-transform: uppercase;font-size: 14px;}t2{color: var(--textColorAccent);font-family: var(--font5);font-style: italic;letter-spacing: 1px;}
-t3{font-size: 15px;font-family: var(--font5);color: var(--textColorAccent);}
-t4{letter-spacing: -1px;text-transform: uppercase;font-family: var(--font1);color: var(--couleur1);background-color: var(--couleur1);background-image: var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 12px;}
-t5{letter-spacing: -1px;font-family: var(--font1);text-transform: uppercase;color: #fefefe;font-size: 12px;text-shadow: 0 0 2px #2b2b2b;}
-t6 {font-family: var(--font1);text-transform: uppercase;letter-spacing: -1px;font-size: 15px;background-image: linear-gradient(60deg, var(--g4));color: transparent;-webkit-background-clip: text;}
-t7 {font-family: var(--font1);text-transform: uppercase;color: var(--textColorAccent);font-size: 18px;letter-spacing: -1px;border-bottom: 3px solid var(--couleur1);}
+
 
 /****trucs bottin****/
  .lebobottin{margin-top: 10px;}
