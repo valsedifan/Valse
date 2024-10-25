@@ -29,7 +29,7 @@ img.imgfiche:hover {background: var(--transp2);filter: grayscale(1);opacity: 1;}
 .sujet1{margin:auto;}
 .topicbody{background: var(--transp2);border-radius: 10px;width:400px;padding: 30px;margin-bottom: 8px; box-shadow: 0px 0px 8px -10px black;}
 .topicbody2{background: var(--transp2);border-radius: 10px;width:550px;padding: 30px;margin-bottom: 8px; box-shadow: 0px 0px 8px -10px black;}
-.topicbody4{margin: 0 auto;background: var(--bw1);border-radius: 15px;width: 665px;padding: 25px 25px 30px 25px;outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
+.topicbody4{margin: 0 auto;background: var(--bw1);border-radius: 15px;width:calc(100% - 20px);padding: 25px 25px 30px 25px;outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
 
 .rphead1 {margin-top: 25px;gap: 15px;display: flex;align-items: center;}
 .rphead2 {text-align: initial;margin-left: 56px;margin-top: 0px;color: var(--couleur1);width: 123px;padding-left: 7px;font-family: serif;border-left: 1px solid var(--couleur1);font-style: italic;}
