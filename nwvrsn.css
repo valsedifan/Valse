@@ -5,7 +5,7 @@
 .spotify{margin-right: 20px;background: var(--bw2);padding: 8px;border-radius: 50px;z-index: 998!important;margin-bottom: 137px;outline: 1px solid var(--transp6);outline-offset: 2px;}
 .pinterest{margin-right:20px;background:var(--bw2);padding:8px;border-radius:50px;z-index:998!important;margin-bottom:137px;outline: 1px solid var(--transp6);outline-offset: 2px;}
 .discord{background:var(--transp5);padding:8px;z-index:998!important;border-radius:50px;margin-bottom:137px;outline: 1px solid var(--transp6);outline-offset: 2px;}
-.minipa2{margin-bottom: 80px; margin-top: 10px; display: flex; width: 1000px; background: var(--transp5); padding: 6px; height: 128px; justify-content: space-between; border-radius: 5px; flex-wrap: wrap; backdrop-filter: blur(2px); border: 5px solid var(--bw2); outline: 1px solid var(--bw4); outline-offset: 5px;}
+.minipa2{margin-bottom: 100px; margin-top: 10px; display: flex; width: 1000px; background: var(--transp5); padding: 6px; height: 128px; justify-content: space-between; border-radius: 5px; flex-wrap: wrap; backdrop-filter: blur(2px); border: 5px solid var(--bw2); outline: 1px solid var(--bw4); outline-offset: 5px;}
 .minipa2block1{display:flex;}
 .mdmtitle{transition:300ms;font-family:var(--titlefont2);font-size:50px;text-transform:UPPERCASE;margin-left:10px;margin-top:5px;margin-bottom:96px;background-image:var(--gradient3);color:transparent;-webkit-background-clip:text;letter-spacing:1px;font-weight:600;line-height:50px;}
 .mdmicons{display:flex;flex-wrap:wrap;align-content:space-between;justify-content:space-between;margin-left:47px;margin-top:21px;flex-direction:row;position:absolute;}
