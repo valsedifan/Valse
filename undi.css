@@ -403,7 +403,7 @@ flagnews{cursor: pointer;background: var(--gradient3);color: #fefefe;font-size: 
 .subnewsdesc2{font-size: 12px;text-align: justify;}
 .l1daily2{height: 1px;width: 100%;background: var(--transp6);}
 
-.rpbck{max-width: 475px; margin: 0 auto; padding: 50px; box-sizing: border-box; background: var(--bw2); border-radius: 5px;}
+.rpbck{max-width: 475px; margin: 0 auto; padding: 50px; box-sizing: border-box; background: var(--transp9); border-radius: 5px;}
 .rpis{float: left; margin: 0 12px 12px 0;}
 .is{justify-items: center;display: grid; grid-gap: 8px; grid-template-columns: auto auto; align-items: center}
 .rptxt{margin: 0 auto; text-align: justify; font-family: var(--font2);}
