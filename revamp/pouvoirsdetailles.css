@@ -1,0 +1,20 @@
+  .mbdsc2::-webkit-scrollbar{display: none;}
+  .mbdsc2{text-align: justify;background: var(--bw2);padding: 10px;overflow: auto;height: 100px;width: 330px;border-radius: 10px;border: 1px solid var(--transp8);}
+  .mbh1{display: grid; gap: 5px; align-items: center; margin-bottom: 5px; justify-items: start;}
+  .imgpl1{transition:300ms;filter: grayscale(1);object-fit: cover;margin-top: -3px;margin-left: -3px;width: 60px;height: 60px;border-radius: 100%;border: 5px solid var(--bw2);}
+  .plg1{margin-top: -50px;background: var(--gradient3);padding: 8px;width: 70px;height: 70px;border-radius: 100%;}
+  .plinf{display: flex;justify-content: flex-start;gap: 10px;align-items: center;}.mb2{display: flex;gap: 10px;flex-direction: column;}
+  .mb3{display: flex;gap: 10px;flex-direction: column;}
+  .plmb1{display: grid;gap: 50px;grid-template-columns: auto auto;}
+  .plc2{display: flex;flex-direction: column;}
+  pw {text-transform: uppercase;font-family: var(--font1);font-size: 20px;letter-spacing: -1px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;}
+  pwown {text-transform: uppercase;font-family: var(--font2);color: var(--transp6);padding: 2px 9px;border: 1px solid var(--transp6);font-size: 12px;border-radius: 2px;}
+  pwown a {color: var(--transp6);}
+  .listbanner{margin: auto;height: 73px;padding-left: 20px;background: var(--gradient3);width: 1000px;border: 1px solid var(--bw2);border-radius: 15px 15px 0 0;}
+  .listbody {width: 1000px;background: var(--transp5);height: auto;margin: auto;padding: 50px;border-radius: 0px 0px 15px 15px;backdrop-filter: blur(2px);outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
+  .listbanner{margin: auto;height: 73px;padding-left: 20px;background: var(--gradient3);width: 1000px;border: 1px solid var(--bw2);border-radius: 15px 15px 0 0;}
+  .listbody {width: 1000px;background: var(--transp5);height: auto;margin: auto;padding: 50px;border-radius: 0px 0px 15px 15px;backdrop-filter: blur(2px);outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
+  #h1-category, h1, h1.page-title {font-size: 22px;text-transform: uppercase;FONT-FAMILY: var(--titlefont2);margin-top: 23px;color: var(--bw2);text-align: left;}
+  #h1-category:before, h1:before, h1.page-title:before {content: "\eb02";font-size: 22px;font-family: 'cappuccicons';margin-right: 8px;color: var(--bw2);}
+  .bookongdet{float: right;margin: 15px;font-size: 12px;gap: 10px;display: flex;color: var(--bw2);}
+  .imgpl1:hover{filter:none}
