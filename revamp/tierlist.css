@@ -20,7 +20,7 @@ li a.selected {background: var(--gradient3);color: transparent;background-clip: 
 .card.v persoclass:before {content:'v';}
 .card alias {font-family: var(--stfont); font-size: 14px;}
 fc{font-weight: bolder; background: var(--gradient3) no-repeat bottom left / 100% 2px; width: fit-content;}
-.personame, .mentiontag{font-weight: 700; letter-spacing: -.5; background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text;}
+.personame, .mentiontag, .personame a{font-weight: 700; letter-spacing: -.5; background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text;}
 .personame {font-weight: 700; letter-spacing: -.5; background-image: linear-gradient(60deg, var(--gradient)); color: transparent; -webkit-background-clip: text;}
 .card.messy {border-left:3px solid var(--group3);} .card.ego {border-left:3px solid var(--group1);}
 .card.savior {border-left:3px solid var(--group2);} .card.messy a:hover {color:var(--group3);}
