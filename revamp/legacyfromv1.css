@@ -1,0 +1,14 @@
+textcit {
+    transition: 300ms;
+    border-left: 5px solid var(--couleur1);
+    display: block;
+    padding-left: 11px;
+    text-align: justify;
+    border-radius: 10px;
+    background: var(--bw2);
+    padding: 20px;
+    outline: 1px solid var(--transp8);
+    margin-bottom: 7px;
+    line-height: 20px;
+    font-size: 14px;
+}
