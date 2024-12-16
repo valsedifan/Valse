@@ -120,12 +120,12 @@
 
 @container profil (min-width: 550px) {
     ul {column-count: 2;}
-}*/
+}
     
 .profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type), .profilmulti li:not(:first-of-type) {padding-top: 5px;}
 .profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type), .profilmulti li:not(:last-of-type) {
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
-}
+}*/
 .profilrps ul li table {display: flex;}
 .profilrps table {font-size: 13px;position: relative;}
 .profilrps table h3, .profilsms h3, .profilmulti h3 {
