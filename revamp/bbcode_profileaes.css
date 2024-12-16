@@ -185,9 +185,7 @@
 }
 
 /* SMS */
-.profilsms, .profilmulti {
-ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}
-}
+.profilsms ul, .profilmulti ul {display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}
 
 /*@container profilsms (width > 360px) {
     ul {width: 393px;display: grid; grid-template: auto / 1fr 1fr; column-gap:5px;}
