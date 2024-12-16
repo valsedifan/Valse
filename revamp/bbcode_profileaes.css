@@ -9,24 +9,25 @@
 
 /* AES COMMUNS */
 .profilaes, .profilrps, .profilsms, .profilmulti{
-    table, li{font-size:var(--normal-size);text-transform: none;}}
+    table{font-size:var(--normal-size);text-transform: none;}
+    li{padding: 3px 0;}
+    h3:hover + blockquote {display: block;height: fit-content;padding: 5px 0;z-index: 1;max-width: 200px;}}
 .profilaes, .profilmulti{
-    img{width: 50px;height: 50px;object-fit: cover;box-sizing:content-box;}}
+    img{width: 50px;min-width:30px;height: 50px;min-height:30px;object-fit: cover;box-sizing:content-box;}}
 .profilrps, .profilsms, .profilmulti {
-    li{padding-top: 2px;border-bottom: 1px solid var(--bw5);padding-bottom: 2px;}
     table h3, h3 {display: inline;background: var(--transp8);
     padding: 3px 5px;border-radius: 5px;font: var(--little-size) var(--stfont);text-transform: uppercase;}
     table h4 {display: inline;font-family: var(--font1);text-transform: uppercase;}
     table blockquote, blockquote{margin: 0;background: var(--transp8);border: 1px solid var(--bw3);
     border-radius: 5px;position: absolute;display: none;z-index;1;}
-    h3:hover + blockquote {display: block;height: fit-content;padding: 5px 0;z-index: 1;max-width: 200px;}
     }
 .profilsms, .profilmulti, .profilaes{ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}}
 
 /* LIENS */
 .profilaes {
-      li{display:flex;align-items:center;gap:7px}
-      h4{margin: 0;line-height:100%;color: var(--cogroupe);}    
+      li{display:flex;align-items:center;gap:7px;/* margin-bottom: 2px; */}
+      h4{margin: 0;line-height:100%;color: var(--cogroupe);}
+      ul li li{padding:0;border:none;}
 }
 .charaimg{width:fit-content!important;height:fit-content!important;position:relative;
     td{display:grid;place-items:center;overflow: hidden!important;}}
@@ -51,14 +52,12 @@
               td:before {content: '';font-family: 'cappuccicons';
                          font-size: 10px;padding-right: 5px;}
               }
-       a:hover{color:var(--couleur1);}
        .encours td:before {content: '\ebde';color: var(--couleur1);}
-       .fini{
-           h4 a, td:before, font[face="Inter"] {opacity: 0.7;}
-           td:before {content: '\eb69';color: var(--couleur2);}
-           h4 a:hover {color:var(--couleur2);}
+       .fini h4 a, .fini td:before, font[face="Inter"] {opacity: 0.7;);}
+       .fini td:before {content: '\eb69';color: var(--couleur2);}
+       .fini h4 a:hover {color:var(--couleur2);}
        }
-}
+            }
 
 /* SMS */
 .profilsms{
@@ -71,7 +70,6 @@
 }
 
 .profilmulti table h4 a{color:var(--cogroupe);}
-
 
 .testmyr {
     .codebox.spoiler {background: transparent;border: none;border-radius: 0;max-height: fit-content;
