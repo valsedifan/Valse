@@ -13,6 +13,10 @@
     display: block!important;
 }
 
+/* .profilaes, .profilsms, .profilmulti, .profilrps {
+    table, tbody, tr, td{width:fit-content!important;padding:0!important;margin:0!important;}
+}*/
+
 .ego {
     --cogroupe: var(--group1);
 }
@@ -40,9 +44,40 @@
 
 .profilaes h4 {
     margin: 0;
+    line-height:100%;
     color: var(--cogroupe);
 }
-.profilaes ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}
+.profilaes {
+    ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      ul li{display:flex;align-items:center;gap:7px}}    
+}
+
+.profilaes, .profilmulti{
+    img{width: 50px;height: 50px;object-fit: cover;box-sizing:content-box;}
+}
+
+.charaimg{
+        width:fit-content!important;
+        height:fit-content!important;
+        position:relative;overflow:hidden;
+
+    td{display:grid;place-items:center;overflow: hidden!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;}
+    }
+.charaimg.border img {padding:4px;}
+.charaimg.border td{border: 1px solid var(--cogroupe);border-radius: 5px;}
+.charaimg.nopad img {padding:0px;}
+.charaimg.bw img {filter:grayscale(1);}
+.charaimg.gradient td:after {
+    content: '';
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(315deg, var(--cogroupe), transparent 75%);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    /*mix-blend-mode: overlay;*/
+    /* overflow: hidden; */
+}
               
 /* .profilaes ul li:not(:last-of-type) {
     margin-bottom: 10px;
@@ -83,18 +118,7 @@
 .charaimg.rond, .charaimg.rond img, .charaimg.rond.gradient td:after{
     border-radius: 50%;
 }
-.charaimg.gradient td:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 5px;
-    border-radius: 5px;
-    background: linear-gradient(315deg, var(--cogroupe), transparent 75%);
-    width: calc(100% - 11px);
-    height: calc(100% - 11px);
-    mix-blend-mode: overlay;
-}
+
 .charalien {
     text-transform: none;
     text-align: justify;
