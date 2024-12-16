@@ -44,7 +44,7 @@
 }
 .profilaes ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}
               
-.profilaes ul li:not(:last-of-type) {
+/* .profilaes ul li:not(:last-of-type) {
     margin-bottom: 10px;
 }
 
@@ -98,7 +98,7 @@
 .charalien {
     text-transform: none;
     text-align: justify;
-}
+} 
 
 /* RPS */
 .profilrps {
