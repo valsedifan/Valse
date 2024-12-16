@@ -8,6 +8,8 @@
 
 .profilaes {
     --cogroupe: var(--textColorAccent);
+    ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      ul{display:initial;}}
     
     table {font-size: 12px;}
     h4 {margin: 0;color: var(--cogroupe);}
@@ -45,6 +47,8 @@
 
 /* RPS */
 .profilrps {--cogroupe: var(--textColorAccent); display: block;margin-left: 6px;width: calc(100% - 6px)!important;font-size: 13px;
+            ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+               ul{display:initial;}}
             ul li table {display: flex;}
             table {font-size: 13px;position: relative;
                   font[face="Inter"] {color:var(--cogroupe);}
@@ -116,13 +120,13 @@
 }
 
 /* SMS */
-.profilsms, .profilmulti {
+/* .profilsms, .profilmulti {
     display: block;
     margin-left: 10px;
     width: calc(100% - 10px)!important;
 }
 
-/* @container profilsms (width > 360px) {
+@container profilsms (width > 360px) {
     ul {width: 393px;display: grid; grid-template: auto / 1fr 1fr; column-gap:5px;}
     li:last-of-type {border-bottom: none !important;padding-bottom: 0 !important;}
     li:nth-last-of-type(2) {border-bottom: none !important;padding-bottom: 0 !important;}
