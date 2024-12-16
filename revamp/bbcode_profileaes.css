@@ -42,7 +42,7 @@
 
 /* RPS */
 .profilrps {--cogroupe: var(--textColorAccent);font-size: 13px;
-            ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                ul{display:initial;}
                table {display: flex;font-size: 13px;position: relative;
                       td:before {content: '';font-family: 'cappuccicons';font-size: 10px;padding-right: 5px;}
