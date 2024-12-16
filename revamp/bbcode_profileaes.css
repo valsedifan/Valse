@@ -56,6 +56,17 @@
               }
            }
 
+/* SMS */
+.profilsms{
+    ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+       ul{display:initial;}
+       li{position:relative;
+         a{font-size:0}
+         a:before{content:'\e9d5';font-family:cappuccicons;font-size:10px;padding-right:5px;color:var(--textColorAccent)}
+         a:hover:before{transition:.3s;color:var(--couleur1)}
+         }
+       }
+
 /* LIENS */
 .profilaes {
     --cogroupe: var(--textColorAccent);
@@ -118,15 +129,7 @@
     li:first-of-type {padding-top: 5px !important;}
 } */
 
-.profilsms{
-    ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-       ul{display:initial;}
-       li{position:relative;
-         a{font-size:0}
-         a:before{content:'\e9d5';font-family:cappuccicons;font-size:10px;padding-right:5px;color:var(--textColorAccent)}
-         a:hover:before{transition:.3s;color:var(--couleur1)}}
-       
-      }
+
 
 .profilmulti table h4 a{color:var(--cogroupe);}
 
