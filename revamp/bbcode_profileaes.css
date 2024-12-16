@@ -83,17 +83,18 @@
 /* RPS */
 .profilrps {--cogroupe: var(--textColorAccent);font-size: 13px;
             ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-               ul{display:initial;
-                 table {display: flex;font-size: 13px;position: relative;
-                        td:before {content: '';font-family: 'cappuccicons';font-size: 10px;padding-right: 5px;}
-                        font[face="Inter"] {color:var(--cogroupe);}}
-                  .encours td:before{content:'\ebde';color:var(--couleur1)}
-                  .fini{opacity:.7;
-                        td:before{content:'\eb69';color:var(--couleur2)}
-                        h4 a:hover{color:var(--couleur2)}
-                        }
-                  }
+               ul{display:initial;}
+               table {display: flex;font-size: 13px;position: relative;
+                      td:before {content: '';font-family: 'cappuccicons';font-size: 10px;padding-right: 5px;}
+                      font[face="Inter"] {color:var(--cogroupe);}
+                     }
+               .encours td:before{content:'\ebde';color:var(--couleur1)}
+               .fini{opacity:.7;
+                     td:before{content:'\eb69';color:var(--couleur2)}
+                     h4 a:hover{color:var(--couleur2)}
+                    }
               }
+           }
 
 /* @container profil (min-width: 360px) {
     li {width: 375px;}
