@@ -133,6 +133,8 @@
     background: var(--transp8);
     padding: 3px 5px;
     border-radius: 5px;
+    font: var(--little-size) var(--stfont);
+    text-transform: uppercase;
 }
 .profilrps table h4, .profilmulti table h4 {
     display: inline;
