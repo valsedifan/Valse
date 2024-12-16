@@ -88,12 +88,12 @@
             table {font-size: 13px;position: relative;
                    font[face="Inter"] {color:var(--cogroupe);}
                    td:before {content: '';font-family: 'cappuccicons';font-size: 10px;padding-right: 5px;}
-                   .encours td:before{content:'\ebde';color:var(--couleur1)}
-                   .fini{opacity:.7;
-                         td:before{content:'\eb69';color:var(--couleur2)}
-                         h4 a:hover{color:var(--couleur2)}
-                        }
                   }
+            .encours td:before{content:'\ebde';color:var(--couleur1)}
+            .fini{opacity:.7;
+                  td:before{content:'\eb69';color:var(--couleur2)}
+                  h4 a:hover{color:var(--couleur2)}
+                 }
            }
 
 /* @container profil (min-width: 360px) {
