@@ -44,7 +44,7 @@
     margin: 0;
     color: var(--cogroupe);
 }
-.profilaes ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+.profilaes ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}
               
 .profilaes ul li:not(:last-of-type) {
     margin-bottom: 10px;
