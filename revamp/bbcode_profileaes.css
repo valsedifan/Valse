@@ -3,8 +3,6 @@
 }
 .profilaes {
     --cogroupe: var(--textColorAccent);
-    display: block;
-    container: profilaes / inline-size;
 }
 
 .profilaes li br, .profilrps li br, .profilmulti li br {
