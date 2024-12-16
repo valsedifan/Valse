@@ -19,6 +19,7 @@
     table h4 {display: inline;font-family: var(--font1);text-transform: uppercase;}
     table blockquote, blockquote{margin: 0;background: var(--transp8);border: 1px solid var(--bw3);
     border-radius: 5px;position: absolute;display: none;z-index;1;}
+    h3:hover + blockquote {display: block;height: fit-content;padding: 5px 0;z-index: 1;max-width: 200px;}
     }
 .profilsms, .profilmulti, .profilaes{ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));}}
 
@@ -50,19 +51,13 @@
               td:before {content: '';font-family: 'cappuccicons';
                          font-size: 10px;padding-right: 5px;}
               }
+       a:hover{color:var(--couleur1);}
        .encours td:before {content: '\ebde';color: var(--couleur1);}
-       .fini {opacity: 0.7;}
-       .fini td:before {content: '\eb69';color: var(--couleur2);}
-       .fini h4 a:hover {color:var(--couleur2);}
+       .fini{
+           h4 a, td:before, font[face="Inter"] {opacity: 0.7;}
+           td:before {content: '\eb69';color: var(--couleur2);}
+           h4 a:hover {color:var(--couleur2);}
        }
-            }
-
-
-
-.profilrps table h3:hover + blockquote, .profilsms h3:hover + blockquote, .profilmulti h3:hover + blockquote {
-    display: block;
-    height: fit-content;
-    padding: 5px 0;
 }
 
 /* SMS */
@@ -73,6 +68,7 @@
     padding-right: 5px;color:var(--textColorAccent);}
       a:hover:before {transition: 300ms;color: var(--couleur1);}
       }
+}
 
 .profilmulti table h4 a{color:var(--cogroupe);}
 
