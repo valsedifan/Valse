@@ -14,7 +14,7 @@
   .listbody {width: 1000px;background: var(--transp5);height: auto;margin: auto;padding: 50px;border-radius: 0px 0px 15px 15px;backdrop-filter: blur(2px);outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
   .listbanner{margin: auto;height: 73px;padding-left: 20px;background: var(--gradient3);width: 1000px;border: 1px solid var(--bw2);border-radius: 15px 15px 0 0;}
   .listbody {width: 1000px;background: var(--transp5);height: auto;margin: auto;padding: 50px;border-radius: 0px 0px 15px 15px;backdrop-filter: blur(2px);outline: 1px solid var(--bw2);outline-offset: -20px;border: 15px solid var(--bw2);}
-  #h1-category, h1, h1.page-title {font-size: 22px;text-transform: uppercase;FONT-FAMILY: var(--titlefont2);margin-top: 23px;color: var(--bw2);text-align: left;}
-  #h1-category:before, h1:before, h1.page-title:before {content: "\eb02";font-size: 22px;font-family: 'cappuccicons';margin-right: 8px;color: var(--bw2);}
+  /* #h1-category, h1, h1.page-title {font-size: 22px;text-transform: uppercase;FONT-FAMILY: var(--titlefont2);margin-top: 23px;color: var(--bw2);text-align: left;}
+  #h1-category:before, h1:before, h1.page-title:before {content: "\eb02";font-size: 22px;font-family: 'cappuccicons';margin-right: 8px;color: var(--bw2);} */
   .bookongdet{float: right;margin: 15px;font-size: 12px;gap: 10px;display: flex;color: var(--bw2);}
   .imgpl1:hover{filter:none}
