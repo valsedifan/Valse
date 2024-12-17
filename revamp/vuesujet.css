@@ -1,0 +1,222 @@
+.post_row:not(:last-of-type){margin-bottom: 20px;}
+.post_row{background: var(--transp5);border: 5px solid var(--bw2);margin: 20px 0;display: grid;grid-template: min-content min-content 1fr / min-content 1fr;
+          .topbar{background: var(--bw2);grid-column: 1/3;grid-row: 1/2;display: grid;grid-template-columns: subgrid;position:relative;
+                  .profile_tw {grid-column: 2 / 3;grid-row: 2 / 3;position: absolute;
+                               .user_field:not(.field-tw), .field-tw .field_label{display:none;}
+                               .tw_label{font-family: var(--stfont);text-transform: uppercase;background: var(--bw3);padding: 3px 9px;}
+                               .field-tw{opacity:0;position:absolute;bottom:25px;left:0;background:var(--transp9);padding:20px;border:1.5px solid var(--bw4);border-radius:5px;backdrop-filter:blur(5px);max-width:300%;transition: opacity .5s ease-in-out;}
+                               .tw_label:hover ~ .field-tw{opacity:1;}}
+                  .post_pseudo{font-size: 18px;font-family: var(--titlefont2);text-transform: uppercase;display: flex;justify-content: flex-end;grid-column: 2/3;padding: 17px 32px 0 0;}}
+          .profile_class_alias {display:flex;gap:5px;justify-content: flex-end;align-items: baseline;grid-column: 2/3;padding-right:32px;min-height:30px;
+                                .field-rank{font-size: var(--little-size);text-transform: uppercase;}
+                                .field-alias{font-family:var(--stfont);text-transform:uppercase;}
+                                .user_field.field-rank:before {content: "\00B7";margin-right: 5px;}}
+          .profile_class_alias .user_field:not(.field-alias, .field-rank),.profile_class_alias .field_label {display:none;}
+          .topbar2{display:grid;grid-template-columns: 1fr auto;align-items:center;grid-column: 2/3;position: relative;top: 10px;padding-right:17px;
+                   .user_field:not(.field-pouvoir, .field-mods) {display: none;}
+                   .field-mods{order: 1;
+                               .field_label{display:none;}
+                               ul{display:flex; gap:10px;
+                                  li i{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background:var(--modrank);width:50px;height:50px;padding:1px;display:grid;place-items:center;}
+                                  li i:before{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);width:100%;height:100%;background:var(--bw2);display:grid;place-items:center;}}}}
+          .topbar:before {content: '';width: 100%;position: absolute;left: 0;bottom: 0;height: 30px;display: block;border-top: 1px solid;border-bottom: 1px solid;
+                          border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 1 0 1 0;mask-image: linear-gradient(to left, black 80%, transparent);}
+          .post_date {flex-grow: 100;}
+          .post_details {grid-column: 2/3;padding: 10px;display: flex;align-items: center; width: 100%;
+                        a{color:var(--textColor);font-weight:400;font-size:var(--little-size);text-transform:uppercase}}
+          .post_avatar_cadre{background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));border-radius: 5px;padding: 7px;padding-bottom:3px;width: 248px;border: 1px solid var(--bw4);}
+          .post_avatar img {border-radius: 2px;height: 100%;width: 100%;max-height: 366px !important;max-width: 232px !important;border: 5px solid var(--bw2);object-fit: cover;}
+          .post_avatar{position:relative;overflow:hidden;
+                       a {cursor:default;}}
+          .avatarhoverprofil{position: absolute;top: 0;left: 0;background: var(--transp5);width: 100%;height: calc(100% - 5px);backdrop-filter: blur(3px) grayscale(100%);opacity:0;transition: transform .5s ease-in-out;padding: 13px;transform: translateX(250px);
+  display:flex; flex-direction:column; gap: 10px; font-size: 0.95em;
+                             .user_field{background: var(--transp2);border-radius: 2px;padding: 5px;text-align: center;flex-grow: 1;display: grid;}}
+          .post_avatar_cadre:hover .avatarhoverprofil{opacity:1;transform: translateX(0px);
+                                                      .user_field:not(.field-pseudo, .field-faceclaim, .field-credits, .field-gif), .field-gif .field_label{display:none;}
+                                                      .field-gif{border-radius: 5px;min-height: 80px;overflow: hidden;background: transparent;padding: 0;border: 7px solid var(--transp2);
+                                                                 img{width:100%;height:100%;object-fit:cover;border-radius: 2px;border: 0;}}}
+          .fa_dislike_list,.fa_like_list{letter-spacing:-.5px;background:var(--bw2);font-family:var(--stfont);border-radius:2px;padding:10px;width:400px!important;font-size:12px;height:auto;margin:0 auto 15px;text-transform:uppercase!important;line-height:12px;text-align:center;outline:1px solid var(--transp6);outline-offset:2px}
+          ul.profile-icons li, .post_details .rep-button{transition:.3s;padding:3px 9px;height:20px;font-family:var(--stfont);margin:1px;border-radius:1px;background:var(--bw2);font-size:12px;border:1px solid var(--transp8);}
+          .post_details .rep-button .rep-nb{margin-left: 5px;font-family: var(--font1);font-size: 11px;}
+          ul.profile-icons li:hover{background: var(--gradient3);}
+          ul.profile-icons li:hover a{color: var(--noirnoir);}
+          .user_field .label {color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
+          .post_profile .content img{max-width:220px;}
+          .systab {overflow: hidden;
+                   .tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin: 10px 0;
+                         .tab{font-size:12px;font-family:var(--stfont);color:var(--textColor);text-transform:uppercase;text-align: center;padding:4px 19px;padding-bottom:2px;margin: 0 2px;border-radius: 3px;outline:1px solid var(--transp6);cursor:pointer}
+                         .tab.selected{border-bottom: 3px solid;border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 0 0 1 0;}}
+                   .contents{background:var(--bw2);
+                             .content{height:180px;overflow:auto !important;padding: 10px 15px;}
+                             .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-₩₩₩), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}}}
+          .profil_contact{display:flex;margin-top:15px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
+          .profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
+         }
+
+/* SUJET ADMIN */
+.post_row:has(.sujetadmin){display: block;}
+.post_row:has(.sujetadmin) .topbar{grid-template: auto / 20px 1fr;}
+.post_row:has(.sujetadmin) .topbar2, .post_row:has(.sujetadmin) .topbar:before, .post_row:has(.sujetadmin) .post_profile {display:none;}
+
+/* SUJET SMS */
+#main-content:has(.navigation_chain a[href*="/f23-telephones"]) .post_row:not(:has(.phbody)){width: 70%;margin: 10px auto;padding: 0;
+  .topbar2, .topbar:before, .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar){display:none}
+  .post_avatar{aspect-ratio: 1/1;width:70px;}
+  .post_avatar_cadre{padding: 7px;width: calc(70px + 15px);margin: 0 auto;}
+  .profil_contact{flex-wrap: wrap;}}
+
+/* BOUTONS D'EDITION DU MESSAGE --- */
+/* Conteneur boutons d'édition */
+ul.profile-icons {
+  flex-grow: 1;
+  display: flex;
+}
+
+/*UN SEUL bouton d'édition */
+ul.profile-icons li {
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+/* Cache les boutons pour les invités */
+.profile-icons a[href=""] { display:none }
+
+/* Bouton like */
+.rep-button,
+.rep-button:active,
+.rep-button:focus {
+  color: var(--textColor);
+}
+
+.post_profile {
+  padding: 20px;
+  grid-row: 1/4;
+  grid-column:1/2;
+  position:relative;
+}
+
+/* Lien "@" de mention */
+a.fa-mention {
+  cursor: pointer;
+}
+
+/* RECOMPENSES --- */
+/* Conteneur des récompenses */
+#list_awards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Récompense */
+.award {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-image: var(--award-image);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.award:hover .award_tooltiptext {
+  display: block;
+}
+
+/* Bloc description de la récompenses */
+.award_tooltiptext {
+  width: max-content;
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 25px;
+  background-color: var(--neutral);
+  border: 1px solid var(--neutralDark);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 11px;
+}
+
+/* titre de la récompenses*/
+.award_tooltiptext_title {
+  font-weight: 600;
+}
+
+.online:empty {
+  display: none;
+}
+
+.post_message {
+  padding: 25px;
+  padding-left:0;
+  position:relative;
+  z-index:1;
+}
+
+/* REPONSE RAPIDE --- */
+/*supression de la mention "réponse rapide" */
+.quickreply div.h3 {
+  display: none;
+}
+
+/*centrer la réponse rapide*/
+.quickreply {
+  display: flex;
+  justify-content: center;
+}
+
+/* Retire le cadre de la réponse rapide pour les invités */
+#quickreply_content:empty {
+  display: none;
+}
+
+/*** ------------------------------- ***/
+/*** SONDAGE ----------------------- ***/
+
+.poll {
+  background: var(--neutral);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.head_poll {
+  padding: 10px;
+  border-bottom: 1px solid var(--neutralDark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poll_list {
+  display: grid;
+  grid-template-columns: 220px auto;
+}
+
+.poll_option {
+  padding: 10px 20px 0 10px;
+  border-right: 1px solid var(--neutralDark);
+  text-align: right;
+}
+
+.poll_vote {
+  padding: 10px 10px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.poll_send {
+  margin-left: 220px;
+  padding: 20px 10px 20px 20px;
+  border-left: 1px solid var(--neutralDark);
+}
+
+.poll_vote:nth-child(2),
+.poll_option:first-child {
+  padding-top: 20px;
+}
+
+.votes-users-list {
+  justify-content: start;
+  margin: 20px 0 0;
+}
