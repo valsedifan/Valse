@@ -52,6 +52,7 @@
               td:before {content: '';font-family: 'cappuccicons';
                          font-size: 10px;padding-right: 5px;}
               }
+       h4 a:hover{color: var(--couleur1);}
        .encours td:before {content: '\ebde';color: var(--couleur1);}
        .fini h4 a, .fini td:before, .fini font[face="Inter"] {opacity: 0.7;);}
        .fini td:before {content: '\eb69';color: var(--couleur2);}
