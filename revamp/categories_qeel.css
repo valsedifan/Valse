@@ -48,8 +48,8 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 #subforum {margin-top: 15px; font-size: 0;display: flex;flex-wrap: wrap;gap: 7px 0;}
 /* #subforum:before {content: "\ecb5";font-size: 14px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;float:left;} */
 #subforum a {width:fit-content; margin-right: 5px;background: var(--bw2);font-family: var(--stfont);font-size: 13px;text-transform: uppercase;border-radius: 50px;color: var(--textColorAccent);padding: 3px 9px;border: 1px solid var(--transp3);}
-#subforum a:before {content: "\eb02";font-size: 11px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;}
-#subforum a:hover{filter:contrast(.9);border:1px solid var(--couleur1);-webkit-transition:.1s ease-in-out;transform:scale(1.017)}
+#subforum a:before {content: "\eb02";font-size: 11px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;-webkit-transition:.1s ease-in-out;}
+#subforum a:hover{filter:contrast(.9);border:1px solid var(--couleur1);transform:scale(1.017)}
 .forum_stats {font-weight: 600;font-size: var(--little-size);display: grid;justify-items: end;gap: 4px; width: 74px;grid-row: 2 / 3;grid-column: 1 / 2;z-index: 2;position: absolute;bottom: 10px; left: 17px;
   span {background: var(--bw2);border-radius: 10px;padding: 0 5px;text-transform: uppercase;  font-size: 10px;font-weight: bold;}}
 
