@@ -42,13 +42,7 @@
           ul.profile-icons li:hover a{color: var(--noirnoir);}
           .user_field .label {color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
           .post_profile .content img{max-width:220px;}
-          /* ONGLETS CSS */
-          .tabs_profile{
-               }                
-
-
-          
-          /* ONGLETS JAVASCRIPT .systab {overflow: hidden;
+          .systab {overflow: hidden;
                    .tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin: 10px 0;
                          .tab{font-size:12px;font-family:var(--stfont);color:var(--textColor);text-transform:uppercase;text-align: center;padding:4px 19px;padding-bottom:2px;margin: 0 2px;border-radius: 3px;outline:1px solid var(--transp6);cursor:pointer}
                          .tab.selected{border-bottom: 3px solid;border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 0 0 1 0;}}
@@ -58,49 +52,6 @@
           .profil_contact{display:flex;margin-top:15px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
           .profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
          } 
-          
-          HTML 
-          <div class="systab" style="max-width: 250px;width: 100%;height: 210px;">
-              <div class="selected">
-                <span>data</span>
-                <div class="datacontent">
-                  <!-- BEGIN profile_field -->
-                  <div class="user_field">
-                    <!-- Label d'un champs de profil -->
-                    <span class="field_label">{postrow.displayed.profile_field.LABEL}</span>
-                    <!-- Contenu d'un champs de profil -->
-                    <span class="field_content">{postrow.displayed.profile_field.CONTENT}</span> 
-                    <!-- Séparateur entre champs de profil -->
-                    <span class="field_separator">{postrow.displayed.profile_field.SEPARATOR}</span>
-                  </div>
-                  <!-- END profile_field -->
-                  <!-- Récompenses -->
-                  <div {postrow.displayed.AWARDS_SHOW} id="list_awards">
-                    {postrow.displayed.AWARDS}
-                  </div>
-                  <div class="award_more"></div>
-                </div>
-              </div>
-              
-              <div>
-                <span>character</span>
-                <div class="characontent">
-                  <!-- BEGIN profile_field -->
-                  <div class="user_field">
-                    <!-- Label d'un champs de profil -->
-                    <span class="field_label">{postrow.displayed.profile_field.LABEL}</span>
-                    <!-- Contenu d'un champs de profil -->
-                    <span class="field_content">{postrow.displayed.profile_field.CONTENT}</span> 
-                    <!-- Séparateur entre champs de profil -->
-                    <span class="field_separator">{postrow.displayed.profile_field.SEPARATOR}</span>
-                  </div>
-                  <!-- END profile_field -->
-                  <!-- Champs de profil de la feuille de personnage -->
-                  {postrow.displayed.POSTER_RPG}
-                </div>
-              </div>
-          </div>*/
-          
 
 /* SUJET ADMIN */
 .post_row:has(.sujetadmin){display: block;}
