@@ -46,9 +46,8 @@
                    .tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin: 10px 0;
                          .tab{font-size:12px;font-family:var(--stfont);color:var(--textColor);text-transform:uppercase;text-align: center;padding:4px 19px;padding-bottom:2px;margin: 0 2px;border-radius: 3px;outline:1px solid var(--transp6);cursor:pointer}
                          .tab.selected{border-bottom: 3px solid;border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 0 0 1 0;}}
-                   .contents{background:var(--bw2);
-                             .content{height:180px;overflow:auto !important;padding: 10px 15px;}
-                             .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-₩₩₩), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}}}
+                   .contents{background:var(--bw2);height:180px;overflow-y:auto !important; overflow-x:clip!important;padding: 10px 15px;}
+                             .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-₩₩₩), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}}
           .profil_contact{display:flex;margin-top:15px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
           .profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
          } 
