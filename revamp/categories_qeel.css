@@ -4,7 +4,7 @@
 .category {position:relative;margin-bottom:100px;}
 
 /* Titre d'une catégorie */
-.cate_title {display:grid;grid-template-columns: 1fr auto;align-items:center;}
+.cate_title {display:grid;grid-template-columns: 1fr auto;align-items:center;position: relative;z-index: 2;}
 .cate_title h2 {display: block;margin: 10px 0 20px;text-align:center;font-family: var(--stfont);font-weight: normal;text-transform: uppercase;font-size: 25px;color: var(--textColorAccent);}
 .cate_title h2:before {content:''; display:inline-block; width:14px; margin-right:5px;border-bottom:2px solid var(--textColorAccent);animation: blink .5s step-end infinite alternate;}
 .cate_title .cateonglet, .rowonglet, .lastpostonglet {display:none;gap: 10px;color: var(--noirnoir);font-size:11px;}
