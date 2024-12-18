@@ -34,7 +34,7 @@
     td{display:grid;place-items:center;overflow: hidden!important;}}
 .charaimg:is(.border){
     td{border: 1px solid var(--cogroupe);border-radius: 5px;}
-    img {padding:4px;}
+    img {padding:3px;}
 }
 .charaimg:is(.nopad) img {padding:0px;}
 .charaimg:is(.bw) img {filter:grayscale(1);}
