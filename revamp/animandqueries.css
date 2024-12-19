@@ -1,0 +1,50 @@
+/* animation bodyAnim */
+@property --k0 {
+  syntax: '<number>';
+  initial-value: 0;
+  inherits: true;}
+@keyframes k0 { from { --k0: 0 } to { --k0: 1 } }
+@keyframes blink {50% {border-color: transparent}}
+
+/* animation nouveaux sujets dans la liste des sujets */
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(.91);
+    transform: scale(.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(.87);
+    transform: scale(.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+/* si l'écran fait + de 1100px de largeur */
+@media only screen and (min-width: 1100px) {.updates .article_inner{grid-template: auto / auto auto!important; i.cp{display:block!important;} .bodyAnim{display:none!important;font-size: 3.5em;} .mdm:before{font-size: 3.5em!important;}}}
+/* si l'écran fait + de 1800px de largeur */
+@media only screen and (min-width: 1800px) {.staff {grid-template:auto / repeat(4,1fr)!important;}.update_name{display:inline!important;}.iconminipa{font-size: var(--large-size)!important;}}
+/* si la div .modals fait - de 600px d'hauteur */
+@container header-header (max-height:600px){.modal_content {max-height:10em!important;}}
