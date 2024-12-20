@@ -47,4 +47,4 @@
 /* si l'écran fait + de 1800px de largeur */
 @media only screen and (min-width: 1800px) {.staff {grid-template:auto / repeat(4,1fr)!important;}.update_name{display:inline!important;}.iconminipa{font-size: var(--large-size)!important;}}
 /* si la div .modals fait - de 600px d'hauteur */
-@container header-header (max-height:600px){.modal_content {max-height:10em!important;}}
+@container header-header (max-height:600px){ #ph_context .modal_content {max-height:10em!important;}}
