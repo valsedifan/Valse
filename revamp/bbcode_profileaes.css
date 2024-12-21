@@ -46,6 +46,7 @@
 .charalien {text-align: justify;} 
 
 /* RPS */
+.systab .profilrps ul{display:list-item;}
 .profilrps {--cogroupe: var(--textColorAccent);
     ul{display:grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       li table{display:flex;position:relative;
