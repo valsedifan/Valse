@@ -52,11 +52,10 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 /* liens des sous forums */
 #subforum {margin-top: 15px; font-size: 0;display: flex;flex-wrap: wrap;gap: 7px 0;position:relative;}
 #subforum:empty {display:none;}
-/* #subforum:before {content: "\ecb5";font-size: 14px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;float:left;} */
 #subforum a {width:fit-content; margin-right: 5px;background: var(--bw2);font-family: var(--stfont);font-size: 13px;text-transform: uppercase;border-radius: 50px;color: var(--textColorAccent);padding: 3px 9px;border: 1px solid var(--transp3);}
 #subforum a:before {content: "\eb02";font-size: 11px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;-webkit-transition:.1s ease-in-out;}
 #subforum a:hover{filter:contrast(.9);border:1px solid var(--couleur1);transform:scale(1.017)}
-.forum_stats {font-weight: 600;font-size: var(--little-size);display: grid;justify-items: end;gap: 4px; width: 74px;grid-row: 2 / 3;grid-column: 1 / 2;z-index: 2;position: absolute;bottom: 10px; left: 17px;
+.forum_stats {font-weight: 600;font-size: var(--little-size);display: grid;justify-items: end;gap: 4px; width: 74px;grid-row: 2 / 3;grid-column: 1 / 2;z-index: 2;position: absolute;bottom: -10px; left: 17px;
   span {background: var(--bw2);border-radius: 10px;padding: 0 5px;text-transform: uppercase;  font-size: 10px;font-weight: bold;}}
 
 /* categories customisées */
@@ -74,6 +73,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
   .rowonglet{display:flex;z-index: 2;justify-content: flex-end;position: absolute;right: 7px;top: 7px;}}
 #c1 .forum:first-of-type:before, #c2 .forum:first-of-type:before {content: '';position: absolute;left: 0;top: 0;display: block;width: 100%;height: 24px;background: var(--gradient3);}
 #c1 .forum_new:first-of-type:after {left: -39px;top: 26px;}
+#c1 #subforum, #c2 #subforum {grid-column: 1/2;grid-row:2/3;}
 
 #c2_title h2 {text-align:left;}
 #c2{overflow-x: clip;}
