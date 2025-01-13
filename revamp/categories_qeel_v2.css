@@ -149,7 +149,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 #c4_title, #c5_title, #c6_title, #c7_title{h2{text-align:left;}}
 #c4, #c5, #c6, #c7 {border-radius: 5px;backdrop-filter: blur(2px);background:var(--transp9);
   .forums {padding: 20px;display: grid;gap: 20px;}
-  .forum{padding:0;border:none;}
+  .forum{padding:0;border:none;background:transparent;}
    .mainforumcon{padding:0; border-left:3px solid;border-image:linear-gradient(to bottom, var(--gradient)) 1;}
    a.forumtitle{grid-row:none; margin-left:var(--padfo);}
    .forum_desc {grid-column:1/2;padding:20px;padding-right:0;}
