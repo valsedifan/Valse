@@ -22,8 +22,17 @@
 .mainforumcon {position:relative;grid-column:1/3;display:grid;grid-template-columns:subgrid;}
 
 /* titre d'un forum */
-a.forumtitle {display: block;width: fit-content;position: relative;left: 115px;top: 26px;grid-column: 1/3;
-  font-size: 1.1em;font-family: var(--titlefont2);text-transform:uppercase;}
+a.forumtitle {
+  display: block;
+  width: fit-content;
+  position: relative;
+  left: 115px;
+  top: 26px;
+  grid-column: 1/3;
+  font-size: 1.1em;
+  font-family: var(--titlefont2);
+  text-transform:uppercase;
+  }
 a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccicons';
     -webkit-background-clip: text; margin-right: 8px; color: transparent; background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;}
 
@@ -139,18 +148,21 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 */
 #c4_title, #c5_title, #c6_title, #c7_title{h2{text-align:left;}}
 #c4, #c5, #c6, #c7 {border-radius: 5px;backdrop-filter: blur(2px);background:var(--transp9);
-    .forums {padding: 20px;display: grid;gap: 20px;}
-    .mainforumcon {padding: 0;border-left: 4px solid;border-image: var(--gradient3) 1;}
-    .forum_desc {grid-column:1/2;padding:20px;}
-    .forum_stats {margin-left:var(--padfo); margin-bottom:var(--padfo);}
-    .forum_lastpost{position:relative;grid-column: 2 / 3;grid-row: 2 / 3;display:grid;grid-template-rows:1fr 1fr;gap: 0;width: calc(100% - var(--padfo));margin-top: 0;border: 1px solid var(--transp3);margin: 20px;margin-left: 0;
-        .lastpostonglet{display:flex;gap: 5px;z-index: 2;justify-content: flex-end;position: absolute; top:-7px; right:-8px;background: var(--bw2);border: 1px solid var(--transp3);border-radius: 50px;padding: 4px 8px;
-            i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;font-size: 9px;}}
-        span{width:200px;text-align:center;grid-row: 2/3;}
-        .forum_avatar{width:100%; height:80px; object-fit:cover;border-radius:0;
-            img{max-width:none!important;border-radius:0;}}}
+  .forums {padding: 20px;display: grid;gap: 20px;}
+  .forum{padding:0;border:none;}
+   .mainforumcon{padding:0; border-left:3px solid;border-image:linear-gradient(to bottom, var(--gradient)) 1;}
+   a.forumtitle{grid-row:none; margin-left:var(--padfo);}
+   .forum_desc {grid-column:1/2;padding:20px;padding-right:0;}
+   .forum_stats {margin-left:var(--padfo); margin-bottom:var(--padfo);}
+   .forum_lastpost{position:relative;grid-column: 2 / 3;grid-row: 2 / 3;display:grid;grid-template-rows:1fr 1fr;gap: 0;width: calc(100% - var(--padfo));margin-top: 0;border: 1px solid var(--transp3);margin: 20px;margin-left: 0;
+     .lastpostonglet{display:flex;gap: 5px;z-index: 2;justify-content: flex-end;position: absolute; top:-7px; right:-8px;background: var(--bw2);border: 1px solid var(--transp3);border-radius: 50px;padding: 4px 8px;
+       i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;font-size: 9px;}}
+       span{width:200px;text-align:center;grid-row: 2/3;}
+       .forum_avatar{width:100%; height:80px; object-fit:cover;border-radius:0;
+           img{width:calc(100% - var(--padfo) + 1px); margin-left:20px; margin-top:-1px; max-width:none!important;border-radius:0;}}}
     #subforum {position:relative;grid-column: 1 / 3;grid-row: 2/3;background: var(--bw2);margin-top: 0;padding: 14px;
         a{position:relative; z-index:2;}}
+    #subforum:before {content: "\ecb5";font-size: 14px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;margin-top:2px;margin-right:10px}
     #subforum:after{content:'';width:100%;height:100%;position:absolute;top:0; left:0;background:var(--gradient3);z-index:1;opacity:0.1;}
     }
 #c4:before, #c5:before, #c6:before, #c7:before{content:'';position:absolute;top:-2px;left:-2px;width:100%;height:100%;border-radius: 5px; border: 2px solid transparent;opacity:.3;z-index:-1;
