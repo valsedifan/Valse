@@ -19,10 +19,7 @@
     width: 75px;height: 75px;display: grid;place-items: center;
     content: 'NEW';font: bold 1em var(--font); color: black; z-index: 10;padding-top: 5px;}
 
-.mainforumcon {
-    position:relative;
-    grid-column:1/3;
-}
+.mainforumcon {position:relative;grid-column:1/3;display:grid;grid-template-columns:subgrid;}
 
 /* titre d'un forum */
 a.forumtitle {display: block;width: fit-content;position: relative;left: 115px;top: 26px;grid-column: 1/3;
@@ -44,7 +41,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 .forum_avatar img {border: var(--bw2) 1px solid;width: 100%;height: 100%;object-fit: cover;object-position: center;border-radius: 5px;filter:grayscale(1);}
 
 /* dernier message*/
-.forum_lastpost:has(.lastpost_link:empty){display:none;}
+/*.forum_lastpost:has(.lastpost_link:empty){display:none;}*/
 .forum_lastpost {display:flex;gap: 15px;align-items: center;justify-content: end;margin-top: 15px;
   span{text-align: right;text-transform: uppercase;line-height: 120%;font-size: var(--little-size);}
   .lastpost_time{text-transform:lowercase!important;}}
@@ -94,7 +91,8 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 #c1, #c2 {
     .forums{display: grid;grid-template: auto / 1fr 1fr;gap: 10px 20px;}
     .forum:first-of-type:before{content: '';position: absolute;left: 0;top: 0;display: block;width: 100%;height: 24px;background: var(--gradient3);}
-    #subforum{grid-column: 1/2;grid-row:2/3;}
+    .forum_lastpost{grid-column: 2/3;}
+    #subforum{grid-column: 1/2;grid-row:2/3;margin-top: -50px;}
 }
 /*
 #c1 .cate_title h2{text-align: right;}
