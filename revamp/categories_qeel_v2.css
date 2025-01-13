@@ -140,6 +140,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 #c4_title, #c5_title, #c6_title, #c7_title{h2{text-align:left;}}
 #c4, #c5, #c6, #c7 {border-radius: 5px;backdrop-filter: blur(2px);background:var(--transp9);
     .forums {padding: 20px;display: grid;gap: 20px;}
+    .mainforumcon {padding: 0;border-left: 4px solid;border-image: var(--gradient3) 1;}
     .forum_desc {grid-column:1/2;padding:20px;}
     .forum_stats {margin-left:var(--padfo); margin-bottom:var(--padfo);}
     .forum_lastpost{position:relative;grid-column: 2 / 3;grid-row: 2 / 3;display:grid;grid-template-rows:1fr 1fr;gap: 0;width: calc(100% - var(--padfo));margin-top: 0;border: 1px solid var(--transp3);margin: 20px;margin-left: 0;
