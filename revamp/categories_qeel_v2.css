@@ -19,6 +19,11 @@
     width: 75px;height: 75px;display: grid;place-items: center;
     content: 'NEW';font: bold 1em var(--font); color: black; z-index: 10;padding-top: 5px;}
 
+.mainforumcon {
+    position:relative;
+    grid-column:1/3;
+}
+
 /* titre d'un forum */
 a.forumtitle {display: block;width: fit-content;position: relative;left: 115px;top: 26px;grid-column: 1/3;
   font-size: 1.1em;font-family: var(--titlefont2);text-transform:uppercase;}
