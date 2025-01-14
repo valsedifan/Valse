@@ -27,7 +27,8 @@
           .post_avatar_cadre{background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));border-radius: 5px;padding: 7px;padding-bottom:3px;width: 248px;border: 1px solid var(--bw4);}
           .post_avatar a img {border-radius: 2px;height: 100%;width: 100%;max-height: 366px !important;max-width: 232px !important;border: 5px solid var(--bw2);object-fit: cover;}
           .post_avatar{position:relative;overflow:hidden;
-                       a {cursor:default;}}
+                       a {cursor:default;}
+                      img{max-width:none!important;width:100%;}}
           .avatarhoverprofil{position: absolute;top: 0;left: 0;background: var(--transp5);width: 100%;height: calc(100% - 5px);backdrop-filter: blur(3px) grayscale(100%);transition: transform .5s ease-in-out;padding: 13px;transform: translateX(250px);
   display:flex; flex-direction:column; gap: 10px; font-size: 0.95em;
                              .user_field{background: var(--transp2);border-radius: 2px;padding: 5px;text-align: center;flex-grow: 1;display: grid;align-content: center;}
