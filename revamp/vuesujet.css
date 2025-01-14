@@ -41,6 +41,7 @@
           .post_details .rep-button .rep-nb{margin-left: 5px;font-family: var(--font1);font-size: 11px;}
           ul.profile-icons li:hover{background: var(--gradient3);}
           ul.profile-icons li:hover a{color: var(--noirnoir);}
+          .profile-icons:has(a[href=""]) {display: none;}
           .user_field .label {color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
           .post_profile .content img{max-width:220px;}
           .systab {overflow: hidden;
