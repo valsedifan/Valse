@@ -89,7 +89,7 @@ ul.profile-icons li {
 }
 
 .post_profile {
-  padding: 20px;
+  padding: 10px;
   grid-row: 1/4;
   grid-column:1/2;
   position:relative;
@@ -149,7 +149,7 @@ a.fa-mention {
 }
 
 .post_message {
-  padding: 25px;
+  padding: 15px;
   padding-left:0;
   position:relative;
   z-index:1;
