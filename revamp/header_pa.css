@@ -96,7 +96,7 @@
               .mdm{display:grid;place-items: center;position:relative;/*height: min-content;*/
       		  .mdm_inner{width: 75%;/*margin-top: 2.3em;margin-left: 0;*/display:flex;gap:1.5em;}
                   .mdm-img{width: 70px;height: 70px;position:relative;border-radius:10px;display: flex;justify-content: center;}
-                  .mdmimg{border-radius: 10px;background-position: center;background-size: cover;aspect-ratio:1/1;filter: grayscale(1);border: 5px solid var(--bw2);outline: 1px solid var(--transp6);outline-offset: 2px;width: 100%;height: 100%;}
+                  .mdmimg{border-radius: 10px;background-position: center;background-size: cover;aspect-ratio:1/1;filter: grayscale(1);border: 5px solid var(--bw2);outline: 1px solid var(--transp6);outline-offset: 2px;width: 100%;height: 100%;display: grid;place-items: center;}
                   #mdm1 .mdmimg:after{content:var(--mdm1-name);}
                   #mdm1 .mdmimg{background-image:var(--mdm1-gif);}
                   #mdm2 .mdmimg:after{content:var(--mdm2-name);}
@@ -104,6 +104,6 @@
                   #mdm3 .mdmimg:after{content:var(--mdm3-name);}
                   #mdm3 .mdmimg{background-image:var(--mdm3-gif);}
     		  .mdm-img:hover .mdmimg:after, .mdm-img:hover:after{opacity:1;}
-      		  .mdmimg:after, .mdm-img:after{content: attr(data-title);opacity:0;transition:opacity 0.5s ease-in-out;position:absolute;top:100%;/* left: 25%; */width:max-content;background:var(--bw2);padding:2px 5px;border-radius:5px;font-weight:700;text-transform:uppercase;margin-top:6px;text-align: left;}}
+      		  .mdmimg:after{opacity:0;transition:opacity 0.5s ease-in-out;position:absolute;top:100%;/* left: 25%; */width:max-content;background:var(--bw2);padding:2px 5px;border-radius:5px;font-weight:700;text-transform:uppercase;margin-top:6px;text-align: left;}}
               .mdm:before{content:'monthly heroes';position:absolute;grid-column:1/4;font-family: var(--titlefont2);font-size: 3.35em;line-height: 100%;text-transform: uppercase;
                           background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;letter-spacing: 1px;font-weight: 600;word-break:break-word;transform: scaleY(1.7);}}
