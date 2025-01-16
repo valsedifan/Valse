@@ -87,7 +87,7 @@
                      #sesame{background-image:var(--sesamegif);)}
                      #unravel{background-image:var(--myrgif);}}
               .progressionbar{display: grid;
-      		.iconminipa{display: flex;gap: 20px;font-size: var(--medium-size);width: fit-content;justify-self:end;border-radius: 50px;border: 1px solid var(--transp3);
+      		.iconminipa{display: flex;gap: 20px;font-size: var(--medium-size);width: fit-content;height:fit-content;justify-self:end;border-radius: 50px;border: 1px solid var(--transp3);
                 padding: 5px 14px 2px 14px;
         		a{background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;}}
                 .jaugetitle {position: relative;font-size: var(--little-size);text-transform: uppercase;font-family: var(--font1);font-weight: 600;margin: 7px 0;}
