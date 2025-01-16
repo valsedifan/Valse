@@ -19,6 +19,7 @@
 
 /* FENETRE MODALES PA */
 #ph_context,#ph_dailynews,.modals{position:absolute}
+#ph_context,#ph_dailynews{z-index:777;}
 .modals{width:100%;height:calc(70vh - 80px);top:40px;left:0;container: header-header / size;
   #ph_dailynews{right:0;top:15%;max-width:30%;
     .modal_content{display:flex;flex-wrap:wrap;width:inherit; gap:10px;margin-bottom:0;}
