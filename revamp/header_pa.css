@@ -67,8 +67,7 @@
               #pa_staff {display:flex; background:var(--bw2); overflow:clip;
                         .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
                         .staff_m:first-of-type{flex:1;display:flex;flex-direction:column;align-items: flex-end;justify-content: flex-end;
-                          			.staff_title{mix-blend-mode:unset;margin-right:0;writing-mode: initial;transform:rotate(0deg);color:var(--textColor);}
-                          			.staff_mc{opacity:1;font-family:var(--stfont);text-transform:uppercase;font-size:0.9em;position:relative;}}
+                          			.staff_title{mix-blend-mode:unset;margin-right:0;writing-mode: initial;transform:rotate(0deg);color:var(--textColor);}}
                         .staff_title{display:flex;flex-wrap:wrap;column-gap:6px; align-items:center;text-orientation: mixed; writing-mode: vertical-rl;transform:rotate(180deg); margin-right:20px; mix-blend-mode:difference; color:white;
                           	h1{text-align:left;color:inherit;margin:0; padding:0;}
                           	span{font: bold 0.9em var(--font);}
@@ -78,13 +77,12 @@
                       .staff_m:hover {flex:1;background-position:center!important;}
                       .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.7;}
                       .staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
-                      .staff_m:first-of-type:has(~ .staff_m:hover) {.staff_title{writing-mode: vertical-rl!important;transform:rotate(-180deg)!important;}
-                        .staff_mc{display:none!important;}}
+                      .staff_m:first-of-type:has(~ .staff_m:hover) .staff_title{writing-mode: vertical-rl!important;transform:rotate(-180deg)!important;}
                       .staff_m:hover .staff_mc{opacity:1!important;}
                      #undi{background-image:var(--undigif);}
                      #hanatsuki{background-image:var(--hanagif);}
                      #kuja{background-image:var(--kujagif);}
-                     #sesame{background-image:var(--sesamegif);)}
+                     #sesame{background-image:var(--sesamegif);}
                      #unravel{background-image:var(--myrgif);}}
               .progressionbar{display: grid;
       		.iconminipa{display: flex;gap: 20px;font-size: var(--medium-size);width: fit-content;height:fit-content;justify-self:end;border-radius: 50px;border: 1px solid var(--transp3);
@@ -108,4 +106,4 @@
     		  .mdm-img:hover .mdmimg:after, .mdm-img:hover:after{opacity:1;}
       		  .mdmimg:after, .mdm-img:after{content: attr(data-title);opacity:0;transition:opacity 0.5s ease-in-out;position:absolute;top:100%;/* left: 25%; */width:max-content;background:var(--bw2);padding:2px 5px;border-radius:5px;font-weight:700;text-transform:uppercase;margin-top:6px;text-align: left;}}
               .mdm:before{content:'monthly heroes';position:absolute;grid-column:1/4;font-family: var(--titlefont2);font-size: 3.35em;line-height: 100%;text-transform: uppercase;
-                          background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;letter-spacing: 1px;font-weight: 600;word-break:break-word;transform: scaleY(1.7);}}}
+                          background-image: var(--gradient3);color: transparent;-webkit-background-clip: text;letter-spacing: 1px;font-weight: 600;word-break:break-word;transform: scaleY(1.7);}}
