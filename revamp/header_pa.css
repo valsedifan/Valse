@@ -64,7 +64,7 @@
   			   .updates::-webkit-scrollbar-track {background:var(--bw4);}
   			   .updates::-webkit-scrollbar-thumb {background:var(--transp3)!important;}}
                 
-              #pa_staff {display:flex; height:145px; width:170px; background:var(--bw2);
+              #pa_staff {display:flex; background:var(--bw2); overflow:clip;
                         .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
                         .staff_m:first-of-type{flex:1;display:flex;flex-direction:column;align-items: flex-end;justify-content: flex-end;
                           			.staff_title{mix-blend-mode:unset;margin-right:0;writing-mode: initial;transform:rotate(0deg);color:var(--textColor);}
