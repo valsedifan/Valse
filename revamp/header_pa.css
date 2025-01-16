@@ -67,7 +67,7 @@
                 
               #pa_staff {display:flex; background:var(--transp5); border:1px solid var(--transp8); border-radius:10px; overflow:clip;
                         .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
-                        .staff_m:first-of-type{flex:1;
+                        .staff_m:first-of-type{flex:1;justify-content: end;
                                               .staff_title{margin-right: 0!important;}}
                         .staff_title{display:flex;flex-wrap:wrap;column-gap:6px; align-items:center;text-orientation: mixed; writing-mode: vertical-rl;transform:rotate(180deg); margin-right:20px; mix-blend-mode:difference; color:white;
                           	h1{text-align:left;color:inherit;margin:0; padding:0;}
@@ -78,7 +78,6 @@
                       .staff_m:hover {flex:1;background-position:center!important;}
                       .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.7;}
                       .staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
-                      .staff_m:first-of-type:has(~ .staff_m:hover) .staff_title{writing-mode: vertical-rl!important;transform:rotate(-180deg)!important;}
                       .staff_m:hover .staff_mc{opacity:1!important;}
                      #undi{background-image:var(--undigif);}
                      #hanatsuki{background-image:var(--hanagif);}
