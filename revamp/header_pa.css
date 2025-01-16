@@ -66,6 +66,7 @@
   			   .updates::-webkit-scrollbar-thumb {background:var(--transp3)!important;}}
                 
               #pa_staff {display:flex; backdrop-filter: blur(3px); border:1px solid var(--transp8); border-radius:10px; overflow:clip;
+                        .staff_m:not(:first-of-type){opacity: 0.8;}
                         .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
                         .staff_m:first-of-type{flex:1;justify-content: end;
                                               .staff_title{margin-right: 0!important;color: var(--textColor);}}
@@ -73,10 +74,10 @@
                           	h1{text-align:left;color:inherit;margin:0; padding:0;}
                           	span{font: bold 0.9em var(--font);}
                           	t1{font-size: 0.7em;}
-                          	font{flex-basis: 100%;font-size: 0.8em; text-transform:uppercase;}}}
+                          	font{flex-basis: 100%;font-size: 0.8em; text-transform:uppercase;}}
                       .staff_m:not(:first-of-type):before{content:'';position:absolute; top:0;left:0;width:100%;height:100%;background:linear-gradient(black, white);mix-blend-mode:color;}
-                      .staff_m:hover {flex:1;background-position:center!important;}
-                      .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.7;}
+                      .staff_m:hover {opacity:1!important;flex:1;background-position:center!important;}
+                      .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.6;}
                       .staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
                       .staff_m:hover .staff_mc{opacity:1!important;}
                      #undi{background-image:var(--undigif);}
