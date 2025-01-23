@@ -47,6 +47,10 @@
   i{background-image:var(--gradient3);color:transparent;-webkit-background-clip:text}
   i.bi-eye-fill{display:none}}
 
+/* LIGHT THEME AJUSTEMENT */
+[data-color-scheme="light"] .staff_m:not(:first-of-type){opacity:0.7;}
+/* FIN LIGHT THEME AJUSTEMENT */
+
 #page-acceuil {height: 30dvh;position:relative;background: linear-gradient(to bottom, var(--transp2), transparent);
               .pa_content{display:grid;grid-template-columns: 2fr 2fr 1.5fr 360px; gap:2%;max-height:100%;padding:24px 50px;box-sizing: inherit;
                           .top_upd{display:grid;align-items:center;gap:20px;
