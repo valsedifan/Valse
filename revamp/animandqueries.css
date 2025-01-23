@@ -55,12 +55,13 @@
 /* si l'écran fait + de 1100px de largeur */
 @media only screen and (min-width: 1100px) {
   .updates .article_inner{grid-template: auto / auto auto!important; i.cp{display:block!important;} .bodyAnim{display:none!important;font-size: 3.5em;} .mdm:before{font-size: 3.5em!important;}}
-  .staff_m{flex:1;}
-  .staff_m:first-of-type{flex:100%;}
-  .staff_m:not(:first-of-type) .staff_title{align-items:end; span, t1{display:block!important;} span{}}}
+  .staff_m:hover{background-position:center;}
+  .staff_m:first-of-type{width:;span{writing-mode:vertical-lr!important;transform:rotate(-180deg)!important;}}
+  .staff_m:not(:first-of-type) {flex:1; .staff_title{align-content: flex-end;; span, t1{display:block!important;}}}}
 /* si l'écran fait + de 1800px de largeur */
 @media only screen and (min-width: 1800px) {
-  .staff_m{min-width:13%;}
+  .staff_m{font{display:block!important;order:-1;}}
+  .staff_m .staff_title{writing-mode:vertical-lr!important;transform:rotate(-180deg)!important;}
   .update_name{display:inline!important;}
   .iconminipa{font-size: var(--large-size)!important;}}
 /* si la div .modals fait - de 600px d'hauteur */
