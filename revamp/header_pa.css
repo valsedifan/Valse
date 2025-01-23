@@ -91,7 +91,7 @@
                          .staff_m:hover {/* width:100%; */}
                          .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white);mix-blend-mode: color;}
                          .staff_title {display: inline-flex;flex-wrap: wrap;/*column-gap: 6px;*/align-items: center;/*text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);*/ margin-right: 0;mix-blend-mode: difference;color: white;
-                                        h1 {text-align: left; color: inherit; margin: 0; padding: 0;line-height:100%;}
+                                        h1 {text-align: left; color: var(--textColorInvert); margin: 0; padding: 0;line-height:100%;}
                                        span {font: bold 0.9em var(--font);display:none;}
                                        t1 {font-size: 0.7em; display:none;}
                                        font {flex: 100%;font-size: 0.8em;text-transform: uppercase;display:none;}}
