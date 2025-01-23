@@ -65,4 +65,4 @@
   .update_name{display:inline!important;}
   .iconminipa{font-size: var(--large-size)!important;}}
 /* si la div .modals fait - de 600px d'hauteur */
-@container header-header (max-height:600px){#ph_context .modal_content{max-height:10em!important;} #ph_dailynews .modal_content{max-height:15em;}}
+@container header-header (max-height:600px){#ph_context .modal_content{max-height:10em!important;} #ph_dailynews .modal_content{max-height:15em!important;}}
