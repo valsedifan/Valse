@@ -80,11 +80,13 @@
                       .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.6;}
                       .staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
                       .staff_m:hover .staff_mc{opacity:1!important;}
-                     #undi{background-image:var(--undigif);}
-                     #hanatsuki{background-image:var(--hanagif);}
-                     #kuja{background-image:var(--kujagif);}
-                     #sesame{background-image:var(--sesamegif);}
-                     #unravel{background-image:var(--myrgif);}}
+                     .staff_m#undi{background-image:var(--undigif);}
+                     .staff_m#hanatsuki{background-image:var(--hanagif);}
+                     .staff_m#kuja{background-image:var(--kujagif);}
+                     .staff_m#sesame{background-image:var(--sesamegif);}
+                     .staff_m#lalka{background-image:var(--lalkagif);}
+                     .staff_m#marion{background-image:var(--mariongif);}
+                     .staff_m#unravel{background-image:var(--myrgif);}}
               .progressionbar{display: grid;
       		.iconminipa{display: flex;gap: 20px;font-size: var(--medium-size);width: fit-content;height:fit-content;justify-self:end;border-radius: 50px;border: 1px solid var(--transp3);
                 padding: 5px 14px 2px 14px;
