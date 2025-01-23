@@ -69,28 +69,12 @@
   			   .updates::-webkit-scrollbar-track {background:var(--bw4);}
   			   .updates::-webkit-scrollbar-thumb {background:var(--transp3)!important;}}
                 
-              /*#pa_staff {display:flex; backdrop-filter: blur(3px); border:1px solid var(--transp8); border-radius:10px; overflow:clip;
-                        .staff_m:not(:first-of-type){opacity: 0.8;}
-                        .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
-                        .staff_m:first-of-type{flex:1;justify-content: end;
-                                              .staff_title{margin-right: 0!important;color: var(--textColor);}}
-                        .staff_title{display:flex;flex-wrap:wrap;column-gap:6px; align-items:center;text-orientation: mixed; writing-mode: vertical-rl;transform:rotate(180deg); margin-right:20px; mix-blend-mode:difference; color:white;
-                          	h1{text-align:left;color:inherit;margin:0; padding:0;}
-                          	span{font: bold 0.9em var(--font);}
-                          	t1{font-size: 0.7em;}
-                          	font{flex-basis: 100%;font-size: 0.8em; text-transform:uppercase;}}
-                      .staff_m:not(:first-of-type):before{content:'';position:absolute; top:0;left:0;width:100%;height:100%;background:linear-gradient(black, white);mix-blend-mode:color;}
-                      .staff_m:hover {opacity:1!important;flex:1;background-position:center!important;}
-                      .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.6;}
-                      .staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
-                      .staff_m:hover .staff_mc{opacity:1!important;} */
-
-              #pa_staff {display:grid!important;grid-template:repeat(2, 1fr) / repeat(13,1fr);backdrop-filter: blur(3px); border: 1px solid var(--transp8); border-radius: 10px; overflow: clip;
+                #pa_staff {display:grid!important;grid-template:repeat(2, 80px) / repeat(13,1fr);backdrop-filter: blur(3px); border: 1px solid var(--transp8); border-radius: 10px; overflow: clip;
                          .staff_m{display:flex;background-size:cover;background-repeat: no-repeat;position: relative;transition: all .4s ease-in-out;padding: 10px;}
-                         .staff_m:first-of-type{width:fit-content;grid-row:1/3; .staff_title{writing-mode:horizontal-tb;transform:rotate(0deg);}}
+                         .staff_m:first-of-type{width:fit-content;grid-row:1/3; .staff_title{text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);}}
                          .staff_m:hover {/* width:100%; */}
                          .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white);mix-blend-mode: color;}
-                         .staff_title {display: inline-flex;flex-wrap: wrap;/*column-gap: 6px;*/align-items: center;text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg); margin-right: 0;mix-blend-mode: difference;color: white;
+                         .staff_title {display: inline-flex;flex-wrap: wrap;/*column-gap: 6px;*/align-items: center; margin-right: 0;mix-blend-mode: difference;color: white;
                                         h1 {text-align: left; color: var(--textColorInvert); margin: 0; padding: 0;line-height:100%;}
                                        span {font: bold 0.9em var(--font);display:none;}
                                        t1 {font-size: 0.7em; display:none;}
