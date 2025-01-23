@@ -50,6 +50,8 @@
 /* LIGHT THEME AJUSTEMENT */
 [data-color-scheme="light"] .staff_m:not(:first-of-type){opacity:0.7;}
 /* FIN LIGHT THEME AJUSTEMENT */
+.topsites a:nth-of-type(odd) i{color:var(--couleur2);}
+.topsites a:nth-of-type(even) i{color:var(--couleur1);}
 
 #page-acceuil {height: 30dvh;position:relative;background: linear-gradient(to bottom, var(--transp2), transparent);
               .pa_content{display:grid;grid-template-columns: 2fr 2fr 1.5fr 360px; gap:2%;max-height:100%;padding:24px 50px;box-sizing: inherit;
@@ -62,9 +64,7 @@
                                              a {font-size:var(--normal-size);text-transform:uppercase;}
          				     .update_name{display:none;}}}
                             .topsites{display:flex;justify-content: space-around;
-                                      a{font-size: var(--large-size);}
-                                      a:nth-of-type(odd) i{color:var(--couleur2);}
-                                      a:nth-of-type(even) i{color:var(--couleur1);}}
+                                      a{font-size: var(--large-size);}}
       			   .updates::-webkit-scrollbar {width: 2px;border-radius:5px;}
   			   .updates::-webkit-scrollbar-track {background:var(--bw4);}
   			   .updates::-webkit-scrollbar-thumb {background:var(--transp3)!important;}}
