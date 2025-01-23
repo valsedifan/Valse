@@ -71,7 +71,7 @@
                 
                 #pa_staff {display:grid!important;grid-template:repeat(2, 80px) / repeat(13,1fr);backdrop-filter: blur(3px); border: 1px solid var(--transp8); border-radius: 10px; overflow: clip;
                          .staff_m{display:flex;background-size:cover;background-repeat: no-repeat;position: relative;transition: all .4s ease-in-out;padding: 10px;}
-                         .staff_m:first-of-type{width:fit-content;grid-row:1/3; .staff_title{text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);}}
+                         .staff_m:first-of-type{width:fit-content;grid-row:1/3;justify-self: center; .staff_title{text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);}}
                          .staff_m:hover {/* width:100%; */}
                          .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white);mix-blend-mode: color;}
                          .staff_title {display: inline-flex;flex-wrap: wrap;/*column-gap: 6px;*/align-items: center; margin-right: 0;mix-blend-mode: difference;color: white;
