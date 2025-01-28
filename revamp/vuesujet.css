@@ -165,7 +165,6 @@ a.fa-mention {
 
 .post_message {
   padding: 15px;
-  padding-left:0;
   position:relative;
   z-index:1;
 }
