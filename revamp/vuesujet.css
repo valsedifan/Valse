@@ -239,7 +239,6 @@ a.fa-mention {
 
 /*** TCG ***/
 form[name=tcg] {display:grid;justify-items: center;}
-form[name=tcg] div {display:flex; gap: 15px;
-                     input{width:50px;color:var(--textColor);}}
-.tcg-draws{display:flex;flex-wrap:wrap; gap:5px; img{width:200px;}}
-.collection-title{font:600 1em var(--font); text-transform:uppercase;border-bottom:1px solid; padding-bottom:10px; margin-bottom:10px;flex:100%;}
+form[name=tcg] input{width:50px;color:var(--textColor);}
+.tcg-draws img{width:228px;}
+.collection-title{font:600 1em var(--font); text-transform:uppercase; padding-bottom:10px; margin-bottom:10px;flex:100%;}
