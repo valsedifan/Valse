@@ -156,7 +156,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
    a.forumtitle{grid-row:none; margin-left:var(--padfo);z-index:2}
    .forum_desc {grid-column:1/2;padding:20px;padding-right:0;}
    .forum_stats {margin-left:var(--padfo); margin-bottom:var(--padfo);}
-   .forum_lastpost{position:relative;grid-column: 2 / 3;grid-row: 2 / 3;display:grid;grid-template-rows:1fr 1fr;gap: 0;width: calc(100% - var(--padfo));margin-top: 0;border: 1px solid var(--transp3);margin: 20px;margin-left: 0;
+   .forum_lastpost{position:relative;grid-column: 2 / 3;grid-row: 2 / 3;display:grid;grid-template-rows:1fr 1fr;gap: 0;width: calc(100% - var(--padfo));margin-top: 0;border: 1px solid var(--transp3);margin: 20px;margin-left: 0;background: var(--transp9);
      .lastpostonglet{display:flex;gap: 5px;z-index: 2;justify-content: flex-end;position: absolute; top:-7px; right:-8px;background: var(--bw2);border: 1px solid var(--transp3);border-radius: 50px;padding: 4px 8px;
        i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;font-size: 9px;}}
        span{width: 180px;text-align:center;grid-row: 2/3;}
