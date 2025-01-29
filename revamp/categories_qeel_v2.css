@@ -13,7 +13,7 @@
 .forum {--padfo:20px;position:relative;padding:var(--padfo);padding-top:0px;margin-bottom: 10px;background: var(--transp9);backdrop-filter: blur(2px);border: 5px solid var(--bw2);display: grid;grid-template: auto / 1fr 200px;gap: 0 20px;align-items: center;}
 .forum:last-child {margin-bottom: 0;}
 
-.cat_new:after, .forum_new:after {position: absolute;bottom: 8px;right: -54px;
+.cat_new:after, .forum_new:after {position: absolute;top:15px;right: -54px;
     background: var(--gradient3), var(--newMsg);background-size: cover;background-blend-mode: multiply;
     -webkit-mask-image: url(https://unravelgraph.github.io/myFiles/comic-speech-bubble.svg);-webkit-mask-size: contain;
     width: 75px;height: 75px;display: grid;place-items: center;
