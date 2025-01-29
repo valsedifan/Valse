@@ -41,7 +41,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
   br{display:none;}
   .desription1 br{display:block;}}
 .description1 {overflow: auto;border-radius: 2px;background: var(--transp9);padding: 16px;text-align: justify;border: 1px solid var(--transp3);height: 120px;grid-row: 2/3;}
-.imggradient {height: 100%;width: 100px;grid-row: 1/3;border: 5px solid var(--bw2);border-radius: 2px;outline: 1px solid var(--bw4);display: grid;place-items: center;position: relative;overflow: hidden;opacity: .8;}
+.imggradient {height: 100%;width: 100px;grid-row: 1/3;border: 2px solid var(--bw2);border-radius: 2px;outline: 1px solid var(--bw4);display: grid;place-items: center;position: relative;overflow: hidden;opacity: .8;}
 .imggradient img {width: 100%;height: 100%;object-fit: cover;filter: grayscale(1) brightness(1.1);border-radius: 0;position: relative;}
 .imggradient:after {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;background: var(--gradientcate);mix-blend-mode: darken;transition: opacity 800ms;}
 .forum_stats {font-weight: 600;font-size: var(--little-size);display: grid;justify-items: end;gap: 4px;width: 74px;z-index: 2;position: absolute;left: 17px;bottom: 10px;/*bottom: 10px; left: 17px;*/
