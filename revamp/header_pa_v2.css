@@ -82,6 +82,7 @@
                           flex-wrap: wrap;
                           /*column-gap: 6px;*/
                           align-items: center;
+                          align-content: end;
                           margin-right: 0;
                           mix-blend-mode: difference;
                           color: white;
