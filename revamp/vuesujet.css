@@ -12,7 +12,7 @@
                                 .field-alias{font-family:var(--stfont);text-transform:uppercase;}
                                 .user_field.field-rank:before {content: "\00B7";margin-right: 5px;}}
           .profile_class_alias .user_field:not(.field-alias, .field-rank),.profile_class_alias .field_label {display:none;}
-          .topbar2{display:grid;grid-template-columns: 1fr auto;align-items:center;grid-column: 2/3;position: relative;top: 10px;padding-right:17px;
+          .topbar2{height:50px;display:grid;grid-template-columns: 1fr auto;align-items:center;grid-column: 2/3;position: relative;top: 10px;padding-right:17px;
                    .user_field:not(.field-pouvoir, .field-mods) {display: none;}
                    .field-mods{order: 1;
                                .field_label{display:none;}
