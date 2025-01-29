@@ -14,7 +14,7 @@
 .forum {--padfo:20px;position:relative;z-index:1;padding:var(--padfo);padding-top:0px;margin-bottom: 10px;background: var(--transp5);backdrop-filter: blur(2px);border: 2px solid var(--bw2);display: grid;grid-template: auto / 1fr 200px;gap: 0 20px;align-items: center;}
 .forum:last-child {margin-bottom: 0;}
 
-.cat_new:after, .forum_new:after {position: absolute;top:15px;right: -54px;
+.cat_new:after, .forum_new:after {position: absolute;bottom: 15px;right: -50px;
     background: var(--gradient3), var(--newMsg);background-size: cover;background-blend-mode: multiply;
     -webkit-mask-image: url(https://unravelgraph.github.io/myFiles/comic-speech-bubble.svg);-webkit-mask-size: contain;
     width: 75px;height: 75px;display: grid;place-items: center;
@@ -84,7 +84,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 }
 
 #c2_title h2 {text-align:left;}
-#c2:before {content: '';width: 100%;height: 130%;display: block;
+#c2:before {content: '';width: 65%;height: 130%;display: block;
   background: url('https://images2.imgbox.com/f6/37/YP7i5sfC_o.png') no-repeat bottom right / contain;
   position: absolute;bottom: 0;right: 0;opacity: .8;}
 
@@ -137,6 +137,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
     a.forumtitle{left: 0;top: 0;}
     .rowonglet {display:flex;z-index: 2;justify-content: flex-end;position: relative;grid-column: 2/3;right: -13px;}
     .forum_lastpost{grid-column: 1/3;}
+    .cat_new:after, .forum_new:after{right:intial;left:-20px;bottom:0}
 }
 /*
 #c3 .forums, #c8 .forums {display:grid; grid-template: auto / 1fr 1fr 1fr; gap: 20px;}
