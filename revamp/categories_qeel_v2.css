@@ -188,9 +188,8 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 
 /*** ------------------------------- ***/
 /*** QUI EST EN LIGNE -------------- ***/
-.qeel {position:relative;background: var(--transp9);padding:20px;border-radius:5px;backdrop-filter:blur(2px);display: grid;grid-template-columns: auto auto 1fr;gap: 10px 20px;margin-bottom: 10px;}
-.qeel:before{content:'';position:absolute;top:0;left:0;width:calc(100% - 2px);height:calc(100% - 2px);border-radius: 5px; border: 2px solid transparent;opacity:.3;z-index:-1;
-  background: var(--gradient3) border-box; mask:linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);mask-composite: exclude;}
+.qeel {position:relative;background: var(--transp9);padding:20px;border-radius:2px;backdrop-filter:blur(2px);display: grid;grid-template-columns: auto auto 1fr;gap: 10px 20px;margin-bottom: 10px;outline: 2px solid var(--bw2);}
+.qeel:before{content: ''; position: absolute; top: -4px; left: -4px; width: 100%; height: 100%; border-radius: 5px; border: 4px solid transparent; opacity: .5; z-index: -1; background: var(--gradient3) border-box; mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0); mask-composite: exclude;}
 .qeel h1{grid-column:1/4;text-align: left;font-size: 40px;-webkit-text-stroke-color: var(--bw4);-webkit-text-stroke-width: 0.5px;letter-spacing: 1.5px;margin:0;}
 .qeel h2{font-family:var(--titlefont2);text-transform:uppercase;display: flex;gap: 8px;align-items: center;color: var(--textColorInvert);}
 
