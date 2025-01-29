@@ -74,11 +74,39 @@
                          .staff_m:first-of-type{width:fit-content;grid-row:1/3;justify-self: center; .staff_title{text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);}}
                          .staff_m:hover {/* width:100%; */}
                          .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white);mix-blend-mode: color;}
-                         .staff_title {display: inline-flex;flex-wrap: wrap;/*column-gap: 6px;*/align-items: center; margin-right: 0;mix-blend-mode: difference;color: white;
-                                        h1 {text-align: left; color: var(--textColorInvert); margin: 0; padding: 0;line-height:100%;}
-                                       span {font: bold 0.9em var(--font);display:none;}
-                                       t1 {font-size: 0.7em; display:none;}
-                                       font {flex: 100%;font-size: 0.8em;text-transform: uppercase;display:none;}}
+                         .staff_m:not(:first-of-type) .staff_title{display:none;}
+                        .staff_m:not(:first-of-type):hover .staff_title{display:inline-flex;position:absolute;left:0;top:0;width:100%;height:100%;z-index:10;background:var(--transp8);padding:10px;mix-blend-mode:initial;align-content: center;}
+                           
+                        .staff_title {
+                          display: inline-flex;
+                          flex-wrap: wrap;
+                          /*column-gap: 6px;*/
+                          align-items: center;
+                          margin-right: 0;
+                          mix-blend-mode: difference;
+                          color: white;
+                          h1 {
+                              text-align: left;
+                              color: var(--textColorInvert);
+                              margin: 0;
+                              padding: 0;
+                              line-height: 100%;
+                          }
+          
+                          span {
+                              font: bold 0.9em var(--font);
+                          }
+          
+                          t1 {
+                              font-size: 0.7em;
+                          }
+          
+                          font {
+                              flex: 100%;
+                              font-size: 0.8em;
+                              text-transform: uppercase;
+                          }
+                      }
                      .staff_m#undi{background-image:var(--undigif);grid-column:2/5;}
                      .staff_m#kuja{background-image:var(--kujagif);grid-column:5/8;}
                      .staff_m#sesame{background-image:var(--sesamegif);grid-column:8/11;}
