@@ -56,7 +56,7 @@
 #page-acceuil {height: 30dvh;position:relative;background: linear-gradient(to bottom, var(--transp2), transparent);
               .pa_content{display:grid;grid-template-columns: 2fr 2fr 1.5fr 360px; gap:2%;max-height:100%;padding:24px 50px;box-sizing: inherit;
                           .top_upd{display:grid;align-items:center;gap:20px;
-                            .updates{display:flex;flex-direction:column;gap:50%;border-radius:5px;outline:1px solid var(--transp6);height:80px;overflow:auto;scroll-snap-type: y mandatory;
+                            .updates{background: var(--transp9);display:flex;flex-direction:column;gap:50%;border-radius:5px;outline:1px solid var(--transp6);height:80px;overflow:auto;scroll-snap-type: y mandatory;
        				     article{display:grid;place-items:center;justify-content:start;}
                                      .article_inner{height: 80px;display:grid;column-gap:20px; align-items:center; align-content: center;margin-left:20px;scroll-snap-align: center;
                                              i.cp{display:none;grid-row:1/3; background:var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;font-size:25px;}
