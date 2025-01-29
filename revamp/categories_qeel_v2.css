@@ -150,9 +150,9 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 
 /* sur BL : #f47, #c8, #c4, #c5, #c6 */
 #c4_title, #c5_title, #c6_title, #c7_title{h2{text-align:left;}}
-#c4, #c5, #c6, #c7 {border-radius: 2px;backdrop-filter: blur(2px);background:var(--transp9);outline: 2px solid var(--bw2);
+#c4, #c5, #c6, #c7 {border-radius: 2px;backdrop-filter: blur(2px);background:var(--transp5);outline: 2px solid var(--bw2);
   .forums {padding: 20px;display: grid;gap: 20px;}
-  .forum{padding:0;border:none;background: transparent;}
+  .forum{padding:0;border:none;background: var(--transp10);}
    .mainforumcon{padding:0; border-left:2px solid;border-image:linear-gradient(to bottom, var(--gradient)) 1;outline: 2px solid var(--bw2);}
    a.forumtitle{grid-row:none; margin-left:var(--padfo);z-index:2}
    .forum_desc {grid-column:1/2;padding:20px;padding-right:0;}
