@@ -55,6 +55,6 @@
 @media only screen and (min-width: 1800px) {
   .update_name{display:inline!important;}
   .iconminipa{font-size: var(--large-size)!important;}
-  .staff_m:not(:first-of-type) .staff_title{display:inline-flex!important;background:transparent!important;mix-blend-mode:exclusion!important;align-content:end;}}
+  .staff_m:not(:first-of-type) .staff_title{display:inline-flex!important;background:transparent!important;mix-blend-mode:exclusion!important;}}
 /* si la div .modals fait - de 600px d'hauteur */
 @container header-header (max-height:600px){#ph_context .modal_content{max-height:10em!important;} #ph_dailynews .modal_content{max-height:15em!important;}}
