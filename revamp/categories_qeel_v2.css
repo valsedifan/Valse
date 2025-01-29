@@ -84,7 +84,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 }
 
 #c2_title h2 {text-align:left;}
-#c2:before {content: '';width: 65%;height: 130%;display: block;
+#c2:before {content: '';width: 100%;height: 115%;display: block;
   background: url('https://images2.imgbox.com/f6/37/YP7i5sfC_o.png') no-repeat bottom right / contain;
   position: absolute;bottom: 0;right: 0;opacity: .8;}
 
