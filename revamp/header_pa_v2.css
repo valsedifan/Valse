@@ -24,7 +24,7 @@
   #ph_dailynews{right:0;top:15%;max-width:30%;
     .modal_content{display:flex;flex-wrap:wrap;width:inherit; gap:10px;margin-bottom:0;}
       article {flex-grow:1;position:relative;height:130px; min-width:25%;display:grid;align-items:end;justify-items:start;justify-content: start;
-      img{object-fit:cover;width:100%;height:100%;position:absolute;z-index:-1; filter:grayscale(1);}
+      img{object-fit:cover;width:100%;height:100%;position:absolute;z-index:-1; filter:grayscale(1);opacity: .9;}
       .infos{display:grid;background:var(--transp2);backdrop-filter:blur(2px);border-top-right-radius: 5px; padding: 10px;
           .tag{background:var(--gradient3);width:fit-content;margin-bottom:3px; padding:2px 5px;color:var(--bw2);font:bold 10px var(--font);text-transform:uppercase;}
           .title{font: bold var(--normal-size) var(--font1);text-transform:uppercase;color:var(--textColorAccent);}
