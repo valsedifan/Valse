@@ -47,9 +47,6 @@
   i{background-image:var(--gradient3);color:transparent;-webkit-background-clip:text}
   i.bi-eye-fill{display:none}}
 
-/* LIGHT THEME AJUSTEMENT */
-[data-color-scheme="light"] .staff_m:not(:first-of-type){opacity:0.8;}
-/* FIN LIGHT THEME AJUSTEMENT */
 .topsites a:nth-of-type(odd) i{color:var(--couleur2);}
 .topsites a:nth-of-type(even) i{color:var(--couleur1);}
 
@@ -72,6 +69,7 @@
                 #pa_staff {display:grid!important;grid-template:repeat(2, 80px) / repeat(13,1fr);backdrop-filter: blur(3px); border: 1px solid var(--transp8); border-radius: 10px; overflow: clip;
                          .staff_m{display:flex;background-size:cover;background-repeat: no-repeat;background-position: center;position: relative;transition: all .4s ease-in-out;padding: 10px;}
                          .staff_m:first-of-type{width:fit-content;grid-row:1/3;justify-self: center; .staff_title{text-orientation: mixed; writing-mode: vertical-rl;transform: rotate(180deg);}}
+                         .staff_m:not(:first-of-type){opacity:0.8;}
                          .staff_m:hover {/* width:100%; */}
                          .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white);mix-blend-mode: color;}
                          .staff_m:not(:first-of-type) .staff_title{display:none;}
