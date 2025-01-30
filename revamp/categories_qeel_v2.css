@@ -33,7 +33,8 @@ a.forumtitle {
   font-size: 1.1em;
   font-family: var(--titlefont2);
   text-transform:uppercase;
-        color: var(--textColorInvert);
+  color: var(--textColorInvert);
+  z-index: 1;
   }
 a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccicons';
     -webkit-background-clip: text; margin-right: 8px; color: transparent; background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;}
