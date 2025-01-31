@@ -1,9 +1,5 @@
-.modelepresa {
-    max-width: 695px;
-    margin: 10px auto;
-    display: grid;
-    gap: 10px;
-}
+.modelepresa {max-width: 695px;margin: 10px auto;display: grid;gap: 10px;position:relative;z-index:0;padding:0 40px;}
+.modelepresa:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
 
 .modelepresa.hero {
     .presasearch:after {
@@ -89,7 +85,7 @@
     position: absolute;
     top: -32px;
     left: 50px;
-    width: calc(100% - 100px);
+    width: calc(100% - 75px);
     height: calc(100% + 60px);
     background: var(--transp9);
     border: 1px solid var(--bw2);
@@ -103,7 +99,7 @@
 #slide1:checked ~ .presa_infos ul {top: 0%;} 
 #slide2:checked ~ .presa_infos ul {top: -100%;}
 input[name="presacarousel"]{display:none;}
-label.presa{position:absolute;right:20px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
+label.presa{position:absolute;right:-10px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
 label.presa[for="slide2"]{top:calc(50% + 5px);}
 
 .presa_img {
