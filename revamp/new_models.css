@@ -55,7 +55,10 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     span{background:var(--gradient3);width:inherit;display:block;border-radius:50px;opacity:0.9;}}
 .presa_bloc_libre{background:var(--transp9);padding:30px;padding-right:0;height:200px;position:relative;
     .bloc_libre_inner{padding-right:30px;height:inherit;overflow:auto;}}
-.presa_groupe{position:Absolute; top:-10px; right:30px;background:var(--couleur1);display:grid;place-items:center;border-radius:5px;padding:2px 6px;color:var(--bw2);font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;}
+.presa_rank_groupe{position:absolute; top:-10px; right:30px;display:flex;gap:15px;color:var(--bw2);font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;}
+.presa_rank, .presa_groupe{display:grid;place-items:center;border-radius:5px;padding:2px 6px;}
+.presa_rank{background:var(--couleur1);}
+.presa_groupe{background:var(--couleur2);}
 
 .presa_player{background:var(--transp9);width:calc(100% - 100px);position:relative;left:50px;padding:30px;padding-top:0;border-radius: 5px 5px 0 0;}
 .presa_aes{display:flex;align-items: center;justify-content: center;gap:10px;position:relative;top:-25px;
