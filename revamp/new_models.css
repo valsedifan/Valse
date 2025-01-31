@@ -1,5 +1,9 @@
-.modelepresa {max-width: 695px;margin: 10px auto;display: grid;gap: 10px;position:relative;z-index:0;padding:0 40px;}
-.modelepresa:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
+.modelepresa {
+    max-width: 695px;
+    margin: 10px auto;
+    display: grid;
+    gap: 10px;
+}
 
 .modelepresa.hero {
     .presasearch:after {
@@ -85,7 +89,7 @@
     position: absolute;
     top: -32px;
     left: 50px;
-    width: calc(100% - 75px);
+    width: calc(100% - 100px);
     height: calc(100% + 60px);
     background: var(--transp9);
     border: 1px solid var(--bw2);
@@ -93,19 +97,21 @@
 }
 
 .presa_infos {overflow-y: clip;position: relative;height:150px;
-    ul {display: flex;flex-direction:column;height:200%;width:100%;position:absolute;}
-    li {display: flex;gap: 20px;height:calc(100% / 2);}
+    ul {display: flex;flex-direction:column;height:200%;width:100%;position:absolute;align-items: center;}
+    li {height:calc(100% / 2);}
+    li:first-of-type{width:100%;display: grid; grid-template-columns: 150px 1fr;gap: 20px;}
+    li:last-of-type{width:calc(100% - 100px);padding:0 30px;}
 }
 #slide1:checked ~ .presa_infos ul {top: 0%;} 
 #slide2:checked ~ .presa_infos ul {top: -100%;}
 input[name="presacarousel"]{display:none;}
-label.presa{position:absolute;right:-10px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
+label.presa{position:absolute;right:20px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
 label.presa[for="slide2"]{top:calc(50% + 5px);}
 
 .presa_img {
     position: relative;
     aspect-ratio: 1/1;
-    width: 150px;
+    width: 100%;
     .presa_imgimg{width:inherit;height:100%;overflow:clip;border-radius:5px;}
     img {
         width: 100%;
@@ -127,3 +133,6 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
         font: bold 1em var(--font);
     }
 }
+.presa_champs{width:calc(100% - 50px);height:100%;overflow:auto;
+    .presaname{font:2em var(--titlefont2);}
+              i.cp{font-size:0.7em;}}
