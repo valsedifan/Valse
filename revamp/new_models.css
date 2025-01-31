@@ -96,18 +96,15 @@
     border-radius: 5px;
 }
 
-.presa_infos {
-    overflow-y: clip;
-    position: relative;
-    ul {
-        display: flex;
-    }
-
-    li {
-        display: flex;
-        gap: 20px;
-    }
+.presa_infos {overflow-y: clip;position: relative;height:150px;
+    ul {display: flex;flex-direction:column;height:200%;width:100%;position:absolute;}
+    li {display: flex;gap: 20px;height:calc(100% / 2);}
 }
+#slide1:checked ~ .presa_infos ul {top: 0%;} 
+#slide2:checked ~ .presa_infos ul {top: -100%;}
+input[name="presacarousel"]{display:none;}
+label.presa{position:absolute;right:20px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
+label.presa[for="slide2"]{top:calc(50% + 5px);}
 
 .presa_img {
     position: relative;
