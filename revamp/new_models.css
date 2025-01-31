@@ -89,3 +89,8 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 
 /* ANNEXES */
 .annexes{.ecdsjt{column-count:2;column-gap:20px;}}
+
+.groupes{display:grid;grid-template: 1fr 1fr / 1fr 1fr;gap:20px;
+    br{display:none;}
+    * br{display:block;}
+    .ecdsjt{height:100%;}}
