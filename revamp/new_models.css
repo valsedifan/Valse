@@ -85,7 +85,7 @@
     position: absolute;
     top: -32px;
     left: 50px;
-    width: calc(100% - 100px);
+    width: calc(100% - 75px);
     height: calc(100% + 60px);
     background: var(--transp9);
     border: 1px solid var(--bw2);
@@ -96,12 +96,12 @@
     ul {display: flex;flex-direction:column;height:200%;width:100%;position:absolute;align-items: center;}
     li {height:calc(100% / 2);}
     li:first-of-type{width:100%;display: grid; grid-template-columns: 150px 1fr;gap: 20px;}
-    li:last-of-type{width:calc(100% - 100px);padding:0 30px;}
+    li:last-of-type{width:calc(100% - 100px);padding-left:30px;}
 }
 #slide1:checked ~ .presa_infos ul {top: 0%;} 
 #slide2:checked ~ .presa_infos ul {top: -100%;}
 input[name="presacarousel"]{display:none;}
-label.presa{position:absolute;right:20px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);z-index:2;}
+label.presa{position:absolute;right:-10px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);font-weight:bold;z-index:2;cursor:pointer;}
 label.presa[for="slide2"]{top:calc(50% + 5px);}
 
 .presa_img {
@@ -129,6 +129,8 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
         font: bold 1em var(--font);
     }
 }
-.presa_champs{width:calc(100% - 50px);height:100%;overflow:auto;
+.presa_champs{width:calc(100% - 25px);height:100%;overflow:auto;
     .presaname{font:2em var(--titlefont2);}
               i.cp{font-size:0.7em;}}
+
+li:last-of-type .presa_champs{width:calc(100% + 25px);padding-right:30px;}
