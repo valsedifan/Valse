@@ -1,10 +1,7 @@
 $(document).ready(function() {
     if (window.location.href.includes("/memberlist")) {
         var membersPerPage = 15,
-            allMembers = document.createDocumentFragment(),
             debug = true; // Set to 'true' to enable debug messages, 'false' to disable
-
-        $('.userlist').empty();
 
         function debugLog(message) {
             if (debug) {
@@ -24,12 +21,11 @@ $(document).ready(function() {
                     debugLog("Found " + newMembers.length + " new members on page " + page);
 
                     if (newMembers.length === 0) {
-                        displayInitialMembers();
                         return;
                     }
 
                     newMembers.each(function() {
-                        allMembers.append(this);
+                        $('.userlist').append(this);
                     });
 
                     loadAllMembers(page + 1);
@@ -38,11 +34,6 @@ $(document).ready(function() {
                     debugLog("Failed to load page " + page + ": " + textStatus + " - " + errorThrown);
                 }
             });
-        }
-
-        function displayInitialMembers() {
-            debugLog("Displaying all loaded members");
-            $(".userlist").append(allMembers);
         }
 
         debugLog("Starting to load all members from page 1");
