@@ -56,7 +56,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 
 /* dernier message*/
 /*.forum_lastpost:has(.lastpost_link:empty){display:none;}*/
-.forum_lastpost {display:flex;gap: 15px;align-items: center;justify-content: end;margin-top: 15px;
+.forum_lastpost {display:flex;gap: 15px;align-items: center;justify-content: end;margin-top: 15px;grid-column: 2/3;
   span{text-align: right;text-transform: uppercase;line-height: 120%;font-size: var(--little-size);}
   .lastpost_time{text-transform:lowercase!important;}}
 
