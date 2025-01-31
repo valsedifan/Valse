@@ -1,4 +1,4 @@
-.modelepresa {max-width: 695px;margin: 10px auto;display: grid;gap: 10px;position:relative;z-index:0;padding:0 40px;}
+.modelepresa {max-width: 695px;margin: 10px auto;display: grid;gap: 10px;position:relative;z-index:0;padding:0 40px;text-align:justify;}
 .modelepresa:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
 
 .modelepresa.hero {.presasearch:after {content: 'hero...'}}
