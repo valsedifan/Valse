@@ -1,4 +1,4 @@
-.newmodels {margin: 10px auto;position:relative;z-index:0;padding:0 40px;text-align:justify;}
+.newmodels {margin: 10px auto;position:relative;z-index:0;padding:0 40px;text-align:justify;backdrop-filter:blur(2px);}
 .newmodels:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
 
 
@@ -7,6 +7,7 @@
 .modelepresa.hero {.presasearch:after {content: 'know more about this hero...'}}
 .modelepresa.citizen {.presasearch:after {content: 'know more about this citizen...'}}
 .modelepresa.villain {.presasearch:after {content: 'know more about this villain...'}}
+.modelepresa.bw {.presa_imgimg img, .presa_aes img{filter:grayscale(1);}}
 
 .presanav {width: calc(100% - 100px);justify-self: center;display: flex; padding: 5px 0;background: var(--gradient3); color: var(--bw2);
     font: bold 1em var(--font);text-transform: uppercase;border-radius: 0 0 50px 50px;justify-content: space-evenly;
