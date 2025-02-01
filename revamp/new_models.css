@@ -1,4 +1,4 @@
-.newmodels {margin: 10px auto;position:relative;z-index:0;padding:40px;text-align:justify;backdrop-filter:blur(2px);
+.newmodels {position:relative;z-index:0;padding:40px;text-align:justify;backdrop-filter:blur(2px);
     --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);}
 .newmodels:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
