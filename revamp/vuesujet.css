@@ -58,7 +58,7 @@
 .post_row:has(.sujetadmin){display: block;}
 .post_row:has(.sujetadmin) .topbar{grid-template: auto / 20px 1fr;}
 .post_row:has(.sujetadmin) .topbar2, .post_row:has(.sujetadmin) .topbar:before, .post_row:has(.sujetadmin) .post_profile {display:none;}
-.post_row:has(.sujetadmin) .post_details{padding-left:25px;}
+.post_row:has(.sujetadmin) .post_details{padding: 10px 20px 10px 25px;}
 
 /* SUJET SMS */
 #main-content:has(.navigation_chain a[href*="/f23-telephones"]) .post_row:not(:has(.phbody)){width: 70%;margin: 10px auto;padding: 0;
