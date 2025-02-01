@@ -43,7 +43,7 @@
     li:first-of-type{width:100%;/* height: 240px; */display: grid;grid-template-columns: 150px 1fr;gap: 20px;}
     li:last-of-type{width:calc(100% - 100px);padding-left:30px;}
 }
-li:last-of-type .presa_champs{width:calc(100% + 25px);padding-right:30px;}
+li:last-of-type .presa_champs{width: 100%;/* padding-right:30px; */}
 
 #slide1:checked ~ .presa_infos ul {top: 0%;} 
 #slide2:checked ~ .presa_infos ul {top: -100%;}
@@ -147,6 +147,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     li:first-of-type{width:100%;/* height: 240px; */display: grid;grid-template-columns: 150px 1fr;gap: 20px;}
     li:last-of-type{width:calc(100% - 100px);padding-left:30px;}
 }
+li:last-of-type .presa_champs {width:100%;}
 li:last-of-type .presa_champs .para{width:calc(100% + 25px);padding-right:30px;}
 
 #slide1:checked ~ .presa_infos ul {top: 0%;} 
