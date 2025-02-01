@@ -5,7 +5,7 @@
 
 .newmodels{
     .titresujet2{display:flex;align-items:center;gap:15px;}
-    .ecdsjt{outline-color:var(--bw2);background: var(--transp7);}
+    .ecdsjt{outline-color:var(--bw2);background: var(--transp7);position:relative;}
     .iconsjt{margin:0;float:none;}
     .iconsjt img{object-fit: cover;filter: grayscale(1);border-radius: 10px;height:100%;aspect-ratio:1/1;background-size: cover;transition: 300ms;border: 5px solid var(--bw2);height: 60px;outline: 1px solid var(--bw2);outline-offset: 2px;}
     .titre2{margin:0;margin-top:-8px}
