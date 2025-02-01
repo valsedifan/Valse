@@ -1,10 +1,10 @@
-/* animation bodyAnim */
+/* animation bodyAnim 
 @property --k0 {
   syntax: '<number>';
   initial-value: 0;
   inherits: true;}
 @keyframes k0 { from { --k0: 0 } to { --k0: 1 } }
-@keyframes blink {50% {border-color: transparent}}
+@keyframes blink {50% {border-color: transparent}}*/
 
 /* animation nouveaux sujets dans la liste des sujets */
 @keyframes heartbeat {
