@@ -333,13 +333,11 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .iconcluster{display:grid;grid-template: repeat(3, 1fr) / 1fr 1fr;gap:0 calc(var(--iconwidth) / 10 * 2);border-radius:0;float:right;shape-outside:polygon(45% calc(var(--iconwidth) / 2), 100% 50%, 50% calc(100% - var(--iconwidth) / 2), 0% 50%);margin-left:20px;margin-top: calc(var(--iconwidth) / 10 * -2);}
 .icondia{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);aspect-ratio:1/1; padding: 1px; display: grid;place-items: center;} 
     .icondia:before{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); width: 100%; height: 100%; background: var(--bw2); display: grid; place-items: center;}
-    .icondia img{width:105%;height:105%;object-fit:cover;border-radius:0;}
+    .icondia img{width:105%;height:105%;object-fit:cover;border-radius:0;filter:grayscale(1)}
     .icondia:first-of-type, .icondia:last-of-type{grid-column: 1/3;justify-self:center;}
     .icondia:first-of-type{position:relative;bottom:calc(var(--iconwidth) / 10 * -4);}
     .icondia:last-of-type{position:relative;top:calc(var(--iconwidth) / 10 * -4);}
 
-.effectifs{display:grid;gap:15px;}
-.effectifs.short{grid-template: 1fr / repeat(auto-fit, minmax(180px, 1fr));}
-.effectifs.long {grid-template: 1fr / 1fr 1fr;}
+.effectifs{display:grid;gap:15px;grid-template: 1fr / 1fr 1fr;}
 .short .para, .long .top{display:flex;gap:10px;align-items:center;width:100%;}
 .effectifs .ecdsjt a, .membername{font:1.1em var(--titlefont2);text-transform:lowercase;}
