@@ -335,9 +335,12 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
     .icondia img{width:105%;height:105%;object-fit:cover;border-radius:0;}
     .icondia:first-of-type, .icondia:last-of-type{grid-column: 1/3;justify-self:center;}
     .icondia:first-of-type{position:relative;bottom:calc(var(--iconwidth) / 10 * -4);}
-    .icondia:last-of-type{position:relative;top:calc(var(--iconwidth) / 10 * -4);}
-}
-.stitre2{font-weight: 900!important;font-family: var(--font3)!important;letter-spacing: 5px!important;margin-left: 10px;!important}
+    .icondia:last-of-type{position:relative;top:calc(var(--iconwidth) / 10 * -4);}}
+
+.pl_forum{
+    .titre2 c5{display:flex;gap:15px;align-items:center;font-size:22px;line-height:100%;}
+    .ttitre2{margin-bottom:0;}
+    .soustit {font-weight: 900;font-family: var(--font3);letter-spacing: 5px;margin-bottom: -7px; font-size: 22px;text-transform: uppercase;}}
 
 .effectifs{display:grid;gap:20px;}
 .effectifs.short{grid-template: 1fr / repeat(auto-fit, minmax(180px, 1fr));display:flex;gap:10px;}
