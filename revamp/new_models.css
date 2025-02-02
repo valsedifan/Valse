@@ -342,5 +342,5 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .effectifs{display:grid;gap:20px;}
 .effectifs.short{grid-template: 1fr / repeat(auto-fit, minmax(180px, 1fr));display:flex;gap:10px;}
 .effectifs.long {grid-template: 1fr / 1f 1fr;}
-.short .para{display:flex;gap:10px;align-items:center;width:100%;}
+.short .para, .long .top{display:flex;gap:10px;align-items:center;width:100%;}
 .effectifs .ecdsjt a, .membername{font:1.1em var(--titlefont2);text-transform:lowercase;}
