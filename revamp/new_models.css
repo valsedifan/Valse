@@ -280,8 +280,8 @@ li a.selected {background: var(--gradient3);color: transparent;background-clip: 
     font-size: 12px;
     position:relative;
 }
-.card:hover{background: var(--transp5);}
-.card:hover:before{content:'';position:absolute;top:-2px;left:-2px;background:linear-gradient(to left, var(--listrankco), var(--listgrpco));width:calc(100% + 4px);height:calc(100% + 4px);opacity:0.5;border-radius:5px;z-index:-1;}
+.card:hover{background: var(--transp5);transition:background .5s ease-in-out;}
+.card:hover:before{content:'';position:absolute;top:-2px;left:-2px;background:linear-gradient(to left, var(--listrankco), var(--listgrpco));width:calc(100% + 4px);height:calc(100% + 4px);opacity:0.5;border-radius:5px;z-index:-1;transition:all .5s ease-in-out;}
 
 .card.ten{--listrankco: var(--ten);}
 .card.s{--listrankco: var(--s-class);}
@@ -310,7 +310,8 @@ persoclass{text-align:center;}
 .card.h persoclass:before {content: 'h';}
 .card.resa persoclass, .card.pnj persoclass {opacity: 1;}
 
-.personame, .personame a {font-weight: 700;letter-spacing: -.5; background:linear-gradient(45deg, color-mix(in srgb, var(--listrankco) 75%, white), color-mix(in srgb, var(--listgrpco) 75%, white));color: transparent;-webkit-background-clip: text;}
+.personame, .personame a {font-weight: 700;letter-spacing: -.5; background:linear-gradient(45deg, color-mix(in srgb, var(--listrankco) 75%, white), color-mix(in srgb, var(--listgrpco) 75%, white));color: transparent;-webkit-background-clip: text;
+                         transition:color .5s ease-in-out;}
 .card:hover .personame, .card:hover .personame a {color:var(--listgrpco);}
 
 alias{font:1.1em var(--stfont);text-transform:uppercase;}
