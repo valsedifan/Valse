@@ -337,11 +337,6 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
     .icondia:first-of-type{position:relative;bottom:calc(var(--iconwidth) / 10 * -4);}
     .icondia:last-of-type{position:relative;top:calc(var(--iconwidth) / 10 * -4);}}
 
-.pl_forum{
-    .titre2 c5{display:flex;gap:15px;align-items:center;font-size:22px;line-height:100%;}
-    .ttitre2{margin-bottom:0;}
-    .soustit {font-weight: 900;font-family: var(--font3);letter-spacing: 5px;margin-bottom: -7px; font-size: 22px;text-transform: uppercase;}}
-
 .effectifs{display:grid;gap:20px;}
 .effectifs.short{grid-template: 1fr / repeat(auto-fit, minmax(180px, 1fr));display:flex;gap:10px;}
 .effectifs.long {grid-template: 1fr / 1fr 1fr;}
