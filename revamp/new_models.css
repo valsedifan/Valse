@@ -26,6 +26,9 @@
     .para{padding:20px;}}
 .love:before{content: '\eb03';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.1;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
 
+.counters{counter-reset: sanctions;}
+.counters .ecdsjt{margin-left:50px;position:relative;}
+.counters .ecdsjt:before{counter-increment: sanctions; content: counter(sanctions);position: absolute; top: -10%; left: -45px; z-index:-1;background-image: var(--gradient3);color: transparent;-webkit-background-clip: text; font: 4.5em var(--titlefont2);text-align:center;width: 50px;opacity:0.2;}
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
