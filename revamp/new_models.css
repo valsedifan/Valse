@@ -327,6 +327,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 
 /* PRÉ LIENS */
 .newmodels:is(.pl_forum) {.ecdsjt .para{flex-basis:100%;min-height:100%;};}
+.pl_title{c5{display:flex;gap:15px;align-items:baseline;font-size:22px; line-height:100%;text-transform: uppercase;margin-bottom:-15px;} y{font-size:inherit;} .soustit {font: 900 1.05em var(--font3);letter-spacing: 5px;}}
 .ecdsjt:has(.iconcluster.pl_forum) {--iconwidth:90px; margin-right:var(--iconwidth);}
 .pl_forum .iconcluster{width:fit-content;height:fit-content;position:relative;margin-right:calc(var(--iconwidth) * -1 - 32px); .icondia{width:var(--iconwidth);}}
 .iconcluster{display:grid;grid-template: repeat(3, 1fr) / 1fr 1fr;gap:0 calc(var(--iconwidth) / 10 * 2);border-radius:0;float:right;shape-outside:polygon(45% calc(var(--iconwidth) / 2), 100% 50%, 50% calc(100% - var(--iconwidth) / 2), 0% 50%);margin-left:20px;margin-top: calc(var(--iconwidth) / 10 * -2);}
@@ -342,3 +343,5 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .effectifs.long {grid-template: 1fr / 1fr 1fr;}
 .short .para, .long .top{display:flex;gap:10px;align-items:center;width:100%;}
 .effectifs .ecdsjt a, .membername{font:1.1em var(--titlefont2);text-transform:lowercase;}
+
+
