@@ -326,7 +326,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .resa player {color: var(--textColorAccent);font-weight: 500;}
 
 /* PRÉ LIENS */
-.newmodels:is(.pl_forum) {.para{flex-basis:100%;min-height:100%;};}
+.newmodels:is(.pl_forum) {.ecdsjt .para{flex-basis:100%;min-height:100%;};}
 .ecdsjt:has(.iconcluster.pl_forum) {--iconwidth:90px; margin-right:var(--iconwidth);}
 .pl_forum .iconcluster{width:fit-content;height:fit-content;position:relative;margin-right:calc(var(--iconwidth) * -1 - 32px); .icondia{width:var(--iconwidth);}}
 .iconcluster{display:grid;grid-template: repeat(3, 1fr) / 1fr 1fr;gap:0 calc(var(--iconwidth) / 10 * 2);border-radius:0;float:right;shape-outside:polygon(45% calc(var(--iconwidth) / 2), 100% 50%, 50% calc(100% - var(--iconwidth) / 2), 0% 50%);margin-left:20px;}
