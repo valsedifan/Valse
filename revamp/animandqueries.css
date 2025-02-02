@@ -1,6 +1,6 @@
 @property --k0 {
   syntax: '<number>';
-  initial-value: 0;
+  initial-value: 0.5;
   inherits: true;}
 /* animation bodyAnim 
 @keyframes k0 { from { --k0: 0 } to { --k0: 1 } }
