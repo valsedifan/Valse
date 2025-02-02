@@ -14,6 +14,18 @@
     .titre2{margin:0;margin-top:-8px}
     soustitre3{padding-left:10px;}}
 
+.precisions{background:var(--transp9);border-radius: 0 0 5px 5px;margin-left:100px;position:relative;
+    .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);
+          span, .onglets{display:flex;align-items:center;gap:5px; t1{font-weight:bold;}}}
+    .para{padding:20px;}}
+.precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.1;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
+
+.love{background:var(--transp9);border-radius: 0 0 5px 5px;margin-left:100px;position:relative;
+    .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);
+          span, .onglets{display:flex;align-items:center;gap:5px; t1{font-weight:bold;}}}
+    .para{padding:20px;}}
+.love:before{content: '\eb03';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.1;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
+
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
@@ -210,12 +222,6 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     * br{display:block;}
     .ecdsjt{height:100%;
         soustitre3{padding-left:3px;}}}
-
-.precisions{background:var(--transp9);border-radius: 0 0 5px 5px;margin-left:100px;position:relative;
-    .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);
-          span, .onglets{display:flex;align-items:center;gap:5px; t1{font-weight:bold;}}}
-    .para{padding:20px;}}
-.precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.1;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
 
 /* chronologie */
 .timeline{display:grid;grid-template: auto / 1fr auto 1fr; gap:20px;position:relative;
