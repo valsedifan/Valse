@@ -339,6 +339,6 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
     .icondia:last-of-type{position:relative;top:calc(var(--iconwidth) / 10 * -4);}
 
 .effectifs{display:grid;gap:15px;grid-template: 1fr / 1fr 1fr;}
-.short .para, .long .top{display:flex;gap:10px;align-items:center;width:100%;}
+.short .para, .pl_forum .top{display:flex;gap:10px;align-items:center;width:100%;}
 .effectifs .ecdsjt a, .membername{font:1.1em var(--titlefont2);text-transform:lowercase;}
 .pl_forum .precisions .para{max-height:150px;overflow-y:auto;}
