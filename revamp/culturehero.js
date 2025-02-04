@@ -37,11 +37,11 @@ accompButtons.forEach(function(button) {
   button.addEventListener('click', function() {
     // Remove "active" class from all buttons
     accompButtons.forEach(function(btn) {
-      btn.classList.remove('active');
+      btn.classList.remove('activetwo');
     });
 
     // Add "active" class to the clicked button
-    this.classList.add('active');
+    this.classList.add('activetwo');
 
     // Get the filter value from the button's data-filter attribute
     var filterValue = this.getAttribute('data-filter');
