@@ -140,7 +140,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
         soustitre3{padding-left:3px;}}}
  
 .accomplissementss, .culturehero{margin-left:2px;width:103%;}
-.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:10px;}
+.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px;}
 .accomplissement:hover, .cultureitem:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
 .accomplissement:hover:before, .cultureitem:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *, .cultureitem *{position:relative;}
 .accomplissement:hover .herolist{display:grid;} 
@@ -149,6 +149,8 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .cultureitem:hover .scroll{display:block;}
 .annexes .button-group ul{display:flex; gap:5px; background:red; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2); padding: 3px 26px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
 li:hover, li.active{color: var(--bw2);background: var(--gradient3);}}
+.itemtype{position:absolute; top:-10px; right:30px;display:flex;gap:15px;color:var(--bw2);font-size:var(-little-size);font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;}
+.itemimg{float:left;width:50px;aspect-ratio:1/1;border-radius:5px;border:2px solid var(--bw2);outline:1px solid var(--bw2);outline-offset:2px;margin:5px; margin-right:10px; img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;border-radius:5px;}}
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
