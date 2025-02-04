@@ -147,11 +147,11 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .herolist, .scroll{display:none; position:absolute;top:25px;left:50%;width:max-content;max-width:250px;background:var(--bw2);padding:10px 20px;gap:10px;z-index:2;max-height:205px;overflow-y:auto;overflow-x:clip;} 
 .herolist.count{counter-reset:herolist;} .herolist.count u6:after{counter-increment: herolist;content: counter(herolist);} .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
 .cultureitem:hover .scroll{display:block;}
-.button-group ul{display:flex; gap:5px; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2); padding: 3px 26px;nargin-bottom:20px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
+.button-group ul{display:flex; gap:10px; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2);padding: 6px 26px;margin-bottom:25px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
 li:hover, li.active{color: var(--bw2);background: var(--gradient3);}}
-.itemtype{position:absolute; top:-10px; right:30px;display:flex;gap:15px;color:var(--bw2);font-size:var(--little-size);font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;}
--accomplissementss .itemtype{background:var(--couleur2);
-.culturehero .itemtype{background:var(--couleur1);
+.itemtype{position:absolute; top:-5px; right:20px;display:flex;gap:15px;border-radius:2px;color:var(--bw2);font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;padding: 0 4px}
+.accomplissementss .itemtype{background:var(--couleur2);}
+.culturehero .itemtype{background:var(--couleur1);}
 .itemimg{float:left;width:50px;aspect-ratio:1/1;border-radius:5px;border:2px solid var(--bw2);outline:1px solid var(--bw2);outline-offset:2px;margin:5px; margin-right:10px; img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;border-radius:5px;}}
 
 /* MODEL PRESA */
