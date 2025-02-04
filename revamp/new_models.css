@@ -139,7 +139,8 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     .ecdsjt{height:100%;
         soustitre3{padding-left:3px;}}}
 
-.accomplissement{position:relative;}
+.accomplissementss{margin-left:2px;}
+.accomplissement{position:relative; width:283px;margin-right:10px; margin-bottom:10px;}
 .accomplissement:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
 .accomplissement:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *{position:relative;}
 .accomplissement:hover .herolist{display:grid;} 
