@@ -1,4 +1,4 @@
-// Initialize Isotope on the grid container
+/*/ Initialize Isotope on the grid container
 var isoaccomp = new Isotope('.accomplissementss', {
   itemSelector: '.accomplissement', // Select individual grid items
   layoutMode: 'fitRows' // Use the "fitRows" layout (you can change to another if needed)
@@ -51,3 +51,45 @@ accompButtons.forEach(function(button) {
     });
   });
 });
+*/
+
+
+// Initialize Isotope for each grid
+var isoGrid1 = new Isotope('.accomplissementss', {
+  itemSelector: '.accomplissement',
+  layoutMode: 'fitRows'
+});
+
+var isoGrid2 = new Isotope('.heroculture', {
+  itemSelector: '.cultureitem',
+  layoutMode: 'fitRows'
+});
+
+// Function to handle filtering
+function handleFiltering(filterGroup, isoInstance) {
+  var filterButtons = document.querySelectorAll(filterGroup + ' li');
+
+  filterButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      // Remove "active" class only for this filter group
+      filterButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+
+      // Add "active" class to clicked button
+      this.classList.add('active');
+
+      // Get filter value
+      var filterValue = this.getAttribute('data-filter');
+
+      // Apply filter to the respective Isotope instance
+      isoInstance.arrange({
+        filter: filterValue
+      });
+    });
+  });
+}
+
+// Bind filtering to the respective grids
+handleFiltering('.filter-button-accomp', isoGrid1);
+handleFiltering('.filter-button-herocult', isoGrid2);
