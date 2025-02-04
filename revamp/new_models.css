@@ -131,6 +131,21 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     .titre2{margin:0;margin-top:-8px}
     soustitre3{padding-left:10px;}}
 
+.annexes{.ecdsjt{column-count:2;column-gap:20px;}}
+
+.groupes{display:grid;grid-template: 1fr 1fr / 1fr 1fr;gap:20px;
+    br{display:none;}
+    * br{display:block;}
+    .ecdsjt{height:100%;
+        soustitre3{padding-left:3px;}}}
+
+.accomplissement{position:relative;}
+.accomplissement:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
+.accomplissement:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *{position:relative;}
+.accomplissement:hover .herolist{display:grid;} 
+.herolist{display:none; position:absolute;top:25px;left:50%;width:max-content;max-width:250px;background:var(--bw2);padding:10px 20px;gap:10px;z-index:2;max-height:205px;overflow-y:auto;overflow-x:clip;} 
+.herolist.count{counter-reset:herolist;} .herolist.count u6:after{counter-increment: herolist;content: counter(herolist);} .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
+
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
@@ -206,23 +221,6 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .balise{border:1px solid var(--bw2);background:var(--transp9);padding:20px;border-radius:5px;}
 .balises br{display:none;}
 .balises .balise br{display:block;}
-
-
-/* ANNEXES */
-.annexes{.ecdsjt{column-count:2;column-gap:20px;}}
-
-.groupes{display:grid;grid-template: 1fr 1fr / 1fr 1fr;gap:20px;
-    br{display:none;}
-    * br{display:block;}
-    .ecdsjt{height:100%;
-        soustitre3{padding-left:3px;}}}
-
-.accomplissement{position:relative;}
-.accomplissement:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;}
-.accomplissement:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *{position:relative;}
-.accomplissement:hover .herolist{display:grid;} 
-.herolist{display:none; position:absolute;top:25px;left:50%;width:max-content;max-width:250px;background:var(--bw2);padding:10px 20px;gap:10px;z-index:2;max-height:205px;overflow-y:auto;} 
-.herolist.count{counter-reset:herolist;} .herolist.count u6:after{counter-increment: herolist;content: counter(herolist);} .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
 
 /* chronologie */
 .timeline{display:grid;grid-template: auto / 1fr auto 1fr; gap:20px;position:relative;
