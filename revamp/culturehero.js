@@ -60,7 +60,7 @@ var isoGrid1 = new Isotope('.accomplissementss', {
   layoutMode: 'fitRows'
 });
 
-var isoGrid2 = new Isotope('.heroculture', {
+var isoGrid2 = new Isotope('.culturehero', {
   itemSelector: '.cultureitem',
   layoutMode: 'fitRows'
 });
