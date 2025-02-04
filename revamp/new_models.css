@@ -148,7 +148,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .herolist.count{counter-reset:herolist;} .herolist.count u6:after{counter-increment: herolist;content: counter(herolist);} .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
 .cultureitem:hover .scroll{display:block;}
 .annexes .button-group ul{display:flex; gap:5px; background:red; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2); padding: 3px 26px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
-li:hover{color: var(--bw2);background: var(--gradient3);}}
+li:hover, li.active{color: var(--bw2);background: var(--gradient3);}}
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
