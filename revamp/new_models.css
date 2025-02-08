@@ -140,7 +140,8 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
         soustitre3{padding-left:3px;}}}
  
 .accomplissementss, .culturehero{margin-left:2px;width:103%;}
-.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px;}
+.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px; a{color:var(--textColorAccent);}}
+.accomplissement{height:120px;}
 .accomplissement:hover, .cultureitem:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
 .accomplissement:hover:before, .cultureitem:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *, .cultureitem *{position:relative;}
 .accomplissement:hover .herolist{display:grid;} 
