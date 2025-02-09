@@ -1,6 +1,6 @@
 /* BANNIERE ---*/
 /* Mettre la bannière en fond permet de la changer selon le thème clair ou sombre */
-#page-header:before {content: var(--version);position: absolute;width:100%; text-align:center;font: 70vh / 70vh var(--font1);background:var(--gradient3);-webkit-background-clip: text;-webkit-text-stroke: 80px transparent;color:var(--bw2);opacity:0.35;}
+#page-header:before {content: var(--version);position: absolute;width:100%; text-align:center;font: 70vh / 70vh var(--font1);background:var(--gradient3);-webkit-background-clip: text;-webkit-text-stroke: 80px transparent;color:var(--bw2);opacity:0.35;overflow: clip;}
 #page-header:after {content: '';position:absolute;left: 0;top:0;width: 100%;height: 100%;background: center / cover no-repeat var(--header);opacity:0.07;}
 #page-header {
   position:relative;background:var(--transp7);width: 100%;height: 70dvh;display: grid; grid-template: repeat(3, 1fr) / auto;
