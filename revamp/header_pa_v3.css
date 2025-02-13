@@ -1,7 +1,13 @@
 #page-header {height: 100dvh;padding: 5%;display: grid;place-items: center;}
 
-#site-title {font: 5em / 100% var(--titlefont2);text-align:right;padding:10px 0;
-    background: var(--gradient3);color: transparent;background-clip: text;}
+a:has(#site-title){display:flex;flex-wrap:wrap; gap:5px;justify-content:end; #site-title{flex:100%;}}
+#site-title {font: 5em / 100% var(--titlefont2);text-align:right;padding:10px 0;text-transform:uppercase;
+    background: var(--gradient3);color: transparent;background-clip: text;width:fit-content;justify-self:end;position:relative;}
+#site-title:before{position: absolute;bottom: -5px;left: 25px;opacity:0.6;
+    background: var(--gradient3), var(--newMsg);background-size: 200%contain;background-blend-mode: multiply;
+    -webkit-mask-image: var(--newMsg);-webkit-mask-size: contain;
+    width: 75px;height: 75px;display: grid;place-items: center;
+    content: var(--version);font: bold 17px var(--font); color: var(--bw2); padding-top: 3px;transform:rotate(-10deg);}
 
 .comicblocks {height: 80%;width: 100%;display: grid;grid-template: auto 1fr auto / 3fr 1fr .5fr 2.5fr 1fr;gap: 1em;}
 
