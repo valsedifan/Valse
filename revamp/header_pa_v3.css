@@ -9,3 +9,31 @@
     background:var(--header);background-clip:content-box;background-attachment:fixed;background-size:cover;
     border: 5px solid var(--bw2);
 }
+
+.staff_m#undi{background-image:var(--undigif);}
+.staff_m#kuja{background-image:var(--kujagif);}
+.staff_m#sesame{background-image:var(--sesamegif);}
+.staff_m#hanatsuki{background-image:var(--hanagif);}
+.staff_m#marion{background-image:var(--mariongif);}
+.staff_m#lalka{background-image:var(--lalkagif);}
+.staff_m#unravel{background-image:var(--myrgif);}
+#pa_staff {display:flex; height:145px; background:var(--bw2);grid-column: span 5;
+  .staff_m{display:flex; background-size:cover; background-repeat:no-repeat;position:relative;transition:all .4s ease-in-out;padding:10px;}
+  .staff_m:first-of-type{flex:1;display:flex;flex-direction:column;align-items: flex-end;justify-content: flex-end;
+    .staff_title{mix-blend-mode:unset;margin-right:0;writing-mode: initial;transform:rotate(0deg);color:var(--textColor);}
+    .staff_mc{opacity:1;font-family:var(--stfont);text-transform:uppercase;font-size:0.9em;position:relative;}}
+  .staff_title{display:flex;flex-wrap:wrap;column-gap:6px; align-items:center;text-orientation: mixed; writing-mode: vertical-rl;transform:rotate(180deg); margin-right:20px; mix-blend-mode:difference; color:white;
+    h1{text-align:left;color:inherit;margin:0; padding:0;}
+    span{font: bold 0.9em var(--font);}
+    t1{font-size: 0.7em;}
+    font{flex:1;font-size: 0.8em; text-transform:uppercase;}}
+  .staff_mc{opacity:0;display:flex; flex-wrap:wrap; gap:4px;justify-content: flex-end;position:absolute;bottom:3px;right:5px;transition:opacity .5s ease-in;max-width: 132px;text-align:right;
+    a{line-height: 100%;color:var(--couleur2);font-weight:bold;text-transform:uppercase; font-size:0.8em;}
+    img{width:40px;height:40px;object-fit:cover;border:1px solid var(--bw2);padding:2px;}}}
+.staff_m:not(:first-of-type):before{content:'';position:absolute; top:0;left:0;width:100%;height:100%;background:linear-gradient(black, white);mix-blend-mode:color;}
+.staff_m:hover {flex:1;background-position:center!important;}
+.staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity:0.7;}
+.staff_m:has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {flex:0!important;}
+.staff_m:first-of-type:has(~ .staff_m:hover) {.staff_title{writing-mode: vertical-rl!important;transform:rotate(-180deg)!important;}
+  .staff_mc{display:none!important;}}
+.staff_m:hover .staff_mc{opacity:1!important;}
