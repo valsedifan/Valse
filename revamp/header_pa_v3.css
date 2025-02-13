@@ -1,1 +1,11 @@
-#page-header {height: 100dvh;padding: 45px 0;}
+#page-header {height: 100dvh;padding: 45px 0;display: grid;place-items: center;}
+
+#site-title {font: 5em / 100% var(--titlefont2);text-align:right;padding:10px 0;
+    background: var(--gradient3);color: transparent;background-clip: text;}
+
+.comicblocks {height: 80%;width: 100%;display: grid;grid-template: auto 1fr / 3fr 1fr .5fr 2.5fr 1fr;gap: 1em;}
+
+.comicblock {
+    background:var(--header);background-clip:content-box;background-attachment:fixed;background-size:cover;
+    border: 5px solid var(--bw2);
+}
