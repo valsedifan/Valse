@@ -16,7 +16,7 @@
 
 .cat_new:after, .forum_new:after {position: absolute;bottom: 15px;right: -50px;
     background: var(--gradient3), var(--newMsg);background-size: cover;background-blend-mode: multiply;
-    -webkit-mask-image: url(https://unravelgraph.github.io/myFiles/comic-speech-bubble.svg);-webkit-mask-size: contain;
+    -webkit-mask-image: var(--newMsg);-webkit-mask-size: contain;
     width: 75px;height: 75px;display: grid;place-items: center;
     content: 'NEW';font: bold 1em var(--font); color: black; z-index: 10;padding-top: 5px;}
 
