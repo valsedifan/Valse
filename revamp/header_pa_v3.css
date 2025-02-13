@@ -1,9 +1,9 @@
 #page-header {height: 100dvh;padding: 5%;display: grid;place-items: center;}
 
-a:has(#site-title){display:flex;flex-wrap:wrap; gap:5px;justify-content:end; #site-title{flex:100%;}}
+a:has(#site-title){display:flex;flex-wrap:wrap; gap:10px 15px;justify-content:end; #site-title{flex:100%;}}
 #site-title {font: 5em / 100% var(--titlefont2);text-align:right;padding:10px 0;text-transform:uppercase;
     background: var(--gradient3);color: transparent;background-clip: text;width:fit-content;justify-self:end;position:relative;}
-#site-title:before{position: absolute;bottom: -5px;left: 25px;opacity:0.6;
+#site-title:before{position: absolute;bottom: -5px;right: 400px;opacity:0.6;
     background: var(--gradient3), var(--newMsg);background-size: 200%contain;background-blend-mode: multiply;
     -webkit-mask-image: var(--newMsg);-webkit-mask-size: contain;
     width: 75px;height: 75px;display: grid;place-items: center;
