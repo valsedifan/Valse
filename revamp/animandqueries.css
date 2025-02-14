@@ -36,6 +36,7 @@
 
 /* si l'écran fait + de 1800px de largeur */
 @media only screen and (min-width: 1600px) {
-  .staff_m:not(:first-of-type) .staff_title{margin-right:120px!important;}
-  .pa_dailynews article{height:130px!important;}}
+  .staff_m:not(:first-of-type) .staff_title{margin-right:120px!important;}}
 
+@media only screen and (min-height: 900px) {
+  .pa_dailynews article{height:130px!important;}}
