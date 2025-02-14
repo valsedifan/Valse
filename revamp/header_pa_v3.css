@@ -9,7 +9,7 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 .ar_list li{counter-increment: ar_item;}
 .ar_list li:before{content: counters(ar_item, ".", lower-roman)". ";background:var(--gradient3);color:transparent;background-clip:text;font-weight:bold;}
 
-#page-header {height: 100dvh;width: calc(100% - 25px);padding: 10px;display: grid;place-items: center;}
+#page-header {height: 100dvh;width: calc(100% - 20px);padding: 10px;display: grid;place-items: center;}
 
 a:has(#site-title) {display: flex;flex-wrap: wrap;gap: 10px 15px;justify-content: end;
     #site-title {flex: 100%;}}
