@@ -98,7 +98,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
     top: -40%;left: -20px;padding: 14px 10px 12px 10px;
     a {font-size: var(--large-size); background-image: var(--gradient3); color: transparent; -webkit-background-clip: text;}}
 
-.pa_dailynews{position:absolute; grid-row:1/3; grid-column: 2/6; justify-self:center; align-self:end; margin:20px;}
+.pa_dailynews{display:none;position:absolute; grid-row:1/3; grid-column: 2/6; justify-self:center; align-self:end; margin:20px;}
 .dn_head{display:flex;justify-content: space-between;padding: 5px 10px;background:var(--gradient3);align-items: center; 
      h3{margin:0; color:var(--noirnoir);padding:0;}   
     .rowonglet{display:flex;}}
@@ -111,8 +111,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
           .title{font: bold var(--normal-size) var(--font1);text-transform:uppercase;color:var(--textColorAccent);}
           .date{font-family:var(--stfont);}}}}
 
-.pa_dailynews#pa_dailynews{}
-.pa_dailynews#showdailynews{display:none;min-width:300px;align-self:center;cursor:pointer;
+.pa_dailynews#showdailynews{min-width:300px;align-self:center;cursor:pointer;
     .dn_content:before{content:var(--nbarticles);}
     .dn_content{display:flex;align-items:center;gap:4px;}}
 
