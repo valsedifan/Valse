@@ -1,7 +1,8 @@
-.topnavbar{width:100%;height:40px;background:var(--gradient3);}
-.topbarmenu {position:fixed; top: 50px; left: 10px; max-width: 50vw; background:var(--transp7);padding:20px; border-radius:5px; display:flex;}
+.topnavbar{width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
+font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
+#topbarmenu {position:fixed; top: 50px; left: 10px; max-width: 50vw; background:var(--transp7);padding:20px; border-radius:5px; display:none;}
+#topbarmenu.show-menu{display:flex;}
 .accesrapide {display:flex; gap: 30px;}
-
 #page-header {height: 100dvh;padding: 5%;display: grid;place-items: center;}
 
 a:has(#site-title) {display: flex;flex-wrap: wrap;gap: 10px 15px;justify-content: end;
