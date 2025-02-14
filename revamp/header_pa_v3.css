@@ -112,7 +112,9 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
           .date{font-family:var(--stfont);}}}}
 
 .pa_dailynews#pa_dailynews{}
-.pa_dailynews#showdailynews{display:none;min-width:300px;align-self:center;}
+.pa_dailynews#showdailynews{display:none;min-width:300px;align-self:center;cursor:pointer;
+    .dn_content:before{content:var(--nbarticles);}
+    .dn_content{display:flex;align-items:center;gap:4px;}}
 
 .progressionbar {position:absolute; grid-column:1/2; grid-row: 2/3; margin: 30px; width:80%;
     .jaugetitle {position: relative;font-size: var(--little-size);text-transform: uppercase;font-family: var(--font1);font-weight: 600;margin: 7px 0;}
