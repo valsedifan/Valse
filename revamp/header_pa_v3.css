@@ -1,4 +1,4 @@
-.topnavbar{width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
+.topnavbar{position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
 font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarmenu {position:fixed; top: 50px; left: 10px; max-width: 50vw; background:var(--transp7);padding:20px; border-radius:5px; display:none;}
 #topbarmenu.show-menu{display:flex;}
