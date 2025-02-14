@@ -40,7 +40,7 @@
   .staff_m:not(:first-of-type) .staff_title{margin-right:120px!important;}}
 
 @media only screen and (min-height: 1000px) {
-  .pa_dailynews article{height:130px!important;}
+  .pa_dailynews article{height:130px!important;min-width:25%!important;}
   .pa_dailynews{margin:40px!important;}
   #site-title{font-size:5em!important;}
   .foversion{right:400px!important;}}
