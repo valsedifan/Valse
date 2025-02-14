@@ -76,7 +76,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
     width:100%; grid-column: 1/4; background:color-mix(in srgb, var(--couleur1) 70%, var(--textColor));padding-bottom:3px; clip-path: polygon(10px 0%, 100% 0%, calc(100% - 5px) 100%, 0% 100%);
     font-family: var(--titlefont2);font-size: 1em;text-align: center;color:var(--bw2);letter-spacing: 1px;font-weight: 600;}
 
-.topsites {grid-column: 5/6; grid-row: 2/3; right: -23px; 
+.topsites {grid-column: 5/6; grid-row: 2/3; right: -23px; margin-bottom: 30px;
     display: flex;flex-direction:column; gap: 10px; align-items: center;justify-content: end;
     align-self:center; padding: 14px 10px 12px 10px;
     a {font-size: var(--large-size);}}
@@ -87,7 +87,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
     top: -40%;left: -20px;padding: 14px 10px 12px 10px;
     a {font-size: var(--large-size); background-image: var(--gradient3); color: transparent; -webkit-background-clip: text;}}
 
-.pa_dailynews{position:absolute; grid-row:1/3; grid-column: 2/6; justify-self:center; align-self:center; margin:40px;}
+.pa_dailynews{position:absolute; grid-row:1/3; grid-column: 2/6; justify-self:center; align-self:end; margin:40px;}
 .dn_head{display:flex;justify-content: space-between;padding: 10px 13px;background:var(--gradient3);align-items: center; 
      h3{margin:0; color:var(--noirnoir);padding:0;}   
     .rowonglet{display:flex;}}
