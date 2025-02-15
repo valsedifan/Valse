@@ -30,7 +30,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 .staff_m#marion {background-image: var(--mariongif);}
 .staff_m#lalka {background-image: var(--lalkagif);}
 .staff_m#unravel {background-image: var(--myrgif);}
-#pa_staff {display: flex;height: 140px;background: var(--transp2);grid-column: span 5;
+#pa_staff {display: flex;height: 140px;background: var(--transp9);grid-column: span 5;
     .staff_m {display: flex;background-size: cover;background-repeat: no-repeat;position: relative; transition: all .4s ease-in-out; padding: 10px;}
     .staff_m:first-of-type {flex: 1; display: flex;flex-direction: column; align-items: flex-end; justify-content: flex-end;
         .staff_title {mix-blend-mode: unset;margin-right: 0;writing-mode: initial;transform: rotate(0deg); color: var(--textColor); }
