@@ -2,10 +2,10 @@
 font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarbutton {cursor:pointer;}
 #topbarbutton:before {content: '\eb81';font-family: 'cappuccicons';margin-right: 8px;position: relative;top: 1px;}
-#topbarmenu {/*  display:none;z-index:998;position:fixed; top: 50px; left: 10px; width: 45vw; background: var(--bw5);*/ background:var(--transp5); width: calc(100% - 20px); margin: 0 auto; margin-bottom: 20px; padding:20px; border-radius:5px;border: var(--border);}
+#topbarmenu {background:var(--transp5); width: calc(100% - 20px); margin: 0 auto; margin-bottom: 20px; padding:20px; border-radius:5px;border: var(--border);}
 #topbarmenu.show-menu{display:flex;gap:30px;}
-.accesrapide {/* width:100%; *//* display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));gap: 20px;*/align-items: start;text-transform: lowercase;/* border-left: var(--border); *//* padding-left:30px; */interpolate-size: allow-keywords;
-    li{display:inline-block;position:relative;}
+.accesrapide {align-items: start;text-transform: lowercase;interpolate-size: allow-keywords;
+    li.linkgroups{display:inline-block;position:relative;margin-right:10px;}
     label{text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);color:var(--textColorInvert);}
     li:hover .ar_list{height:max-content; width:max-content;padding:20px;}}
 .ar_list{counter-reset: ar_item 0;display:grid;height:0px;width:0px;overflow:clip;position:absolute;top:30px;margin-left:15px;background:var(--bw5);transition:height 0.1s ease-in-out;}
