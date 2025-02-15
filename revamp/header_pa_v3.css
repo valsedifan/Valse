@@ -6,7 +6,7 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarmenu.show-menu{display:flex;gap:30px;}
 .accesrapide {/* width:100%; *//* display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));gap: 20px;*/align-items: start;text-transform: lowercase;/* border-left: var(--border); *//* padding-left:30px; */interpolate-size: allow-keywords;
     li{display:inline-block;position:relative;}
-    label{font-family:var(--stfont);text-transform:uppercase;letter-spacing:1.5px;}
+    label{text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);color:var(--textColorInvert);}
     li:hover .ar_list{height:max-content; width:max-content;padding:20px;}}
 .ar_list{counter-reset: ar_item 0;display:grid;height:0px;width:0px;overflow:clip;position:absolute;top:30px;margin-left:15px;background:var(--bw5);transition:height 0.1s ease-in-out;}
 .ar_list li{counter-increment: ar_item;}
