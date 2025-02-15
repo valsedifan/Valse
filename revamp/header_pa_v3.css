@@ -1,4 +1,4 @@
-.topnavbar{z-index:998;position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
+.topnavbar{z-index:998;position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;gap:10px;align-items:center;padding-left:10px;
 font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarbutton {cursor:pointer;}
 #topbarbutton:before {content: '\eb81';font-family: 'cappuccicons';margin-right: 8px;position: relative;top: 1px;}
@@ -14,6 +14,17 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 .ar_list li:before{content: counters(ar_item, ".", lower-roman)". ";background:var(--gradient3);color:transparent;background-clip:text;font-weight:bold;}
 .toread-message:before{content: ' [';}
 .toread-message:after{content: ']';}
+/*** BARRE DE NAVIGATION ----------- ***/
+.navbar {padding-left: 20px;display: flex;gap:10px;align-items: center;justify-self: left;text-transform:uppercase;font-family: var(--font1);font-size:0px;}
+.navbar a {color:var(--textColorInvert);}
+/* Suppression des liens peu utilisés*/
+.navbar li:not(:has(a[href^="/search"])) {display: none;}
+.navbar a[href^="/search"]:before{content:'\ec5f';}
+.navbar li:first-of-type {display:inline!important;}
+.navbar li:first-of-type a:before{content:'\eb0d'; }
+.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);}
+/* Image des liens */
+a.mainmenu img {display: none;}
 
 #page-header {height: 100dvh;width: calc(100% - 20px);padding: 10px;display: grid;place-items: center;}
 
