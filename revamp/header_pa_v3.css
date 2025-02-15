@@ -12,6 +12,7 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 .ar_list{counter-reset: ar_item 0;display:grid;height:0px;width:0px;overflow:clip;position:absolute;top:30px;background:var(--bw5);transition:height 0.1s ease-in-out;}
 .ar_list li{counter-increment: ar_item;}
 .ar_list li:before{content: counters(ar_item, ".", lower-roman)". ";background:var(--gradient3);color:transparent;background-clip:text;font-weight:bold;}
+.ar_list .separator{border-bottom: 1px solid var(--textColor);opacity: 0.2;padding-bottom: 7px;margin-bottom: 7px;}
 .toread-message:before{content: ' [';}
 .toread-message:after{content: ']';}
 /*** BARRE DE NAVIGATION ----------- ***/
