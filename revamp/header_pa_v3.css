@@ -1,6 +1,7 @@
 .topnavbar{z-index:998;position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
 font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarbutton {cursor:pointer;}
+#topbarbutton:before {content: '\eb81';font-family: 'cappuccicons';margin-right: 8px;position: relative;top: 1px;}
 #topbarmenu {z-index:998;position:fixed; top: 50px; left: 10px; width: 45vw; background: var(--bw5);padding:20px; border-radius:5px;border: var(--border); display:none;}
 #topbarmenu.show-menu{display:flex;gap:30px;}
 .accesrapide {width:100%; display:grid;grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));gap: 20px;align-items: start;text-transform: lowercase;border-left: var(--border); padding-left:30px;
