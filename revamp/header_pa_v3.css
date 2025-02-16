@@ -18,12 +18,19 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 /*** BARRE DE NAVIGATION ----------- ***/
 .navbar {padding-left: 20px;display: flex;gap:10px;align-items: center;justify-self: left;text-transform:uppercase;font-family: var(--font1);font-size:0px;padding-right: 10px;border-right: 2px solid var(--textColorInvert);}
 .navbar a {color:var(--textColorInvert);}
-/* Suppression des liens peu utilisés*/
+
+.navbar a[href^="/faq"],/*faq*/
+.navbar a[href^="/calendar"],/*calendrier*/
+.navbar a[href^="/groups"],/*groupes*/
+.navbar a[href^="/images"]/*Dernières images*/ {
+  display: none;
+}
+/* Suppression des liens peu utilisés
 .navbar li:not(:has(a[href^="/search"])) {display: none;}
 .navbar a[href^="/search"]:before{content:'\ec5f';}
 .navbar li:first-of-type {display:inline!important;}
 .navbar li:first-of-type a:before{content:'\eb0d'; }
-.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);}
+.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);} */
 /* Image des liens */
 a.mainmenu img {display: none;}
 
