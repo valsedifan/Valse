@@ -25,12 +25,15 @@ a[href^="/groups"],/*groupes*/
 a[href^="/images"]/*Dernières images*/) {
   display: none;
 }
-/* Suppression des liens peu utilisés
-.navbar li:not(:has(a[href^="/search"])) {display: none;}
-.navbar a[href^="/search"]:before{content:'\ec5f';}
-.navbar li:first-of-type {display:inline!important;}
+
+.navbar li:has(a[href^="/search"]), .navbar li:first-of-type {font-size:0px;}
+.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);}
 .navbar li:first-of-type a:before{content:'\eb0d'; }
-.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);} */
+.navbar a[href^="/search"]:before{content:'\ec5f';}
+.navbar li:has(a[href^="/search"]){padding-right: 10px; border-right: 2px solid var(--textColorInvert);}
+/* Suppression des liens peu utilisés
+.navbar li:first-of-type {display:inline!important;}
+ */
 /* Image des liens */
 a.mainmenu img {display: none;}
 
