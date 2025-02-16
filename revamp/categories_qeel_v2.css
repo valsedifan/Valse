@@ -63,9 +63,9 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 /* liens des sous forums */
 #subforum {margin-top: 15px; font-size: 0;display: flex;flex-wrap: wrap;gap: 7px 0;position:relative;}
 #subforum:empty {display:none;}
-#subforum a {width:fit-content; margin-right: 5px;background: var(--bw2);font-family: var(--stfont);font-size: 13px;text-transform: uppercase;border-radius: 50px;color: var(--textColorAccent);padding: 3px 9px;border: 1px solid var(--transp3);font-weight: 100;}
-#subforum a:before {content: "\eb02";font-size: 11px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;-webkit-transition:.1s ease-in-out;}
-#subforum a:hover{filter:contrast(.9);border:1px solid var(--couleur1);transform:scale(1.017)}
+#subforum a, .ar_pa a {width:fit-content; margin-right: 5px;background: var(--bw2);font-family: var(--stfont);font-size: 13px;text-transform: uppercase;border-radius: 50px;color: var(--textColorAccent);padding: 3px 9px;border: 1px solid var(--transp3);font-weight: 100;}
+#subforum a:before, .ar_pa a:before {content: "\eb02";font-size: 11px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;-webkit-transition:.1s ease-in-out;}
+#subforum a:hover, .ar_pa a:hover{filter:contrast(.9);border:1px solid var(--couleur1);transform:scale(1.017)}
 
 /* categories customisées */
 #c1_title h2 {text-align:right;}
@@ -78,7 +78,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
     .forum:first-of-type{grid-row: 1 / 3;height: fit-content;width: 90%;align-self: center;justify-self: end;
         .forum_lastpost, #subforum{display:none;}
         .forum_desc{margin-top: 15px;grid-template-rows: auto;gap: 0;}
-        .description1{height:auto;margin-left: 15px;}
+        .description1{height:auto;margin-left: 15px;grid-row: 1/2;}
         a.forumtitle{left: 0;top: 0;margin-top: 44px;}
         .rowonglet{display:flex;z-index: 2;justify-content: flex-end;position: absolute;right: 7px;top: 7px;}}
     .forum_new:first-of-type:after {left: -39px;top: 26px;}
