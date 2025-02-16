@@ -16,7 +16,7 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 .toread-message:before{content: ' [';}
 .toread-message:after{content: ']';}
 /*** BARRE DE NAVIGATION ----------- ***/
-.navbar {padding-left: 20px;display: flex;gap:10px;align-items: center;justify-self: left;text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);margin-right:10px;border-right: 2px solid var(--textColorInvert);}
+.navbar {padding-left: 20px;display: flex;gap:10px;align-items: center;justify-self: left;text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);padding-right: 7px;margin-right:10px;border-right: 2px solid var(--textColorInvert);}
 .navbar a {color:var(--textColorInvert);}
 
 .navbar li:has(a[href^="/faq"],/*faq*/
