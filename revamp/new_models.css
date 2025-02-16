@@ -360,7 +360,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .pl_forum .precisions .para{max-height:150px;overflow-y:auto;}
 
 .carnetdebord{--iconwidth:100px;
-    .ecdsjt{overflow:clip;max-height: calc(2.5 * var(--iconwidth));}
+    .ecdsjt{overflow:clip;height: calc(2.5 * var(--iconwidth));}
     .moodboard br{display:none;}
     .moodboard{position:absolute;right:-90px;width:60%;display:grid;grid-template: repeat(10, calc(var(--iconwidth) / 5)) / repeat(6, calc(var(--iconwidth) / 2));
     gap:calc(var(--iconwidth) / 10);border-radius:0;float:right;margin-top: calc(var(--iconwidth) / 10 * -4);}
