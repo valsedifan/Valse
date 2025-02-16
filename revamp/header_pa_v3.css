@@ -1,4 +1,4 @@
-.topnavbar{z-index:998;position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;gap:10px;align-items:center;padding-left:10px;
+.topnavbar{z-index:998;position:fixed;width:100%;height:40px;background:var(--gradient3);display:flex;align-items:center;padding-left:10px;
 font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarbutton {cursor:pointer;}
 #topbarbutton:before {content: '\eb81';font-family: 'cappuccicons';margin-right: 8px;position: relative;top: 1px;}
