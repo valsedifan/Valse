@@ -50,6 +50,9 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 
 .comicblocks {align-self:end; margin: 40px 0;height: calc(100% - 125px);width: 100%; display: grid; grid-template: auto 1fr auto / 3fr 1fr .5fr 2.5fr 1fr; gap: 1em;position: relative;}
 .comicblock {background: var(--header);background-clip: content-box; background-attachment: fixed; background-size: cover;border: 5px solid var(--bw2);}
+[data-color-scheme="dark"] .comicblock:not(:is(#pa_staff)){mix-blend-mode:lighten;}
+[data-color-scheme="light"] .comicblock:not(:is(#pa_staff)){mix-blend-mode:exclusion;border-color:var(--textColorInvert);}
+[data-color-scheme="light"] #pa_staff{border-color:var(--bw5);}
 
 .staff_m#undi {background-image: var(--undigif);}
 .staff_m#kuja {background-image: var(--kujagif);}
@@ -85,6 +88,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
     .staff_title {writing-mode: vertical-rl!important;transform: rotate(-180deg)!important;}
     .staff_mc {display: none!important;}}
 
+.staff_m:not(:first-of-type){opacity:0.8;}
 .staff_m:hover .staff_mc {opacity: 1!important;}
 
 .mdms, .topsites, .pa_links {    position: absolute; background: var(--transp7); border-radius: 50px; border: 5px solid var(--bw2);}
