@@ -30,7 +30,7 @@ a[href^="/images"]/*Dernières images*/) {
 .navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--noirnoir);}
 .navbar li:first-of-type a:before{content:'\eb0d'; }
 .navbar a[href^="/search"]:before{content:'\ec5f';}
-.navbar li:has(a[href^="/search"]){padding-right: 10px; border-right: 2px solid var(--textColorInvert);}
+.navbar li:has(a[href^="/search"]){padding-right: 10px; border-right: 2px solid var(--noirnoir);}
 /* Suppression des liens peu utilisés
 .navbar li:first-of-type {display:inline!important;}
  */
