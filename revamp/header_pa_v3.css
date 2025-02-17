@@ -6,8 +6,8 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 #topbarmenu.show-menu{display:flex;gap:30px;}
 .accesrapide {align-items: start;text-transform: lowercase;interpolate-size: allow-keywords;
     li.linkgroups{display:inline-block;position:relative;margin-right:10px;height:40px;margin-top:23px;
-        b3{color:var(--textColorInvert);}}
-    label{text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);color:var(--textColorInvert);height:40px;}
+        b3{color:var(--noirnoir);}}
+    label{text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);color:var(--noirnoir);height:40px;}
     li:hover .ar_list{height:max-content; width:max-content;padding:20px;}}
 .ar_list{counter-reset: ar_item 0;display:grid;height:0px;width:0px;overflow:clip;position:absolute;top:30px;background:var(--bw5);transition:height 0.1s ease-in-out;}
 .ar_list li{counter-increment: ar_item;}
