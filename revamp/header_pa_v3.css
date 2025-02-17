@@ -27,7 +27,7 @@ a[href^="/images"]/*Dernières images*/) {
 }
 
 .navbar li:has(a[href^="/search"]), .navbar li:first-of-type {font-size:0px;}
-.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--textColorInvert);}
+.navbar a:before{font-family: 'Cappuccicons';font-size:16px;color:var(--noirnoir);}
 .navbar li:first-of-type a:before{content:'\eb0d'; }
 .navbar a[href^="/search"]:before{content:'\ec5f';}
 .navbar li:has(a[href^="/search"]){padding-right: 10px; border-right: 2px solid var(--textColorInvert);}
