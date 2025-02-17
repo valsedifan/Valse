@@ -23,9 +23,6 @@
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
-.modelepresa.hero {.presasearch:after {content: 'know more about this hero...'}}
-.modelepresa.citizen {.presasearch:after {content: 'know more about this citizen...'}}
-.modelepresa.villain {.presasearch:after {content: 'know more about this villain...'}}
 .modelepresa.bw {.presa_imgimg img, .presa_aes img{filter:grayscale(1);}}
 
 .presanav {width: calc(100% - 100px);justify-self: center;display: flex; padding: 5px 0;background: var(--gradient3); color: var(--bw2);
@@ -39,9 +36,9 @@
     color: var(--bw1);font: 0.7em var(--font1);text-transform: uppercase;}}
 .presa_trigger:hover .presa_tw{opacity:1;}
 .presa_tw{position:absolute; left:50%;top:20%;width:max-content;opacity: 0;background: var(--transp8);padding: 5px 15px;border: 1px solid var(--bw3);border-radius: 5px;backdrop-filter: blur(5px);max-width: 300px;transition: opacity .5s ease-in-out;}
-.presasearch {margin-right:20px;background: var(--couleur1);padding: 5px 10px;border-radius: 50px;
-    color: var(--bw1);font: 0.9em var(--stfont);text-transform: uppercase;display: flex;align-items: center;gap: 5px;
-           i.cp{font-size: 0.8em;}}
+.presa_fc {margin-right:20px;background: var(--couleur1);padding: 5px 10px;border-radius: 50px;
+    color: var(--bw1);font: 0.9em var(--stfont);text-transform: uppercase;display: flex;align-items: center;gap: 5px;}
+.presa_fc:before{content:'ft. ';}
 
 .presa_infos_wrapper {margin-top: 60px;position: relative;}
 .presa_infos_wrapper:before {content: '';position: absolute;top: -32px;left: 50px;
