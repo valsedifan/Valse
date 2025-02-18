@@ -99,9 +99,9 @@
     .mbdia:nth-of-type(3), .mbdia:nth-of-type(8){grid-column: 2 / span 2;}
   .firstblock{width:calc(100% - 20%);height:210px;overflow:auto;
   clip-path: polygon(calc(100% - 3px) 0, 600px 50%, calc(100% - 3px) 100%, 0% 100%, 0 50%, 0% 0%);}
-  h1{text-align:left;text-transform:initial;
+  h1{text-align:left;text-transform:initial;margin:5px 0;
   i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}}
-  .transpgradient{font: italic 1em var(--font5);)}
+  .transpgradient{font: italic 1em var(--font5);}
   .cb_links{display:flex;justify-content:center;gap:10px; font-size:1.2em;
   a{display:grid;place-items:center;gap:2px;height:fit-content;}
   a span{font: 9px var(--stfont);}
