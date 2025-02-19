@@ -34,6 +34,8 @@
   }
 }
 
+@keyframes blink {50% {border-color: transparent}}
+
 /* si l'écran fait + de 1800px de largeur */
 @media only screen and (min-width: 1600px) {
   #page-header {padding: 5%!important;}
