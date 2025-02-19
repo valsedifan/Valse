@@ -154,7 +154,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 
 /* sur BL : #f47, #c8, #c4, #c5, #c6 */
 #c4_title, #c5_title, #c6_title, #c7_title{h2{text-align:left;}}
-#c4, #c5, #c6, #c7 {border-radius: 2px;backdrop-filter: blur(2px);background:var(--transp5);outline: 2px solid var(--bw2);
+#c4, #c5, #c6, #c7 {border-radius: 2px;backdrop-filter: blur(2px);background:var(--transp5);outline: 5px solid var(--bw2);
   .forums {padding: 20px;display: grid;gap: 20px;}
   .forum{padding:0;border:none;background: var(--transp10);}
    .mainforumcon{padding:0; border-left:2px solid;border-image:linear-gradient(to bottom, var(--gradient)) 1;outline: 2px solid var(--bw2);}
@@ -172,7 +172,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
     #subforum:before {content: "\ecb5";font-size: 14px;font-family: 'cappuccicons';-webkit-background-clip: text;margin-right: 8px;color: transparent;background-image: linear-gradient(60deg, var(--gradient));font-weight: bold;margin-top:2px;margin-right:10px}
     #subforum:after{content:'';width:100%;height:100%;position:absolute;top:0; left:0;background:var(--gradient3);z-index:1;opacity:0.1;}
     }
-#c4:before, #c5:before, #c6:before, #c7:before{content:'';position:absolute;top:-4px;left:-4px;width:100%;height:100%;border-radius: 5px; border: 4px solid transparent;opacity:.5;z-index:-1;
+#c4:before, #c5:before, #c6:before, #c7:before{content:'';position:absolute;top:-8px;left:-8px;width:100%;height:100%;border-radius: 5px; border: 8px solid transparent;opacity:.7;z-index:-1;
   background: var(--gradient3) border-box; mask:linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);mask-composite: exclude;}
 
 [data-color-scheme="dark"] {#c4, #c5, #c6, #c7 {.forum{background: var(--transp10); backdrop-filter:blur(3px);}}}
