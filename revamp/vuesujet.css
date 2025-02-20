@@ -44,7 +44,7 @@
           ul.profile-icons li:hover{background: var(--gradient3);}
           ul.profile-icons li:hover a{color: var(--noirnoir);}
           .profile-icons:has(a[href=""]) {display: none;}
-          .user_field .label, .field_label.recompenses {color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
+          .user_field .label, .field_label.recompenses {margin-right: 2px;color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
           .post_profile .content img{max-width:220px;}
           .systab {overflow: hidden;
                    .tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin: 10px 0;
