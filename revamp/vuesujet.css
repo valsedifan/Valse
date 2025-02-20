@@ -10,7 +10,7 @@
                   .post_pseudo{font-size: 18px;font-family: var(--titlefont2);text-transform: uppercase;display: flex;justify-content: flex-end;grid-column: 2/3;padding: 17px 20px 0 0;}}
           .profile_class_alias {display:flex;gap:5px;justify-content: flex-end;align-items: baseline;grid-column: 2/3;padding-right:20px;min-height:10px;
                                 .field-rank{font-size: var(--little-size);text-transform: uppercase;}
-                                .field-alias{font-family:var(--stfont);text-transform:uppercase;}
+                                .field-alias{font-family:var(--stfont);text-transform:uppercase;font-size: 13px;}
                                 .user_field.field-rank:before {content: "\00B7";margin-right: 5px;}}
           .profile_class_alias .user_field:not(.field-alias, .field-rank),.profile_class_alias .field_label {display:none;}
           .topbar2{height:50px;display:grid;grid-template-columns: 1fr auto;align-items:center;grid-column: 2/3;position: relative;top: 10px;padding-right: 15px;padding-left: 10px;
