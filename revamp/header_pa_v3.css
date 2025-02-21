@@ -109,7 +109,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 .mdm-img:hover .mdmimg:after, .mdm-img:hover:after {opacity: 1;}
 
 .mdmimg:after {opacity: 0;transition: opacity 0.5s ease-in-out;
-    position: absolute;bottom: 115%;width: max-content;
+    position: absolute;top: 105%;width: max-content;
     background: var(--bw2);padding: 2px 5px;border-radius: 5px;margin-top: 6px;
     font-size:1.05em;font-weight: 700; text-transform: uppercase;text-align: left;}
 
