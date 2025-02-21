@@ -39,7 +39,8 @@
 /* si l'écran fait + de 1800px de largeur */
 @media only screen and (min-width: 1600px) {
   #page-header {padding: 5%!important;}
-  .staff_m:not(:first-of-type) .staff_title{margin-right:120px!important;}}
+  .staff_m:not(:first-of-type) .staff_title{margin-right:120px!important;}
+  .mdms {grid-template-columns: repeat(3, 86px)!important;}}
 
 @media only screen and (min-height: 950px) {
   .pa_dailynews article{height:130px!important;min-width:25%!important;}
