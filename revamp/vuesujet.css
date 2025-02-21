@@ -67,6 +67,7 @@
 /* SUJET SMS */
 #main-content:has(.navigation_chain a[href*="/f23-telephones"]) .post_row:not(:has(.phbody)){width: 70%;margin: 10px auto;padding: 0;
   .topbar2, .topbar:before, .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar), .profil_contact{display:none}
+  .topbar{padding-bottom:10px;}
   .post_avatar{aspect-ratio: 1/1;width:80px;}
   .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
   .profil_contact{flex-wrap: wrap;}
