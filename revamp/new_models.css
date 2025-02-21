@@ -106,7 +106,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);
           span, .onglets{display:flex;align-items:center;gap:5px; t1{font-weight:bold;}}}
     .para{padding:20px;}}
-.precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.1;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
+.precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.4;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
 
 .newmodels {
     /* margin: 10px auto; */
