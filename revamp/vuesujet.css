@@ -55,6 +55,7 @@
           .profil_contact{display:flex;margin-top:10px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
           .profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
          } 
+.field-aesthetic .field_label{display:none;}
 
 /* SUJET ADMIN */
 .post:has(.sujetadmin){display: block;}
