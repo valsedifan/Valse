@@ -68,6 +68,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
     .presaname{font:2em var(--titlefont2);margin-top: -12px;}
               i.cp{font-size:0.7em;}
     .para{height:;overflow:auto;}}
+.presa_alias:empty{display:none;}
 
 .presa_bloc_deux{display:flex;gap:30px;}
 .jauges{display:flex;gap:5px;align-items: flex-end;}
