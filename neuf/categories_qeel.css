@@ -14,11 +14,26 @@
 .forum {--padfo:20px;position:relative;z-index:1;padding:var(--padfo);padding-top:0px;margin-bottom: 10px;background: var(--transp5);backdrop-filter: blur(2px);border: 5px solid var(--bw2);display: grid;grid-template: auto / 1fr 200px;gap: 0 20px;align-items: center;}
 .forum:last-child {margin-bottom: 0;}
 
-.cat_new:after, .forum_new:after {position: absolute;bottom: 15px;right: -50px;
-    background: var(--gradient3), var(--newMsg);background-size: cover;background-blend-mode: multiply;
-    -webkit-mask-image: var(--newMsg);-webkit-mask-size: contain;
-    width: 75px;height: 75px;display: grid;place-items: center;
-    content: 'NEW';font: bold 1em var(--font); color: black; z-index: 10;padding-top: 5px;opacity: .8;}
+.cat_new:after, .forum_new:after {
+    position: absolute;
+    top: 60px;
+    right: -15px;
+    background: var(--gradient3), var(--newMsg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    -webkit-mask-image: var(--newMsg);
+    -webkit-mask-size: contain;
+    width: 75px;
+    height: 75px;
+    display: grid;
+    place-items: center;
+    content: 'NEW';
+    font: bold 1em var(--font);
+    color: black;
+    z-index: 10;
+    padding-top: 5px;
+    opacity: .8;
+    }
 
 .mainforumcon {position:relative;grid-column:1/3;display:grid;grid-template-columns:subgrid;}
 
@@ -103,7 +118,10 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
     .forum:first-of-type:before{content: '';position: absolute;left: 0;top: 0;display: block;width: 100%;height: 24px;background: var(--gradient3);}
     .forum_lastpost{grid-column: 2/3;}
     #subforum{grid-column: 1/2;grid-row:2/3;margin-top: -50px;}
+    .cat_new:after, .forum_new:after {top:initial;bottom: 0px;right: -50px;}
 }
+
+
 
 /* sur BL : #c3, #c7 */
 #c3, #c7 {
@@ -117,7 +135,6 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
     .cat_new:after, .forum_new:after{right:intial;left:-20px;bottom:0}    
 }
 
-.forum:has(a[href*="/f2-archives"]) #subforum{display:none;}
 
 /* sur BL : #f47, #c8, #c4, #c5, #c6 */
 #f47_title, #c4_title, #c5_title, #c6_title, #c8_title{h2{text-align:left;}}
