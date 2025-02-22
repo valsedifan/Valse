@@ -39,6 +39,9 @@
           .post_avatar_cadre:hover .avatarhoverprofil{transform: translateX(0px);}
           .postbody_msg{margin-bottom:20px;}
           .fa_dislike_list,.fa_like_list{margin-top:30px!important;letter-spacing:-.5px;background:var(--bw2);font-family:var(--stfont);border-radius:2px;padding:10px;width:400px!important;font-size:12px;height:auto;margin:0 auto 15px;text-transform:uppercase!important;line-height:12px;text-align:center;outline:1px solid var(--transp6);outline-offset:2px}
+          .fa_like_others{position:relative;background:transparent;font:bold 12px / 100% var(--stfont);text-transform:uppercase;color:var(--couleur1);letter-spacing:-.5px;}
+          .fa_like_others:hover .fa_like_tooltip {display:flex;}
+          .fa_like_tooltip{display:none;position:absolute;font:12px / 100% var(--stfont);text-transform:uppercase!important;}
           ul.profile-icons li a, .post_details .rep-button{transition:.3s;padding:3px 9px;height:20px;font-family:var(--stfont);margin:1px;border-radius:1px;background:var(--bw2);font-size:12px;border:1px solid var(--transp8);}
           .post_details .rep-button .rep-nb{margin-left: 5px;font-family: var(--font1);font-size: 11px;}
           ul.profile-icons li a:hover{background: var(--gradient3);}
