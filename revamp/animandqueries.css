@@ -47,3 +47,7 @@
   .pa_dailynews{margin:40px!important;}
   #site-title{font-size:5em!important;}
   .foversion{right:400px!important;}}
+
+@media screen and (max-width: 1300px){
+#c2:before {right:0!important} 
+}
