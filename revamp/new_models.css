@@ -21,78 +21,12 @@
     .para{padding:20px;}}
 .precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.4;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
 
-/* MODEL PRESA */
-.modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
-.modelepresa.bw {.presa_imgimg img, .presa_aes img{filter:grayscale(1);}}
-
-.presanav {width: calc(100% - 100px);justify-self: center;display: flex; padding: 5px 0;background: var(--gradient3); color: var(--bw2);
-    font: bold 1em var(--font);text-transform: uppercase;border-radius: 0 0 50px 50px;justify-content: space-evenly;
-       li {position: relative;z-index: 0; cursor: pointer;}
-        a {color: var(--bw2)!important;font-weight: bold;}}
-
-.barre_deux{display:flex;justify-content: space-between;width: calc(100% - 100px);justify-self: center;}
-.presa_trigger{position:relative;margin-left:20px;height:100%;
-    label{height:inherit;display:grid;place-items:center;background:var(--couleur2);padding: 5px 7px;border-radius: 50px;
-    color: var(--bw1);font: 0.7em var(--font1);text-transform: uppercase;}}
-.presa_trigger:hover .presa_tw{opacity:1;}
-.presa_tw{position:absolute; left:50%;top:20%;width:max-content;opacity: 0;background: var(--transp8);padding: 5px 15px;border: 1px solid var(--bw3);border-radius: 5px;backdrop-filter: blur(5px);max-width: 300px;transition: opacity .5s ease-in-out;}
-.presa_fc {margin-right:20px;background: var(--couleur1);padding: 5px 10px;border-radius: 50px;
-    color: var(--bw1);font: 0.9em var(--stfont);text-transform: uppercase;display: flex;align-items: center;gap: 5px;}
-.presa_fc:before{content:'ft. ';}
-
-.presa_infos_wrapper {margin-top: 60px;position: relative;}
-.presa_infos_wrapper:before {content: '';position: absolute;top: -32px;left: 50px;
-    width: calc(100% - 75px);height: calc(100% + 63px); background: var(--transp9);border: 1px solid var(--bw2);border-radius: 5px;}
-.presa_infos {overflow-y: clip;position: relative;height:240px;
-    ul {display: flex;flex-direction:column;height:200%;width:100%;position:absolute;align-items: center;}
-    li {height:calc(100% / 2);}
-    li:first-of-type{width:100%;/* height: 240px; */display: grid;grid-template-columns: 150px 1fr;gap: 20px;}
-    li:last-of-type{width:calc(100% - 100px);padding-left:30px;}
-}
-li:last-of-type .presa_champs{width: 100%;/* padding-right:30px; */}
-
-#slide1:checked ~ .presa_infos ul {top: 0%;} 
-#slide2:checked ~ .presa_infos ul {top: -100%;}
-input[name="presacarousel"]{display:none;}
-label.presa{position:absolute;right:-10px;top:calc(50% - 28px);background:var(--couleur1);width:20px;aspect-ratio:1/1;border-radius:50%;display:grid;place-items:center;color:var(--bw2);font-weight:bold;z-index:2;cursor:pointer;}
-label.presa[for="slide2"]{top:calc(50% + 5px);}
-
-.presa_img {position: relative;aspect-ratio: 5/8;width: 100%;
-    .presa_imgimg{width:inherit;height:100%;overflow:clip;border-radius:5px;}
-    img {width: 100%; height: 100%;object-fit: cover;transition:transform .5s ease-in-out;}
-    img:hover{transform:scale(1.1,1.1);}
-    .presa_alias {position: absolute;bottom: 30px;left: -25px;
-        background: var(--couleur3); padding: 5px 10px;border-radius: 50px;
-        text-align: center;color: var(--bw2);font: bold 1em var(--font);}}
-.presa_champs{width:calc(100% - 25px);height: 240px;display:grid;gap:15px;
-    .presaname{font:2em var(--titlefont2);margin-top: -12px;}
-              i.cp{font-size:0.7em;}
-    .para{height:;overflow:auto;}}
-.presa_alias:empty{display:none;}
-
-.presa_bloc_deux{display:flex;gap:30px;}
-.jauges{display:flex;gap:5px;align-items: flex-end;}
-.presa_jaugelabel{writing-mode:vertical-lr;font: 1em var(--font1);text-transform:uppercase;letter-spacing:1px;}
-.presa_jauge{background:var(--transp9);border:1px solid var(--transp9);height:100%;width:14px;border-radius:50px;display:flex;align-items: flex-end;
-    span{background:var(--gradient3);width:inherit;display:block;border-radius:50px;opacity:0.9;}}
-.presa_bloc_libre{background:var(--transp9);padding:30px;padding-right:0;height:200px;position:relative;
-    .bloc_libre_inner{padding-right:30px;height:100%;overflow:auto;}}
-.presa_rank_groupe{position:absolute; top:-10px; right:30px;display:flex;gap:15px;color:var(--bw2);font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;}
-.presa_rank, .presa_groupe{display:grid;place-items:center;border-radius:5px;padding:2px 6px;}
-.presa_rank{background:var(--couleur1);}
-.presa_groupe{background:var(--couleur2);}
-
-.presa_player{background:var(--transp9);width:calc(100% - 100px);position:relative;left:50px;padding:30px;padding-top:0;border-radius: 5px 5px 0 0;}
-.presa_aes{display:flex;align-items: center;justify-content: center;gap:10px;position:relative;top:-25px;
-        img{width:50px;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--bw2);}}
-
 /* BALISES */
 
 .balises{display:grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px;}
 .balise{border:1px solid var(--bw2);background:var(--transp9);padding:20px;border-radius:5px;}
 .balises br{display:none;}
 .balises .balise br{display:block;}
-
 
 /* ANNEXES */
 .annexes .ecdsjt{column-count:2;column-gap:20px;}
@@ -102,32 +36,6 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .groupes * br{display:block;}
 .groupes .ecdsjt{height:100%;}
 .groupes .ecdsjt soustitre3{padding-left:3px;}
-
-.precisions{background:var(--transp9);border-radius: 0 0 5px 5px;margin-left:100px;position:relative;
-    .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);
-          span, .onglets{display:flex;align-items:center;gap:5px; t1{font-weight:bold;}}}
-    .para{padding:20px;}}
-.precisions:before{content: '\ecfd';font-family:'cappuccicons';position:absolute;left: -100px;top:calc(50% - 75px);font-size:150px;line-height:100%;z-index:-1;opacity:0.4;background:var(--gradient3);-webkit-background-clip: text;-webkit-text-fill-color: transparent;transform: rotate(354deg);}
-
-.newmodels {
-    /* margin: 10px auto; */
-    position:relative;
-    z-index:0;
-    padding:40px;
-    text-align:justify;
-    backdrop-filter:blur(2px);
-    --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
-    --gradient: var(--couleur1), var(--couleur2), var(--couleur3);
-    }
-.newmodels:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
-
-.newmodels{
-    .titresujet2{display:flex;align-items:center;gap:15px;}
-    .ecdsjt{outline-color:var(--bw2);background: var(--transp7);position:relative;}
-    .iconsjt{margin:0;float:none;}
-    .iconsjt img{object-fit: cover;filter: grayscale(1);border-radius: 10px;height:100%;aspect-ratio:1/1;background-size: cover;transition: 300ms;border: 5px solid var(--bw2);height: 60px;outline: 1px solid var(--bw2);outline-offset: 2px;}
-    .titre2{margin:0;margin-top:-8px}
-    soustitre3{padding-left:10px;}}
  
 .accomplissementss, .culturehero{margin-left:2px;width:103%;}
 .accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px; a{color:var(--textColorAccent);}}
@@ -212,13 +120,6 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .presa_player{background:var(--transp9);width:calc(100% - 100px);position:relative;left:50px;padding:30px;padding-top:0;border-radius: 5px 5px 0 0;}
 .presa_aes{display:flex;align-items: center;justify-content: center;gap:10px;position:relative;top:-25px;}
 .presa_aes img{width:50px;aspect-ratio:1/1;object-fit:cover;border:1px solid var(--bw2);}
-
-/* BALISES */
-
-.balises{display:grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px;}
-.balise{border:1px solid var(--bw2);background:var(--transp9);padding:20px;border-radius:5px;}
-.balises br{display:none;}
-.balises .balise br{display:block;}
 
 /* chronologie */
 .timeline{display:grid;grid-template: auto / 1fr auto 1fr; gap:20px;position:relative;}
