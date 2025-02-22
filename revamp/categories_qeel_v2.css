@@ -176,7 +176,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 #c4:before, #c5:before, #c6:before, #c7:before{content:'';position:absolute;top:-8px;left:-8px;width:100%;height:100%;border-radius: 5px; border: 8px solid transparent;opacity:.7;z-index:-1;
   background: var(--gradient3) border-box; mask:linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);mask-composite: exclude;}
 
-[data-color-scheme="dark"] {#c4, #c5, #c6, #c7 {.forum{background: var(--transp10); backdrop-filter:blur(3px);}}}
+[data-color-scheme="dark"] {#c4, #c5, #c6, #c7 {.forum{background: var(--transp9); backdrop-filter:blur(3px);}}}
 /*#c4 .forums, #c5 .forums, #c6 .forums, #c7 .forums {}
 #c4 .forum, #c5 .forum, #c6 .forum, #c7 .forum{border: none;margin-bottom: 0;background:transparent;backdrop-filter:blur(0);}
 #c4 .forum_desc, #c5 .forum_desc, #c6 .forum_desc, #c7 .forum_desc {grid-column:1/2;padding:20px;}
