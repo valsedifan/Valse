@@ -100,6 +100,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .presa_img .presa_alias {position: absolute;bottom: 30px;left: -25px;
         background: var(--couleur3); padding: 5px 10px;border-radius: 50px;
         text-align: center;color: var(--bw2);font: bold 1em var(--font);}
+.presa_alias:empty{display:none;}
 .presa_champs{width:calc(100% - 25px);height: 240px;display:grid;gap:15px;}
 .presa_champs .presaname{font:2em var(--titlefont2);margin-top: -12px;}
 .presa_champs i.cp{font-size:0.7em;}
