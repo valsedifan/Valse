@@ -138,7 +138,7 @@ label[for=tabig2] {position: absolute;z-index: 2;background: var(--bw2);width: 3
 /*****instagram post******/
 
 .postigbody {border: 1px solid var(--transp8);background: var(--bw1);border-radius: 10px;width: 600px;padding: 30px;margin-bottom: 8px;}
-.iconigp {max-width: 40px;width: 100;border-radius: 50px;margin-top: -15px;margin-left: -15px;background-attachment: fixed;max-height: 40px;float: left;border: 3px solid var(--bw2);object-fit: cover;}
+.iconigp {max-width: 40px;width: 40px;border-radius: 50px;margin-top: -15px;margin-left: -15px;background-attachment: fixed;max-height: 40px;float: left;border: 3px solid var(--bw2);object-fit: cover;}
 .banigp {border-bottom: 1px solid var(--transp8);margin-top: -30px;margin-left: -30px;text-align: justify;font-size: 12px;width: 598px;background: var(--bw2);border-radius: 10px 10px 0px 0px;padding: 17px;height: 51px;margin-bottom: 11px;}
 .gicig{background: var(--gradient3);padding: 20px;width: 50px;height: 50px;border-radius: 100%;float: left;}
 .iconigpost {max-width: 50px;border-radius: 50px;margin-top: -15px;margin-left: -15px;background-attachment: fixed;max-height: 50px;float: left;border: 4px solid var(--bw2);}
