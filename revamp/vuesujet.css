@@ -172,7 +172,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 /* SUJET CARNET DE BORD */
 .post:has(.carnetdebord) {position:relative;}
 .post:has(.carnetdebord) * {position:relative;}
-.post:has(.carnetdebord) .topbar2, .topbar:before, .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar), .profil_contact{display:none}
+.post:has(.carnetdebord) .topbar2, .post:has(.carnetdebord) .topbar:before, .post:has(.carnetdebord) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar), .post:has(.carnetdebord) .profil_contact{display:none}
 
 .post:has(.carnetdebord) .topbar{padding-bottom:10px;}
 .post:has(.carnetdebord) .post_avatar{aspect-ratio: 1/1;width:80px;}
