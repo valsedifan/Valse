@@ -104,7 +104,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .presa_champs{width:calc(100% - 25px);height: 240px;display:grid;gap:15px;}
 .presa_champs .presaname{font:2em var(--titlefont2);margin-top: -12px;}
 .presa_champs i.cp{font-size:0.7em;}
-.presa_champs .para{height:;overflow:auto;}
+.presa_champs .para{overflow:auto;padding-right:30px;}
 
 .presa_bloc_deux{display:flex;gap:30px;}
 .jauges{display:flex;gap:5px;align-items: flex-end;}
