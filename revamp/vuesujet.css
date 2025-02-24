@@ -60,12 +60,12 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post_row .systab .tabs .tab.selected{border-bottom: 3px solid;border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 0 0 1 0;}
 .post_row .systab .contents{background:var(--transp9);height:180px;overflow-y:auto !important; overflow-x:clip!important;padding: 10px 15px;font-size: 12px;}
 .post_row .systab .contents .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-₩₩₩), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}
-.profil_contact{display:flex;margin-top:10px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
-.profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
 .systab .contents::-webkit-scrollbar {width: 2px;}
 .systab .contents::-webkit-scrollbar-track {background:var(--bw4);}
 .systab .contents::-webkit-scrollbar-thumb {background:var(--transp3)!important;}  
 .field-aesthetic .field_label{display:none;}
+.post_profile .profil_contact{display:flex;margin-top:10px;gap:10px;align-items:center;justify-content:center;font-size:var(--medium-size)}
+.post_profile .profil_contact *{background-image:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));color: transparent;-webkit-background-clip: text;}
 
 /* SUJET ADMIN */
 .post:has(.sujetadmin){display: block;}
