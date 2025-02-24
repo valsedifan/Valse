@@ -63,7 +63,7 @@ li:hover, li.active, li.activetwo{color: var(--bw2);background: var(--gradient3)
 .presanav {width: calc(100% - 100px);justify-self: center;display: flex; padding: 5px 0;background: var(--gradient3); color: var(--bw2);
     font: bold 1em var(--font);text-transform: uppercase;border-radius: 0 0 50px 50px;justify-content: space-evenly;}
 .presanav li {position: relative;z-index: 0; cursor: pointer;}
-.presanav a {color: var(--bw2)!important;font-weight: bold;}}
+.presanav a {color: var(--bw2)!important;font-weight: bold;}
 
 .barre_deux{display:flex;justify-content: space-between;width: calc(100% - 100px);justify-self: center;}
 .presa_trigger{position:relative;margin-left:20px;height:100%;}
