@@ -67,7 +67,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
         .staff_mc {opacity: 1; font-family: var(--stfont);text-transform: uppercase;font-size: 0.9em;position: relative;flex-direction: column;padding-top: 5px;}}
     .staff_title {display: flex;flex-wrap: wrap;column-gap: 6px;align-items: center;
         text-orientation: mixed;writing-mode: vertical-rl;transform: rotate(180deg);
-        margin-right: 45px; mix-blend-mode: difference; color: white;
+        margin-right: 45px; color: white;text-shadow: 0 0 3px black;
         h1 {text-align: left;color: inherit; margin: 0; padding: 0;}
         span {font: bold 0.9em var(--font);}
         t1 {font-size: 0.7em;}
