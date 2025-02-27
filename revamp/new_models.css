@@ -38,8 +38,7 @@
 .groupes .ecdsjt soustitre3{padding-left:3px;}
  
 .accomplissementss, .culturehero{margin-left:2px;width:103%;}
-.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px;}
-.accomplissement a, .cultureitem a{color:var(--textColorAccent);}
+.accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px; a{color:var(--textColorAccent);}}
 .accomplissement{height:120px;}
 .accomplissement:hover, .cultureitem:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));
                                             border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
@@ -52,16 +51,15 @@
 .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
 .cultureitem:hover .scroll{display:block;}
 .button-group ul{display:flex; gap:10px; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2);padding: 6px 26px;margin-bottom:25px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
-.button-group li:hover, .button-group li.active, .button-group li.activetwo{color: var(--bw2);background: var(--gradient3);}
+li:hover, li.active, li.activetwo{color: var(--bw2);background: var(--gradient3);}}
 .itemtype{position:absolute; top:-5px; right:20px;display:flex;gap:15px;border-radius:2px;color:var(--bw2);font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;padding: 0 4px}
 .accomplissementss .itemtype{background:var(--couleur2);}
 .culturehero .itemtype{background:var(--couleur1);}
-.itemimg{float:left;width:50px;aspect-ratio:1/1;border-radius:5px;border:2px solid var(--bw2);outline:1px solid var(--bw2);outline-offset:2px;margin-top:2px; margin-right:10px;}
-.itemimg img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;border-radius:5px;}
+.itemimg{float:left;width:50px;aspect-ratio:1/1;border-radius:5px;border:2px solid var(--bw2);outline:1px solid var(--bw2);outline-offset:2px;margin-top:2px; margin-right:10px; img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;border-radius:5px;}}
 
 /* MODEL PRESA */
 .modelepresa {max-width: 695px;display: grid;gap: 10px;padding:0 40px;}
-.modelepresa.bw .presa_imgimg img, .modelepresa.bw .presa_aes img{filter:grayscale(1);}
+.modelepresa.bw {.presa_imgimg img, .presa_aes img{filter:grayscale(1);}}
 
 .presanav {width: calc(100% - 100px);justify-self: center;display: flex; padding: 5px 0;background: var(--gradient3); color: var(--bw2);
     font: bold 1em var(--font);text-transform: uppercase;border-radius: 0 0 50px 50px;justify-content: space-evenly;}
