@@ -41,11 +41,15 @@
 .accomplissement, .cultureitem{position:relative; width:286px;height:80px;margin-right:10px; margin-bottom:15px;}
 .accomplissement a, .cultureitem a{color:var(--textColorAccent);}
 .accomplissement{height:120px;}
-.accomplissement:hover, .cultureitem:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
-.accomplissement:hover:before, .cultureitem:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;} .accomplissement *, .cultureitem *{position:relative;}
+.accomplissement:hover, .cultureitem:hover{--transp: 50%;--gradientdeg: -45deg;background: linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--couleur1), transparent var(--transp)), color-mix(in srgb, var(--couleur2), transparent var(--transp)), color-mix(in srgb, var(--couleur3), transparent var(--transp)));
+                                            border-radius: 5px;padding: 20px;position: relative;transition:all 1s ease-in-out;}
+.accomplissement:hover:before, .cultureitem:hover:before {content: '';position: absolute;left: 0;top: 0;margin: 2px;width: calc(100% - 4px);height: calc(100% - 4px);background: var(--transp2);border-radius: 5px;}
+.accomplissement *, .cultureitem * {position:relative;}
 .accomplissement:hover .herolist{display:grid;} 
 .herolist, .newmodels:not(:is(.pl_forum)).scroll, .cultureitem .scroll {display:none; position:absolute;top:25px;left:50%;width:max-content;max-width:250px;background:var(--bw2);padding:10px 20px;gap:10px;z-index:2;max-height:205px;overflow-y:auto;overflow-x:clip;} 
-.herolist.count{counter-reset:herolist;} .herolist.count u6:after{counter-increment: herolist;content: counter(herolist);} .herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
+.herolist.count{counter-reset:herolist;}
+.herolist.count u6:after{counter-increment: herolist;content: counter(herolist);}
+.herolist li{display:flex;align-items:center;justify-content: space-between;gap:10px;}
 .cultureitem:hover .scroll{display:block;}
 .button-group ul{display:flex; gap:10px; text-transform:uppercase; li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2);padding: 6px 26px;margin-bottom:25px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
 .button-group li:hover, .button-group li.active, .button-group li.activetwo{color: var(--bw2);background: var(--gradient3);}
@@ -231,7 +235,8 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .resa player {color: var(--textColorAccent);font-weight: 500;}
 
 /* PRÉ LIENS */
-.newmodels:is(.pl_forum) .ecdsjt .para{flex-basis:100%;min-height:100%;} .newmodels:is(.pl_forum) .scroll {max-height: 120px;overflow: auto;padding-right: 10px;}
+.newmodels:is(.pl_forum) .ecdsjt .para{flex-basis:100%;min-height:100%;}
+.newmodels:is(.pl_forum) .scroll {max-height: 120px;overflow: auto;padding-right: 10px;}}
 .pl_title c5{display:flex;gap:15px;align-items:baseline;font-size:22px; line-height:100%;text-transform: uppercase;margin-bottom:-15px;} 
 .pl_title y{font-size:inherit;} 
 .pl_title .soustit {font: 900 1.05em var(--font3);letter-spacing: 5px;}
