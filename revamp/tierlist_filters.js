@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var $container = $(".allcards");
     var filters = {};
-    var classOrder = ['ten', 's', 'a', 'b', 'c', 't', 'x', 'v'];
+    var classOrder = ['ten', 's', 'a', 'b', 'c', 't', 'x', 'h', 'v'];
 
     var $grid = $container.isotope({
         itemSelector: ".card",
