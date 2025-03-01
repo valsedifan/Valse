@@ -30,7 +30,7 @@
 .post_details {grid-column: 2/3;padding: 10px 10px;padding-right: 15px;display: flex;align-items: center; width: 100%;}
 .post_details a{color:var(--textColor);font-weight:400;font-size:var(--little-size);text-transform:uppercase}
 .post_avatar_cadre{background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white));border-radius: 5px;padding: 7px;padding-bottom:2px;width: 248px;border: 1px solid var(--bw4);}
-.post_avatar{position:relative;overflow:hidden;}
+.post_avatar{position:relative;overflow:hidden;min-height:371px;}
 .post_avatar a {cursor:default;}
 .post_avatar a img {border-radius: 2px;height: 100%;width: 100%;max-height: 366px !important;max-width: 232px !important;border: 5px solid var(--bw2);object-fit: cover;max-width:none!important;width:100%;}
 
