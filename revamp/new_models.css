@@ -325,7 +325,6 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .storybot .sendmsg{border:1px solid; flex-grow:1;display:grid;place-items:center;padding:10px;border-radius:50px;opacity:0.6;}
 .storybot .instabuttons{padding:0;grid-template-columns:auto auto;}
 
-.newinsta:has(.instareacs){padding:0 20px;}
 .instareacs{background:var(--bw2);border-radius:5px;padding:20px;font-size:14px;}
 .instareacs:has(button) .notprofile{display:grid; grid-template: auto auto / auto 1fr;align-items:center;gap:0 10px;}
 .instareacs:has(button) .instaicon, .instareacs:has(.instabuttons) .instaicon{grid-row:1/3;}
