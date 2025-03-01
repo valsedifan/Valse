@@ -3,6 +3,7 @@
     --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);}
 .newmodels:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
+[data-color-scheme="light"] .newmodels:before {opacity: 0.1;}
 .newmodels *::-webkit-scrollbar {width: 3px;}
 .newmodels *::-webkit-scrollbar-track {background: var(--transp9);}
 .newmodels *::-webkit-scrollbar-thumb {background: var(--gradient3)!important;}
@@ -278,7 +279,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instaicon img{width:calc(100% - 5px);height:calc(100% - 5px);object-fit:cover;border-radius:50%;border:2px solid var(--transp8);}
 .instabio{grid-column:span 3;text-align:center;}
 .instaimgs{display:grid;position:relative;margin-top:10px;}
-.instaimgs label{position:absolute;top:-44px;font-size:2em;width:50%;display:flex;justify-content:center;}
+.instaimgs label{position:absolute;top: -72px;font-size:2em;width:50%;display:flex;justify-content:center;}
 .instaimgs label:last-of-type{margin-left:50%;}
 .instaimgs input[name="instaprofil"]{display:none;}
 .instaposts, .instamentioned{display:grid;grid-template:210px / repeat(3, 210px);gap:10px;grid-column:1/2;grid-row:1/2;opacity:0;}
