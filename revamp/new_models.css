@@ -338,7 +338,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instalive div:has(.liveindic){display:flex;align-items:center;gap:10px;}
 .liveindic{background:var(--gradient3);padding:4px 8px;border-radius:2px;color:white;font:bold 10.5px var(--stfont);text-transform:uppercase;letter-spacing:.5px;}
 .livecoms{position:absolute!important;bottom:0;left:0;height:200px;display:flex;flex-direction:column;align-self:end;justify-content:end;padding:17px;color:white;mask-image:linear-gradient(to top, black, transparent);}
-.livecoms ul{height:100%;overflow:auto;}
+.livecoms ul{height:100%;overflow:auto;display: flex;flex-direction: column-reverse;}
 .livecoms ul::-webkit-scrollbar {width: 0px;}
 .liveimgs{position:absolute;top:0;left:0;width:100%;height:100%;aspect-ratio:initial;z-index:0;display:grid;}
 .liveimgs:has(img + img){grid-template: 1fr 1fr / 1fr; gap:5px;}
