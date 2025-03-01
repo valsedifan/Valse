@@ -259,12 +259,11 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .membername a, .membername{font:1.1em var(--titlefont2);text-transform:lowercase;}
 .pl_forum .precisions .para{max-height:150px;overflow-y:auto;}
 
-
 /* NEW INSTAGRAM */
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
 .newinsta{padding:20px;padding-top:0;} 
 .instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;}
-.instamain .bartop{display:flex;justify-content:space-between;align-items:center;padding: 10px;}
+.newinsta .bartop{display:flex;justify-content:space-between;align-items:center;padding: 10px;}
 .instaname{display:flex;align-items:center;font:bold 1.3em var(--font);}
 .instaname:before{content:'@';}
 .certifi{height:15px; aspect-ratio:1/1;margin-left:5px;}
@@ -281,7 +280,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .instaposts, .instamentioned{display:grid;grid-template:210px / repeat(3, 210px);gap:10px;grid-column:1/2;grid-row:1/2;opacity:0;}
 .instaposts img, .instamentioned img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;}
 .instaimgs label:has(input:checked) + .instaposts, .instaimgs label:has(input:checked) + .instamentioned {opacity:1;}
-.notprofile{display:flex;gap:10px;}
+.notprofile{display:flex;gap:10px;align-items:center;}
 .notprofile .instaicon{height:50px;}
 .instaimg{width:100%;padding:20px;padding-top:10px;position:relative;}
 .instaimg img{width:100%;height:100%;object-fit:cover;}
@@ -304,3 +303,19 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .instaimg .image {visibility:hidden;opacity:0;position:absolute;left:20px;top:0;width:100%;height:100%;}
 .instaimg .image img {width:100%;height:100%;object-fit:cover;}
 .instaimg:has(input){margin-bottom:20px;width:612px;height:612px;}
+
+.newinsta:has(.instastory):before{display:none;}
+.instastory{background:var(--transp7);border-radius:5px;border-bottom-left-radius: 0;border-bottom-right-radius: 0;position:relative;padding:20px;height:900px;overflow:clip;}
+.instastory i.cp-more{margin-right:10px;}
+.storytop{display:grid;grid-template-columns:repeat(3, 1fr);gap:5px;padding:0;}
+.storytop .storydiv{width:100%; height:3px; background:white;border-radius:5px;}
+.storytop .storydiv:last-of-type{opacity:0.3;}
+.instastory .bartop{padding: 0;padding-top:10px;}
+.instastory .instaicon img{border-color:white;}
+.instastory .instaname{color:white}
+.storyimg{position:absolute;top:0;left:0;width:100%;height:100%;aspect-ratio:initial;z-index:0;}
+.storyimg img{width:100%;height:100%;object-fit:cover;border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+.instastory *:not(.storyimg){position:relative;z-index:1;}
+.storybot{display:flex;gap:20px;align-items:center;background:var(--bw2);padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius: 5px;}
+.storybot .sendmsg{border:1px solid; flex-grow:1;display:grid;place-items:center;padding:10px;border-radius:50px;opacity:0.6;}
+.storybot .instabuttons{padding:0;grid-template-columns:auto auto;}
