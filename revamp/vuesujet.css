@@ -84,7 +84,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact{display:none}
 
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar{padding-bottom:10px;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar{aspect-ratio: 1/1;width:80px;height:80px;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar{aspect-ratio: 1/1;width:80px;min-height:80px;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact{flex-wrap: wrap;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_message{grid-column:1/3;}
