@@ -311,7 +311,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .storytop{display:grid;grid-template-columns:repeat(3, 1fr);gap:5px;padding:0;}
 .storytop .storydiv{width:100%; height:3px; background:white;border-radius:5px;}
 .storytop .storydiv:last-of-type{opacity:0.3;}
-.instastory .bartop{padding: 0;padding-top:10px;}
+.instastory .bartop{padding: 0;padding-top:10px;display:flex;align-items:center;justify-content:space-between;}
 .instastory .instaicon img{border-color:white;}
 .instastory .instaname{color:white}
 .storyimg{position:absolute;top:0;left:0;width:100%;height:100%;aspect-ratio:initial;z-index:0;}
