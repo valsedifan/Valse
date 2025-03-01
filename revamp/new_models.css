@@ -267,7 +267,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
 .newinsta:not(:has(.instareacs)){padding:20px;padding-top:0;} 
 .newinsta:has(.instareacs){padding:0px;}
-.instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;}
+.instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;border-top-left-radius: 0;border-top-right-radius: 0;}
 .instamain .bartop{display:flex;justify-content:space-between;align-items:center;padding: 10px;}
 .instaname{display:flex;align-items:center;font:bold 1.3em var(--font);}
 .instaname:before{content:'@';}
