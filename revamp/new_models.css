@@ -278,8 +278,8 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instaicon{border-radius:50%;background:var(--gradient3);height:90px;aspect-ratio:1/1;display:grid;place-items:center;}
 .instaicon img{width:calc(100% - 5px);height:calc(100% - 5px);object-fit:cover;border-radius:50%;border:2px solid var(--transp8);}
 .instabio{grid-column:span 3;text-align:center;}
-.instaimgs{display:grid;position:relative;margin-top:10px;}
-.instaimgs label{position:absolute;top: -72px;font-size:2em;width:50%;display:flex;justify-content:center;}
+.instaimgs{display:grid;position:relative;}
+.instaimgs label{position:absolute;top: -62px;font-size:2em;width:50%;display:flex;justify-content:center;}
 .instaimgs label:last-of-type{margin-left:50%;}
 .instaimgs input[name="instaprofil"]{display:none;}
 .instaposts, .instamentioned{display:grid;grid-template:210px / repeat(3, 210px);gap:10px;grid-column:1/2;grid-row:1/2;opacity:0;}
