@@ -260,6 +260,8 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .pl_forum .precisions .para{max-height:150px;overflow-y:auto;}
 
 /* NEW INSTAGRAM */
+hs {cursor: pointer;font-weight:600;color: var(--couleur1);}
+mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .newinsta:has(.instastory):before, .newinsta:has(.instareacs):before{display:none;}
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
 .newinsta:not(:has(.notprofile)){padding:20px;padding-top:0;} 
@@ -288,7 +290,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .instaimg img{width:100%;height:100%;object-fit:cover;}
 .instabuttons{display:grid;grid-template-columns:auto auto auto 1fr;padding: 0 20px;gap:10px;}
 .instabuttons i{font-size:1.5em;font-weight:bold;}
-.instabuttons i:nth-of-type(3){font-weight:500;}
+.instabuttons i.cp-paper-plane-o{font-weight:500;}
 .instabuttons i:last-of-type{justify-self:end;}
 .instacaption{padding: 10px 20px;}
 .instacaption:not(t1){font-size:15px;}
@@ -316,7 +318,8 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .instastory .instaname{color:white}
 .storyimg{position:absolute;top:0;left:0;width:100%;height:100%;aspect-ratio:initial;z-index:0;}
 .storyimg img{width:100%;height:100%;object-fit:cover;border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
-.instastory *:not(.storyimg){position:relative;z-index:1;}
+.storymsg{position:absolute;top:50%;left:60%;z-index:2;background:var(--transp9);backdrop-filter:blur(2px);padding:3px 8px;border-radius:5px;}
+.instastory *:not(.storyimg, .storymsg){position:relative;z-index:1;}
 .storybot{display:flex;gap:20px;align-items:center;background:var(--bw2);padding:20px;border-bottom-left-radius:5px;border-bottom-right-radius: 5px;}
 .storybot .sendmsg{border:1px solid; flex-grow:1;display:grid;place-items:center;padding:10px;border-radius:50px;opacity:0.6;}
 .storybot .instabuttons{padding:0;grid-template-columns:auto auto;}
