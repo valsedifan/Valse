@@ -264,8 +264,8 @@ hs {cursor: pointer;font-weight:600;color: var(--couleur1);}
 mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .newinsta:has(.instastory):before, .newinsta:has(.instareacs):before{display:none;}
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
-.newinsta:not(:has(.notprofile)){padding:20px;padding-top:0;} 
-.newinsta:has(.notprofile){padding:20px;}
+.newinsta:not(:has(.instareacs)){padding:20px;padding-top:0;} 
+.newinsta:has(.instareacs){padding:20px;}
 .instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;}
 .instamain .bartop{display:flex;justify-content:space-between;align-items:center;padding: 10px;}
 .instaname{display:flex;align-items:center;font:bold 1.3em var(--font);}
@@ -333,3 +333,4 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instareacs:has(.instabuttons) .notprofile{display:grid; grid-template: auto auto / auto 1fr;align-items:center;gap:0 10px;}
 .instareacs:has(.instabuttons) .instaicon{align-self:start;}
 .instareacs:has(.instabuttons) .instabuttons{grid-column:2/3;padding:0;margin-top:15px;}
+
