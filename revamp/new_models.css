@@ -263,7 +263,7 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 /* NEW INSTAGRAM */
 hs {cursor: pointer;font-weight:600;color: var(--couleur1);}
 mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
-.newinsta:has(.instastory):before, .newinsta:has(.instareacs):before, .newinsta:has(.instalive):before{display:none;}
+.newmodels.newinsta:has(.instastory):before, .newmodels.newinsta:has(.instareacs):before, .newmodels.newinsta:has(.instalive):before{display:none!important;}
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
 .newinsta:not(:has(.instareacs)){padding:20px;padding-top:0;} 
 .newinsta:has(.instareacs){padding:0px;}
