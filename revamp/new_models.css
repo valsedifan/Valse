@@ -3,7 +3,7 @@
     --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);}
 .newmodels:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:var(--gradient3);border:1px solid var(--bw2);opacity:0.06;z-index:-1;}
-[data-color-scheme="light"] .newmodels:before {opacity: 0.1;}
+[data-color-scheme="light"] .newmodels:before {opacity: 0.16;}
 .newmodels *::-webkit-scrollbar {width: 3px;}
 .newmodels *::-webkit-scrollbar-track {background: var(--transp9);}
 .newmodels *::-webkit-scrollbar-thumb {background: var(--gradient3)!important;}
@@ -267,7 +267,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .newinsta:before{background:var(--gradient3);mask-image:linear-gradient(to bottom, transparent, black 350px);} 
 .newinsta:not(:has(.instareacs)){padding:20px;padding-top:0;} 
 .newinsta:has(.instareacs){padding:0px;}
-.instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;border-top-left-radius: 0;border-top-right-radius: 0;}
+.instamain{background: var(--transp7);border-radius:5px;padding-bottom:10px;}
 .instamain .bartop{display:flex;justify-content:space-between;align-items:center;padding: 10px;}
 .instaname{display:flex;align-items:center;font:bold 1.3em var(--font);}
 .instaname:before{content:'@';}
