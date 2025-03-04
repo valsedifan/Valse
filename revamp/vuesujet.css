@@ -25,6 +25,7 @@
 .topbar2 .field-mods ul{display:flex; gap:10px;}
 .topbar2 .field-mods ul li i{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background:var(--modrank);width:50px;height:50px;padding:1px;display:grid;place-items:center;}
 .topbar2 .field-mods ul li i:before{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);width:100%;height:100%;background:var(--bw2);display:grid;place-items:center;}
+.topbar2 .field-mods ul li:not(:has(i)){display:none;}
 
 .post_date {flex-grow: 100;}
 .post_details {grid-column: 2/3;padding: 10px 10px;padding-right: 15px;display: flex;align-items: center; width: 100%;}
