@@ -63,7 +63,7 @@ a.forumtitle:before { content: "\eb02"; font-size: 15px; font-family: 'cappuccic
 
 #c1 .cate_title h2{text-align: right;}
 #c1 .forum:first-of-type{grid-row: 1 / 3;height: fit-content;width: 90%;align-self: center;justify-self: end;}
-#c1 .forum:first-of-type .forum_lastpost, #subforum{display:none;}
+#c1 .forum:first-of-type .forum_lastpost, , #c1 .forum:first-of-type #subforum{display:none;}
 #c1 .forum:first-of-type .forum_desc{margin-top: 15px;grid-template-rows: auto;gap: 0;}
 #c1 .forum:first-of-type .description1{height:auto;margin-left: 15px;grid-row: 1/2;}
 #c1 .forum:first-of-type a.forumtitle{left: 0;top: 0;margin-top: 44px;}
