@@ -8,8 +8,8 @@ font: bold 1em var(--font);text-transform:uppercase; color:var(--noirnoir);}
 li.linkgroups{display:inline-block;position:relative;margin-right:10px;height:40px;margin-top:23px;}
 li.linkgroups b3{color:var(--noirnoir);}
 .accesrapide label{text-transform:uppercase;font-family: var(--font1);font-size:var(--little-size);color:var(--noirnoir);height:40px;}
-li.linkgroups:hover .ar_list{height:max-content; width:max-content;padding:20px;}
-.ar_list{counter-reset: ar_item 0;display:grid;height:0px;width:0px;overflow:clip;position:absolute;top:29px;background:var(--bw5);transition:height 0.1s ease-in-out;}
+li.linkgroups:hover .ar_list{height:max-content; width:max-content;padding:20px;display:grid;}
+.ar_list{counter-reset: ar_item 0;display:none;height:0px;width:0px;overflow:clip;position:absolute;top:29px;background:var(--bw5);transition:height 0.1s ease-in-out;}
 .ar_list li{counter-increment: ar_item;}
 .ar_list li:before{content: counters(ar_item, ".", lower-roman)". ";background:var(--gradient3);color:transparent;background-clip:text;font-weight:bold;}
 .ar_list .separator{border-bottom: 1px solid var(--textColor);opacity: 0.2;padding-bottom: 7px;margin-bottom: 7px;}
