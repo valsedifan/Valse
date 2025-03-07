@@ -54,4 +54,5 @@
 
 @media screen and (max-width: 600px){
 .bodyAnim {display:none!important} 
+.newmodels:not(.sujetadmin){max-width:580px;}
 }
