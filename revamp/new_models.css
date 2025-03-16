@@ -74,7 +74,7 @@
 .presa_trigger{position:relative;margin-left:20px;height:100%;}
 .presa_trigger label{height:inherit;display:grid;place-items:center;background:var(--couleur2);padding: 5px 7px;border-radius: 50px;
     color: var(--bw1);font: 0.7em var(--font1);text-transform: uppercase;}
-.presa_trigger:hover .presa_tw{opacity:1;}
+.presa_trigger:hover .presa_tw{opacity:1;z-index: 1;}
 .presa_tw{position:absolute; left:50%;top:20%;width:max-content;opacity: 0;background: var(--transp8);padding: 5px 15px;border: 1px solid var(--bw3);border-radius: 5px;backdrop-filter: blur(5px);max-width: 300px;transition: opacity .5s ease-in-out;}
 .presa_fc {margin-right:20px;background: var(--couleur1);padding: 5px 10px;border-radius: 50px;
     color: var(--bw1);font: 0.9em var(--stfont);text-transform: uppercase;display: flex;align-items: center;gap: 5px;}
