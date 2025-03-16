@@ -48,10 +48,9 @@
   #site-title{font-size:5em!important;}
   .foversion{right:400px!important;}}
 
-@media screen and (max-width: 1300px){
-#c2:before {right:0!important} 
-}
+@media only screen and (max-width: 1300px){
+#c2:before {right:0!important;}}
 
-@media screen and (max-width: 600px){
-.bodyAnim {display:none!important} 
-}
+@media only screen and (max-width: 600px) {
+.bodyAnim{display:none!important;}
+#FAM-button{right: 20%!important;}}
