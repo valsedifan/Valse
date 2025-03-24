@@ -50,8 +50,7 @@
 .fa_like_tooltip{display:none;position:absolute;font:12px / 100% var(--stfont);text-transform:uppercase!important;}
 ul.profile-icons li a, .post_details .rep-button{transition:.3s;padding:3px 9px;height:20px;font-family:var(--stfont);margin:1px;border-radius:1px;background:var(--bw2);font-size:12px;border:1px solid var(--transp8);}
 .post_details .rep-button .rep-nb{margin-left: 5px;font-family: var(--font1);font-size: 11px;}
-ul.profile-icons li a:hover{background: var(--gradient3);}
-ul.profile-icons li a:hover, ul.profile-icons li a:hover a{color: var(--noirnoir);}
+ul.profile-icons li a:hover{background: var(--gradient3);color: var(--noirnoir);}
 ul.profile-icons li:has(a[href=""]) {display: none;}
 .user_field .label, .field_label.recompenses {margin-right: 2px;color: color-mix(in srgb, var(--rankcolor) 75%, white);font-weight: bold;font-size: var(--little-size);text-transform: uppercase;}
 .post_profile .content img{max-width:220px;opacity: .9;}
