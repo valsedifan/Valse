@@ -219,7 +219,7 @@ a.fa-mention {
   background-size: cover;
   background-position: center;
   cursor: pointer;
-  filter: grayscale(1);
+  filter: grayscale(.3);
   transition:filter 0.5s;
 }
 .award:hover .award_tooltiptext {display: block;}
