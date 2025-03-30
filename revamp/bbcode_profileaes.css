@@ -14,7 +14,7 @@
     h3:hover + blockquote{display: block;height: fit-content;padding: 5px 0;z-index: 1;max-width: 200px;}
     h4{font-size:var(--little-size);}}*/
 
-.profilaes table, .profilrps table, .profilsms table, .profilmulti table{font-size:var(--normal-size);text-transform: none;}
+.profilaes table, .profilrps table, .profilsms table, .profilmulti table{font-size:var(--normal-size);text-transform: none;position:relative;}
 .profilaes li, .profilrps li, .profilsms li, .profilmulti li{padding: 3px 0;}
 .profilaes h3:hover + blockquote, .profilrps h3:hover + blockquote, .profilsms h3:hover + blockquote, .profilmulti h3:hover + blockquote{display: block;height: fit-content;padding: 5px 0;z-index: 1;max-width: 200px;}
 .profilaes h4, .profilrps h4, .profilsms h4, .profilmulti h4{font-size:var(--little-size);}
