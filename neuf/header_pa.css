@@ -77,7 +77,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 #pa_staff .staff_m {display: flex;background-size: cover;background-repeat: no-repeat;position: relative; transition: all .4s}
 #pa_staff .staff_title {display: flex;flex-wrap: wrap;column-gap: 6px;align-items: center;
         text-orientation: mixed;writing-mode: vertical-rl;transform: rotate(180deg);
-        margin-right: 45px; color: white;text-shadow: 0 0 3px black;}
+        margin-right: 45px; color: white;text-shadow: 0 0 3px black;margin-bottom: 6px;}
 #pa_staff .staff_title h1 {text-align: left;color: inherit; margin: 0; padding: 0;}
 #pa_staff .staff_title span {font: bold 0.9em var(--font);}
 #pa_staff .staff_title t1 {font-size: 0.7em;}
@@ -89,7 +89,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 #pa_staff .staff_mc img {width: 40px;height: 40px;object-fit: cover;border: 1px solid var(--bw2);padding: 2px;}
 #pa_staff .staff_m:first-of-type {flex: 1; display: flex;flex-direction: column; align-items: flex-end; justify-content: flex-end;}
 #pa_staff .staff_m:first-of-type .staff_title {mix-blend-mode: unset;margin-right: 0;writing-mode: initial;transform: rotate(0deg); color: var(--textColor);padding-right: 10px;}
-#pa_staff .staff_m:first-of-type .staff_mc {opacity: 1; font-family: var(--stfont);text-transform: uppercase;font-size: 0.9em;position: relative;flex-direction: column;padding-top: 5px;padding-right: 10px;}
+#pa_staff .staff_m:first-of-type .staff_mc {opacity: 1; font-family: var(--stfont);text-transform: uppercase;font-size: 0.9em;position: relative;flex-direction: column;padding-right: 10px;padding-bottom: 5px;}
 .staff_m:not(:first-of-type):before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: linear-gradient(black, white); mix-blend-mode: color;}
 .staff_m:hover {flex: 1;background-position: top 30% center!important;}
 .staff_m:not(:first-of-type):has(~ .staff_m:hover), .staff_m:hover ~ .staff_m {opacity: 0.7;}
