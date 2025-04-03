@@ -9,7 +9,9 @@ $(document).ready(function () {
         layoutMode: 'vertical',
         transitionDuration: '0.3s',
         getSortData: {
-            personame: '.personame',
+            personame: function (itemElem) {
+                return $(itemElem).find('.personame a').text().trim().toLowerCase();
+            },
             alias: function (itemElem) {
                 var alias = $(itemElem).find('alias').text().trim();
                 return alias ? alias.toLowerCase() : 'zzzz';
