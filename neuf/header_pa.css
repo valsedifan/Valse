@@ -32,7 +32,7 @@ a[href^="/images"]/*Dernières images*/) {display: none;}
 /* Image des liens */
 a.mainmenu img {display: none;}
 
-#page-header {height: 100dvh;width: calc(100% - 20px);padding: 10px;display: grid;place-items: center;}
+#page-header {height: 100dvh;width: calc(100% - 40px);padding: 20px;display: grid;place-items: center;}
 
 a:has(#site-title) {display: flex;flex-wrap: wrap;gap: 10px 15px;justify-content: end;}
 a:has(#site-title) #site-title {flex: 100%;}
