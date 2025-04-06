@@ -107,7 +107,7 @@
 }*/
 
 .testmyr .codebox.spoiler {background: transparent;border: none;border-radius: 0;max-height: fit-content;}
-.testmyr .codebox.spoiler .spoiler_title {background: transparent;color: var(--textColor);font-weight: bold;}
+.testmyr .codebox.spoiler .spoiler_title {background: transparent;color: var(--textColor);font-weight: bold;justify-content: flex-start;}
 .testmyr .codebox.spoiler .spoiler_title:before {content: '+'; margin-right:5px;}
 .testmyr .codebox.spoiler dd {margin: 0;}
 .testmyr .codebox.spoiler dd .spoiler_content {padding: 0 !important;}
