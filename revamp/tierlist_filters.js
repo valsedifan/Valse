@@ -23,7 +23,7 @@ $(document).ready(function () {
                 return className ? classOrder.indexOf(className) : classOrder.length;
             },
         },
-        sortBy: 'fc',
+        sortBy: 'fcname',
     });
 
     // Search Input
