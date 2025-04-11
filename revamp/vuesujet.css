@@ -64,7 +64,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post_row .systab .tabs .tab{font-size:12px;font-family:var(--stfont);color:var(--textColor);text-transform:uppercase;text-align: center;padding:4px 19px;padding-bottom:2px;margin: 0 2px;border-radius: 3px;outline:1px solid var(--transp3);cursor:pointer;background: var(--transp9);}
 .post_row .systab .tabs .tab.selected{border-bottom: 3px solid;border-image: linear-gradient(to left, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb, var(--rankcolor) 75%, white)) 0 0 1 0;}
 .post_row .systab .contents{background:var(--transp9);height:180px;overflow-y:auto !important; overflow-x:clip!important;padding: 10px 15px;font-size: 12px;}
-.post_row .systab .contents .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-₩₩₩), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}
+.post_row .systab .contents .datacontent .user_field:not(.field-messages, .field-date-dinscription, .field-aesthetic, .field-multicomptes, .field-wons), .characontent .user_field:not(.field-age, .field-activite, .field-liens, .field-statut, .field-rps, .field-sms){display:none;}
 .systab .contents::-webkit-scrollbar {width: 2px;}
 .systab .contents::-webkit-scrollbar-track {background:var(--bw4);}
 .systab .contents::-webkit-scrollbar-thumb {background:var(--transp3)!important;}  
