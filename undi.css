@@ -334,7 +334,7 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .galbum2 .cllctntt1{margin:20px 0;}
 .galbum2 .cllctntt {width: fit-content;}
 .galbum2 .album{padding-bottom:20px;}
-
+.galbum2 .carterang{grid-template-columns: repeat(5,1fr);}
 /*****single heroes******/
 
 .shbg{background: var(--gradient3); margin: auto; width: 520px; border-radius: 10px;}
