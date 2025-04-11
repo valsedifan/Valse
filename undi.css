@@ -330,6 +330,10 @@ szrp3tag{font-size: 12px;font-family: var(--font1);text-transform: uppercase;col
 .carteimg{height: 150px;outline: 2px solid var(--bw4);outline-offset: 3px;}
 .rglsny{animation: fadeIn 1s;}
 
+.galbum2 .alltitre{margin-bottom:15px;}
+.galbum2 .cllctntt1{margin:20px 0;}
+.galbum2 .cllctntt {width: fit-content;}
+
 /*****single heroes******/
 
 .shbg{background: var(--gradient3); margin: auto; width: 520px; border-radius: 10px;}
