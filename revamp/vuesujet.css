@@ -163,10 +163,10 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.carnetdebord) h1{text-align:left;text-transform:initial;margin:5px 0;}
 .post:has(.carnetdebord) h1 i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}
 .post:has(.carnetdebord) .transpgradient{font: italic 1em var(--font5);}
-.post:has(.carnetdebord) .cb_links{display:flex;justify-content:center;gap:10px; font-size:1.2em;
-.post:has(.carnetdebord) a{display:grid;place-items:center;gap:2px;height:fit-content;}
-.post:has(.carnetdebord) a span{font: 9px var(--stfont);}
-.post:has(.carnetdebord) i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}}
+.post:has(.carnetdebord) .cb_links{display:flex;justify-content:center;gap:10px; font-size:1.2em;}
+.post:has(.carnetdebord) .cb_links a{display:grid;place-items:center;gap:2px;height:fit-content;}
+.post:has(.carnetdebord) .cb_links a span{font: 9px var(--stfont);margin-top: 4px;}
+.post:has(.carnetdebord) .cb_links i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}}
 .post:has(.carnetdebord) .cb_rps{display:grid; grid-template-columns: 1fr 1fr; gap:20px;}
 .post:has(.carnetdebord) .cb_rps t1{text-transform:initial;}
 .post:has(.carnetdebord) .cb_rps s2{font:bold 0.75em var(--font1);letter-spacing:0; margin-right:10px;}
