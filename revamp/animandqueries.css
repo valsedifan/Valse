@@ -51,6 +51,7 @@
 
 @media only screen and (max-width: 1300px){
 #c2:before {right:0!important;}
+#page-body {padding: 0 50px;}
 /* #page-header{max-height:65vh;} */}
 
 @media only screen and (max-width: 600px) {
