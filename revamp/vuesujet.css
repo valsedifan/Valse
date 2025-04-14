@@ -141,6 +141,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.carnetdebord) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
 .post:has(.carnetdebord) .profil_contact{display:none}
 .post:has(.carnetdebord) .topbar{padding-bottom:10px;}
+.post:has(.carnetdebord) .profile_tw{position:absolute;}
 .post:has(.carnetdebord) .post_avatar{aspect-ratio: 1/1;width:80px;}
 .post:has(.carnetdebord) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
 .post:has(.carnetdebord) .profil_contact{flex-wrap: wrap;}
