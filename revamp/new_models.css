@@ -306,7 +306,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instaimg label input.tab-toggle:checked ~ .image {visibility:visible;opacity:1;}
 .instaimg .image {visibility:hidden;opacity:0;position:absolute;left:20px;top:0;width:100%;height:100%;}
 .instaimg .image img {width:100%;height:100%;object-fit:cover;}
-.instaimg:has(input){margin-bottom:20px;width:612px;height:612px;}
+.instaimg:has(input){margin-bottom:20px;width:calc(100% - 20px);aspect-ratio:1/1;border-radius:5px;overflow:clip;}
 
 .instastory, .instalive{background:var(--transp7);border-radius:5px;border-bottom-left-radius: 0;border-bottom-right-radius: 0;position:relative;padding:20px;height:900px;overflow:clip;}
 .instastory i.cp-more{margin-right:10px;}
