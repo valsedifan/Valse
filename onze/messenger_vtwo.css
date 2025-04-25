@@ -117,7 +117,7 @@
 
 #FAM-idle,
 .FAM-button {
-  color: var(--FAM-buttonsClr);
+  color: var(--couleur1);
   cursor: pointer;
 }
 
@@ -126,9 +126,9 @@
   display: grid;
   grid-template-rows: 1fr max-content;
   overflow: auto;
-  background: var(--transp5);
-  border-radius: 10px 10px 0 0;
-  margin: 10px 15px 0 15px;
+  background: var(--transp7);
+  border-radius: 0 0 5px 5px;
+  margin: 0 15px 15px 15px;
 }
 
 /* Conteneur discussion */
@@ -151,19 +151,9 @@
   position: sticky;
   right: 0px;
   left: 0;
-  height: 80px;
+  height: 20px;
   z-index: 8;
   pointer-events: none;
-}
-
-.FAM-viewing-topic:before {
-  top: 0px;
-  background: var(--FAM-gradientTop);
-}
-
-.FAM-viewing-topic:after {
-  bottom: 0;
-  background: var(--FAM-gradientBot);
 }
 
 /* Chargement */
@@ -211,18 +201,20 @@
 /* Boutons */
 .FAM-button {
   background-color: var(--couleur2);
-  color: var(--FAM-pluginBackground);
+  color: var(--bw2);
   border-radius: 8px;
   padding: 5px 12px 6px;
   border: none;
   display: block;
   margin: 3px auto;
+  margin-bottom:15px;
   outline: 0;
   font-weight: bold;
+  transition:background-color 1s;
 }
 
 .FAM-button:hover {
-  color: var(--FAM-fontClr);
+  background-color: var(--couleur1);
 }
 
 .FAM-inline-buttons {
@@ -235,7 +227,12 @@
   margin: 3px;
   background-color: transparent;
   font-size: 18px;
-  color: var(--FAM-accentClr);
+  color: var(--couleur2);
+  transition:color 1s;
+}
+
+.FAM-inline-buttons .FAM-button:hover{
+  color:var(--couleur1);
 }
 
 .FAM-button-large {
@@ -431,12 +428,10 @@ hr.FAM-hr {
 #FAM-new-topic {
   cursor: pointer;
   font-size: 28px;
-  color: var(--FAM-accentClr);
+  background:var(--gradient3);
+  color: transparent;
+  background-clip: text;
   margin-bottom: 20px;
-}
-
-#FAM-new-topic:hover {
-  color: var(--FAM-fontClr);
 }
 
 .FAM-buttons-container {
@@ -446,16 +441,17 @@ hr.FAM-hr {
 }
 
 .FAM-buttons-container > button {
-  color: var(--FAM-accentClr);
+  color: var(--couleur2);
   background-color: transparent;
   font-size: 20px;
   border: none;
   cursor: pointer;
   outline: 0;
+  transition: color 1s;
 }
 
 .FAM-buttons-container > button:hover {
-  color: var(--FAM-secondClr);
+  color: var(--couleur1);
 }
 
 .FAM-buttons-container > button[data-disabled="true"] {
@@ -689,10 +685,9 @@ strong.FAM-page-link {
 }
 
 #FAM-msg {
-  color: var(--FAM-fontClr);
-  font-size: var(--normal-size);
-  background: 0 0;
-  border: none;
+  background: color-mix(in srgb, var(--bw6), transparent 20%);
+  border: 1px solid var(--bw4);
+  border-radius:5px;
   width: 100%;
   margin: 0;
   padding: 15px;
@@ -759,21 +754,43 @@ strong.FAM-page-link {
 }
 
 .FAM-my-msg .FAM-msg-text {
-  background: var(--FAM-myMsgBackground);
-  border-radius: 17px 17px 6px 17px;
+  border-radius: 17px;
   padding: 8px 15px 8px 20px;
   float: right;
 }
 
 .FAM-msg-text {
   font-size: 14px;
-  background: var(--FAM-msgBackground);
-  border-radius: 17px 17px 17px 6px;
+  border-radius: 17px;
   padding: 8px 20px 8px 15px;
+  position:relative;
+  background: var(--bw2);
 }
+
+.FAM-msg-box:last-of-type .FAM-msg-text{
+  border-radius: 17px 17px 17px 6px;
+}
+
+.FAM-msg-text * {position:relative;}
 
 .FAM-my-msg .FAM-msg-content {
   flex-direction: row-reverse;
+}
+
+.FAM-my-msg .FAM-msg-text:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: var(--gradient3);
+  opacity:0.4;
+  border-radius: 17px;
+}
+
+.FAM-my-msg:last-of-type .FAM-msg-text:before{
+ border-radius: 17px 17px 6px 17px;
 }
 
 .FAM-msg-text .fa-circle-o-notch {
@@ -806,7 +823,6 @@ strong.FAM-page-link {
 
 .FAM-msg-date,
 .FAM-msg-name {
-  font-size: 12px;
   width: 100%;
   height: 20px;
   line-height: 24px;
@@ -814,11 +830,16 @@ strong.FAM-page-link {
   text-overflow: ellipsis;
   overflow: hidden;
   flex-basis: fit-content;
-  color: var(--FAM-fontLightClr);
 }
 
 .FAM-name-mention {
   cursor: pointer;
+  text-transform:uppercase;
+}
+
+.FAM-msg-date{
+  margin-left:5px;
+  font-family:var(--stfont);  
 }
 
 .FAM-my-msg .FAM-msg-info {
@@ -921,10 +942,12 @@ strong.FAM-page-link {
   font-size: 14px;
   width: 20px;
   cursor: pointer;
+  color: var(--couleur2);
+  transition: color 1s;
 }
 
 .FAM-msg-button:hover {
-  color: var(--FAM-buttonHover);
+  color: var(--couleur1);
 }
 
 .FAM-edit-button {
@@ -1148,16 +1171,13 @@ blockquote.FAM-codebox > div {
   top: 0;
   display: flex;
   align-items: center;
-  background: var(--FAM-chatBackground);
-  color: var(--FAM-fontClr);
   border-radius: 5px;
   padding: 0 8px;
   margin-left: 5px;
 }
 
 #FAM-tab-add:hover {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+  color: var(--couleur1);
 }
 
 #FAM-tabs {
@@ -1181,7 +1201,6 @@ blockquote.FAM-codebox > div {
   top: 0;
   bottom: 0;
   width: 20%;
-  background: var(--FAM-gradient);
   z-index: 5;
   pointer-events: none;
 }
@@ -1191,7 +1210,7 @@ blockquote.FAM-codebox > div {
 }
 
 #FAM-tabs::-webkit-scrollbar-thumb {
-  background-color: var(--FAM-accentClr);
+  background-color: var(--couleur2);
   border-radius: 3px;
 }
 
@@ -1207,8 +1226,7 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab {
-  background: var(--FAM-chatBackground);
-  border-radius: 5px;
+  background:var(--transp9);
   position: relative;
   display: inline-block;
   align-items: center;
@@ -1216,6 +1234,7 @@ blockquote.FAM-codebox > div {
   padding: 0 8px;
   display: flex;
   width: 130px;
+  border-radius: 5px 5px 0 0;
 }
 
 .FAM-tab i {
@@ -1225,26 +1244,33 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab:hover {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+  background: var(--transp7);
 }
 
 .FAM-tab:hover i {
   display: initial;
 }
 
-.FAM-tab.FAM-tab-active {
-  font-weight: 700;
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
-}
-
 .FAM-tab-name {
   font-size: 12px;
+  font-weight:600;
   width: 80%;
   width: calc(100% - 16px);
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-transform: lowercase;
+}
+
+.FAM-tab-active{
+  background: var(--transp7);
+}
+
+.FAM-tab-active .FAM-tab-name{
+  background:var(--gradient3);
+  color: transparent;
+  background-clip: text;
+  font-weight:900;
+  text-transform: uppercase;
 }
 
 .FAM-tab-close {
