@@ -60,12 +60,10 @@
 #FAM-button-open {
   color: var(--accentClr);
   font-size: 18px;
-  background-color: var(--neutralDark);
-  border-radius: 10px;
-  width: 45px;
-  height: 45px;
-  left: 10px;
-  top: 15px;
+  background-color: transparent;
+  justify-self: end;
+  position: relative;
+  right: 70px;
   cursor: pointer;
   transition-property: right;
   transition-duration: 500ms;
