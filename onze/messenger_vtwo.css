@@ -59,7 +59,6 @@
 
 /* Bouton pour ouvrir la fenetre */
 #FAM-button-open {
-  color: var(--accentClr);
   font-size: 18px;
   background-color: transparent;
   justify-self: end;
@@ -73,13 +72,13 @@
 }
 
 #FAM-button-open:hover {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+  background:var(--gradient3);
+  color: transparent;
+  background-clip: text;
 }
 
 #FAM[data-hidden="false"] ~ #FAM-button-open {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+
 }
 
 /* Entête de la fenetre */
