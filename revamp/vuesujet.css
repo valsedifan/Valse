@@ -86,7 +86,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.dailynewsarticle) .topbar{grid-template: auto / 20px 1fr;display: none;}
 .post:has(.dailynewsarticle) .topbar2, .post_row:has(.dailynewsarticle) .topbar:before, .post_row:has(.dailynewsarticle) .post_profile, .post_row:has(.dailynewsarticle) .signature_div {display:none;}
 .post:has(.dailynewsarticle) .post_details{padding:0;height:0;opacitY:0;transition: height .1s ease-in-out;transition-behavior:allow-discrete;background:var(--transp9);backdrop-filter:blur(5px);}
-.post:has(.dailynewsarticle):hover .post_details{height:fit-content;opacity:1;padding: 10px 20px 10px 25px;}
+.post:has(.dailynewsarticle):hover .post_details{height:fit-content;opacity:1;padding: 10px 20px 10px 25px;margin-bottom: 10px;}
 .post:has(.dailynewsarticle) .post_message{padding:10px 0;}
 .post:has(.dailynewsarticle) .postbody_msg{margin-bottom:0;}
 .post:has(.dailynewsarticle) .fa_like_list {margin-top:0!important;}
