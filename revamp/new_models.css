@@ -365,8 +365,8 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .dailynewsarticle{background: var(--bw2);}
 .dailynewstext{padding:30px;}
 .dailynewsarticle img{width:100%;border-radius:0;}
-.hautdaily{width:initial;}
-.mainnews{position:relative;}
+.dailynewsarticle .hautdaily{width:initial;border:none;}
+.dailynewsarticle .mainnews{position:relative;}
 .dn_flag{background:var(--gradient3); color:var(--bw2); width:fit-content;padding: 5px 8px; font-weight:bold; font-size: 1.3em; text-transform:uppercase;}
 .dn_articletitle{text-transform: uppercase; color: var(--textColorAccent); font-family: var(--font1); font-size: 28px; line-height: 22px; letter-spacing: -.5px;}
 .dn_articledate {opacity: .7;} 
