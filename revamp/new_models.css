@@ -361,3 +361,12 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .dh_explications .writer_img{position: absolute; left: -45px; top:0;}
 .dh_explications .writer_img div{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);width: 90px;height: 90px;padding: 1px; display: grid;place-items: center;} 
 .dh_explications .writer_img img{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);height:100%;width:100%;object-fit:cover;}
+
+.dailynewsarticle{background: var(--bw2);}
+.dailynewstext{padding:30px;}
+.dailynewsarticle img{width:100%;border-radius:0;}
+.hautdaily{width:initial;}
+.mainnews{position:relative;}
+.dn_flag{background:var(--gradient3); color:var(--bw2); width:fit-content;padding: 5px 8px; font-weight:bold; font-size: 1.3em; text-transform:uppercase;}
+.dn_articletitle{text-transform: uppercase; color: var(--textColorAccent); font-family: var(--font1); font-size: 28px; line-height: 22px; letter-spacing: -.5px;}
+.dn_articledate {opacity: .7;} 
