@@ -90,6 +90,9 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.dailynewsarticle) .post_message{padding:10px 0;}
 .post:has(.dailynewsarticle) .postbody_msg{margin-bottom:0;}
 .post:has(.dailynewsarticle) .post_reactions{display:grid; grid-template-columns:1fr 1fr; justify-content: space-between; gap:30px;padding:0 30px 30px 45px; background:var(--bw2);margin-top:-70px;}
+.post:has(.dailynewsarticle) .post_reactions:before{content:''; grid-column: 1/3; border-top: 1px solid var(--transp3);width:calc(100% + 15px);margin-left:-15px;}
+.post:has(.dailynewsarticle) .post_reactions:has(.fa_like_list:empty, .fa_dislike_list:empty) {margin: initial;}
+.post:has(.dailynewsarticle) .post_reactions:has(.fa_like_list:empty, .fa_dislike_list:empty):before{display:none;}
 .post:has(.dailynewsarticle) .fa_like_list, .post:has(.dailynewsarticle) .fa_dislike_list {position:relative;margin:0!important;outline:none;width:100%!important;text-align:left;background:var(--bw1);padding:20px; padding-left:25px;}
 .post:has(.dailynewsarticle) .fa_like_list:before, .post:has(.dailynewsarticle) .fa_dislike_list:before,
 .post:has(.dailynewsarticle) .fa_like_list:after, .post:has(.dailynewsarticle) .fa_dislike_list:after{content:'';position:absolute;top:calc(50% - 15px);left:-15px;display:block;width:30px;height:30px;background-size:cover;}
