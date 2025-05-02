@@ -349,18 +349,18 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 
 /* DAILYNEWS */
 .dh_explications{display:grid; grid-template-columns: 1fr 1px 1fr; gap: 10px 30px;margin-left: 40px;}
-.dh_explications .middle{grid-column:2/3;} 
-.dh_explications .writer{grid-column: 1/4;width:calc(50% - 20px);} 
-.dh_explications .writer:nth-of-type(odd){justify-self:end;} 
-.dh_explications .writer:not(:first-of-type){margin-top:-10%;} 
-.dh_explications .write_title{margin-left:30px;display: grid;position:relative;} 
-.dh_explications .jaugeouter{margin-top:10px;width:100%; height:8px;overflow:clip; border: 1px solid var(--transp3); display:grid;grid-template-columns:repeat(10, 1fr);background:var(--bw2);} 
-.dh_explications .jaugeinter{width: 130%;background: var(--couleur1); height: 130%; transform: translateX(-5px);position: relative;overflow: clip; clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);} 
-.dh_explications .jaugetitle {font-size: 11px;text-transform: uppercase;font-family: var(--font1);font-weight: 600;justify-self: end;} 
+.middle{grid-column:2/3;} 
+.writer{grid-column: 1/4;width:calc(50% - 20px);} 
+.writer:nth-of-type(odd){justify-self:end;} 
+.writer:not(:first-of-type){margin-top:-10%;} 
+.write_title{margin-left:30px;display: grid;position:relative;} 
+.jaugeouter{margin-top:10px;width:100%; height:8px;overflow:clip; border: 1px solid var(--transp3); display:grid;grid-template-columns:repeat(10, 1fr);background:var(--bw2);} 
+.jaugeinter{width: 130%;background: var(--couleur1); height: 130%; transform: translateX(-5px);position: relative;overflow: clip; clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);} 
+.jaugetitle {font-size: 11px;text-transform: uppercase;font-family: var(--font1);font-weight: 600;justify-self: end;} 
 .dh_explications text2{text-transform:lowercase;font-size:1.3em;} 
-.dh_explications .writer_img{position: absolute; left: -45px; top:0;}
-.dh_explications .writer_img div{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);width: 90px;height: 90px;padding: 1px; display: grid;place-items: center;} 
-.dh_explications .writer_img img{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);height:100%;width:100%;object-fit:cover;}
+.writer_img{position: absolute; left: -45px; top:0;}
+.writer_img div{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);width: 90px;height: 90px;padding: 1px; display: grid;place-items: center;} 
+.writer_img img{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);height:100%;width:100%;object-fit:cover;}
 
 .dailynewsarticle{background: var(--bw2);}
 .dailynewstext{padding:30px;}
