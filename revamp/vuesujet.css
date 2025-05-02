@@ -93,8 +93,8 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.dailynewsarticle) .fa_like_list, .post:has(.dailynewsarticle) .fa_dislike_list {position:relative;margin:0!important;outline:none;width:100%!important;text-align:left;background:var(--bw1);padding:20px; padding-left:25px;}
 .post:has(.dailynewsarticle) .fa_like_list:before, .post:has(.dailynewsarticle) .fa_dislike_list:before,
 .post:has(.dailynewsarticle) .fa_like_list:after, .post:has(.dailynewsarticle) .fa_dislike_list:after{content:'';position:absolute;top:calc(50% - 15px);left:-15px;display:block;width:30px;height:30px;background-size:cover;}
-.post:has(.dailynewsarticle) .fa_like_list:after{background-image:url(https://em-content.zobj.net/source/microsoft-teams/363/red-heart_2764-fe0f.png);margin-top:1px;}
-.post:has(.dailynewsarticle) .fa_dislike_list:after{background-image:url(https://em-content.zobj.net/source/microsoft-teams/363/loudly-crying-face_1f62d.png);}
+.post:has(.dailynewsarticle) .fa_like_list:after{background-image:url(red-heart_2764-fe0f.png);margin-top:1px;}
+.post:has(.dailynewsarticle) .fa_dislike_list:after{background-image:url(loudly-crying-face_1f62d.png);}
 .post:has(.dailynewsarticle) .fa_like_list:before, .post:has(.dailynewsarticle) .fa_dislike_list:before{background:var(--bw1);border-radius:50%;padding:5px;margin-top:-5px; margin-left:-5px;}
 
 /* SUJET SMS */
