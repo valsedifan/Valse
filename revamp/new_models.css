@@ -371,6 +371,11 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .dn_articletitle{text-transform: uppercase; color: var(--textColorAccent); font-family: var(--font1); font-size: 28px; line-height: 22px; letter-spacing: -.5px;}
 .dn_articledate {opacity: .7;} 
 
+.dn_author{position:relative; margin-left:30px; padding:20px; padding-left:40px; background:var(--transp9); display:flex; align-items:center;}
+.dn_author .writer_img{top:initial; left:-30px;}
+.dn_author .writer_img div{width:60px; height:60px;}
+.dn_author bbb{text-transform:uppercase;}
+
 .dn_interview{display:grid;padding:40px}
 .dn_bubble{width:fit-content;max-width:65ch;}
 .dn_bubble span{text-transform:uppercase;color: var(--textColorAccent);font-family: var(--font1);letter-spacing: -.5px;}
