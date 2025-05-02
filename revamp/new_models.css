@@ -374,7 +374,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .dn_author{position:relative; margin-left:30px; padding:20px; padding-left:40px; background:var(--bw1); display:flex; align-items:center;}
 .dn_author .writer_img{top:initial; left:-30px;}
 .dn_author .writer_img div{width:60px; height:60px;}
-.dn_author bbb{text-transform:uppercase;}
+.dn_author bbb{text-transform:uppercase;font-weight:bold;}
 
 .dn_interview{display:grid;padding:40px}
 .dn_bubble{width:fit-content;max-width:65ch;}
