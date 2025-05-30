@@ -620,14 +620,29 @@ hr.FAM-hr {
 }
 
 .FAM-new-post .FAM-chat-avatar {
-  opacity: 1;
+  opacity: 1; 
+  position: relative;
 }
 
-.FAM-new-post .FAM-chat-avatar img {
+/*.FAM-new-post .FAM-chat-avatar img {
   color: var(--FAM-newMsgAnimation);
   transform: scale(1);
   animation: FAMpulse 3s infinite;
+}*/
+
+.FAM-new-post .FAM-chat-avatar:after{
+  content:'';
+  position:absolute;
+  top:14px;
+  right:4px;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:var(--couleur1);
+  color:var(--couleur1);
+  animation: FAMpulse 3s infinite;
 }
+
 
 @keyframes FAMpulse {
   0% {
