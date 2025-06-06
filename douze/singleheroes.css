@@ -1,0 +1,29 @@
+/* CONFESSIONAL */
+.post:has(.post_date a[href*="single-heroes-2025-confessional"]){background:red;}
+
+/* INSCRIPTION */
+.heroimg:after, .shinscription ul br{display:none;}
+.shinscription:before{background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white))}
+.heroimg{width:140px;height:140px;transform:rotate(45deg);overflow:clip; display:grid;grid-template: 140px / 140px;place-items:center;position: absolute;right: -70px; top: 70px;}
+.heroimg img{border-radius:0;aspect-ratio:1/1; width:150%; transform:rotate(-45deg); object-fit:cover; object-position:center;}
+.shinscription .ecdsjt{margin-right:70px;}
+.shinscription t9{padding-left: 5px; position: relative; top: -3px;}
+.shinscription t9 c5{letter-spacing:2px;}
+.shinscription s1{line-height:200%;}
+.shinscription .transpgradient{background:linear-gradient(var(--gradientdeg), color-mix(in srgb, var(--groupecolor), transparent var(--transp)), color-mix(in srgb, var(--rankcolor), transparent var(--transp))); font-style: italic;}
+.shinscription ul li br{display:block;}
+.shinscription ul{display:grid;grid-template-columns: 1fr 1fr; gap: 0 10px; margin-right:45px;}</style>
+
+/* COMMENTAIRE INTERVENANT.E */
+.post:has(.shcom) .avatarhoverprofil, .post:has(.shcom) .profil_contact, .post:has(.shcom) .systab, .post:has(.shcom) .profile_tw, .post:has(.shcom) .topbar2, .post:has(.shcom) .topbar:before{display:none;} .post:has(.shcom){background:transparent;border:none;}
+.post:has(.shcom) .post_details{grid-row:1/2;grid-column:1/-1;background:var(--transp5);opacity:0; margin-bottom:5px;}
+.post:has(.shcom):hover .post_details{opacity:1;}
+.post:has(.shcom) .topbar{grid-row:2/3;background:none;}
+.post:has(.shcom) .topbar *{justify-content:start;padding:0;}
+.post:has(.shcom) .post_profile{grid-row:2/4;}
+.post:has(.shcom) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);margin: 0 auto;}
+.post:has(.shcom) .field-alias {color:var(--rankcolor);font-size: 18px;font-family: var(--titlefont2);text-transform: uppercase; margin-top:5px;}
+.post:has(.shcom) .post_pseudo strong{color: var(--textColorAccent);text-transform:lowercase;font: 500 italic 11px var(--font5);letter-spacing: 2px;}
+.post:has(.shcom) .post_pseudo{grid-row: 2/3;margin-top:-10px;}
+.post:has(.shcom) .post_pseudo strong:before{content:'aka ';}
+.shcom{background:var(--transp5); padding:10px; border-radius:5px;}
