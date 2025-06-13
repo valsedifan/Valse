@@ -103,20 +103,13 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 
 /* SUJET SMS */
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) {width: 70%;margin: 10px auto;padding: 0;}
-
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar2, 
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar:before, 
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact,
-.post_row:has(.shortprofile) .topbar2, 
-.post_row:has(.shortprofile) .topbar:before, 
 .post_row:has(.shortprofile) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
 .post_row:has(.shortprofile) .profil_contact{display:none}
 
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar,
-.post_row:has(.shortprofile) .topbar{padding-bottom:10px;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar,
-.post_row:has(.shortprofile) .post_avatar{aspect-ratio: 1/1;width:80px;min-height:80px;}
+.post_row:has(.shortprofile) .post_avatar{width:80px;min-height: 115px;height:115px;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar_cadre,
 .post_row:has(.shortprofile) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact,
