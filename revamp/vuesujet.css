@@ -107,53 +107,28 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar2, 
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar:before, 
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact{display:none}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact,
+.post_row:has(.shortprofile) .topbar2, 
+.post_row:has(.shortprofile) .topbar:before, 
+.post_row:has(.shortprofile) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
+.post_row:has(.shortprofile) .profil_contact{display:none}
 
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar{padding-bottom:10px;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar{aspect-ratio: 1/1;width:80px;min-height:80px;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact{flex-wrap: wrap;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_message{grid-column:1/3;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_message{grid-column:1/3;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_details{padding:5px;}
-.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:has(.phbody) .profile_class_alias{min-height:auto;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .topbar,
+.post_row:has(.shortprofile) .topbar{padding-bottom:10px;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar,
+.post_row:has(.shortprofile) .post_avatar{aspect-ratio: 1/1;width:80px;min-height:80px;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_avatar_cadre,
+.post_row:has(.shortprofile) .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .profil_contact,
+.post_row:has(.shortprofile) .profil_contact{flex-wrap: wrap;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_message,
+.post_row:has(.shortprofile) .post_message{grid-column:1/3;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:not(:has(.phbody)) .post_details,
+.post_row:has(.shortprofile) .post_details{padding:5px;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:has(.phbody) .profile_class_alias,
+.post_row:has(.shortprofile) .profile_class_alias{min-height:auto;}
 
 /* SUJET CARNET DE BORD */
-/*.post:has(.carnetdebord) {position:relative;
-  * {position:relative;}
-  .topbar2, .topbar:before, .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar), .profil_contact{display:none}
-  .topbar{padding-bottom:10px;}
-  .post_avatar{aspect-ratio: 1/1;width:80px;}
-  .post_avatar_cadre{padding: 7px;width: calc(80px + 15px);aspect-ratio:1/1;margin: 0 auto;}
-  .profil_contact{flex-wrap: wrap;}
-  .post_message{grid-column:1/3;position:relative;}
-  .post_details{padding:5px;}
-  .carnetdebord{--iconwidth:100px;max-width:100%;}
-  .newmodels:before{display:none;}
-  .newmodels{padding:0 20px}
-  .ecdsjt:has(.moodboard){overflow:clip;height: calc(2.5 * var(--iconwidth));}
-  .moodboard{width:41%;position:absolute;right:-90px;display:grid;grid-template: repeat(10, calc(var(--iconwidth) / 5)) / repeat(6, calc(var(--iconwidth) / 2));
-    gap:calc(var(--iconwidth) / 10);border-radius:0;float:right;margin-top: calc(var(--iconwidth) / 10 * -4);}
-  .moodboard br{display:none;}
-   .mbdia{width:var(--iconwidth);clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);aspect-ratio:1/1; padding: 1px; display: grid;place-items: center;align-self:center;position:relative;
-    grid-column: span 2; grid-row: span 2;}
-    .mbdia:before{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); width: 100%; height: 100%; background: var(--bw2); display: grid; place-items: center;}
-    .mbdia img{width:105%;height:105%;aspect-ratio:1/1;object-fit:cover;border-radius:0;filter:grayscale(1)}
-    .mbdia:nth-of-type(1), .mbdia:nth-of-type(10){grid-column: 3 / span 2;}
-    .mbdia:nth-of-type(3), .mbdia:nth-of-type(8){grid-column: 2 / span 2;}
-  .firstblock{width:calc(100% - 20%);height:210px;overflow:auto;
-  clip-path: polygon(calc(100% - 3px) 0, 600px 50%, calc(100% - 3px) 100%, 0% 100%, 0 50%, 0% 0%);}
-  h1{text-align:left;text-transform:initial;margin:5px 0;
-  i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}}
-  .transpgradient{font: italic 1em var(--font5);}
-  .cb_links{display:flex;justify-content:center;gap:10px; font-size:1.2em;
-  a{display:grid;place-items:center;gap:2px;height:fit-content;}
-  a span{font: 9px var(--stfont);}
-  i{background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}}
-  .cb_rps{display:grid; grid-template-columns: 1fr 1fr; gap:20px;
-    t1{text-transform:initial;}
-    s2{font:bold 0.75em var(--font1);letter-spacing:0; margin-right:10px;}}
-}*/
 .post:has(.carnetdebord) {position:relative;}
 .post:has(.carnetdebord) * {position:relative;}
 .post:has(.carnetdebord) .topbar2,
