@@ -34,11 +34,18 @@
 .navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{padding:5px;}
 .navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
 
-
 /* CONFESSIONAL */
 .post:has(.post_date a[href*="single-heroes-2025-confessional"]) {
     background: red;
 }
+
+/* CODE DUO */
+.ecdsjt:has(.heroduoimg){width:calc(100% - 50px);} 
+.heroduoimg{display: grid; grid-template: 50px / 50px; width: 50px; height: 50px; transform: rotate(45deg); overflow: clip; place-items: center; position: absolute; right: -25px; top:20px;} 
+.heroduoimg img {border-radius: 0; aspect-ratio: 1 / 1;width: 150%;transform: rotate(-45deg);object-fit: cover; object-position: center;} 
+.ecdsjt.invert{grid-column:2/3; margin-top:-50px;} 
+.ecdsjt.invert .heroduoimg{right:initial; left:-25px;} 
+.ecdsjt.invert .para{text-align:right;}
 
 /* INSCRIPTION */
 .heroimg:after, .shinscription ul br {
