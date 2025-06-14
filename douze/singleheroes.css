@@ -1,43 +1,43 @@
 /* SINGLE HEROES CATEGORY */
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row .field-alias {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row .field-alias {
     color: var(--rankcolor);
     font-size: 18px;
     font-family: var(--titlefont2);
     padding-top: 17px;
 }
 
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row .post_pseudo strong {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row .post_pseudo strong {
     color: var(--textColorAccent);
     text-transform: lowercase;
     font: 500 italic 11px var(--font5);
     letter-spacing: 2px;
 }
 
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row .post_pseudo {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row .post_pseudo {
     grid-row: 2/3;
     margin-top: -10px;
     padding-top:5px;
     padding-right:20px;
 }
 
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row strong:before {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row strong:before {
     content: 'aka ';
 }
 
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) {width: 70%;margin: 10px auto;padding: 0;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .profil_contact{display:none}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar{aspect-ratio: 5/8;width:70px;min-height:120px;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar_cadre{padding: 7px;width: calc(70px + 15px);margin: 0 auto;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .profil_contact{flex-wrap: wrap;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_message{grid-column:1/3;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{padding:5px;}
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) {width: 70%;margin: 10px auto;padding: 0;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .profil_contact{display:none}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar{aspect-ratio: 5/8;width:70px;min-height:120px;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar_cadre{padding: 7px;width: calc(70px + 15px);margin: 0 auto;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .profil_contact{flex-wrap: wrap;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_message{grid-column:1/3;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{padding:5px;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
 
-/* CONFESSIONAL */
+/* CONFESSIONAL
 .post:has(.post_date a[href*="single-heroes-2025-confessional"]) {
     background: red;
-}
+} */
 
 /* CODE DUO */
 .ecdsjt:has(.heroduoimg){width:calc(100% - 50px);} 
