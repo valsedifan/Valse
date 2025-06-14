@@ -67,6 +67,7 @@
     position: absolute;
     right: -70px;
     top: 70px;
+    z-index:2;
 }
 
 .heroimg img {
