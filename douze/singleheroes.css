@@ -113,7 +113,8 @@
 }
 
 /* COMMENTAIRE INTERVENANT.E */
-.post:has(.shcom) .avatarhoverprofil, .post:has(.shcom) .field-mods, .post:has(.shcom) .profil_contact, .post:has(.shcom) .systab, .post:has(.shcom) .profile_tw, .post:has(.shcom) .topbar:before {    display: none;
+.post:has(.shcom) .avatarhoverprofil, .post:has(.shcom) .field-mods, .post:has(.shcom) .profil_contact, .post:has(.shcom) .systab, .post:has(.shcom) .profile_tw, .post:has(.shcom) .topbar:before, .post:has(.shcom) .signature_div {
+    display: none;
 }
 
 .post:has(.shcom) {
