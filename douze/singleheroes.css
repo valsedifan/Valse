@@ -34,10 +34,53 @@
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{padding:5px;}
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
 
-/* CONFESSIONAL
-.post:has(.post_date a[href*="single-heroes-2025-confessional"]) {
-    background: red;
-} */
+/* LIVE REACTION ONLINE */
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) {
+    background: transparent; border:none; width:70%; margin: 0 auto;
+}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .post_profile,
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .topbar {
+    display:none;
+}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .post_details,
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .post_message {
+    grid-column: 1/-1;        
+}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .post_details{
+ background: var(--transp5);
+    opacity: 0;
+    height:0;
+    transition: all .3s ease-in-out;
+}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)):hover .post_details {
+    opacity: 1;
+    height:auto;
+}
+
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t56-commentaires"]):not(:has(.sujetadmin)) .postbody_msg{
+    background:var(--bw2);
+    border-radius:5px;
+    padding:15px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    align-items: center;
+}
+
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5190-single-heroes-season-3-confessionnal#161444"]):not(:has(.sujetadmin)) .postbody_msg a:first-of-type{
+    flex: 100%; text-align:center;
+}
+
+.shlivecom {
+    width:40px; height: 40px; object-fit: cover; border-radius: 50%;
+}
+shpseudo {
+font:bold 1.1em var(--font1);
+background:var(--gradient3);
+-webkit-background-clip: text;
+color:transparent;
+}
+
 
 /* CODE DUO */
 .ecdsjt:has(.heroduoimg){width:calc(100% - 50px);} 
