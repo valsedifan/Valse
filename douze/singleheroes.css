@@ -67,7 +67,7 @@
     align-items: center;
 }
 
-.navigation_links:has(a[href*="/f38-single-heroes"]) + .container .post:has(.post_date a[href*="/t5190-single-heroes-season-3-confessionnal#161444"]):not(:has(.sujetadmin, .shortprofile)) .postbody_msg a:first-of-type{
+a.shrp{
     flex: 100%; text-align:center;
 }
 
@@ -82,6 +82,14 @@ background:var(--gradient3);
 color:transparent;
 }
 
+/* CODE RECAP */
+.shrecap details {position:relative;} 
+.shrecap .new summary:after{content:'\eba8'; font-family: 'Cappuccicons'; font-size: 2em; position:relative; top: -4px; left: -6px; background: var(--gradient3); color: transparent; -webkit-background-clip: text; float:left;} 
+.shrecap summary a{font-size:10px; background:var(--bw2); padding: 2px 5px; border-radius: 5px; transition: color .4s;} 
+.shrecap summary a:hover {color: var(--couleur1);} 
+.shrecap details .ecdsjt{margin: 10px 0 20px 0;} 
+.shrecap details .ecdsjt .oldnews {opacity:.5;} 
+.shrecap details:not(:nth-last-of-type(-n+2)){margin-bottom: 10px;}
 
 /* CODE DUO */
 .ecdsjt:has(.heroduoimg){width:calc(100% - 50px);} 
