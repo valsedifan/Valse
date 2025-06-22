@@ -20,7 +20,7 @@
     padding-right:20px;
 }
 
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row strong:before {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row .post_pseudo strong:before {
     content: 'aka ';
 }
 
