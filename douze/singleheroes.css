@@ -197,6 +197,10 @@ color:transparent;
     padding: 0;
 }
 
+.post:has(.shcom) .topbar .profile_class_alias {
+    grid-column: 2/4;
+}
+
 .post:has(.shcom) .topbar {grid-template: auto / 90px 1fr 1fr;}
 .post:has(.shcom) .topbar2 {grid-column:3/4;grid-row:2/3;height:fit-content;align-items:start;justify-items:end!important;}
 
