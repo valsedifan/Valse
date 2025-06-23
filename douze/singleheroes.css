@@ -35,29 +35,29 @@
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
 
 /* LIVE REACTION ONLINE */
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) {
     background: transparent; border:none; width:70%; margin: 0 auto;
 }
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_profile,
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .topbar {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_profile,
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .topbar {
     display:none;
 }
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_details,
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_message {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_details,
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_message {
     grid-column: 1/-1;        
 }
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_details{
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .post_details{
  background: var(--transp5);
     opacity: 0;
     height:0;
     transition: all .3s ease-in-out;
 }
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)):hover .post_details {
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)):hover .post_details {
     opacity: 1;
     height:auto;
 }
 
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="/t5364-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .postbody_msg{
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post:has(.post_date a[href*="-single-heroes-season-3-en-direct"]):not(:has(.sujetadmin, .shortprofile)) .postbody_msg{
     background:var(--bw2);
     border-radius:5px;
     padding:15px;
