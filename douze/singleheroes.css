@@ -82,6 +82,8 @@ background:var(--gradient3);
 color:transparent;
 }
 
+.certifi{height:15px; aspect-ratio:1/1;margin-left:5px;}
+
 /* CODE RECAP */
 .shrecap details {position:relative;} 
 .shrecap .new summary:after{content:'\eba8'; font-family: 'Cappuccicons'; font-size: 2em; position:relative; top: -4px; left: -6px; background: var(--gradient3); color: transparent; -webkit-background-clip: text; float:left;} 
