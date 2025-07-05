@@ -24,7 +24,7 @@
     content: 'aka ';
 }
 
-.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) {width: 70%;margin: 10px auto;padding: 0;}
+.navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) {width: 80%;margin: 10px auto;padding: 0;}
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile div:not(.post_avatar_cadre, .profil_contact, .post_avatar),
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .profil_contact{display:none}
 .navigation_links:has(a[href*="/f137-single-heroes-season-3"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar{aspect-ratio: 5/8;width:70px;min-height:120px;}
