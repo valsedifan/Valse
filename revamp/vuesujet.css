@@ -120,6 +120,8 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post_row:has(.shortprofile) .post_details{padding:5px;}
 .navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row:has(.phbody) .profile_class_alias,
 .post_row:has(.shortprofile) .profile_class_alias{min-height:auto;}
+.navigation_links:has(a[href*="/f13-telephones"]) + .container .post_row .postbody_msg img{max-width: 100%;}
+
 
 /* SUJET CARNET DE BORD */
 .post:has(.carnetdebord) {position:relative;}
