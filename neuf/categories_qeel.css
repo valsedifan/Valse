@@ -852,7 +852,7 @@ a.forumtitle:before {
 
 /*Connectés en ce moment*/
 #online_users, #last_connected {
-    height: 170px;
+    height: 140px;
     overflow: auto;
     border: 1px solid var(--bw5);
     padding: 10px;
