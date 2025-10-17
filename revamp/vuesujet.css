@@ -142,7 +142,7 @@ ul.profile-icons li:has(a[href=""]) {display: none;}
 .post:has(.carnetdebord) .newmodels{padding:0 20px}
 .post:has(.carnetdebord) .ecdsjt:has(.moodboard){overflow:clip;height: calc(2.5 * var(--iconwidth));}
 .post:has(.carnetdebord) .moodboard{width:41%;position:absolute;right:-90px;display:grid;grid-template: repeat(10, calc(var(--iconwidth) / 5)) / repeat(6, calc(var(--iconwidth) / 2));
-    gap:calc(var(--iconwidth) / 10);border-radius:0;float:right;margin-top: calc(var(--iconwidth) / 10 * -4);}
+    gap:calc(var(--iconwidth) / 10);border-radius:0;float:right;margin-top: calc(var(--iconwidth) / 10 * -4); z-index:1;}
 .post:has(.carnetdebord) .moodboard br{display:none;}
 .post:has(.carnetdebord) .mbdia{width:var(--iconwidth);clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);background: var(--gradient3);aspect-ratio:1/1; padding: 1px; display: grid;place-items: center;align-self:center;position:relative;
     grid-column: span 2; grid-row: span 2;}
