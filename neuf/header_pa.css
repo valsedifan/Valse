@@ -99,7 +99,7 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 .staff_m:not(:first-of-type){opacity:0.8;}
 .staff_m:hover .staff_mc {opacity: 1!important;}
 
-.mdms, .topsites, .pa_links {position: absolute; background: var(--transp7); border-radius: 50px; border: 5px solid var(--bw2);}
+.mdms, .topsites, .pa_links {position: absolute; background: var(--transp7); border-radius: 50px; border: 2px solid var(--bw2);}
 .mdms {grid-column: 4/5;grid-row: 1/2;
     justify-self:center;top:-50px;right:-18%;
     display: grid; grid-template-columns: repeat(3, 76px);gap: 10px;padding:7px 14px;}
