@@ -161,14 +161,17 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 
 
 .main_forum:not(:has(#c1,#c2,#c3)) .panel.introduction{display:none;}
-.dn_content{display:flex;flex-wrap: wrap;gap: 10px;padding: 20px;padding-bottom: 10px;max-height: 450px; overflow:auto;}
-.dn_content .article{flex-grow:1;position:relative;display:grid;align-items:end;justify-items:start;justify-content: start;min-height:130px;}
+.dn_content{display:flex;flex-wrap: wrap;gap: 10px;padding: 20px;padding-bottom: 20px;height: 100%;max-height: 450px; overflow:auto;}
+.dn_content .article{flex-grow:1;position:relative;display:grid;align-items:end;justify-items:start;justify-content: start;}
 .dn_content .article img{object-fit:cover;width:100%;height:100%;position:absolute;filter:grayscale(1);opacity: .9;}
 .dn_content .article .infos{display:grid;background:var(--transp2);backdrop-filter:blur(2px);border-top-right-radius: 5px;padding: 10px;margin-right: 30px;}
 .dn_content .article .infos .tag{background:var(--gradient3);width:fit-content;margin-bottom:3px; padding:2px 5px;color:var(--bw2);font:bold 10px var(--font);text-transform:uppercase;}
 .dn_content .article .infos .title{font: bold var(--normal-size) var(--font1);text-transform:uppercase;color:var(--textColorAccent);}
 .dn_content .article .infos .date{font-family:var(--stfont);}
-.panel.introduction{padding:0;border:1px solid var(--bw5);width: calc(100% - 20px);margin: 0 auto;margin-bottom: 5%;}
+.panel.introduction{padding:0;border:1px solid var(--bw5);margin: 0 auto;margin-bottom: 5%;display: flex;gap: 20px;background: transparent; display: grid; grid-template: auto / minmax(220px, 30%) 1fr; gap: 20px;width: calc(100% - 60px);}
+.panel.introduction > div {background: var(--transp5);border: 2px solid var(--bw2);}
+.panel.introduction > div:not(#lasttopics){display:flex;flex-direction: column;}
+.panel.introduction .mes-txt{height:100%;}
 .panel.introduction .h3{position:relative;background:var(--gradient3);padding: 10px 20px;font: 1.4em var(--titlefont2);color: transparent;background-clip: text;-webkit-background-clip: text;width: fit-content;border-bottom: 6px solid;border-image: var(--gradient3) 1;}
 .panel.introduction .h3:before{content:'\ebab';font-family:'cappuccicons';font-weight:500;padding-right: 6px;position:relative;top:2px;;color: var(--couleur1);}
 #lasttopics{display: flex;gap:10px;padding: 20px;padding-top:0;flex-wrap: wrap;justify-content: flex-start;}
@@ -177,3 +180,8 @@ display: grid;place-items: center; content: var(--version); font: bold 17px var(
 #lasttopics .lasttopic_widget t1{font-size:0.95em;}
 #lasttopics .lasttopic_widget span{text-transform:lowercase;font-size:0.9em;text-align:right;}
 #lasttopics .lasttopic_widget a{font-size:1.15em;}
+#eventList{padding: 20px;max-height: 450px;overflow: auto;scrollbar-gutter: stable;}
+#eventList::-webkit-scrollbar {width: 2px;}
+#eventList::-webkit-scrollbar-track {background:var(--bw4);}
+#eventList::-webkit-scrollbar-thumb {background:var(--transp3)!important;}
+#lasttopics{grid-column: 1/-1;padding:20px;}
