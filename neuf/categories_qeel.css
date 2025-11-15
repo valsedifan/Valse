@@ -59,7 +59,7 @@
     padding-top: 0px;
     margin-bottom: 10px;
     background: var(--transp5);
-    border: 5px solid var(--bw2);
+    border: 2px solid var(--bw2);
     display: grid;
     grid-template: auto / 1fr 200px;
     gap: 0 20px;
