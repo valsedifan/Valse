@@ -541,7 +541,7 @@ a.forumtitle:before {
 }
 
 #f47 .forums, #c4 .forums, #c5 .forums, #c6 .forums, #c8 .forums {
-    padding: 20px;
+    padding: 25px;
     display: grid;
     gap: 20px;
 }
