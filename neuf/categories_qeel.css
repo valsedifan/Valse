@@ -449,6 +449,7 @@ a.forumtitle:before {
     width: 100%;
     height: 24px;
     background: var(--gradient3);
+    opacity: .9;
 }
 
 #c1 .forum_lastpost, #c2 .forum_lastpost {
