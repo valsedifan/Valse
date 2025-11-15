@@ -704,18 +704,18 @@ a.forumtitle:before {
     grid-template-columns: auto auto 1fr;
     gap: 10px 20px;
     margin-bottom: 10px;
-    outline: 5px solid var(--bw2);
+    outline: 2px solid var(--bw2);
 }
 
 .qeel:before {
     content: '';
     position: absolute;
-    top: -8px;
-    left: -8px;
+    top: -6px;
+    left: -6px;
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    border: 8px solid transparent;
+    border: 6px solid transparent;
     opacity: .7;
     z-index: -1;
     background: var(--gradient3) border-box;
