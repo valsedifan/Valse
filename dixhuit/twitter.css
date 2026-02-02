@@ -15,8 +15,14 @@
 ul.twibuttons i.cp{font-size:1.3em;} 
 .twitter .newtwi{border-top: 1px solid var(--transp3);color: var(--co2);font-size: 1.1em;display: grid; place-items: center;cursor:pointer;}
 
+
 .post:has(.post_date > a[href^="/t58-"]) .newinsta,
 .post:has(.post_date > a[href^="/t58p"]) .newinsta{margin:auto 0;}
+
+.post:has(.post_date > a[href^="/t58-"]) .newinsta .images,
+.post:has(.post_date > a[href^="/t58p"]) .newinsta .images{display: flex; flex-wrap: wrap; gap: 10px;} 
+.post:has(.post_date > a[href^="/t58-"]) .newinsta .images > *,
+.post:has(.post_date > a[href^="/t58p"]) .newinsta .images > *{width: 30%; max-height: 320px; object-fit: cover; border-radius: 5px; flex-grow: 1;}
 
 .post:has(.post_date > a[href^="/t58-"]) .instabuttons,
 .post:has(.post_date > a[href^="/t58p"]) .instabuttons{display:flex!important;gap: 95px!important;} 
