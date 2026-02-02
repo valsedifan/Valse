@@ -195,7 +195,7 @@ ul.twibuttons i.cp {
 
 .post:has(.post_date > a[href^="/t58-"]):not(:has(.sujetadmin)) .topbar, 
 .post:has(.post_date > a[href^="/t58p"]):not(:has(.sujetadmin)) .topbar {
-    grid-column: 1/2;
+    grid-column: 1/2;align-content: center;
 }
 
 .post:has(.post_date > a[href^="/t58-"]):not(:has(.sujetadmin)) .topbar2, 
