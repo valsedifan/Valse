@@ -113,11 +113,6 @@ ul.twibuttons i.cp {
     cursor: pointer;
 }
 
-.post:has(.post_date > a[href^="/t58-"]) .newinsta, 
-.post:has(.post_date > a[href^="/t58p"]) .newinsta {
-    margin: auto 0;
-}
-
 .twiimages {
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +125,12 @@ ul.twibuttons i.cp {
     object-fit: cover;
     border-radius: 5px;
     flex-grow: 1;
+}
+
+
+.post:has(.post_date > a[href^="/t58-"]) .newinsta, 
+.post:has(.post_date > a[href^="/t58p"]) .newinsta {
+    margin: auto 0;
 }
 
 .post:has(.post_date > a[href^="/t58-"]) .instabuttons, 
