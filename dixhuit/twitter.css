@@ -310,7 +310,7 @@ ul.twibuttons i.cp {
     position: relative;
     margin: 0 auto!important;
     outline: none;
-    width: calc(100% - 20px) !important;
+    width: calc(100% - 50px) !important;
     text-align: left;
     background: var(--bw1);
     padding: 20px;
