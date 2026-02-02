@@ -43,7 +43,7 @@ ul.twibuttons i.cp{font-size:1.3em;}
 .post:has(.post_date > a[href^="/t58p"]) .topbar:before{display:none;}
 
 .post:has(.post_date > a[href^="/t58-"]):not(:has(.sujetadmin)),
-.post:has(.post_date > a[href^="/t58p"]):not(:has(.sujetadmin)) {margin:0 auto;margin-bottom: 20px;background:transparent;border:none;}
+.post:has(.post_date > a[href^="/t58p"]):not(:has(.sujetadmin)) {margin:0 auto;margin-bottom: 20px;background:transparent;border:none;grid-template: auto 1fr / min-content 1fr;}
 
 .post:has(.post_date > a[href^="/t58-"]):not(:has(.sujetadmin)) .topbar,
 .post:has(.post_date > a[href^="/t58p"]):not(:has(.sujetadmin)) .topbar {grid-column: 1/2;}
