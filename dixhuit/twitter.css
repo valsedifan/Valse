@@ -1,0 +1,16 @@
+.inner:has(.twitter), .post_message:has(.twitter){padding:0!important;}
+.twitter{display:grid;grid-template: 50px 1fr 50px / 30% 70%;} 
+.twileft{grid-row:1/-1; border-right: 1px solid var(--transp3);padding:10px;background:var(--bw2);} 
+.twileft li {cursor: pointer;font-size: 1.3em; padding: 5px 10px;text-transform: capitalize;font-weight: 500;} 
+.twileft li.twibutton {margin-top:10px;padding: .5em;} 
+.twitop{display:flex; align-items:center;border-bottom: 1px solid var(--transp3);background:var(--bw2);} 
+.twitop li{position:relative;padding:0 10px;height:100%; display: grid; align-items: center;cursor:pointer;} 
+.twitop li:first-of-type{font-weight:bold;color:var(--textColorAccent);} 
+.twitop li:first-of-type:after{content:'';position:absolute;bottom:0;left:0;width:100%;height:5px;background:var(--gradient3);} 
+.twitter > div:not(.newtwi){display:grid;grid-template: 1fr 40px auto / auto 1fr;padding:10px;} 
+.twitter > div > img{width:50px;aspect-ratio:1/1;object-fit:cover;border-radius:50%;; grid-row: 1/-1;} 
+.twitter > div > span{color:color-mix(in srgb, currentColor 60%, transparent);padding:15px;font-size:1.2em;margin-bottom:10px;} 
+.twitter ul.twibuttons {display:flex; gap: 10px; border-top: 1px solid var(--transp3);padding:20px 0;background: var(--gradient3);color: transparent; background-clip: text;cursor:pointer;margin-top: -10px;} 
+.twitter .twibutton {background: var(--textColor); color: var(--bw2); border-radius: 50px; text-align: center;padding: 0 1em;font-weight:bold;} 
+ul.twibuttons i.cp{font-size:1.3em;} 
+.twitter .newtwi{border-top: 1px solid var(--transp3);color: var(--co2);font-size: 1.1em;display: grid; place-items: center;cursor:pointer;}
