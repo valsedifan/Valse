@@ -2,7 +2,7 @@
 .navigation_links:has(a[href*="/f4"]) + .container .post_row .topbar:before{display:none;}
 
 .navigation_links:has(a[href*="/f4"]) + .container .post_row{position:relative;}
-.navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)){margin:0 auto;background:transparent;border:none;}
+.navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)){margin:0 auto;background:transparent;border:none;grid-template: auto 1fr / min-content 1fr;}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .topbar {grid-column: 1/2;}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .topbar2 {display: flex;flex-direction: column;align-items:end;
     width: 100%; height:fit-content;}
