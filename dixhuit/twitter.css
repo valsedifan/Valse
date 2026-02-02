@@ -118,15 +118,13 @@ ul.twibuttons i.cp {
     margin: auto 0;
 }
 
-.post:has(.post_date > a[href^="/t58-"]) .newinsta .images, 
-.post:has(.post_date > a[href^="/t58p"]) .newinsta .images {
+.twiimages {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.post:has(.post_date > a[href^="/t58-"]) .newinsta .images > *, 
-.post:has(.post_date > a[href^="/t58p"]) .newinsta .images > * {
+.twiimages > * {
     width: 30%;
     max-height: 320px;
     object-fit: cover;
