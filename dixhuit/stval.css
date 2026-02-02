@@ -6,6 +6,7 @@
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .topbar {grid-column: 1/2;}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .topbar2 {display: flex;flex-direction: column;align-items:end;
     width: 100%; height:fit-content;}
+.navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .field-mods li .tooltip{bottom:initial;top:0;}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .topbar .profile_tw{grid-column:1/2;grid-row:3/4;bottom:4px;left:10px;}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile {grid-row: 2/3;background: var(--transp9);}
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)) .post_message{grid-row: 1/-1;grid-column:2/4;padding-top:50px;background: var(--transp5);border: 5px solid var(--bw2);}
@@ -22,7 +23,7 @@
 .navigation_links:has(a[href*="/f4"]) + .container .post_row:not(:has(.sujetadmin)):hover .post_details{transform:translateX(0px);}
 
 .stval26 h1{text-transform:lowercase;text-align:left;margin:0;font-size:1.5em;} 
-.stval26 datum{background:var(--bw2);color:var(--textColor); font-size:.9em;padding:.3em .8em;}
+.stval26 datum{background:var(--bw1);color:var(--textColor); font-size:.9em;padding:.3em .8em;}
 datum.warning:before{content:'\ecfd';font-family:'cappuccicons';margin-right:4px;background-image: var(--gradient3);background-clip: text;color: transparent;}
 .stval26 .grid{display:grid;grid-template: 1fr 1fr / 1fr 1fr; gap: 2px;} 
 .stval26 .grid img{width:25px;height:25px;object-fit:cover;aspect-ratio:1/1;} 
