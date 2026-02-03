@@ -174,7 +174,7 @@ ul.twibuttons i.cp {
 
 .post:has(.post_date > a[href^="/t58-"]), 
 .post:has(.post_date > a[href^="/t58p"]) {
-    position: relative
+    position: relative;grid-template: auto 1fr / min-content 1fr;
 }
 
 .post:has(.post_date > a[href^="/t58-"]) .post_profile .post_avatar_cadre, 
