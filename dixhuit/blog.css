@@ -55,8 +55,7 @@
 .post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_details{transform:translateX(0px);}
 
 .post_row.sticky_post .post_reactions,
-.post_row.comment .post_reactions{display: grid;grid-template-columns: 1fr 1fr;justify-content: space-between;gap: 30px;
-    padding: 0 30px 30px 45px;}
+.post_row.comment .post_reactions{display: grid;grid-template-columns: 1fr 1fr;justify-content: space-between;gap: 30px;}
 
 .post_row.sticky_post .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty), 
 .post_row.comment .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty):before {display: none;}
@@ -64,8 +63,8 @@
 .post_row.sticky_post .fa_like_list, 
 .post_row.sticky_post .fa_dislike_list,
 .post_row.comment .fa_like_list, 
-.post_row.comment .fa_dislike_list{position: relative;margin: 0 30px!important;outline: none;
-    width: calc(100% - 40px) !important; text-align: left;background: var(--transp9); padding: 20px;padding-left: 25px;}
+.post_row.comment .fa_dislike_list{position: relative;margin: 0 14px!important;outline: none;
+    width: calc(100% - 14px) !important; text-align: left;background: var(--transp9); padding: 20px;padding-left: 25px;}
 
 .post_row.sticky_post .fa_like_list:before, 
 .post_row.sticky_post .fa_dislike_list:before, 
