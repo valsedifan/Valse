@@ -115,7 +115,7 @@ datum.warning:before{content:'\ecfd';font-family:'cappuccicons';margin-right:4px
 .stval26 .grid img,  .stval26 .grid div{border-radius:0;}
 
 .inner:has(.twitter), .post_message:has(.twitter) {padding: 0!important;}
-.twitter {display: grid;grid-template: 50px 1fr 50px / 270px 1fr;background: var(--bw1);}
+.twitter {display: grid;grid-template: 50px 1fr 50px / 270px 1fr;background: var(--transp5);}
 .twileft {grid-row: 1/-1;border-right: 1px solid var(--transp3);padding: 10px;background: var(--bw2);}
 .twileft li {cursor: pointer;font-size: 1.3em; padding: 5px 10px;text-transform: capitalize;font-weight: 500;}
 .twileft li.twibutton {margin-top: 10px;padding: .5em;}
