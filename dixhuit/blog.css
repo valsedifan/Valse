@@ -1,0 +1,141 @@
+.post_row.sticky_post .post_profile .post_avatar_cadre, 
+.post_row.sticky_post .topbar:before,
+.post_row.comment .post_profile .post_avatar_cadre, 
+.post_row.comment .topbar:before{display:none;}
+
+.post_row.sticky_post,
+.post_row.post_row.comment{position:relative;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)),
+.post_row.post_row.comment:not(:has(.sujetadmin)){margin:0 auto;background:transparent;border:none;grid-template: auto 1fr / min-content 1fr;margin-bottom: 20px;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .topbar,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .topbar{grid-column: 1/2;align-content: center;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .topbar2,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .topbar2 {display: flex;flex-direction: column;align-items:end;
+    width: 100%; height:fit-content;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .field-mods li .tooltip,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .field-mods li .tooltip{bottom:initial;top:0;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .topbar .profile_tw,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .topbar .profile_tw{grid-column:1/2;grid-row:3/4;bottom:4px;left:10px;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_profile,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_profile {grid-row: 2/3;background: var(--transp9);}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_message,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_message{grid-row: 1/3;grid-column:2/4;padding-top:50px;background: var(--transp5);border: 5px solid var(--bw2);}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_message .postbody_msg,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_message .postbody_msg{margin: 20px 40px;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_details,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_details{grid-row:1/2;grid-column:2/4;position:absolute;left:0;right:0;z-index:5;padding-left:15px;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .topbar, 
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_profile,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .topbar, 
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_profile{width:270px;opacity:0;transform:translateX(100px);transition: transform .5s ease, opacity .3s;background:var(--bw2);z-index:10;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_message,
+.post_row.sticky_post:not(:has(.sujetadmin)) .post_details,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_message,
+.post_row.post_row.comment:not(:has(.sujetadmin)) .post_details{transform:translateX(-100px);transition: transform .5s ease;}
+
+.post_row.sticky_post:not(:has(.sujetadmin)):hover .topbar,
+.post_row.sticky_post:not(:has(.sujetadmin)):hover .post_profile,
+.post_row.post_row.comment:not(:has(.sujetadmin)):hover .topbar,
+.post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_profile{opacity:1;transform:translateX(0px)}
+
+.post_row.sticky_post:not(:has(.sujetadmin)):hover .post_message,
+.post_row.sticky_post:not(:has(.sujetadmin)):hover .post_details,
+.post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_message,
+.post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_details{transform:translateX(0px);}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions {display: grid;grid-template-columns: 1fr 1fr;justify-content: space-between;gap: 30px;
+    padding: 0 30px 30px 45px; background: var(--bw2);margin-top: -70px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:before { content: '';
+    grid-column: 1/3;border-top: 1px solid var(--transp3);width: calc(100% + 15px); margin-left: -15px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty), 
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty):before {display: none;
+}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list {position: relative;margin: 0 auto!important;outline: none;
+    width: calc(100% - 50px) !important; text-align: left;background: var(--bw1); padding: 20px;padding-left: 25px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:after, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:after {content: '';position: absolute;top: calc(50% - 15px); left: -15px;
+    display: block;width: 30px;height: 30px;background-size: cover;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:after {background-image: url(red-heart_2764-fe0f.png); margin-top: 1px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:after {background-image: url(loudly-crying-face_1f62d.png);}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list {grid-column: 2/3;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:before {background: var(--bw1);border-radius: 50%; padding: 5px; margin-top: -5px;margin-left: -5px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions {display: grid;grid-template-columns: 1fr 1fr;justify-content: space-between;gap: 30px;
+    padding: 0 30px 30px 45px;background: var(--bw2); margin-top: -70px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:before {content: '';grid-column: 1/3;border-top: 1px solid var(--transp3);width: calc(100% + 15px);margin-left: -15px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty), 
+.post_row.comment:not(:has(.sujetadmin)) .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty):before {display: none;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list {position: relative;margin: 0!important;outline: none;width: 100%!important;text-align: left;background: var(--bw1);padding: 20px;padding-left: 25px;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:after, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:after {content: '';position: absolute;top: calc(50% - 15px);left: -15px;display: block; width: 30px;height: 30px;background-size: cover;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:after {background-image: url(red-heart_2764-fe0f.png); margin-top: 1px;}
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:after {background-image: url(loudly-crying-face_1f62d.png);}
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list {grid-column: 2/3;}
+
+.post_row.comment:not(:has(.sujetadmin)) .fa_like_list:before, 
+.post_row.comment:not(:has(.sujetadmin)) .fa_dislike_list:before {background: var(--bw1);border-radius: 50%;padding: 5px;margin-top: -5px;margin-left: -5px;}
+
+
+.stval26 h1{text-transform:lowercase;text-align:left;margin:0;font-size:1.5em;} 
+.stval26 datum{background:var(--bw1);color:var(--textColor); font-size:.9em;padding:.3em .8em;}
+datum.warning:before{content:'\ecfd';font-family:'cappuccicons';margin-right:4px;background-image: var(--gradient3);background-clip: text;color: transparent;}
+.stval26 .grid{display:grid;grid-template: 1fr 1fr / 1fr 1fr; gap: 2px;} 
+.stval26 .grid img{width:25px;height:25px;object-fit:cover;aspect-ratio:1/1;} 
+.stval26 .grid img,  .stval26 .grid div{border-radius:0;}
+
+.inner:has(.twitter), .post_message:has(.twitter) {padding: 0!important;}
+.twitter {display: grid;grid-template: 50px 1fr 50px / 270px 1fr;}
+.twileft {grid-row: 1/-1;border-right: 1px solid var(--transp3);padding: 10px;background: var(--bw2);}
+.twileft li {cursor: pointer;font-size: 1.3em; padding: 5px 10px;text-transform: capitalize;font-weight: 500;}
+.twileft li.twibutton {margin-top: 10px;padding: .5em;}
+.twitop {display: flex;align-items: center;border-bottom: 1px solid var(--transp3);background: var(--bw2);}
+.twitop li {position: relative;padding: 0 10px;height: 100%;display: grid;align-items: center;cursor: pointer;}
+.twitop li:first-of-type {font-weight: bold;color: var(--textColorAccent);}
+.twitop li:first-of-type:after {content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 5px;background: var(--gradient3);}
+.twitter > div:not(.newtwi) {display: grid;grid-template: 1fr 40px auto / auto 1fr; padding: 10px;}
+.twitter > div > img {width: 50px;aspect-ratio: 1/1; object-fit: cover;border-radius: 50%;grid-row: 1/-1;}
+.twitter > div > span {color: color-mix(in srgb, currentColor 60%, transparent);padding: 15px;font-size: 1.2em;margin-bottom: 10px;}
+.twitter ul.twibuttons {display: flex;gap: 10px;border-top: 1px solid var(--transp3);padding: 20px 0; background: var(--gradient3);color: transparent;background-clip: text;cursor: pointer;margin-top: -10px;}
+.twitter .twibutton {background: var(--textColor);color: var(--bw2);border-radius: 50px;text-align: center;padding: 0 1em;font-weight: bold;}
+ul.twibuttons i.cp {font-size: 1.3em;}
+.twitter .newtwi {border-top: 1px solid var(--transp3);color: var(--co2);font-size: 1.1em;display: grid;place-items: center;cursor: pointer;}
+.twiimages {display: flex;flex-wrap: wrap;gap: 10px;}
+.twiimages > * {width: 30%;max-height: 320px;object-fit: cover; border-radius: 5px; flex-grow: 1;}
+.post_row.comment .newinsta details {position: relative;top: -30px;z-index: 10;margin-bottom: -30px;}
+.post_row.comment .newinsta summary {height: 28px;display: flex;}
+.post_row.comment .newinsta details summary:before {display: none!important;}
+.post_row.comment .newinsta details:open summary:after {content: '\e9d6';font-family: 'cappuccicons';
+    position: relative;top: 1px;left: 21px;
+    font-size: 18px;background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}
+
