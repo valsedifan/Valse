@@ -819,7 +819,7 @@ a.forumtitle:before {
 }
 
 .qeel-groupes h4 {
-    font-size: 1.3em;
+    font-size: 1em;
     color: var(--textColorAccent);
     margin: 0;
 }
@@ -837,6 +837,7 @@ a.forumtitle:before {
 .qeel-groupes ul li {
     display: flex;
     align-items: center;
+    font-size: var(--normal-size);
 }
 
 .qeel-groupes .meter {
@@ -853,7 +854,7 @@ a.forumtitle:before {
 
 /*Connectés en ce moment*/
 #online_users, #last_connected {
-    height: 140px;
+    height: 170px;
     overflow: auto;
     border: 1px solid var(--bw5);
     padding: 10px;
