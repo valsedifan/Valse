@@ -23,18 +23,18 @@
   grid-template-rows: max-content max-content 1fr;
   color: var(--textColor);
   font-size: var(--normal-size);
-  background: var(--transp9);
-  backdrop-filter:blur(5px);
+  background: var(--neutral);
+  border-radius:var(--rad1);
+  border:var(--border);
   position: fixed;
-  height: 70%;
-  width: 35%;
-  max-width: 1000px;
-  right: 0;
-  margin-bottom: 50px;
+  height: 60%;
+  width: 30%;
+  max-width: var(--FAM-windowSize);
+  right: calc(var(--gap) * 2);
   z-index: 99;
   visibility: visible;
   opacity: 1;
-  bottom: 0px;
+  bottom: 130px;
   transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
   transition-duration: 700ms;
   grid-template-columns: 100%;
@@ -44,7 +44,7 @@
 #FAM[data-hidden="true"] {
   visibility: hidden;
   opacity: 0;
-  left: calc(-100% + 65px);
+  right: calc(0% - 60%);
 }
 
 #FAM.FAM-embedded {
@@ -59,33 +59,25 @@
 
 /* Bouton pour ouvrir la fenetre */
 #FAM-button-open {
+  color: var(--co1);
   font-size: 18px;
-  background-color: transparent;
-  justify-self: end;
-  position: relative;
-  right: 70px;
+  background-color: var(--neutralDark);
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
   cursor: pointer;
-  transition-property: left;
+  transition-property: right;
   transition-duration: 500ms;
   display: grid;
   place-items: center;
 }
 
-#FAM-button-open:hover {
-  background:var(--gradient3);
-  color: transparent;
-  background-clip: text;
-}
-
-#FAM[data-hidden="false"] ~ #FAM-button-open {
-
-}
-
 /* Entête de la fenetre */
 #FAM-toolbar {
-  color: var(--FAM-titleClr);
+  color: var(--contrast);
+  font:1.1em var(--font-title);
   position: relative;
-  margin: 20px 15px 15px;
+  margin: 20px
 }
 
 #FAM-toolbar-inner {
@@ -97,7 +89,7 @@
 
 /* Bouton flèche de retour */
 .FAM-toolbar-button {
-  color: var(--couleur1);
+  color: var(--co1);
   font-size: 24px;
   cursor: pointer;
 }
@@ -116,7 +108,7 @@
 
 #FAM-idle,
 .FAM-button {
-  color: var(--couleur1);
+  color: var(--co1);
   cursor: pointer;
 }
 
@@ -125,16 +117,15 @@
   display: grid;
   grid-template-rows: 1fr max-content;
   overflow: auto;
-  background: var(--transp7);
-  border-radius: 0 0 5px 5px;
-  margin: 0 15px 15px 15px;
+  background: var(--gradient-10);
+  border-radius: 0 var(--rad2) var(--rad2) 0;
+  margin: 10px 15px 15px 15px;;
 }
 
 /* Conteneur discussion */
 #FAM-content {
   overflow-y: auto;
   overflow-x: hidden;
-  margin: 0 15px;
   padding: 30px 20px;
   position: relative;
 }
@@ -150,9 +141,19 @@
   position: sticky;
   right: 0px;
   left: 0;
-  height: 20px;
+  height: 80px;
   z-index: 8;
   pointer-events: none;
+}
+
+.FAM-viewing-topic:before {
+  top: 0px;
+  background: var(--FAM-gradientTop);
+}
+
+.FAM-viewing-topic:after {
+  bottom: 0;
+  background: var(--FAM-gradientBot);
 }
 
 /* Chargement */
@@ -199,21 +200,19 @@
 
 /* Boutons */
 .FAM-button {
-  background-color: var(--couleur2);
-  color: var(--bw2);
+  background-color: var(--FAM-accentClr);
+  color: var(--FAM-pluginBackground);
   border-radius: 8px;
   padding: 5px 12px 6px;
   border: none;
   display: block;
   margin: 3px auto;
-  margin-bottom:15px;
   outline: 0;
   font-weight: bold;
-  transition:background-color 1s;
 }
 
 .FAM-button:hover {
-  background-color: var(--couleur1);
+  color: var(--FAM-fontClr);
 }
 
 .FAM-inline-buttons {
@@ -226,12 +225,7 @@
   margin: 3px;
   background-color: transparent;
   font-size: 18px;
-  color: var(--couleur2);
-  transition:color 1s;
-}
-
-.FAM-inline-buttons .FAM-button:hover{
-  color:var(--couleur1);
+  color: var(--FAM-accentClr);
 }
 
 .FAM-button-large {
@@ -427,10 +421,12 @@ hr.FAM-hr {
 #FAM-new-topic {
   cursor: pointer;
   font-size: 28px;
-  background:var(--gradient3);
-  color: transparent;
-  background-clip: text;
+  color: var(--FAM-accentClr);
   margin-bottom: 20px;
+}
+
+#FAM-new-topic:hover {
+  color: var(--FAM-fontClr);
 }
 
 .FAM-buttons-container {
@@ -440,17 +436,16 @@ hr.FAM-hr {
 }
 
 .FAM-buttons-container > button {
-  color: var(--couleur2);
+  color: var(--FAM-accentClr);
   background-color: transparent;
   font-size: 20px;
   border: none;
   cursor: pointer;
   outline: 0;
-  transition: color 1s;
 }
 
 .FAM-buttons-container > button:hover {
-  color: var(--couleur1);
+  color: var(--FAM-secondClr);
 }
 
 .FAM-buttons-container > button[data-disabled="true"] {
@@ -477,23 +472,23 @@ hr.FAM-hr {
   z-index: -1;
 }
 
+.FAM-chat, .FAM-forum{border-bottom: var(--border);}
+
 .FAM-chat {
   position: relative;
   cursor: pointer;
   display: grid;
   grid-template-columns: max-content 1fr;
-  color: var(--FAM-fontLightClr);
+  color: var(--textColor);
 }
 
 .FAM-chat:hover,
 .FAM-chat:hover a {
-  color: var(--FAM-titleClr);
+  color: var(--co1);
 }
 
 .FAM-chat:hover .FAM-chat-avatar,
-.FAM-chat:hover .FAM-chat-content {
-  background-color: var(--FAM-pluginBackground);
-}
+.FAM-chat:hover .FAM-chat-content {}
 
 .FAM-forum-name,
 .FAM-topic-name {
@@ -620,29 +615,14 @@ hr.FAM-hr {
 }
 
 .FAM-new-post .FAM-chat-avatar {
-  opacity: 1; 
-  position: relative;
+  opacity: 1;
 }
 
-/*.FAM-new-post .FAM-chat-avatar img {
+.FAM-new-post .FAM-chat-avatar img {
   color: var(--FAM-newMsgAnimation);
   transform: scale(1);
   animation: FAMpulse 3s infinite;
-}*/
-
-.FAM-new-post .FAM-chat-avatar:after{
-  content:'';
-  position:absolute;
-  top:14px;
-  right:4px;
-  width:10px;
-  height:10px;
-  border-radius:50%;
-  background:var(--couleur1);
-  color:var(--couleur1);
-  animation: FAMpulse 3s infinite;
 }
-
 
 @keyframes FAMpulse {
   0% {
@@ -699,9 +679,10 @@ strong.FAM-page-link {
 }
 
 #FAM-msg {
-  background: color-mix(in srgb, var(--bw6), transparent 20%);
-  border: 1px solid var(--bw4);
-  border-radius:5px;
+  color: var(--FAM-fontClr);
+  font-size: var(--normal-size);
+  background: 0 0;
+  border: none;
   width: 100%;
   margin: 0;
   padding: 15px;
@@ -768,43 +749,21 @@ strong.FAM-page-link {
 }
 
 .FAM-my-msg .FAM-msg-text {
-  border-radius: 17px;
+  background: var(--FAM-myMsgBackground);
+  border-radius: 17px 17px 6px 17px;
   padding: 8px 15px 8px 20px;
   float: right;
 }
 
 .FAM-msg-text {
   font-size: 14px;
-  border-radius: 17px;
-  padding: 8px 20px 8px 15px;
-  position:relative;
-  background: var(--bw2);
-}
-
-.FAM-msg-box:last-of-type .FAM-msg-text{
+  background: var(--FAM-msgBackground);
   border-radius: 17px 17px 17px 6px;
+  padding: 8px 20px 8px 15px;
 }
-
-.FAM-msg-text * {position:relative;}
 
 .FAM-my-msg .FAM-msg-content {
   flex-direction: row-reverse;
-}
-
-.FAM-my-msg .FAM-msg-text:before{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: var(--gradient3);
-  opacity:0.4;
-  border-radius: 17px;
-}
-
-.FAM-my-msg:last-of-type .FAM-msg-text:before{
- border-radius: 17px 17px 6px 17px;
 }
 
 .FAM-msg-text .fa-circle-o-notch {
@@ -837,6 +796,7 @@ strong.FAM-page-link {
 
 .FAM-msg-date,
 .FAM-msg-name {
+  font-size: 12px;
   width: 100%;
   height: 20px;
   line-height: 24px;
@@ -844,16 +804,11 @@ strong.FAM-page-link {
   text-overflow: ellipsis;
   overflow: hidden;
   flex-basis: fit-content;
+  color: var(--FAM-fontLightClr);
 }
 
 .FAM-name-mention {
   cursor: pointer;
-  text-transform:uppercase;
-}
-
-.FAM-msg-date{
-  margin-left:5px;
-  font-family:var(--stfont);  
 }
 
 .FAM-my-msg .FAM-msg-info {
@@ -956,12 +911,10 @@ strong.FAM-page-link {
   font-size: 14px;
   width: 20px;
   cursor: pointer;
-  color: var(--couleur2);
-  transition: color 1s;
 }
 
 .FAM-msg-button:hover {
-  color: var(--couleur1);
+  color: var(--FAM-buttonHover);
 }
 
 .FAM-edit-button {
@@ -1185,13 +1138,16 @@ blockquote.FAM-codebox > div {
   top: 0;
   display: flex;
   align-items: center;
+  background: var(--FAM-chatBackground);
+  color: var(--FAM-fontClr);
   border-radius: 5px;
   padding: 0 8px;
   margin-left: 5px;
 }
 
 #FAM-tab-add:hover {
-  color: var(--couleur1);
+  background: var(--FAM-accentClr);
+  color: var(--FAM-pluginBackground);
 }
 
 #FAM-tabs {
@@ -1215,6 +1171,7 @@ blockquote.FAM-codebox > div {
   top: 0;
   bottom: 0;
   width: 20%;
+  background: var(--FAM-gradient);
   z-index: 5;
   pointer-events: none;
 }
@@ -1224,7 +1181,7 @@ blockquote.FAM-codebox > div {
 }
 
 #FAM-tabs::-webkit-scrollbar-thumb {
-  background-color: var(--couleur2);
+  background-color: var(--FAM-accentClr);
   border-radius: 3px;
 }
 
@@ -1240,7 +1197,8 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab {
-  background:var(--transp9);
+  background: var(--neutralDarker);
+  border-radius: 5px;
   position: relative;
   display: inline-block;
   align-items: center;
@@ -1248,7 +1206,6 @@ blockquote.FAM-codebox > div {
   padding: 0 8px;
   display: flex;
   width: 130px;
-  border-radius: 5px 5px 0 0;
 }
 
 .FAM-tab i {
@@ -1258,33 +1215,26 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab:hover {
-  background: var(--transp7);
+  background: var(--gradient-50);
+    color: var(--textColor);
 }
 
 .FAM-tab:hover i {
   display: initial;
 }
 
+.FAM-tab.FAM-tab-active {
+    font-weight: 700;
+    background: var(--gradient-50);
+    color: var(--textColor);
+}
+
 .FAM-tab-name {
   font-size: 12px;
-  font-weight:600;
   width: 80%;
   width: calc(100% - 16px);
   white-space: nowrap;
   text-overflow: ellipsis;
-  text-transform: lowercase;
-}
-
-.FAM-tab-active{
-  background: var(--transp7);
-}
-
-.FAM-tab-active .FAM-tab-name{
-  background:var(--gradient3);
-  color: transparent;
-  background-clip: text;
-  font-weight:900;
-  text-transform: uppercase;
 }
 
 .FAM-tab-close {
