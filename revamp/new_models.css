@@ -260,6 +260,8 @@ fc {font-weight: 700;border-bottom: 2px solid; border-image: linear-gradient(to 
 .pl_forum .precisions .para{max-height:150px;overflow-y:auto;}
 
 /* NEW INSTAGRAM */
+.newmodels.newinsta{container-name: instagram;container-type: inline-size;}
+@container instagram (width > 600px) {.instaimg .tab-title {top:582px!important; left: calc(612px / 2 - 100%)!important;}}
 hs {cursor: pointer;font-weight:600;color: var(--couleur1);}
 mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .newmodels.newinsta:has(.instastory):before, .newmodels.newinsta:has(.instareacs):before, .newmodels.newinsta:has(.instalive):before{display:none!important;}
@@ -300,7 +302,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 
 .instaimg input.tab-toggle {position:absolute;display:none;}
 .instaimg label {float:left;display:grid;}
-.instaimg .tab-title {position:relative; top:582px; left: calc(612px / 2 - 100%);z-index:1000;}
+.instaimg .tab-title {position:relative; top:480px; left: calc(515px / 2 - 100%);z-index:1000;}
 .instaimg .tab-title:before {content:''; display:block;width:6px;height:6px;border-radius:50%;background:white;border:1px solid white;outline:1px solid var(--couleur1);margin: 2px;}
 .instaimg label input.tab-toggle:checked ~ .tab-title:before {background:var(--couleur1);}
 .instaimg label input.tab-toggle:checked ~ .image {visibility:visible;opacity:1;}
