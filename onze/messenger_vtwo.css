@@ -842,6 +842,7 @@ strong.FAM-page-link {
 .FAM-msg-date{
   margin-left:5px;
   font-family:var(--stfont);  
+}
 
 .FAM-my-msg .FAM-msg-info {
   flex-direction: row-reverse;
