@@ -865,7 +865,7 @@ a.forumtitle:before {
     background: var(--transp10);
 }
 
-#online_users em, #last_connected em{font-style:normal;}
+#online_users em, #last_connected em, #online_users a i, #last_connected a i{font-style:normal;}
 
 /*ne pas supprimer*/
 #online_users br {
