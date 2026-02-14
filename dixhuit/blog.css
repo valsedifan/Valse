@@ -15,8 +15,10 @@
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .topbar{grid-column: 1/2;align-content: center;}
 
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .topbar2,
-.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .topbar2 {display: flex;flex-direction: column;align-items:end;
-    width: 100%; height:fit-content;}
+.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .topbar2 {display: flex;flex-direction: column;align-items:end; width: 100%; height:fit-content;}
+
+.post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .topbar2 .field-mods,
+.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .topbar2 .field-mods {height:50px;}
 
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .field-mods li .tooltip,
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .field-mods li .tooltip{bottom:initial;top:0;}
