@@ -102,6 +102,7 @@
 a.forumtitle {
     display: block;
     width: fit-content;
+    height: fit-content;
     position: relative;
     left: 115px;
     top: 26px;
