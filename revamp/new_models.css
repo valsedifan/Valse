@@ -54,7 +54,7 @@
 .cultureitem:hover .scroll{display:block;}
 .button-group ul{display:flex; gap:10px; text-transform:uppercase;}
 .button-group li{font-family: var(--stfont);font-size: var(--little-size);color: var(--textColorAccent); background: var(--bw2);padding: 6px 26px;margin-bottom:25px; border: 1px solid var(--transp8); border-radius: 2px; text-transform: uppercase;}
-.button-group li:hover, .button-group li.active, .button-group li.activetwo{color: var(--bw2);background: var(--gradient3);}
+.button-group li:hover, .button-group li.active{color: var(--bw2);background: var(--gradient3);}
 .itemtype{position:absolute; top:-5px; right:20px;display:flex;gap:15px;border-radius:2px;color:var(--bw2);font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:-.5px;padding: 0 4px}
 .accomplissementss .itemtype{background:var(--couleur2);}
 .culturehero .itemtype{background:var(--couleur1);}
