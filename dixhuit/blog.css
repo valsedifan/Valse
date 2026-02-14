@@ -39,7 +39,7 @@
 .post_row.sticky_post:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .topbar, 
 .post_row.sticky_post:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .post_profile,
 .post_row.comment:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .topbar, 
-.post_row.comment:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .post_profile{width:270px;opacity:0;transform:translateX(100px);transition: transform .5s ease, opacity .3s;background:var(--bw2);z-index:10;}
+.post_row.comment:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .post_profile{width:270px;opacity:0;transform:translateX(100px);transition: transform .5s ease, opacity .3s;background:var(--bw2);}
 
 .post_row.sticky_post:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .post_message,
 .post_row.sticky_post:not(:has(.sujetadmin, .post_date > a[href^="/t139-"], .post_date > a[href^="/t139p"])) .post_details,
