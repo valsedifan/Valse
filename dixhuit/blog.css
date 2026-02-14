@@ -1,7 +1,9 @@
 .post_row.sticky_post .post_profile .post_avatar_cadre, 
 .post_row.sticky_post .topbar:before,
 .post_row.comment .post_profile .post_avatar_cadre, 
-.post_row.comment .topbar:before{display:none;}
+.post_row.comment .topbar:before,
+.post_row.sticky_post .signature_div,
+.post_row.comment .signature_div {display:none;}
 
 .post_row.sticky_post,
 .post_row.post_row.comment{position:relative;}
@@ -53,7 +55,6 @@
 .post_row.sticky_post:not(:has(.sujetadmin)):hover .post_details,
 .post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_message,
 .post_row.post_row.comment:not(:has(.sujetadmin)):hover .post_details{transform:translateX(0px);}
-
 
 .post_row.sticky_post:has(.post_date > a[href^="/t139-"], .post_date > a[href^="/t139-"]) .post_reactions,
 .post_row.comment:has(.post_date > a[href^="/t139-"], .post_date > a[href^="/t139-"]) .post_reactions {margin-top:-20px}
