@@ -132,3 +132,37 @@ ul.twibuttons i.cp {font-size: 1.3em;}
     position: relative;top: 1px;left: 21px;
     font-size: 18px;background: var(--gradient3);color: transparent;background-clip: text;-webkit-background-clip: text;}
 */
+
+
+
+/* SMS */
+.navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .post_profile,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .topbar{display:none;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .profile_tw,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .profile_class_alias,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .topbar2,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .systab,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .profil_contact,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .avatarhoverprofil {display:none;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .comment{grid-template-columns:110px 1fr;margin-top:50px;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .post_message,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .post_details,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_profile,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .topbar,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_message,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_details{transform:initial;opacity:initial;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_details{grid-column: 1/-1;margin-top:-30px; background:var(--transp9); padding:0;height:0;opacitY:0;transition: height .1s ease-in-out;transition-behavior:allow-discrete;}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .comment:hover .post_details{height:fit-content;opacity:1;padding: 10px 20px 10px 25px;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .topbar{grid-row:2/3;background:transparent;position:absolute;left:40px;z-index:10;}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_profile,
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_message {background:transparent;border:none;}
+
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .postbody_msg{background:var(--bw2);padding:10px 15px;width:fit-content;border-radius:20px;margin:0;}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_pseudo{font-size:var(--normal-size);z-index:1;justify-content: flex-start;}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_avatar_cadre {display:block;width:90px;height:90px;border-radius:50%;margin-top:10px}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .post_avatar_cadre img{height:75px;border-radius:50%;}
