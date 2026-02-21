@@ -148,7 +148,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 
 .navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments{display:grid;justify-content: stretch;}
 
-.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .comment{display:flex;margin-top:50px;width:80%;min-width:600px;}
+.navigation_links:has(a.nav[href^="/f13-"]) ~ #blog_comments .comment{display:flex;margin-top:-10px;width:80%;min-width:600px;}
 
 .navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .post_message,
 .navigation_links:has(a.nav[href^="/f13-"]) ~ .container .sticky_post .post_details,
