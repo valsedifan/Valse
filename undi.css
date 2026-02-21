@@ -106,7 +106,7 @@ label[for=tpres2]{z-index: 2;position: absolute;margin-top: 131px;margin-left: 2
 .iconsp{transition: 0.5s all ease-in-out; outline: 1px solid var(--transp6); outline-offset: 2px; height: 80px; width: 80px; border-radius: 100%; object-fit: cover; border: 5px solid var(--transp9); margin-top: 5px; filter: grayscale(1); opacity: .8;}
 .icph {display: flex; float: right; max-height: 20px; font-size: 15px; align-items: center;}
 hour{cursor: pointer;font-size: 11px;font-weight: 700;}
-.phbody{background: var(--transp9); border-radius: 10px; width: 450px; padding: 10px; margin-bottom: 8px;}
+.phbody{background: var(--transp9); border-radius: 10px; width: 450px; padding: 10px; margin-bottom: 8px;margin-top: -20px;}
 .banph {margin-top: -10px; margin-left: -8px; text-align: justify; font-size: 12px; width: 448px; background: var(--transp9); border-radius: 10px 10px 0px 0px; padding: 17px; height: 50px; margin-bottom: 11px;}
 .iconsp:hover {filter: grayscale(1);}nph2 {font-family: var(--stfont);color: var(--transp6);text-transform: uppercase;font-size: 11px;}
 nph1 {letter-spacing: -.5px;font-family: var(--font1);font-size: 12px;background-image: linear-gradient(60deg, var(--gradient));color: transparent;-webkit-background-clip: text;font-weight: 600;text-transform: uppercase;}
