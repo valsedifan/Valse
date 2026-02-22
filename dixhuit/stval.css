@@ -24,6 +24,7 @@
 
 .stval26 h1{text-transform:lowercase;text-align:left;margin:0;font-size:1.5em;} 
 .stval26 datum{background:var(--bw1);color:var(--textColor); font-size:.9em;padding:.3em .8em;}
+datum.warning:empty {display: none;}
 datum.warning:before{content:'\ecfd';font-family:'cappuccicons';margin-right:4px;background-image: var(--gradient3);background-clip: text;color: transparent;}
 .stval26 .grid{display:grid;grid-template: 1fr 1fr / 1fr 1fr; gap: 2px;} 
 .stval26 .grid img{width:25px;height:25px;object-fit:cover;aspect-ratio:1/1;} 
