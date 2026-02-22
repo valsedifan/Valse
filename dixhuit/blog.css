@@ -43,6 +43,9 @@
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .topbar, 
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_profile{width:270px;opacity:0;transform:translateX(100px);transition: transform .5s ease, opacity .3s;background:var(--bw2);}
 
+.post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .post_pseudo,
+.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_pseudo{padding: 17px 20px;}
+
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .post_message,
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .post_details,
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_message,
