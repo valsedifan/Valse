@@ -284,7 +284,8 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instaimgs label:last-of-type{margin-left:50%;}
 .instaimgs input[name="instaprofil"]{display:none;}
 .instaposts, .instamentioned{display:grid;grid-template: repeat(3, 1fr) / repeat(3, 1fr);gap:10px;grid-column:1/2;grid-row:1/2;opacity:0;}
-.instaposts img, .instamentioned img{width:100%;height:100%;object-fit:cover;object-position:center;aspect-ratio:1/1;}
+.instaposts img, .instamentioned img,
+.instaposts video, .instamentioned video{width:100%;height:100%;object-fit:cover;object-position:center;aspect-ratio:1/1;border-radius:5px;}
 .instaimgs label:has(input:checked) + .instaposts, .instaimgs label:has(input:checked) + .instamentioned {opacity:1;z-index: 1;}
 .notprofile{display:flex;gap:10px;}
 .notprofile .instaicon{height:50px;}
