@@ -335,14 +335,14 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   content: '';
   width: 7px;
   height: 7px;
-  background-color: var(--textColorAccent);
-  border: 1px solid var(--co2);
+  background: white;
+  border: 1px solid var(--co1);
   border-radius: 50%;
   overflow: hidden;
 }
 
 .instaimgs2 > li::scroll-marker:target-current {
-  background-color:var(--co2);
+  background:var(--co1);
 }
 
 .instaimgs2::scroll-button(*) {
