@@ -306,6 +306,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   display:flex;
   gap:20px;
   padding: 20px;
+  padding-top: 10px;
   text-align:center;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
