@@ -99,7 +99,7 @@ label[for=tpres2]{z-index: 2;position: absolute;margin-top: 131px;margin-left: 2
 
 /*****téléphone******/
 
-.blph3 {cursor: pointer;background: var(--gradient3);border-radius: 17px 17px 2px 17px;padding: 8px 20px 5px 20px;width: 60px;position: absolute;margin-top: -116px;margin-left: 123px;}
+.blph3 {cursor: pointer;background: var(--gradient3);border-radius: 17px 17px 2px 17px;padding: 8px 20px 5px 20px;width: 60px;position: absolute;margin-top: -95px;margin-left: 128px;}
 .blph1 {cursor: pointer; background: var(--gradient3); border-radius: 17px 17px 2px 17px; padding: 8px 20px 5px 20px; width: 60px; position: absolute; margin-top: -95px; margin-left: 70px;}
 .blph2 {cursor: pointer; background: var(--gradient3); border-radius: 2px 17px 17px 17px; padding: 8px 20px 5px 20px; width: 60px; position: absolute; margin-top: -20px; margin-left: 295px;}
 .dph {display: flex; justify-content: center; gap: 40px; margin-top: -10px;}
