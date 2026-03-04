@@ -301,7 +301,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instacomments{margin-top:15px;padding:20px;background:var(--transp7);border-radius:5px;}
 .instacomments:before{content:'comments'; font:14px var(--stfont);text-transform:uppercase; letter-spacing:1px; opacity:0.8;}
 
-.instaimgs {
+.instaimgs2 {
   width:100%;
   display:flex;
   gap:20px;
@@ -316,11 +316,11 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   scrollbar-width: none;
 }
 
-.instaimgs img, .instaimgs video{
+.instaimgs2 img, .instaimgs2 video{
   width:100%;
 }
 
-.instaimgs > li{
+.instaimgs2 > li{
   list-style-type:none;
   flex: 0 0 100%;
   scroll-snap-align: center;
@@ -331,7 +331,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   background-size: cover;
 }
 
-.instaimgs > li::scroll-marker {
+.instaimgs2 > li::scroll-marker {
   content: '';
   width: 7px;
   height: 7px;
@@ -341,11 +341,11 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   overflow: hidden;
 }
 
-.instaimgs > li::scroll-marker:target-current {
+.instaimgs2 > li::scroll-marker:target-current {
   background-color:var(--co2);
 }
 
-.instaimgs::scroll-button(*) {
+.instaimgs2::scroll-button(*) {
   border: 0;
   font-size: 11px;
   width:25px;
@@ -361,33 +361,33 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   font-family: "Ionicons";
 }
 
-.instaimgs::scroll-button(*):hover,
-.instaimgs::scroll-button(*):focus {
+.instaimgs2::scroll-button(*):hover,
+.instaimgs2::scroll-button(*):focus {
   opacity: 1;
 }
 
-.instaimgs::scroll-button(*):active {
+.instaimgs2::scroll-button(*):active {
   translate: 1px 1px;
 }
 
-.instaimgs::scroll-button(*):disabled {
+.instaimgs2::scroll-button(*):disabled {
   opacity: 0.2;
   cursor: unset;
 }
 
-.instaimgs::scroll-button(left) {
+.instaimgs2::scroll-button(left) {
   content: "\f124" / "Précédent";
   right: calc(anchor(left) - 50px);
   bottom: calc(anchor(top) - 35%);
 }
 
-.instaimgs::scroll-button(right) {
+.instaimgs2::scroll-button(right) {
   content: "\f125" / "Suivant";
   left: calc(anchor(right) - 50px);
   bottom: calc(anchor(top) - 35%);
 }
 
-.instaimgs::scroll-marker-group {
+.instaimgs2::scroll-marker-group {
   position: absolute;
   position-anchor: --instaimg;
   top: calc(anchor(bottom) - 40px);
@@ -398,7 +398,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   z-index:100;
 }
 
-.instaimgs::-webkit-scrollbar { 
+.instaimgs2::-webkit-scrollbar { 
   display: none;
 }
 
