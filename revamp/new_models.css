@@ -290,7 +290,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .notprofile{display:flex;gap:10px;}
 .notprofile .instaicon{height:50px;}
 .instaimg{width:100%;padding:20px;padding-top:10px;position:relative;}
-.instaimg img, .instaimg video{width:100%;object-fit:cover;}
+.instaimg img, .instaimg video{width:100%;object-fit:cover;border-radius:5px;}
 .instabuttons{display:grid;grid-template-columns:auto auto auto 1fr;padding: 0 20px;gap:10px;}
 .instabuttons i{font-size:1.5em;font-weight:bold;}
 .instabuttons i.cp-paper-plane-o{font-weight:500;}
