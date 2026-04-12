@@ -49,7 +49,7 @@
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .post_message,
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)) .post_details,
 .post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_message,
-.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_details{transform:translateX(-100px);transition: transform .5s ease;}
+.post_row.comment:not(:has(.sujetadmin, .dailynewsarticle)) .post_details{transform: translateX(-138px);transition: transform .5s ease;}
 
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)):hover .topbar,
 .post_row.sticky_post:not(:has(.sujetadmin, .dailynewsarticle)):hover .post_profile,
