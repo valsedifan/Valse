@@ -1,0 +1,25 @@
+.bingo26{max-width:600px;margin:0 auto;} 
+.bingo26 .ecdsjt{position:relative;margin-right:41px;} 
+.bingo26 .icondia{position:absolute;top:5px;right:-37px;width:70px;} 
+.bingocards > br{display:none;} 
+.bingocards{display:grid;grid-template: repeat(3,1fr) / repeat(3,1fr);background: var(--bw2);border: 1px solid var(--transp6); border-radius:5px;position:relative;} 
+.bingocard{aspect-ratio:1/1;display:grid;place-items:center;border-right:1px solid var(--transp6);border-bottom:1px solid var(--transp6);} 
+.bingocard:nth-child(3n){ border-right:none;} 
+.bingocard:nth-last-child(-n + 5){border-bottom:none;} 
+.bingocard > *{grid-column:1/-1;grid-row: 1/-1; display: grid; place-items: center;} 
+.preuve{display:none;} 
+.bingo26 .fait:hover .preuve{display: grid; background: var(--transp5); width: 100%; height: 100%; place-items: center; border-radius: 5px;position:relative;} 
+.fait > span:after{content:'\e9d9'; font-family: 'cappuccicons'; font-size:4em; position:absolute; opacity:.3; color:var(--co1);} 
+.bingocards > span:not(.used){display:none;} 
+.used{position:absolute;background:var(--co2);z-index:10;opacity:.5;}
+.row-1,.row-2,.row-3{left:0;right:0;height:2px;transform:translateY(-50%)}
+.row-1{top:16.66%}
+.row-2{top:50%}
+.row-3{top:83.33%}
+.col-1,.col-2,.col-3{top:0;bottom:0;width:2px;transform:translateX(-50%)}
+.col-1{left:16.66%}
+.col-2{left:50%}
+.col-3{left:83.33%}
+.diag-1,.diag-2{width:140%;height:2px;top:50%;left:-20%}
+.diag-1{transform:rotate(45deg)}
+.diag-2{transform:rotate(-45deg)}
