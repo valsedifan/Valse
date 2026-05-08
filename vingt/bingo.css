@@ -6,7 +6,7 @@
 .bingocard{aspect-ratio:1/1;display:grid;place-items:center;border-right:1px solid var(--transp6);border-bottom:1px solid var(--transp6);} 
 .bingocard:nth-child(3n){ border-right:none;} 
 .bingocard:nth-last-child(-n + 5){border-bottom:none;} 
-.bingocard > *{grid-column:1/-1;grid-row: 1/-1; display: grid; place-items: center;text-align:center;padding:10px;} 
+.bingocard > *{grid-column:1/-1;grid-row: 1/-1; display: grid; place-items: center;text-align:center;padding:20px;} 
 .preuve{display:none;} 
 .bingo26 .fait:hover .preuve{display: grid; background: var(--transp5); width: 100%; height: 100%; place-items: center; border-radius: 5px;position:relative;} 
 .fait > span:after{content:'\e9d9'; font-family: 'cappuccicons'; font-size:4em; position:absolute; opacity:.3; color:var(--co1);} 
