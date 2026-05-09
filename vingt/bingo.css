@@ -1,6 +1,6 @@
 .bingo26{max-width:600px;margin:0 auto;} 
 .bingo26 .ecdsjt{position:relative;margin-right:41px;} 
-.bingo26 .icondia{position:absolute;top:5px;right:-37px;width:70px;} 
+.bingo26 .icondia{position:absolute!important;top:5px;right:-37px;width:70px;} 
 .bingocards > br{display:none;} 
 .bingocards{display:grid;grid-template: repeat(3,1fr) / repeat(3,1fr);background: var(--bw2);border: 1px solid var(--transp6); border-radius:5px;position:relative;} 
 .bingocard{aspect-ratio:1/1;display:grid;place-items:center;border-right:1px solid var(--transp6);border-bottom:1px solid var(--transp6);} 
