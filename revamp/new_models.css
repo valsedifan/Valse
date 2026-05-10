@@ -302,7 +302,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instacomments:before{content:'comments'; font:14px var(--stfont);text-transform:uppercase; letter-spacing:1px; opacity:0.8;}
 
 .instaimgs2 {
-  width:100%;
+  width:100%; aspect-ratio:1/1;
   display:flex;
   gap:20px;
   padding: 20px;
@@ -329,6 +329,8 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   position: relative;
   z-index: 0;
   background-size: cover;
+  overflow: clip;
+  border-radius:5px;
 }
 
 .instaimgs2 > li::scroll-marker {
