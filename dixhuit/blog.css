@@ -65,7 +65,7 @@
 .post_row.comment:has(.dailynewsarticle) .post_reactions {margin-top:-20px}
 
 .post_row.sticky_post .post_reactions,
-.post_row.comment .post_reactions{display: grid;grid-template-columns: 1fr 1fr;justify-content: space-between;gap: 30px;}
+.post_row.comment .post_reactions{display: flex;flex-direction:column;gap:4px;margin-top:10px;}
 
 .post_row.sticky_post .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty), 
 .post_row.comment .post_reactions:has(.fa_like_list:empty + .fa_dislike_list:empty):before {display: none;}
