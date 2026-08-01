@@ -152,14 +152,28 @@ const indexHTML = `
 
 <body>
 
-<h1>Gallery</h1>
+<a href="../index.html">← Back</a>
 
-<div class="folders">
+<h1>${title}</h1>
 
-${galleries.map(g => `
-<a href="galleries/${g.filename}.html">
-${g.title}
-</a>
+<input 
+    type="text" 
+    id="image-search" 
+    placeholder="Search images..."
+>
+
+<div class="gallery">
+
+${images.map(img => `
+<div class="image-container" data-name="${path.basename(img).toLowerCase()}">
+
+    <img src="../${img}" loading="lazy">
+
+    <button class="copy-btn" data-url="../${img}">
+        Copy URL
+    </button>
+
+</div>
 `).join("")}
 
 </div>
