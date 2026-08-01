@@ -130,7 +130,7 @@ ${images.map(img => `
 
     <img src="../${img}" loading="lazy">
 
-    <div class="personame">${path.basename(img).toLowerCase()}</div>
+    <div class="personame">${path.parse(img).name.toLowerCase()}</div>
 
     <button 
         class="copy-btn"
