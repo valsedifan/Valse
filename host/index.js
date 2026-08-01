@@ -1,3 +1,5 @@
+console.log("INDEX.JS STARTED");
+
 const fs = require("fs");
 const path = require("path");
 
@@ -47,8 +49,11 @@ function findImageFolders(dir) {
 }
 
 
+console.log("Scanning:", rootFolder);
+
 const folders = findImageFolders(rootFolder);
 
+console.log("Found:", folders);
 
 function createGallery(folder) {
 
