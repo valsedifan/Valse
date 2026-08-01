@@ -4,25 +4,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!search) return;
 
-
-    const images = document.querySelectorAll(".image-container");
-
-
     search.addEventListener("input", () => {
 
         const value = search.value.toLowerCase();
 
+        document.querySelectorAll(".image-container").forEach(container => {
 
-        images.forEach(image => {
+            const img = container.querySelector("img");
 
-            const name = image.dataset.name;
+            if (!img) return;
 
+            const filename = img.src
+                .split("/")
+                .pop()
+                .toLowerCase();
 
-            if (name.includes(value)) {
-                image.style.display = "";
-            } else {
-                image.style.display = "none";
-            }
+            container.style.display =
+                filename.includes(value) ? "" : "none";
 
         });
 
