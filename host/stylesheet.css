@@ -81,12 +81,22 @@ a.back-btn{
   margin-top:20px;
   display:flex;
   flex-wrap:wrap;
-  gap:10px;
+  gap:30px 20px;
 }
 
 .image-container{
   position:relative;
   width:250px;
+  display:grid;
+}
+
+.personame{
+  grid-column:1/2;
+  grid-row:1/2;
+  font-size:1.2em;
+  font-weight:bold;
+  color:var(--co2);
+  padding-left:10px;
 }
 
 .image-container img{
@@ -95,8 +105,8 @@ a.back-btn{
 
 .copy-btn{
   position:absolute;
-  top:20px;
-  right:20px;
+  top:40px;
+  right:10px;
   background:var(--gradient);
   padding:6px 10px;
   border:1px solid var(--bw1);
