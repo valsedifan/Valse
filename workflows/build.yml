@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate gallery
         run: |
-          cd hebergement
+          cd host
           node index.js
 
       - name: Commit generated files
