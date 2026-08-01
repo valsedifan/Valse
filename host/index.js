@@ -175,7 +175,7 @@ const indexHTML = `
 
 <meta charset="UTF-8">
 
-<title>Gallery</title>
+<title>hébergement blinding lights</title>
 
 <link rel="stylesheet" href="stylesheet.css">
 
