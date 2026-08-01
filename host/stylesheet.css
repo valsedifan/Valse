@@ -1,0 +1,62 @@
+:root{
+  --co1: #87c9d0;
+  --co2: #d5c1c9;
+  --co3: #d5b99b;
+  
+  --bw1: #1e1e1e;
+  --bw2: #1a1a1a;
+  --bw3: #121212;
+  --bw4: #0d0d0d;
+  --bw5: #232323;
+  --bw6: #232323;
+
+  --gradient: linear-gradient(45deg, var(--co1), var(--co2), var(--co3));
+  --gradient-tb: linear-gradient(to bottom, var(--co1), var(--co2), var(--co3));
+
+  --titlefont: 'blindinglightsregular';
+  --font: "Poppins";
+  --textColor: #bfbaba;
+}  
+
+body{
+  font-family:var(--font);
+  background:var(--bw6);
+  color:var(--textColor);
+  padding:2dvh;
+}
+
+h1{
+  width:fit-content;
+  font: 2em var(--titlefont);
+  text-transform:uppercase;
+  margin:0;
+  margin-bottom:.5em;
+  background:var(--gradient);
+  background-clip:text;
+  color:transparent;
+}
+
+.folders{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.folders a[href*="tcg-"]{order:-1; border-left:3px solid; border-image:var(--gradient-tb) 1;}
+.folders a:not([href*="tcg-"]){flex-basis:100%;}
+
+.folders a{
+  width:fit-content;
+  padding: 5px 13px;
+  color:var(--textColor);
+  text-decoration:none;
+  font-weight:bold;
+  border:var(--bw3);
+  transition: color .3s;
+  }
+
+.folders a:hover{
+  background:var(--gradient);
+  color:var(--bw1);
+}

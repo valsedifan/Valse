@@ -197,11 +197,11 @@ const indexHTML = `
 
 ${galleries.map(g => `
 
-<a href="galleries/${g.filename}.html">
+<div class="${g.filename}"><a href="galleries/${g.filename}.html">
 
 ${g.title}
 
-</a>
+</a></div>
 
 `).join("")}
 
