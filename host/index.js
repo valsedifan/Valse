@@ -1,19 +1,17 @@
 const fs = require("fs");
 const path = require("path");
 
-const rootFolder = ".";
-const outputFolder = "galleries";
+const rootFolder = __dirname;
+const outputFolder = path.join(rootFolder, "galleries");
 
 const imageExtensions = /\.(png|jpg|jpeg|gif|webp)$/i;
 
 
-// Create galleries folder
 if (!fs.existsSync(outputFolder)) {
     fs.mkdirSync(outputFolder);
 }
 
 
-// Find all folders containing images
 function findImageFolders(dir) {
 
     let folders = [];
@@ -35,8 +33,7 @@ function findImageFolders(dir) {
         .filter(file => file.isDirectory())
         .forEach(folder => {
 
-            // Ignore generated folders
-            if (folder.name === outputFolder) return;
+            if (folder.name === "galleries") return;
 
             folders.push(
                 ...findImageFolders(
@@ -53,35 +50,31 @@ function findImageFolders(dir) {
 const folders = findImageFolders(rootFolder);
 
 
-console.log("Galleries found:");
-console.log(folders);
-
-
-// Generate gallery HTML pages
 function createGallery(folder) {
 
     const images = fs.readdirSync(folder)
         .filter(file => imageExtensions.test(file))
         .map(file =>
-            path.join(folder, file)
+            path.relative(rootFolder, path.join(folder, file))
                 .replaceAll("\\", "/")
         );
 
 
-    const title = folder
-        .replace("./", "")
+    const relativeFolder = path.relative(rootFolder, folder);
+
+    const title = relativeFolder
         .replaceAll("/", " ");
 
 
-    const filename = folder
-        .replace("./", "")
+    const filename = relativeFolder
+        .replaceAll("\\", "-")
         .replaceAll("/", "-")
         .toLowerCase();
 
 
     const html = `
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 <meta charset="UTF-8">
@@ -98,12 +91,10 @@ function createGallery(folder) {
 <div class="gallery">
 
 ${images.map(img => `
-<img src="../${img}" loading="lazy" alt="">
+<img src="../${img}" loading="lazy">
 `).join("")}
 
 </div>
-
-<script src="../script.js"></script>
 
 </body>
 </html>
@@ -126,11 +117,9 @@ ${images.map(img => `
 const galleries = folders.map(createGallery);
 
 
-// Generate main index.html
-
 const indexHTML = `
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 <meta charset="UTF-8">
@@ -153,12 +142,13 @@ ${g.title}
 </div>
 
 </body>
+
 </html>
 `;
 
 
 fs.writeFileSync(
-    "index.html",
+    path.join(rootFolder, "index.html"),
     indexHTML
 );
 
