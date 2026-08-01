@@ -8,7 +8,6 @@ const outputFolder = path.join(rootFolder, "galleries");
 
 const imageExtensions = /\.(png|jpg|jpeg|gif|webp|img)$/i;
 
-
 // Create galleries folder
 if (!fs.existsSync(outputFolder)) {
     fs.mkdirSync(outputFolder);
