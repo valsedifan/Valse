@@ -39,20 +39,20 @@ h1{
 .folders{
   display:flex;
   flex-wrap:wrap;
-  gap: 10px;
+  gap: 30px;
   align-items: center;
 }
 
-.folders a[href*="tcg-"]{order:-1; border-left:3px solid; border-image:var(--gradient-tb) 1;}
-.folders a:not([href*="tcg-"]){flex-basis:100%;}
+.folders div:not([class^="tcg-"]){flex-basis:100%;}
 
 .folders a{
   width:fit-content;
+  background:var(--bw1);
   padding: 5px 13px;
   color:var(--textColor);
   text-decoration:none;
   font-weight:bold;
-  border:var(--bw3);
+  border-left:3px solid; border-image:var(--gradient-tb) 1;
   transition: color .3s;
   }
 
