@@ -1,3 +1,35 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+    const search = document.querySelector("#image-search");
+
+    if (!search) return;
+
+
+    const images = document.querySelectorAll(".image-container");
+
+
+    search.addEventListener("input", () => {
+
+        const value = search.value.toLowerCase();
+
+
+        images.forEach(image => {
+
+            const name = image.dataset.name;
+
+
+            if (name.includes(value)) {
+                image.style.display = "";
+            } else {
+                image.style.display = "none";
+            }
+
+        });
+
+    });
+
+});
+
 document.addEventListener("click", function(e) {
 
     if (!e.target.classList.contains("copy-btn")) return;

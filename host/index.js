@@ -85,6 +85,8 @@ function createGallery(folder) {
 <meta charset="UTF-8">
 <title>${title}</title>
 <link rel="stylesheet" href="../stylesheet.css">
+<link href="https://valsedifan.github.io/Valse/revamp/blindinglightsfont/stylesheet.css" rel="stylesheet">
+<link href="https://valsedifan.github.io/Valse/poppins.css" rel="stylesheet">
 </head>
 
 <body>
@@ -93,10 +95,16 @@ function createGallery(folder) {
 
 <h1>${title}</h1>
 
+<input 
+    type="text" 
+    id="image-search" 
+    placeholder="Search images..."
+>
+
 <div class="gallery">
 
 ${images.map(img => `
-<div class="image-container">
+<div class="image-container" data-name="${path.basename(img).toLowerCase()}">>
 
     <img src="../${img}" loading="lazy">
 
@@ -138,6 +146,8 @@ const indexHTML = `
 <meta charset="UTF-8">
 <title>Gallery</title>
 <link rel="stylesheet" href="stylesheet.css">
+<link href="https://valsedifan.github.io/Valse/revamp/blindinglightsfont/stylesheet.css" rel="stylesheet">
+<link href="https://valsedifan.github.io/Valse/poppins.css" rel="stylesheet">
 </head>
 
 <body>
