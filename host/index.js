@@ -108,7 +108,7 @@ ${images.map(img => `
 `).join("")}
 
 </div>
-
+<script src="copyImgLink.js"></script>
 </body>
 </html>
 `;
@@ -153,7 +153,6 @@ ${g.title}
 `).join("")}
 
 </div>
-<script src="copyImgLink.js"></script>
 </body>
 
 </html>
