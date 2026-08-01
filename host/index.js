@@ -96,7 +96,15 @@ function createGallery(folder) {
 <div class="gallery">
 
 ${images.map(img => `
-<img src="../${img}" loading="lazy">
+<div class="image-container">
+
+    <img src="../${img}" loading="lazy">
+
+    <button class="copy-btn" data-url="${img}">
+        Copy URL
+    </button>
+
+</div>
 `).join("")}
 
 </div>
@@ -159,3 +167,30 @@ fs.writeFileSync(
 
 
 console.log("Gallery generated!");
+
+
+document.addEventListener("click", function(e) {
+
+    if (!e.target.classList.contains("copy-btn")) return;
+
+    const url = new URL(
+        e.target.dataset.url,
+        window.location.origin + window.location.pathname
+    ).href;
+
+
+    navigator.clipboard.writeText(url)
+        .then(() => {
+
+            e.target.textContent = "Copied!";
+
+            setTimeout(() => {
+                e.target.textContent = "Copy URL";
+            }, 1500);
+
+        })
+        .catch(err => {
+            console.error("Copy failed:", err);
+        });
+
+});
