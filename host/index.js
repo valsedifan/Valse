@@ -1,19 +1,19 @@
 const fs = require("fs");
 const path = require("path");
 
-
 const rootFolder = ".";
 const outputFolder = "galleries";
 
 const imageExtensions = /\.(png|jpg|jpeg|gif|webp)$/i;
 
 
+// Create galleries folder
 if (!fs.existsSync(outputFolder)) {
     fs.mkdirSync(outputFolder);
 }
 
 
-// Find every folder containing images
+// Find all folders containing images
 function findImageFolders(dir) {
 
     let folders = [];
@@ -22,13 +22,11 @@ function findImageFolders(dir) {
         withFileTypes: true
     });
 
-
-    const hasImages = files.some(file =>
+    const containsImages = files.some(file =>
         file.isFile() && imageExtensions.test(file.name)
     );
 
-
-    if (hasImages) {
+    if (containsImages) {
         folders.push(dir);
     }
 
@@ -37,12 +35,14 @@ function findImageFolders(dir) {
         .filter(file => file.isDirectory())
         .forEach(folder => {
 
+            // Ignore generated folders
+            if (folder.name === outputFolder) return;
+
             folders.push(
                 ...findImageFolders(
                     path.join(dir, folder.name)
                 )
             );
-
         });
 
 
@@ -50,22 +50,21 @@ function findImageFolders(dir) {
 }
 
 
-
-const folders = findImageFolders(rootFolder)
-    .filter(folder => !folder.startsWith(outputFolder));
+const folders = findImageFolders(rootFolder);
 
 
-console.log("Found galleries:");
+console.log("Galleries found:");
 console.log(folders);
 
 
-
+// Generate gallery HTML pages
 function createGallery(folder) {
 
     const images = fs.readdirSync(folder)
         .filter(file => imageExtensions.test(file))
         .map(file =>
-            path.join(folder, file).replaceAll("\\", "/")
+            path.join(folder, file)
+                .replaceAll("\\", "/")
         );
 
 
@@ -80,12 +79,12 @@ function createGallery(folder) {
         .toLowerCase();
 
 
-
     const html = `
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+<meta charset="UTF-8">
 <title>${title}</title>
 <link rel="stylesheet" href="../stylesheet.css">
 </head>
@@ -99,19 +98,20 @@ function createGallery(folder) {
 <div class="gallery">
 
 ${images.map(img => `
-<img src="../${img}" loading="lazy">
+<img src="../${img}" loading="lazy" alt="">
 `).join("")}
 
 </div>
 
-</body>
+<script src="../script.js"></script>
 
+</body>
 </html>
 `;
 
 
     fs.writeFileSync(
-        `${outputFolder}/${filename}.html`,
+        path.join(outputFolder, `${filename}.html`),
         html
     );
 
@@ -123,17 +123,17 @@ ${images.map(img => `
 }
 
 
-
 const galleries = folders.map(createGallery);
 
 
+// Generate main index.html
 
-// Generate index
-const index = `
+const indexHTML = `
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+<meta charset="UTF-8">
 <title>Gallery</title>
 <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -142,18 +142,25 @@ const index = `
 
 <h1>Gallery</h1>
 
+<div class="folders">
+
 ${galleries.map(g => `
 <a href="galleries/${g.filename}.html">
 ${g.title}
-</a><br>
+</a>
 `).join("")}
 
-</body>
+</div>
 
+</body>
 </html>
 `;
 
 
-fs.writeFileSync("index.html", index);
+fs.writeFileSync(
+    "index.html",
+    indexHTML
+);
+
 
 console.log("Gallery generated!");
