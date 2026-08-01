@@ -71,6 +71,8 @@ a.back-btn{
   background:var(--bw1);
   border:1px solid var(--bw3);
   color:var(--textColor);
+  font: 16px var(--font);
+  margin-bottom: 20px;
 }
 
 #image-search:focus{
