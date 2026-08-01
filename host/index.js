@@ -153,7 +153,7 @@ ${g.title}
 `).join("")}
 
 </div>
-
+<script src="copyImgLink.js"></script>
 </body>
 
 </html>
