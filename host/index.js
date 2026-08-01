@@ -100,7 +100,7 @@ ${images.map(img => `
 
     <img src="../${img}" loading="lazy">
 
-    <button class="copy-btn" data-url="${img}">
+    <button class="copy-btn" data-url="../${img}">
         Copy URL
     </button>
 
