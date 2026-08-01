@@ -6,7 +6,7 @@ const path = require("path");
 const rootFolder = __dirname;
 const outputFolder = path.join(rootFolder, "galleries");
 
-const imageExtensions = /\.(png|jpg|jpeg|gif|webp)$/i;
+const imageExtensions = /\.(png|jpg|jpeg|gif|webp|img)$/i;
 
 
 if (!fs.existsSync(outputFolder)) {
