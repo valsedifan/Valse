@@ -108,7 +108,7 @@ function createGallery(folder) {
 <body>
 
 
-<a href="../index.html">← Back</a>
+<a href="../index.html" class="back-btn">← Back</a>
 
 
 <h1>${title}</h1>
