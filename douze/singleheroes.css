@@ -34,6 +34,13 @@
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{padding:5px;}
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:has(.sujetadmin) .profile_class_alias{min-height:auto;}
 
+.navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile, .navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .topbar{opacity:1!important;transform:translateX(0)!important;}
+.navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_message, .navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_details{transform:translateX(0)!important;}
+
+.navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .systab, .navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .avatarhoverprofil{display:none;}
+.navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .post_avatar_cadre{display:block;max-height:248px;}
+.navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .post_avatar, .navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .post_avatar > a, .navigation_links:has(a[href*="/f66-zone-rp"]) ~ #blog_comments .post_row.comment .post_profile .post_avatar img{height:232px;}
+
 /* LIVE REACTION ONLINE */
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post:has(.post_date a[href*="-sphh-livechat"]):not(:has(.sujetadmin, .shortprofile)) {
     background: transparent; border:none; width:70%; margin: 0 auto;
