@@ -26,10 +26,10 @@
 }
 
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile .systab, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile .avatarhoverprofil, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .topbar2,.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .topbar:before, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .topbar:after, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .profile_tw{display:none}
-.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .topbar{grid-column:1/2;justify-items:end;}
-.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_profile{grid-row:2/3;    background: var(--transp9);}
+.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin, .shcom)) .topbar{grid-column:1/2;justify-items:end;}
+.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin, .shcom)) .post_profile{grid-row:2/3;    background: var(--transp9);}
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar_cadre{display:block;max-height:248px;}
-.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar > a, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_avatar img{height:232px;}
+.navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin, .shcom)) .post_avatar, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin, .shcom)) .post_avatar > a, .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin, .shcom)) .post_avatar img{height:232px;}
 .navigation_links:has(a[href*="/f66-zone-rp"]) + .container .post_row:not(:has(.sujetadmin)) .post_details{height:fit-content;}
 
 /* LIVE REACTION ONLINE */
