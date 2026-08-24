@@ -40,6 +40,8 @@
   grid-template-columns: 100%;
 }
 
+#FAM-button-open.open{color:var(--couleur1)}
+
 /* Fenetre fermée */
 #FAM[data-hidden="true"] {
   visibility: hidden;
