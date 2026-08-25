@@ -43,8 +43,8 @@ div#field_id:empty{display:none;}
 .profile_contact a:before{content:'\e9e4';font: .7em 'cappuccicons'; padding-right:5px;}
 .tab_multi h3 {text-transform: uppercase;}
 .tab_multi .profile_field:not(#field_id5), .tab_multi label {display:none;}
-.tab_multi .profile_field{max-width: 70%;overflow:auto;}
-.tab_multi ul {display: flex;}
+.tab_multi .profile_field{max-width: 625px;overflow:auto;}
+.tab_multi ul {display: flex; transition:transform .3s;}
 .tab_multi .pro_mc tr {display: grid;}
 .tab_multi .pro_mc td {grid-column: 1/2;grid-row: 1/2;width: 200px;height: 100px;overflow: clip;transition:opacity .3s;}
 .tab_multi .pro_mc td img {width: 100%;height: 100%;filter: grayscale(1);}
