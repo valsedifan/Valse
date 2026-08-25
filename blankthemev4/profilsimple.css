@@ -1,0 +1,138 @@
+/* --- 7.1 PAGE DE PROFIL ------------------------- */
+/* --- Template : viewprofile_body ---------------- */
+
+/* ··· PROFIL ··· */
+.ajax-profil_edit{width:10px!important;height:10px!important;position:absolute;top:0!important;left:0!important;}
+div#field_id:empty{display:none;}
+
+.profile_simple{background: var(--bw2);position:relative;overflow: clip;}
+.profile_simple > .flex{position: absolute;width: 100%;z-index: 10;padding: var(--gap-l);font-size:1.5em;text-transform:uppercase;color: var(--textColor);}
+.profile_simple .tabs{display: flex;gap:var(--gap-l);align-items:center;justify-content:space-between;}
+.profile_simple .tabs button{background:transparent;font-size:1em;text-transform:uppercase;padding: 0;color:var(--textColorInvert);}
+.profile_simple button.tab.selected{color:var(--groupecolor);}
+.profile_simple .tab_content{padding: calc(var(--gap-l) * 4);height: 70dvh;}
+
+.profile_simple .tab_img, .profile_simple .tab_img img{position:absolute;top:0;width:100%;height:100%;}
+.profile_simple .tab_img img{width:50%;z-index:-1;filter:grayscale(1);}
+.profile_simple .tab_img > div, .profile_simple .tab_img > div *{margin:0;height:100%;display:block;}
+
+.profile_simple .tab_img .ajax-profil_edit, [data-tab="home"] .tab_img .profile_field:not(#field_id28), [data-tab="home"] .tab_img label,
+[data-tab="hrp"] .tab_img .profile_field:not(#field_id30), [data-tab="hrp"] .tab_img label,
+[data-tab="chara"] .tab_img .profile_field:not(#field_id29), [data-tab="chara"] .tab_img label{display:none;}
+[data-tab="home"] .tab_img img, [data-tab="hrp"] .tab_img img{right:0;mask:linear-gradient(to right, transparent,black);}
+[data-tab="home"] .tab_img, [data-tab="hrp"] .tab_img{mask:radial-gradient(circle at right, black 0%, transparent 80%);}
+[data-tab="chara"] .tab_img img{left:0; mask:linear-gradient(to left, transparent,black);}
+[data-tab="chara"] .tab_img {left:0;mask:radial-gradient(circle at left, black 0%, transparent 80%)}
+
+.main_profile {position: relative;}
+[data-tab="home"] .main_profile{display: flex;flex-direction: column;height: 100%;justify-content: space-around;}
+[data-tab="home"] .main_profile .top{width: 60%;}
+.profile_simple .user_presence {font: 600 .9em var(--font);}
+.tab_fc_player, .tab_fc_player .profile_field{display:flex; align-items:center; font:600 1em var(--font);text-transform:uppercase;}
+.tab_fc_player .profile_field:not(#field_id2, #field_id8), .tab_fc_player label{display:none;}
+.tab_fc_player #field_id2:before{content:'played by '}
+.tab_fc_player #field_id8:after{content:'•'; padding-right:var(--gap);}
+.tab_fc_player #field_id8:before{content:'ft. '}
+.tab_fc_player #field_id8{order:-1;}
+.main_profile h1{margin:0;width:fit-content;font-size: 2.5em;}
+.tab_quote .profile_field:not(#field_id31), .tab_quote label {display:none;}
+.tab_quote .profile_field{display:block;font-style:italic;}
+.profile_contact {display: flex;gap: var(--gap-l);}
+.tab_multi h3 {text-transform: uppercase;}
+.tab_multi .profile_field:not(#field_id5), .tab_multi label {display:none;}
+.tab_multi .profile_field{max-width: 70%;overflow:auto;}
+.tab_multi ul {display: flex;}
+.tab_multi .pro_mc tr {display: grid;}
+.tab_multi .pro_mc td {grid-column: 1/2;grid-row: 1/2;width: 200px;height: 100px;overflow: clip;transition:opacity .3s;}
+.tab_multi .pro_mc td img {width: 100%;height: 100%;filter: grayscale(1);}
+.tab_multi .pro_mc td:last-of-type {opacity: 0;position: relative;z-index: 1;background:var(--transp5);display: grid;place-items: center;text-align: center;align-content: center;}
+.tab_multi .pro_mc:hover td {opacity: 1}
+
+[data-tab="chara"] .main_profile{display:grid;grid-template-columns:1fr 1fr; background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 3);}
+[data-tab="chara"] .main_profile > div{overflow:auto;}
+[data-tab="chara"] .main_profile .left {border-right:1px solid var(--transp3);padding-right: var(--gap-l);}
+[data-tab="chara"] .main_profile .right{padding-left: var(--gap-l);}
+.tab_alias_class{display:flex; align-items:center;text-transform:uppercase;position:absolute;top: var(--gap-l);left:var(--gap-l);}
+.tab_alias_class .profile_field:not(#field_id10, #field_id18), .tab_alias_class label {display:none;}
+.tab_alias_class .profile_field{display:flex;gap:0;margin:0;}
+.tab_alias_class #field_id10{font: 1.3em var(--titlefont2);}
+.tab_alias_class #field_id18:before{content:'•'; padding:0 var(--gap);}
+.tab_alias_class #field_id18{font:600 1.35em var(--font);letter-spacing: 1px;}
+
+.tab_block {position:relative;display: flex;flex-wrap: wrap;gap: var(--gap);padding:var(--gap-l)}
+.tab_block .profile_field:not(#field_id16, #field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9, #field_id33, #field_id32), .tab_block #field_id16 label{display:none;}
+.tab_block .profile_field:is(#field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9){display: grid; grid-template: auto 1fr / auto;gap: 0;flex-grow: 1;min-width: 100px;padding: 10px;background: var(--bw2);border: 1px solid var(--bw5);}
+.tab_block .profile_field:is(#field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9) label{text-transform:uppercase;font-size:.9em;font-weight:700;color:var(--groupecolor);}
+.tab_block #field_id16, .tab_block #field_id33, .tab_block #field_id32{flex-basis:100%;display:flex;flex-direction:column;gap:0;text-transform: uppercase;}
+.tab_block #field_id33 label, .tab_block #field_id32 label{background:var(--bw2); padding: 0 5px;width: fit-content;}
+.tab_block .profile_field_list{display:flex;}
+.tab_block .profile_field_list li:first-of-type:after{content:' et'; padding-right:4px;}
+
+.tab_right{padding:var(--gap-l);display: flex;flex-direction: column;}
+.tab_right .profile_field:not(#field_id6, #field_id3, #field_id13){display:none;}
+.tab_right .profile_field{display:flex; flex-direction:column;}
+.tab_right label, .more_pro_field label{text-transform:uppercase;font-size:.9em;font-weight:700;color:var(--groupecolor);}
+
+[data-tab="hrp"] .main_profile{background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 3);display:grid;}
+.more_pro_field{width: fit-content;margin:0 auto;display: grid;grid-template: auto / 1fr 1fr;gap: 0 calc(var(--gap-l)*4);align-items: center;align-content: center;justify-content: space-between;}
+.more_pro_field .profile_field{gap:var(--gap-l);}
+.more_pro_field .profile_field:not(.profile_lastvisit,#field_id-4, #field_id-6, #field_id-13, #field_id12){display: none;}
+.profile_field.profile_lastvisit {grid-column:1/3;text-transform:uppercase;}
+[data-tab="hrp"] .main_profile .awards_block_simple_wrapper{width: 60%;margin:0 auto;}
+[data-tab="hrp"] .main_profile .awards_block_simple_wrapper .h3{text-transform:uppercase;font-size:.9em;font-weight:700;text-align:center;}
+[data-tab="hrp"] .main_profile .awards_block{display:flex;flex-wrap:wrap;gap:var(--gap);justify-content: center;margin-top:var(--gap-l);}
+
+.profile_links {position: absolute;bottom: 0;left: 0;width: 100%;font:600 .9em var(--font);text-transform:uppercase;padding:var(--gap-l);}
+.profile_links .profile_field {display: block;}
+.profile_links, .profile_links field {display: flex;align-items: center;justify-content: center;gap: var(--gap-l);}
+.profile_links .profile_field:not(#field_id-6), .profile_links label, .profile_links field *:not(a) {display: none;}
+
+/* Champs de profil */
+.profile_field {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 135px auto;
+  grid-gap: 10px;
+}
+
+/* ··· APERCU DU PROFIL (WOMBAT) ··· */
+
+/* Fond atténué */
+.wombat-overlay {
+  position: fixed;
+  z-index: 990;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s opacity ease;
+  background: var(--neutral);
+  backdrop:blur(5px);
+}
+
+/* effet de transition du fond atténué */
+.wombat-overlay.open {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+/* Fenêtre du popup */
+.wombat-aside {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  z-index: 999;
+  transition: 0.2s all ease;
+  visibility: hidden;
+  opacity: 0;
+  width: 70%;
+  max-width: 1200px;
+  height: max-content;
+  transform: translateX(-20%);
+}
+
+/* effet de transition pour la fenêtre */
+.wombat-aside.open {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+}
