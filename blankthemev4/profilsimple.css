@@ -9,7 +9,7 @@ div#field_id:empty{display:none;}
 .profile_simple > .flex{position: absolute;width: 100%;z-index: 10;padding: var(--gap-l);font-size:1.5em;text-transform:uppercase;color: var(--textColor);}
 .profile_simple .tabs{display: flex;gap:var(--gap-l);align-items:center;justify-content:space-between;}
 .profile_simple .tabs button{background:transparent;font-size:1em;text-transform:uppercase;padding: 0;color:var(--textColorInvert);}
-.profile_simple button.tab.selected{color:var(--groupecolor);}
+.profile_simple button.tab.selected{color:var(--groupecolor);background:transparent;}
 .profile_simple .tab_content{padding: calc(var(--gap-l) * 4);height: 70dvh;}
 
 .profile_simple .tab_img, .profile_simple .tab_img img{position:absolute;top:0;width:100%;height:100%;}
