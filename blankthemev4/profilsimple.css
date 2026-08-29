@@ -35,7 +35,7 @@ div#field_id:empty{display:none;}
 .tab_fc_player #field_id8:after{content:'•'; padding-right:var(--gap);}
 .tab_fc_player #field_id8:before{content:'ft. '}
 .tab_fc_player #field_id8{order:-1;}
-.main_profile h1{margin:0;width:fit-content;font-size: 2.5em!important;}
+.main_profile h1{margin:0;width:fit-content;font-size: 2.5em!important;margin: 10px 0 10px !important;}
 .tab_quote .profile_field:not(#field_id31), .tab_quote label {display:none;}
 .tab_quote .profile_field{display:block;font-style:italic;}
 .profile_contact {display: flex;gap: var(--gap-l);margin-top: calc(var(--gap-l)*2);}
