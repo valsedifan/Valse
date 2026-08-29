@@ -83,7 +83,7 @@ button[class^="slider-next"]{left:600px;}
 .tab_right label, .more_pro_field label{text-transform:uppercase;font-size:.9em;font-weight:700;color:var(--groupecolor);}
 
 [data-tab="hrp"] .main_profile{background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 3);display:grid;}
-.more_pro_field{width: fit-content;margin:0 auto;display: grid;grid-template: auto / 1fr 1fr;gap: 0 calc(var(--gap-l)*4);align-items: center;align-content: center;justify-content: space-between;}
+.more_pro_field{width: fit-content;margin:0 auto;display: grid;grid-template: auto / 1fr 1fr;gap: 10px calc(var(--gap-l)*8);align-items: center;align-content: center;justify-content: space-between;justify-items: start;align-items: center;}
 .more_pro_field .profile_field{gap:var(--gap-l);}
 .more_pro_field .profile_field:not(.profile_lastvisit,#field_id-4, #field_id-6, #field_id-13, #field_id12){display: none;}
 .profile_field.profile_lastvisit {grid-column:1/3;text-transform:uppercase;}
