@@ -67,7 +67,7 @@ button[class^="slider-next"]{left:600px;}
 
 .tab_block {position:relative;display: flex;flex-wrap: wrap;gap: var(--gap);padding:var(--gap-l)}
 .tab_block .profile_field:not(#field_id16, #field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9, #field_id33, #field_id32), .tab_block #field_id16 label{display:none;}
-.tab_block .profile_field:is(#field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9){display: grid; grid-template: auto 1fr / auto;gap: 0;flex-grow: 1;min-width: 100px;padding: 10px;background: var(--bw2);border: 1px solid var(--bw5);}
+.tab_block .profile_field:is(#field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9){display: grid; grid-template: auto 1fr / auto;gap: 0;flex-grow: 1;min-width: 100px;padding: 10px;background: var(--bw2);}
 .tab_block .profile_field:is(#field_id-11, #field_id17, #field_id11, #field_id19, #field_id-9) label{text-transform:uppercase;font-size:.9em;font-weight:700;color:var(--groupecolor);}
 .tab_block #field_id16, .tab_block #field_id33, .tab_block #field_id32{flex-basis:100%;display:flex;flex-direction:column;gap:0;text-transform: uppercase;}
 .tab_block #field_id33 label, .tab_block #field_id32 label{background:var(--bw2); padding: 0 5px;width: fit-content;}
