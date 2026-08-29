@@ -6,7 +6,7 @@
 div#field_id:empty{display:none;}
 
 .profile_simple{background: var(--bw2);position:relative;overflow: clip;border-radius: var(--rad);}
-.profile_simple > .flex{position: absolute;width: 100%;z-index: 10;padding: calc(var(--gap-l)*2 - 10px) calc(var(--gap-l)*2);font-size:1.5em;text-transform:uppercase;color: var(--textColor);}
+.profile_simple > .flex{position: absolute;width: 100%;z-index: 10;padding: calc(var(--gap-l)*2 - 10px) calc(var(--gap-l)*2);font-size: var(--large-size);text-transform:uppercase;color: var(--textColor);}
 .profile_simple .tabs{display: flex;gap:var(--gap-l);align-items:center;justify-content:space-between;}
 .profile_simple .tabs button{background:transparent;font-size:1em;text-transform:uppercase;padding: 0;color:var(--textColorInvert);}
 .profile_simple button.tab.selected{color:var(--groupecolor);background:transparent;}
@@ -28,7 +28,7 @@ div#field_id:empty{display:none;}
 .main_profile {position: relative;}
 [data-tab="home"] .main_profile{display: flex;flex-direction: column;height: 100%;justify-content: space-around;}
 [data-tab="home"] .main_profile .top{width: 60%;}
-.profile_simple .user_presence {font: 600 .9em var(--font);}
+.profile_simple .user_presence {font: 500 var(--normal-size) var(--font);font-family: var(--stfont);}
 .tab_fc_player, .tab_fc_player .profile_field{display:flex; align-items:center; font:600 1em var(--font);text-transform:uppercase;}
 .tab_fc_player .profile_field:not(#field_id2, #field_id8), .tab_fc_player label{display:none;}
 .tab_fc_player #field_id2:before{content:'played by '}
