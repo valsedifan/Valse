@@ -27,7 +27,7 @@ div#field_id:empty{display:none;}
 
 .main_profile {position: relative;}
 [data-tab="home"] .main_profile{display: flex;flex-direction: column;height: 100%;justify-content: space-around;}
-[data-tab="home"] .main_profile .top{width: 60%;margin: 60px 0;}
+[data-tab="home"] .main_profile .top{width: 60%;margin: 3% 0;}
 .profile_simple .user_presence {font: 500 var(--normal-size) var(--font);font-family: var(--stfont);}
 .tab_fc_player, .tab_fc_player .profile_field{display:flex; align-items:center; font:600 1em var(--font);text-transform:uppercase;}
 .tab_fc_player .profile_field:not(#field_id2, #field_id8), .tab_fc_player label{display:none;}
