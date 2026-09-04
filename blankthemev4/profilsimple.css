@@ -38,7 +38,7 @@ div#field_id:empty{display:none;}
 .main_profile h1{margin:0;width:fit-content;font-size: 2.5em!important;margin: 10px 0 10px !important;}
 .tab_quote .profile_field:not(#field_id31), .tab_quote label {display:none;}
 .tab_quote .profile_field{display:block;font-style:italic;}
-.profile_contact {display: flex;gap: var(--gap-l);margin-top: calc(var(--gap-l)*2);}
+.profile_contact {display: flex;flex-wrap: wrap;gap: var(--gap-l);margin-top: calc(var(--gap-l)*2);}
 .profile_contact a{background:var(--groupecolor);padding: 5px 12px;border-radius:20px; font: bold 1em var(--font); text-transform:uppercase; color:var(--noirnoir)}
 .profile_contact a:before{content:'\e9e4';font: .7em 'cappuccicons'; padding-right:5px;}
 .tab_multi #field_id5{position:relative;}
