@@ -145,3 +145,38 @@ button[class^="slider-next"]{left:600px;}
   transform: translateX(0);
   visibility: visible;
 }
+
+/* Récompenses */
+#list_awards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* 1 récompense */
+.award {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-image: var(--award-image);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+}
+
+/* Bloc description de la récompenses */
+.award_tooltiptext {
+  width: max-content;
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: var(--neutralDarker);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Affiche la description au hover de la récompense */
+.award:hover .award_tooltiptext {
+  display: block;
+}
