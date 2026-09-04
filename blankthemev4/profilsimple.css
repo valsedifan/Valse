@@ -73,8 +73,6 @@ button[class^="slider-next"]{left:600px;}
 .tab_block #field_id33 label, .tab_block #field_id32 label{background:var(--bw2); padding: 0 5px;width: fit-content;}
 .tab_block .profile_field_list{display:flex;}
 .tab_block .profile_field_list li:first-of-type:after{content:' et'; padding-right:4px;}
-.tab_block .statbar {background: var(--bw2);width: 100%;height: var(--normal-size);margin-top: 5px;border-radius: var(--rad);padding:2px;}
-.tab_block .statfill{height:100%; background:var(--groupecolor);border-radius: var(--rad); opacity:.5;}
 
 
 .tab_right{padding:var(--gap-l);display: flex;flex-direction: column; gap:var(--gap);}
