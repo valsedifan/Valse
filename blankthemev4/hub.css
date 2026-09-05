@@ -1,7 +1,7 @@
 /* --- 4.3 HUB (qeel) ----------------------------- */
 /* --- Template : index_body ---------------------- */
 .hub {margin: 10dvh 0;}
-.hub .panel{display:flex; align-items:center; background:var(--transp1); padding:var(--gap-l) calc(var(--gap-l) * 2); border-radius:var(--rad);}
+.hub .panel{display:flex; align-items:center; gap:var(--gap);background:var(--transp1); padding:var(--gap-l) calc(var(--gap-l) * 2); border-radius:var(--rad);}
 .hub .panel .flex, .hub .separator{flex-grow:1;align-items: center;margin: 0 var(--gap);}
 .hub .tag {padding: 3px 12px}
 .hub_infos {display: grid;grid-template-columns: .5fr 1fr 2fr;gap:var(--gap-l);} 
