@@ -10,10 +10,10 @@
 
 .hub_details{position:relative; overflow:clip;}
 .hub_details img{position:absolute;top:0;left:0; width:30%; height:100%; mask:linear-gradient(to right, black, transparent);filter:grayscale(1);opacity: .5;}
-.hub_text {position:relative;height:100%;}
+.hub_text {position:relative;height:100%;border-radius:var(--gap-l);}
 
 .hub_Users {display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-l);}
-.hub_Users > div{padding:var(--gap-l);height:100%;}
+.hub_Users > div{padding:var(--gap-l);height:100%;border-radius:var(--gap-l);}
 .hub_lastConnected > span, .onlineUsers-list > span{display:block;max-height: 255px;overflow-y: auto;}
 .onlineUsers-list > span:has(+ .guest) {flex-grow: 1;max-height: 215px;overflow-y: auto;}
 /* Liste des membres connectÃ©s */
