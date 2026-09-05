@@ -4,15 +4,15 @@
 .hub .panel{display:flex; align-items:center; gap:var(--gap);background:var(--transp1); padding:var(--gap-l) calc(var(--gap-l) * 2); border-radius:var(--rad);}
 .hub .panel .flex, .hub .separator{flex-grow:1;align-items: center;margin: 0 var(--gap);}
 .hub .tag {padding: 3px 12px}
-.hub_infos {display: grid;grid-template-columns: .5fr 1fr 2fr;gap:var(--gap-l);} 
+.hub_infos {display: grid;grid-template-columns: 1fr 2fr;gap:var(--gap-l);} 
 .hub_infos > div{background:var(--transp1); padding:var(--gap-l); border-radius:var(--rad);}
 .hub_infos h2{text-transform:uppercase;margin-bottom:var(--gap);font-size: 1em;color: var(--textColorAccent);}
 
 .hub_details{position:relative; overflow:clip;}
 .hub_details img{position:absolute;top:0;left:0; width:30%; height:100%; mask:linear-gradient(to right, black, transparent);filter:grayscale(1);opacity: .5;}
-.hub_text {position:relative;height:100%;border-radius:var(--gap-l);}
+.hub_text {position:relative;grid-column: 1/-1;font-size: .9em;}
 
-.hub_Users {display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-l);}
+.hub_Users {display:grid;grid-template: 1fr auto / 1fr 1fr;gap:var(--gap-l);}
 .hub_Users > div{padding:var(--gap-l);height:100%;border-radius:var(--gap-l);}
 .hub_lastConnected > span, .onlineUsers-list > span{display:block;max-height: 255px;overflow-y: auto;}
 .onlineUsers-list > span:has(+ .guest) {flex-grow: 1;max-height: 215px;overflow-y: auto;}
