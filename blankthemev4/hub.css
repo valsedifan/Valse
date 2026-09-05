@@ -25,5 +25,5 @@
 .hub_groups .group-count{display:none;}
 #rankDonut{width:70%;height:70%;}
 #rankDonut svg{width:100%;height:100%;transform:rotate(-90deg);overflow:visible;}
-#rankDonut circle{fill:none;stroke-width:13}
+#rankDonut circle{fill:none;stroke-width:10}
 .rank-label{position:absolute; top:0;transform:rotate(90deg) translateY(-100%);font-size: 6px;font-family:var(--font);}
