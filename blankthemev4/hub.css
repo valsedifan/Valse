@@ -6,7 +6,7 @@
 .hub .tag {padding: 3px 12px}
 .hub_infos {display: grid;grid-template-columns: .5fr 1fr 2fr;gap:var(--gap-l);} 
 .hub_infos > div{background:var(--transp1); padding:var(--gap-l); border-radius:var(--rad);}
-.hub_infos h2{text-transform:uppercase;margin-bottom:var(--gap);font-size: 1em;}
+.hub_infos h2{text-transform:uppercase;margin-bottom:var(--gap);font-size: 1em;color: var(--textColorAccent);}
 
 .hub_details{position:relative; overflow:clip;}
 .hub_details img{position:absolute;top:0;left:0; width:30%; height:100%; mask:linear-gradient(to right, black, transparent);filter:grayscale(1);opacity: .5;}
