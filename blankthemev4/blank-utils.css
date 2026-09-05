@@ -36,12 +36,6 @@ img.u-img-square,
     gap: 5px;
 }
 
-.tag {
-    background-color: var(--neutralDark);
-    padding: 7px 10px;
-    border-radius: 5px;
-}
-
 /* Visibilité utilitaires */
 .invisible {
     display: none;
