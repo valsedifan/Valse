@@ -13,7 +13,7 @@
 .hub_text {position:relative;grid-column: 1/-1;font-size: .9em;}
 
 .hub_Users {display:grid;grid-template: 1fr auto / 1fr 1fr;gap:var(--gap-l);}
-.hub_Users > div{padding:var(--gap-l);height:100%;border-radius:var(--gap-l);}
+.hub_Users > div{padding:var(--gap-l);height:100%;border-radius:var(--rad-s);}
 .hub_lastConnected > span, .onlineUsers-list > span{display:block;max-height: 255px;overflow-y: auto;}
 .onlineUsers-list > span:has(+ .guest) {flex-grow: 1;max-height: 215px;overflow-y: auto;}
 /* Liste des membres connectÃ©s */
