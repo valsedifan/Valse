@@ -110,7 +110,7 @@
 
 /* ··· CONTENU DU POST ··· */
 .post_message {padding: 25px;}
-.post_message_content{flex-grow: 1;padding:0 25px;}
+.post_message_content{flex-grow: 1;padding:0 25px;margin-bottom: 25px;}
 
 /* ··· REPONSE RAPIDE ··· */
 /*supression de la mention "réponse rapide" */
