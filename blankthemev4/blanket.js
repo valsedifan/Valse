@@ -379,7 +379,7 @@ function Blanket(name, factory) {
 
         // Alias
         const aliasEl = utils.get(`#field_id10 .field_uneditable`, doc, { required: false });
-        const alias = aliasEl?.textContent.replace(/[^\p{L} ]/gu, "").trim() || "";        
+        const alias = aliasEl?.textContent.replace(/[^\p{L} ]/gu, "").replace(/\s+/g, " ").trim() || "";       
 
         users.set(safeId, {
           name: safeName,
