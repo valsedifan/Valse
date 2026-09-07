@@ -320,8 +320,8 @@ function Blanket(name, factory) {
      * @param {boolean} [forceUpdate=false] - Ignore le cache et refetch
      * @returns {Promise<{ avatar: string, color: string }>} Objet anonyme { avatar, color }
      */
-    getUser: async function ({ name, id }, forceUpdate = false) {
-      const empty = { avatar: "", color: "" };
+    getUser: async function ({ name, id, alias }, forceUpdate = false) {
+      const empty = { avatar: "", color: "", alias: "" };
 
       const safeId = String(id ?? "").trim();
       const safeName = String(name ?? "").trim();
@@ -332,12 +332,12 @@ function Blanket(name, factory) {
 
       /** @param {any} entry */
       const isValidEntry = (entry) =>
-        entry && typeof entry === "object" && typeof entry.timestamp === "number" && "name" in entry && "avatar" in entry && "color" in entry;
+        entry && typeof entry === "object" && typeof entry.timestamp === "number" && "name" in entry && "avatar" in entry && "color" in entry && "alias" in entry;
 
       // 1) Cache (si autorisÃ©)
       const cached = users.get(safeId);
       if (!forceUpdate && isValidEntry(cached)) {
-        return { avatar: cached.avatar || "", color: cached.color || "" };
+        return { avatar: cached.avatar || "", color: cached.color || "", alias: cached.alias || "" };
       }
 
       // 2) Utilisateur connectÃ© : pas de fetch, on Ã©crit quand mÃªme en cache pour les autres plugins
@@ -377,13 +377,18 @@ function Blanket(name, factory) {
         const match = style.match(/color\s*:\s*(#[0-9a-fA-F]{3,6})/);
         if (match) color = match[1];
 
+        // Alias
+        const aliasEl = utils.get(`#field_id10 .field_uneditable`, doc, { required: false });
+        const alias = aliasEl?.textContent.trim() || "";        
+
         users.set(safeId, {
           name: safeName,
           avatar,
           color,
+          alias,
         });
 
-        return { avatar, color };
+        return { avatar, color, alias };
       } catch (err) {
         // Fallback : si une vieille entrÃ©e existe encore dans le storage (mÃªme expirÃ©e),
         // on peut essayer de la relire via getAll() (non filtrÃ© TTL).
@@ -391,7 +396,7 @@ function Blanket(name, factory) {
         const stale = all[safeId];
 
         if (isValidEntry(stale)) {
-          return { avatar: stale.avatar || "", color: stale.color || "" };
+          return { avatar: stale.avatar || "", color: stale.color || "", alias: stale.alias || "" };
         }
 
         utils.warn(`getUser: impossible de rÃ©cupÃ©rer le profil de ${safeName} (#${safeId})`, err);
