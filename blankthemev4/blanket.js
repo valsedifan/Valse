@@ -366,7 +366,7 @@ function Blanket(name, factory) {
 
         // Avatar : on garde un sÃ©lecteur "best effort" sans Ãªtre trop agressif.
         // (si tu as un sÃ©lecteur exact dans ton Blank Theme, remplace par celui-ci)
-        const avatarEl = utils.get(`img[alt="${CSS.escape(safeName)}"]`, doc, { required: false });
+        const avatarEl = utils.get(`.blanket-avatar img`, doc, { required: false });
         const avatar = avatarEl?.getAttribute("src") ? String(avatarEl.getAttribute("src")) : "";
 
         // Couleur : Forumactif met toujours style="color:#5562D4" quand il y en a une.
@@ -379,7 +379,7 @@ function Blanket(name, factory) {
 
         // Alias
         const aliasEl = utils.get(`#field_id10 .field_uneditable`, doc, { required: false });
-        const alias = aliasEl?.textContent.trim() || "";        
+        const alias = aliasEl?.textContent.trim().replace(/[^\p{L} ]/gu, "") || "";        
 
         users.set(safeId, {
           name: safeName,
