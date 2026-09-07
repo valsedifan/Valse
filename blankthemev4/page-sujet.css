@@ -96,7 +96,8 @@
 .post_pro_gif .user_field, .post_pro_gif .field_content, .post_pro_gif img:before{display:block;width:100%; height:100%; border-radius:50%;background:var(--bw2)}
 .post_pro_gif:before{content:'';position:absolute;width:200%;height:200%;border-radius:50%;background:radial-gradient(var(--groupecolor), transparent 50%); z-index:-1;filter: blur(10px);opacity: .8;}
 
-.post_date a, .post_date time {font: .85em var(--font); text-transform:uppercase; padding:0 5px;}
+.post_date a, .post_date time, .comment-author {font: .85em var(--font); text-transform:uppercase; padding:0 5px;}
+.comment-author {display: grid;place-items: center;padding: 0 var(--gap);}
 
 /* Nombre de like*/
 .rep-button .rep-nb {margin-left: 5px;font-size: var(--little-size);}
