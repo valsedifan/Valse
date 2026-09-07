@@ -39,6 +39,7 @@
 .post_row {display: grid; grid-template: auto 1fr / auto 1fr; gap:var(--gap-l); margin-bottom: var(--gap-l);
   &:last-child {margin-bottom: 0;}}
 
+#blog_comments + .page-actions.in_msgs {margin-top:var(--gap-l);}
 .page-actions.in_msgs, .page-actions:has(+ [name="privmsg_list"]){background: var(--transp1);backdrop-filter: blur(5px);}
 .page-actions.in_msgs h1.page-title{margin:0;}
 .page-actions.in_msgs .separator, .privmsgs_all .page-actions .separator{margin:var(--gap) 0;}{margin:var(--gap) 0;}
