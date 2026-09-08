@@ -115,7 +115,8 @@
 .blog_reactions .rep-button img{width:120%;transition:all .5s ease-in-out}
 .blog_reactions .rep-button[class$=liked]{background:var(--transp1)}
 .blog_reactions .rep-button:hover img{transform:scale(1.2,1.2)}
-.blog_reactions p[class$=like_list]{display:block!important;background:var(--transp1);height:70px;margin-left:-20px;padding:var(--gap-l) calc(var(--gap-l) * 1.5);width:100%; text-transform: uppercase; font: .9em var(--stfont); color:color-mix(in srgb, currentColor 80%, transparent);}
+.blog_reactions p[class$=like_list]{display:block!important;background:var(--transp1);height:70px;margin-left:-20px;padding:var(--gap-l) calc(var(--gap-l) * 1.5);width:100%; border-radius: var(--rad-s);
+                                    text-transform: uppercase; font: .9em var(--stfont); color:color-mix(in srgb, currentColor 80%, transparent);}
 .blog_reactions .reaction_block:has(+ .reaction_block .rep-button:hover) .rep-button img,.blog_reactions .reaction_block:has(+ .reaction_block .rep-button[class$=liked]) .rep-button:not([class$=liked]) img,
 .blog_reactions .reaction_block:has(.rep-button:hover)+.reaction_block .rep-button img,.blog_reactions .reaction_block:has(.rep-button[class$=liked])+.reaction_block .rep-button:not([class$=liked]) img{filter:grayscale(1)}
 .rep-button:hover img{filter:grayscale(0)!important}
