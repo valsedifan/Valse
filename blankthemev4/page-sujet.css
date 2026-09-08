@@ -178,6 +178,7 @@
     .post_details > *{background:var(--transp1);}
     .post_message{background:transparent; padding:0;backdrop-filter:none;}
     .post_message_content{padding:0}
+    .blog_reactions{display:flex;}
 }
 
 /* SMS */
