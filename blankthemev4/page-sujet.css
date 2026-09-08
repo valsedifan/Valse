@@ -108,6 +108,7 @@
 .post_reactions {align-items: center;}
 .post_reactions > p{text-transform:uppercase; font: 200 .85em var(--font);background:var(--textColor-50); border-radius:var(--rad); padding: 2px 15px;}
 
+.blog_reactions{display:none}
 .blog_reactions{justify-content:center;width: 90%; margin: 0 auto;}
 .blog_reactions .fa_like_div{width: 100%;display:grid;grid-template-columns:1fr 1fr;gap:var(--gap-l)}
 .blog_reactions .reaction_block{display:flex;align-items:center}
