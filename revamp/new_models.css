@@ -287,7 +287,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .instaposts img, .instamentioned img,
 .instaposts video, .instamentioned video{width:100%;height:100%;object-fit:cover;object-position:center;aspect-ratio:1/1;border-radius:5px;}
 .instaimgs label:has(input:checked) + .instaposts, .instaimgs label:has(input:checked) + .instamentioned {opacity:1;z-index: 1;}
-.notprofile{display:flex;gap:10px;}
+.notprofile{display:flex;gap:10px;align-items: center;}
 .notprofile .instaicon{height:50px;}
 .instaimg{width:100%;padding:20px;padding-top:10px;position:relative;}
 .instaimg img, .instaimg video{width:100%;object-fit:cover;border-radius:5px;}
@@ -531,3 +531,6 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .twiimages > * {width: 30%;max-height: 320px;object-fit: cover; border-radius: 5px; flex-grow: 1;}
 .newtwitter .instabuttons {display:flex;}
 .newtwitter .instabuttons > i{flex-grow:1;}
+.newtwitter .notprofile{align-items: center;}
+.newtwitter .instaname:has(+ .instadate):after{content:'•';margin-left:10px; font-size:.7em;}
+
