@@ -537,3 +537,8 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .twiimages > .newtwitter:before{display:none;}
 .twiimages > .newtwitter .instamain{padding:0;border:1px solid var(--transp3)}
 .twiimages > .newtwitter .instacaption{padding-bottom:0;}
+.twi_comments > br, .twi_comments ul > br, .twi_comments li > br{display:none;}
+.twi_comments ul{display:flex;flex-direction:column; margin-top:var(--gap-l)}
+.twi_comments li{padding:var(--gap) var(--gap-l); border-top:1px solid var(--transp3); display:flex;flex-direction:column; gap:var(--gap-l);}
+.twi_comments li span{position:relative;display:block}
+.twi_comments li span:has(+ br + span):after{content:'';position:absolute;bottom: calc(var(--gap-l)*-1);left:var(--gap-l);width:1px;height: var(--gap-l);background:var(--transp6);}
