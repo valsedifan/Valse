@@ -214,7 +214,7 @@
   .comment-avatar img{width:100%;height:100%;border-radius:50%;}
   .comment-body{grid-column:2/3;grid-row:1/2;display:grid;}
   .comment-body .post_details{grid-row:2/3;margin-top:calc(var(--gap-l)*-2); margin-right:var(--gap);z-index:1;}
-  .sms-pseudo{text-align:left;font:1em var(--font)}
+  .sms-pseudo{text-align:left;font:1em var(--font);z-index: 1;float: left;width: fit-content;height: fit-content;}
   .comment_text{background:var(--transp1); padding:var(--gap-l);border-radius:var(--rad); margin-top:var(--gap-l);}
 }
 
