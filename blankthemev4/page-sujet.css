@@ -165,3 +165,17 @@
   justify-content: start;
   margin: 20px 0 0;
 }
+
+
+/* DAILY HEROES */
+.main_forum:has(.post_date a[href*="-dailyheroes"]):has(a.nav[href^="/f4-the-feed"]){max-width:1200px; padding:0; margin: 0 auto;
+    .post_profile, .post_pro_top, .post_details .rep-button{display:none;}
+    .post_details .comment-author{display:flex;}
+    .post_details > *{background:var(--transp1);}
+    .post_message{background:transparent; padding:0;backdrop-filter:none;}
+    .post_message_content{padding:0}
+}
+
+/* SMS */
+
+/* INSTA, TWITTER */
