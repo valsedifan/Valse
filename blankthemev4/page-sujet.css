@@ -103,8 +103,8 @@
 .comment .post_pseudo{width:100%;text-align:center;display: block;}
 
 /* Nombre de like*/
-.rep-button .rep-nb {margin-left: 5px;font-size: var(--little-size);}
-.rep-button.fa_liked, .rep-button.fa_disliked {background:var(--gradient-50);color:var(--noirnoir);}
+.post_details .rep-button .rep-nb {margin-left: 5px;font-size: var(--little-size);}
+.post_details .rep-button.fa_liked, .rep-button.fa_disliked {background:var(--gradient-50);color:var(--noirnoir);}
 .post_reactions {align-items: center;}
 .post_reactions > p{text-transform:uppercase; font: 200 .85em var(--font);background:var(--textColor-50); border-radius:var(--rad); padding: 2px 15px;}
 
@@ -120,7 +120,7 @@
                                     text-transform: uppercase; font: .9em var(--stfont); color:color-mix(in srgb, currentColor 80%, transparent);}
 .blog_reactions .reaction_block:has(+ .reaction_block .rep-button:hover) .rep-button img,.blog_reactions .reaction_block:has(+ .reaction_block .rep-button[class$=liked]) .rep-button:not([class$=liked]) img,
 .blog_reactions .reaction_block:has(.rep-button:hover)+.reaction_block .rep-button img,.blog_reactions .reaction_block:has(.rep-button[class$=liked])+.reaction_block .rep-button:not([class$=liked]) img{filter:grayscale(1)}
-.rep-button:hover img{filter:grayscale(0)!important}
+.blog_reactions .rep-button:hover img{filter:grayscale(0)!important}
 
 /* Liens de contact (mp, fiche, liens, ...) */
 .post_contact {display: flex;justify-content: center;gap: 5px;}
@@ -187,21 +187,40 @@
 }
 
 /* DAILY HEROES, INSTA, TWITTER */
-.main_forum:has(.post_date a[href*="-dailyheroes"]):has(a.nav[href^="/f4-the-feed"]),
-.main_forum:has(.post_date a[href*="-twitter-"]):has(a.nav[href^="/f4-the-feed"]),
-.main_forum:has(a.nav[href^="/f8-instagram"]) {max-width:900px; padding:0; margin: 0 auto;
-    .post_profile, .post_pro_top, .post_details .rep-button, .post_reactions{display:none;}
-    .post_details > *{background:var(--transp1);}
-    .post_message{background:transparent; padding:0;backdrop-filter:none;}
-    .post_message_content{padding:0}
-    .blog_reactions{display:flex;}
+.main_forum:has(.post_date a[href*="-dailyheroes"]):has(a.nav[href="/f4-the-feed"]),
+.main_forum:has(.post_date a[href*="-twitter-"]):has(a.nav[href="/f4-the-feed"]),
+.main_forum:has(a.nav[href="/f8-instagram"]) {max-width:900px; padding:0; margin: 0 auto;
+  .post_profile, .post_pro_top, .post_details .rep-button, .post_reactions{display:none;}
+  .post_details > *{background:var(--transp1);}
+  .post_message{background:transparent; padding:0;backdrop-filter:none;}
+  .post_message_content{padding:0}
+  .blog_reactions{display:flex;}
 }
 
 /* SMS */
+.main_forum:has(a.nav[href="/f7-telephone"]){max-width:900px; padding:0; margin: 0 auto;
+  .post_row{
+    .post_profile, .post_pro_top{display:none;}
+    .post_message_content{background:var(--transp1);}}
+  .comment{display: grid;grid-template-columns: auto 1fr;}
+  .post_message, .post_profile, .post_avatar_container{background:transparent; padding:0;backdrop-filter:none;}
+  .post_details > *:not([class$="liked"]){background:var(--transp1);}
+  .comment .post_details{opacity:1;}
+  .comment .post_details > *:not(.rep-button){opacity:0;transition: opacity .5s ease-in-out;}
+  .comment .comment-body:hover .post_details > *{opacity:1;}
+  .post_profile{display:grid;grid-template-columns:subgrid;grid-column:1/-1;}
+  .comment-avatar{width:70px; height:70px;border-radius:50%;margin-top:var(--gap);position:relative;}
+  .comment-avatar:before{content:'';position:absolute; left:-50%; top: -50%; width:200%; height:200%; background: radial-gradient(var(--groupecolor), transparent 50%);filter: blur(10px);opacity: .8; z-index:-1;}
+  .comment-avatar img{width:100%;height:100%;border-radius:50%;}
+  .comment-body{grid-column:2/3;grid-row:1/2;display:grid;}
+  .comment-body .post_details{grid-row:2/3;margin-top:calc(var(--gap-l)*-2); margin-right:var(--gap);z-index:1;}
+  .sms-pseudo{text-align:left;font:1em var(--font)}
+  .comment_text{background:var(--transp1); padding:var(--gap-l);border-radius:var(--rad); margin-top:var(--gap-l);}
+}
 
 /* INSTA, TWITTER */
 .main_forum:has(.post_date a[href*="-twitter-"]):has(a.nav[href^="/f4-the-feed"]),
-.main_forum:has(a.nav[href^="/f8-instagram"]){
+.main_forum:has(a.nav[href="/f8-instagram"]){
   .newmodels:not(.sujetadmin, .shortprofile){max-width:none;}
   .post_details .comment-author{display:flex;}
   .post_row{grid-template: 1fr / 1fr;}
