@@ -197,3 +197,6 @@
 /* SMS */
 
 /* INSTA, TWITTER */
+.main_forum:has(.post_date a[href*="-twitter-"]):has(a.nav[href^="/f4-the-feed"]){
+  .newmodels:not(.sujetadmin, .shortprofile){max-width:none;}
+}
