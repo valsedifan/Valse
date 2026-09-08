@@ -180,7 +180,7 @@
 }
 
 /* SUJETS ADMINS */
-.main_forum:has(.sujetadmin){
+.post:has(.sujetadmin), .comment:has(.sujetadmin){
   .post_profile, .post_pro_top{display:none;}
   .post_details .comment-author{display:flex;}
 }
