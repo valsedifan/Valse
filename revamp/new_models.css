@@ -527,10 +527,13 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 .twitter .twibutton {background: var(--textColor);color: var(--bw2);border-radius: 50px;text-align: center;padding: 0 1em;font-weight: bold;}
 ul.twibuttons i.cp {font-size: 1.3em;}
 .twitter .newtwi {border-top: 1px solid var(--transp3);color: var(--co2);font-size: 1.1em;display: grid;place-items: center;cursor: pointer;}
-.twiimages {display: flex;flex-wrap: wrap;gap: 10px;}
+.twiimages {display: flex;flex-wrap: wrap;gap: 10px;background:transparent;}
 .twiimages > * {width: 30%;max-height: 320px;object-fit: cover; border-radius: 5px; flex-grow: 1;}
 .newtwitter .instabuttons {display:flex;}
 .newtwitter .instabuttons > i{flex-grow:1;}
 .newtwitter .notprofile{align-items: center;}
 .newtwitter .instaname:has(+ .instadate):after{content:'•';margin-left:10px; font-size:.7em;}
-
+.twiimages > .newtwitter{max-height:none;padding:0;}
+.twiimages > .newtwitter:before{display:none;}
+.twiimages > .newtwitter .instamain{padding:0;border:1px solid var(--transp3)}
+.twiimages > .newtwitter .instacaption{padding-bottom:0;}
