@@ -608,6 +608,9 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 
 .askval-content {width: 600px;padding: var(--gap-l);border-radius: var(--rad); background: var(--bw5); display:grid; gap:var(--gap)}
 .askval-content .info{display:grid; grid-template-columns: 120px 1fr;margin:var(--gap) var(--gap-l);overflow:auto;}
+.confirm-val {text-align: center;margin-bottom: var(--gap-l); cursor:pointer;}
+.infos-add{display:none;}
+.confirm-val:has(input:checked) + .infos-add{display:grid;}
 .villain-form{padding:var(--gap-l);margin:var(--gap-l); border:1px solid var(--transp3); border-radius:var(--rad);}
 .villain-form summary{background:var(--gradient-50); padding:var(--gap); border-radius:var(--rad-s); text-transform:uppercase; font-weight: 600;}
 .villain-form button{background:var(--textColor-50);}
