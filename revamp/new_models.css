@@ -549,7 +549,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .post_row:has(.presa_v3) .post_profile, .post:has(.presa_v3) .post_pro_top, .post:has(.presa_v3) .signature_div{display:none;}
 .post_row:has(.presa_v3) .comment-author{display:flex;}
 .post_row:has(.presa_v3) .post_message{padding:0;background:transparent;backdrop-filter:none;}
-.post_row:has(.presa_v3) .post_message_content{padding:0;background:var(--transp1);}
+.post_row:has(.presa_v3) .post_message_content{padding:0;}
 .post_row:has(.presa_v3) .post_details > *{background:var(--transp1);}
 
 .presa_v3{
