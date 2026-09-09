@@ -613,9 +613,10 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .confirm-val {text-align: center;margin-bottom: var(--gap-l); cursor:pointer;}
 .infos-add{display:none;}
 .confirm-val:has(input:checked) + .infos-add{display:grid;}
+.confirm-val + textarea{resize: vertical;height: 120px;}
 .villain-form{padding:var(--gap-l);margin:var(--gap-l); border:1px solid var(--transp3); border-radius:var(--rad);}
 .villain-form summary{background:var(--gradient-50); padding:var(--gap); border-radius:var(--rad-s); text-transform:uppercase; font-weight: 600;}
 .villain-form button{background:var(--textColor-50);}
 .info-supp .info{grid-template-columns:auto 1fr auto;}
-.askval-content > .flex{justify-content:center;align-items: end;gap:var(--gap-l)}
-.askval-content > .flex > button{background:var(--bw3);height: fit-content;}
+.askval-content > .flex{justify-content:center; gap:var(--gap-l)}
+.askval-content > .flex > button{background:var(--bw3);}
