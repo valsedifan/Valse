@@ -553,11 +553,13 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .post_row:has(.presa_v3) .post_details > *{background:var(--transp1);}
 
 .presa_v3{
-    position:relative; overflow:clip; background:var(--transp1); backdrop-filter:blur(5px);
+    position:relative;
+    overflow:clip;
+    background:var(--transp1);
+    backdrop-filter:blur(5px);
     height: 500px;
     --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);
-    height: 50;
     }
 
 .presa_v3 > br, ul.presa-infos > br, .right-side > br, .right-side .tabs > br{display:none;}
@@ -584,8 +586,9 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-infos > *{padding:var(--gap-l);}
 .presa-infos > li{border-top:1px solid var(--transp3);display:grid;}
 
-.right-side{display:flex;flex-direction:column;width:100%;}
-.right-side .tab_content{flex-grow:1;}
+.right-side{display: flex;flex-direction: column;width:100%;}
+.right-side .tab_content{flex-grow:1;min-height: 0;}
 .right-side .tabs{display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:0;}
 .right-side .tab{padding:var(--gap-l);}
 .right-side .tab.selected{background:var(--gradient-50);}
+.presa_tab_content{height:100%;overflow:auto!important;padding:var(--gap-l);}
