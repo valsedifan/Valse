@@ -550,8 +550,13 @@ ul.twibuttons i.cp {font-size: 1.3em;}
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);}
 
 .left-side{width:50px;background:var(--transp-theme);display:flex;flex-direction:column;justify-content:space-between}
-.left-side>ul>li,.presa_icon{height:50px;display:grid;place-items:center}
+.left-side>ul>li{cursor:pointer;position:relative;}
+.left-side>ul>li[data-tooltip]:after{content: attr(data-tooltip);position:absolute;left: 100%;margin-left: var(--gap);padding: 3px 8px; background:var(--textColor-50);border-radius:var(--rad-s); opacity:.7; text-transform:uppercase; font-size: .8em; font-weight:600;}
+.left-side>ul>li[data-tooltip]:after{display:none;}
+.left-side>ul>li[data-tooltip]:hover:after{display:block;}
+.left-side>ul>li,.presa_icon{height:50px;display:grid;place-items:center;}
 .left-side>ul>li:first-of-type{background:var(--gradient3);color:var(--noirnoir)}
 .left-side>ul>li:first-of-type i{font-size:1.6em}
 .left-side>ul>li>i{font-size:1.2em}
+.left-side a:hover{color:var(--textColor);}
 .presa_icon img{width:30px;aspect-ratio:1/1;height:30px;border-radius:50%}
