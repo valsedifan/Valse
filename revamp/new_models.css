@@ -542,3 +542,16 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .twi_comments li{padding:var(--gap) var(--gap-l); border-top:1px solid var(--transp3); display:flex;flex-direction:column; gap:var(--gap-l);}
 .twi_comments li span{position:relative;display:block}
 .twi_comments li span:has(+ br + span):after{content:'';position:absolute;bottom: calc(var(--gap-l)*-1);left:var(--gap-l);width:1px;height: var(--gap-l);background:var(--transp6);}
+
+
+/* PRESA V3 */
+.presa_v3{position:relative; 
+    --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
+    --gradient: var(--couleur1), var(--couleur2), var(--couleur3);}
+
+.left-side{width:50px;background:var(--transp-theme);display:flex;flex-direction:column;justify-content:space-between}
+.left-side>ul>li,.presa_icon{height:50px;display:grid;place-items:center}
+.left-side>ul>li:first-of-type{background:var(--gradient3);color:var(--noirnoir)}
+.left-side>ul>li:first-of-type i{font-size:1.6em}
+.left-side>ul>li>i{font-size:1.2em}
+.presa_icon img{width:30px;aspect-ratio:1/1;height:30px;border-radius:50%}
