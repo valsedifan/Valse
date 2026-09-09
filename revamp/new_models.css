@@ -603,3 +603,8 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-player > ul{display: flex; flex-direction:column;}
 .presa-player li{border:none!important;}
 .presa-player > ul:first-of-type{text-align:right;}
+
+#AskValPopup {position: fixed;inset: 0;z-index: 9999;display: flex;align-items: center;justify-content: center;background: var(--transp-theme); backdrop-filter: blur(5px);}
+
+.askval-content {width: 600px;padding: var(--gap-l);border-radius: var(--rad); background: var(--bw2); display:grid; gap:var(--gap);}
+.askval-content .info{display:grid; grid-template-columns: 120px 1fr;margin:var(--gap) var(--gap-l);}
