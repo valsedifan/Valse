@@ -620,4 +620,4 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .info-supp .info{grid-template-columns:auto 1fr auto;}
 .askval-content > .flex{justify-content:center; gap:var(--gap-l)}
 .askval-content > .flex > button{background:var(--bw3);}
-.info.valid-mods > label{grid-column:2/3; font-weight:normal;}
+.valid-mods > label, .valid-prelien > label{grid-column:2/3; font-weight:normal;}
