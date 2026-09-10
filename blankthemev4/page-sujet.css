@@ -104,7 +104,7 @@
 
 /* Nombre de like*/
 .post_details .rep-button .rep-nb {margin-left: 5px;font-size: var(--little-size);}
-.post_details .rep-button.fa_liked, .rep-button.fa_disliked {background:var(--gradient-50);color:var(--noirnoir);}
+.post_details .rep-button.fa_liked, .rep-button.fa_disliked {background:var(--gradient-50)!important;color:var(--noirnoir);}
 .post_reactions {align-items: center;}
 .post_reactions > p{text-transform:uppercase; font: 200 .85em var(--font);background:var(--textColor-50); border-radius:var(--rad); padding: 2px 15px;}
 
