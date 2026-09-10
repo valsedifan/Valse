@@ -565,7 +565,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
     --co-choix: var(--transp7); 
     }
 
-.presa_v3 > br, ul.presa-infos > br, .right-side > br, .right-side .tabs > br, .presa-player > ul > br, .presa-player > br{display:none;}
+.presa_v3 > br, ul.presa-infos > br, .right-side > br, .right-side .tabs > br, .presa-player > ul > br, .presa-player > br, .left-side > ul > br{display:none;}
 
 .left-side{width:50px;background:var(--transp-theme);display:flex;flex-direction:column;justify-content:space-between}
 .left-side>ul{display:flex; flex-direction: column;}
