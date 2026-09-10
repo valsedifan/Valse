@@ -112,7 +112,7 @@ label.presa[for="slide2"]{top:calc(50% + 5px);}
 .presa_champs .para{overflow:auto;padding-right:20px;}
 
 .presa_bloc_deux{display:flex;gap:30px;}
-.jauges{display:flex;gap:5px;align-items: flex-end;}
+.presa_bloc_deux .jauges{display:flex;gap:5px;align-items: flex-end;}
 .presa_jaugelabel{writing-mode:vertical-lr;font: 1em var(--font1);text-transform:uppercase;letter-spacing:1px;}
 .presa_jauge{background:var(--transp9);border:1px solid var(--transp9);height:100%;width:14px;border-radius:50px;display:flex;align-items: flex-end;}
 .presa_jauge span{background:var(--gradient3);width:inherit;display:block;border-radius:50px;opacity:0.9;}
