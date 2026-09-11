@@ -41,6 +41,7 @@
 
 #blog_comments + .page-actions.in_msgs {margin-top:var(--gap-l);}
 .page-actions.in_msgs, .page-actions:has(+ [name="privmsg_list"]){background: var(--transp1);backdrop-filter: blur(5px);}
+.page-actions.in_msgs:before{content:'';position:absolute; top:0; left:0; border-radius: var(--rad) 0 0 var(--rad); height:100%; width: 50%; background:var(--gradient-50); mask: linear-gradient(45deg, black, transparent 80%); opacity: .7;}
 .page-actions.in_msgs h1.page-title{margin:0;}
 .page-actions.in_msgs .separator, .privmsgs_all .page-actions .separator{margin:var(--gap) 0;}{margin:var(--gap) 0;}
 .post_profile, .post_pro_top, .post_message{background: var(--transp1);border-radius:var(--rad);padding:var(--gap-l);position:relative;backdrop-filter: blur(5px);}
