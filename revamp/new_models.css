@@ -558,11 +558,11 @@ ul.twibuttons i.cp {font-size: 1.3em;}
     overflow:clip;
     background:var(--transp1);
     backdrop-filter:blur(5px);
-    height: 500px;
+    /* height: 500px; */
     --gradient3:linear-gradient(45deg, var(--couleur1), var(--couleur2), var(--couleur3));
     --gradient: var(--couleur1), var(--couleur2), var(--couleur3);
     --gradient-50: linear-gradient(45deg, color-mix(in srgb, transparent,var(--couleur3)), color-mix(in srgb, transparent,var(--couleur2)), color-mix(in srgb, transparent,var(--couleur1)));
-    --co-choix: var(--transp7); 
+    --co-choix: var(--transp7);
     }
 
 .presa_v3 > br, ul.presa-infos > br, .right-side > br, .right-side .tabs > br, .presa-player > ul > br, .presa-player > br, .left-side > ul > br, .main-side > br{display:none;}
@@ -582,7 +582,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa_icon img{width:30px;height:30px;border-radius:50%}
 
 .main-side{display:grid;grid-template: auto / 35% 1fr;width: 100%;}
-.main-side > div{height: 500px;}
+.main-side > div{height: 400px;}
 
 .middle-side{width:100%;min-width:200px;height: 500px;position:relative;display:flex;flex-direction:column;justify-content: flex-end;border-right:1px solid var(--transp3);}
 .presa-img-fond{position:absolute; top:0; left:0; width:100%; height:80%; mask:linear-gradient(to bottom, black, transparent 80%);}
