@@ -593,6 +593,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 
 .right-side{overflow-y: auto;}
 .jauge-side{padding: var(--gap-l);display:flex;gap:var(--gap);flex-direction: column;height:fit-content;}
+.jauge-side:has(+ .jauge-side){padding-bottom:0;}
 .jauge-side sf{white-space:nowrap}
 .jauge-side .jauge_container{background:var(--bw3); height:10px; width:100%; border-radius:var(--rad);padding:1px; position:relative;}
 .jauge-side .jauge_fill{position:absolute; bottom:0; left:0; height:100%; background:var(--gradient3);border-radius:var(--rad)}
