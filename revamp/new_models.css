@@ -545,14 +545,14 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .twi_comments li span:has(+ br + span):after{content:'';position:absolute;bottom: calc(var(--gap-l)*-1);left:var(--gap-l);width:1px;height: var(--gap-l);background:var(--transp6);}
 
 
-/* PRESA V3 */
+/* PRESA V3 
 .post_row:has(.presa_v3){grid-template-columns: 1fr!important;}
 .post_row:has(.presa_v3) .post_profile, .post:has(.presa_v3) .post_pro_top, .post:has(.presa_v3) .signature_div{display:none;}
 .post_row:has(.presa_v3) .comment-author{display:flex;}
 .post_row:has(.presa_v3) .post_message{padding:0;background:transparent;backdrop-filter:none;}
 .post_row:has(.presa_v3) .post_message_content{padding:0;}
 .post_row:has(.presa_v3) .post_details > *{background:var(--transp1);}
-
+*/
 .presa_v3{
     position:relative;
     overflow:clip;
@@ -608,8 +608,8 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-player li{border:none!important;}
 .presa-player > ul:first-of-type{text-align:right;}
 
+/* validation */
 #ValidContainer{display:flex; gap:var(--gap-l);margin:calc(var(--gap-l) * 2) 0; justify-content:center;}
-
 #AskValPopup {position: fixed;inset: 0;z-index: 9999;display: flex;align-items: center;justify-content: center;background: var(--transp-theme); backdrop-filter: blur(5px);}
 .askval-content {width: 600px;height:500px; overflow:auto;padding: var(--gap-l);border-radius: var(--rad); background: var(--bw5); display:grid; gap:var(--gap)}
 .verif-infos > p{margin:var(--gap-l);}
