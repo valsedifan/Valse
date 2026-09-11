@@ -597,7 +597,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .jauge-side sf{white-space:nowrap}
 .jauge-side .jauge_container{background:var(--bw3); height:10px; width:100%; border-radius:var(--rad);padding:1px; position:relative;}
 .jauge-side .jauge_fill{position:absolute; bottom:0; left:0; height:100%; background:var(--gradient3);border-radius:var(--rad)}
-
+.presa-block{padding:var(--gap-l)}
 .presa-free, .presa-hrp {grid-column: 1/-1;padding:var(--gap-l);}
 .presa-free{border-top: 1px solid var(--transp3); border-bottom: 1px solid var(--transp3);}
 .presa-player{display:grid;grid-template-columns: 1fr auto 1fr;gap:var(--gap-l);align-items:center;}
