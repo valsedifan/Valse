@@ -555,6 +555,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 */
 .presa_v3{
     position:relative;
+    border-radius: var(--rad);
     overflow:clip;
     background:var(--transp1);
     backdrop-filter:blur(5px);
@@ -566,7 +567,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 
 .presa_v3 > br, ul.presa-infos > br, .right-side > br, .right-side .tabs > br, .presa-player > ul > br, .presa-player > br, .left-side > ul > br, .main-side > br{display:none;}
 
-.left-side{width:50px;background:var(--transp-theme);display:flex;flex-direction:column;justify-content:space-between}
+.left-side{width:50px;background:var(--transp-theme);display:flex;flex-direction:column;justify-content:space-between;}
 .left-side>ul{display:flex; flex-direction: column;}
 .left-side>ul>li{cursor:pointer;position:relative;}
 .left-side>ul>li[data-tooltip]:after{content: attr(data-tooltip);position:absolute;left: 100%;margin-left: var(--gap);padding: 3px 8px; background:var(--bw5);border-radius:var(--rad-s);text-transform:uppercase; font-size: .8em; font-weight:600;z-index:1;}
@@ -583,6 +584,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .main-side{display:grid;grid-template: auto / 35% 1fr;width: 100%;}
 .middle-side, .right-side{height: 400px;}
 .main-side > div:not(.middle-side, .right-side){grid-column: 1/-1;padding:var(--gap-l);}
+.presa-content {background:var(--transp-theme);border-radius:var(--rad-s);padding: var(--gap-l);}
 
 .middle-side{width:100%;min-width:200px;position:relative;display:flex;flex-direction:column;justify-content: flex-end;border-right:1px solid var(--transp3);background: var(--transp-theme);}
 .presa-img-fond{position:absolute; top:0; left:0; width:100%; height:80%; mask:linear-gradient(to bottom, black, transparent 80%);}
@@ -592,21 +594,26 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-infos > *, .presa-player > ul > *{padding:var(--gap-l);}
 .presa-infos > li, .presa-player > ul > li{border-top:1px solid var(--transp3);display:grid;}
 
-.right-side{overflow-y: auto;}
+.right-side{overflow-y: auto;padding: var(--gap-l);}
+.presa-block{padding:var(--gap-l)}
+
+.presa-icon-block {height:100px; position:relative;display:flex;align-items:center;}
+.presa-icon-block .post_pro_gif{z-index:1;}
+.presa-icon-block .post_pro_gif:before{background: radial-gradient(var(--couleur2), transparent 50%);}
+.presa-icon-block img{width:60px; height:60px;}
+.presa-icon-block .separator{width:100%;}
+
+.presa-free{height:200px;}
 .jauge-side{padding: var(--gap-l);display:flex;gap:var(--gap);flex-direction: column;height:fit-content;}
 .jauge-side:has(+ .jauge-side){padding-bottom:0;}
 .jauge-side sf{white-space:nowrap}
 .jauge-side .jauge_container{background:var(--bw3); height:10px; width:100%; border-radius:var(--rad);padding:1px; position:relative;}
 .jauge-side .jauge_fill{position:absolute; bottom:0; left:0; height:100%; background:var(--gradient3);border-radius:var(--rad)}
-.presa-block{padding:var(--gap-l)}
-.presa-free{border-top: 1px solid var(--transp3); border-bottom: 1px solid var(--transp3);max-height:400px;}
-.presa-player{display:grid;grid-template-columns: 1fr auto 1fr;gap:var(--gap-l);align-items:center;}
-.player-img{width:90px;height:90px;position:relative;}
-.player-img img{width:100%; height:100%; border-radius:50%;}
-.player-img:before{content:'';position:absolute;top: 50%;left:50%;width:200%;height:200%;transform:translate(-50%,-50%); border-radius: 50%;mask: radial-gradient(black, transparent 50%); background:var(--gradient3); z-index: -1;filter: blur(10px);opacity: .8; }
-.presa-player > ul{display: flex; flex-direction:column;}
-.presa-player li{border:none!important; padding: 5px 0!important;}
-.presa-player > ul:first-of-type{text-align:right;}
+
+.presa-hrp{display:flex;flex-wrap: wrap;gap: var(--gap);align-items: center;justify-content: space-evenly;}
+.presa-hrp > tag{padding:2px 10px 0 10px;font-weight:bold;color:var(--couleur2);}
+.presa-hrp > tag > span{color:var(--textColor);font-weight:normal;}
+
 
 /* validation */
 #ValidContainer{display:flex; gap:var(--gap-l);margin:calc(var(--gap-l) * 2) 0; justify-content:center;}
