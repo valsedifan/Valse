@@ -603,7 +603,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-icon-block img{width:60px; height:60px;}
 .presa-icon-block .separator{width:100%;}
 
-.presa-free{height:200px;}
+.presa-free{height:200px;height: 200px;}
 .presa-jauges {display:flex;margin-left: var(--gap-l);}
 .jauge-side{display:flex;gap: 5px;height: 100%;flex-direction: row-reverse;}
 .jauge-side:has(+ .jauge-side){margin-right: var(--gap);}
