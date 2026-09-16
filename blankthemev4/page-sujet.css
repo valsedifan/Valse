@@ -136,7 +136,7 @@ button.rep-button .rep-nb{line-height:0;}
 /* ··· REPONSE RAPIDE ··· */
 /*supression de la mention "réponse rapide" */
 .quickreply div.h3,.quickreply br {display: none;}
-.quickreply {padding: var(--gap-l);background: var(--transp1);border-radius:var(--rad);}
+.quickreply {padding: var(--gap-l);background: var(--transp1);border-radius:var(--rad);backdrop-filter: blur(5px);}
 
 /* --- 6.3 SONDAGES ------------------------------- */
 /* --- Templates : viewtopic_poll_ballot - viewtopic_poll_body -- */
