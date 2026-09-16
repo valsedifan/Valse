@@ -104,6 +104,8 @@
 .comment .post_pseudo{width:100%;text-align:center;display: block;}
 
 /* Nombre de like*/
+button.rep-button {display:flex;align-items:center;}
+button.rep-button .rep-nb{line-height:0;}
 .post_details .rep-button .rep-nb {margin-left: 5px;font-size: var(--little-size);}
 .post_details .rep-button.fa_liked, .rep-button.fa_disliked {background:var(--gradient-50)!important;color:var(--noirnoir);}
 .post_reactions {align-items: center;}
