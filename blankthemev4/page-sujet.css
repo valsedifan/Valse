@@ -203,6 +203,9 @@
   .post_row{
     .post_profile, .post_pro_top{display:none;}
     .post_message_content{background:var(--transp1);}}
+  
+  .sticky_post .post_reactions {display:none;}
+  #blog_comments{background:var(--transp1); backdrop-filter:blur(5px); border-radius:var(--rad); padding: calc(var(--gap-l) * 4) calc(var(--gap-l) * 7) ;}
   .comment{display: grid;grid-template-columns: 70px 1fr 70px;}
   .post_message, .post_profile, .post_avatar_container{background:transparent; padding:0;backdrop-filter:none;}
   .post_details > *:not([class$="liked"]){background:var(--transp1);}
@@ -216,7 +219,7 @@
   .comment-body{grid-column:2/3;grid-row:1/2;display:grid;}
   .comment-body .post_details{grid-row:2/3;margin-top:calc(var(--gap-l)*-2); margin-right:var(--gap);z-index:1;}
   .sms-pseudo{text-align:left;font:1em var(--font);z-index: 1;float: left;width: fit-content;height: fit-content;}
-  .comment_text{background:var(--transp-theme); padding:var(--gap-l);border-radius:var(--rad); margin-top:var(--gap-l);}
+  .comment_text{background:var(--transp-theme); padding:var(--gap-l);border-radius:var(--rad); margin-top:var(--gap-l); max-width:65ch;}
   
   .comment.mymsg{
     .post_profile{grid-column:2/4;}
