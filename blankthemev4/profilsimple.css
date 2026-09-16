@@ -44,14 +44,15 @@ div#field_id:empty{display:none;}
 .tab_multi #field_id5{position:relative;}
 .tab_multi h3 {text-transform: uppercase;}
 .tab_multi .profile_field:not(#field_id5), .tab_multi label {display:none;}
-.tab_multi .profile_field{max-width: 625px;overflow:auto;}
+.tab_multi .profile_field{max-width: 625px;overflow:auto;-ms-overflow-style: none;scrollbar-width: none;}
 .tab_multi ul {display: flex; transition:transform .3s;}
+.tab_multi .profile_field:-webkit-scrollbar{display:none}
 .tab_multi .pro_mc tr {display: grid;}
 .tab_multi .pro_mc td {grid-column: 1/2;grid-row: 1/2;width: 200px;height: 100px;overflow: clip;transition:opacity .3s;}
 .tab_multi .pro_mc td img {width: 100%;height: 100%;filter: grayscale(1);}
 .tab_multi .pro_mc td:last-of-type {opacity: 0;position: relative;z-index: 1;background:var(--transp5);display: grid;place-items: center;text-align: center;align-content: center;}
 .tab_multi .pro_mc:hover td {opacity: 1}
-button[class^="slider-"], button[class^="slider-"]:hover {position:absolute; top:50%;font-size: 1.5em; line-height:100%; background: var(--groupecolor);width:20px;height:20px;border-radius:50%;display:grid;place-items:center;padding:0; transform:translateY(-50%);color:var(--noirnoir);}
+button[class^="slider-"], button[class^="slider-"]:hover {position:absolute;top:50%;font-size: 1.5em;line-height: 100%!important;background: var(--groupecolor);width:20px;height:20px;border-radius:50%;display:grid;place-items:center;padding:0;transform:translateY(-50%);color:var(--noirnoir);}
 button[class^="slider-next"]{left:600px;}
 
 [data-tab="chara"] .main_profile{display:grid;grid-template-columns:1fr 1fr; background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 3);}
