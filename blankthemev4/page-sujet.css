@@ -74,7 +74,7 @@
 
 .post_pro_top{display:grid; grid-template-rows: 1fr auto 1fr;}
 .post_pro_top > div {margin: 0 var(--gap);}
-.post_pro_top .separator{margin: 5px;}
+.post_pro_top .separator{margin: 5px;border-bottom-width: 1px; border-bottom-style: solid; border-image-source: linear-gradient(90deg, color-mix(in srgb, var(--textColor) 20%, transparent) 0%, color-mix(in srgb, var(--textColor) 20%, transparent) 44.3%, transparent 5%, transparent 58%, color-mix(in srgb, var(--textColor) 20%, transparent) 50%, color-mix(in srgb, var(--textColor) 20%, transparent) 100%); border-image-slice: 1; border-image-width: 1px;}
 .post_pseudo {font:var(--normal-size) var(--titlefont2);text-transform:uppercase;}
 .post_pro_power .user_field:not(.field-pouvoir){display:none;}
 .post_pro_pro .user_field:not(.field-cw, .field-alias, .field-rank), .post_pro_pro .field_label {display:none;}
