@@ -49,7 +49,7 @@
 .post_profile{grid-row:1/-1;}
 .post_avatar_container {background: linear-gradient( 135deg, var(--groupecolor), 10%, transparent 50%); padding: var(--gap); border-radius: var(--rad-s);}
 .post_avatar{position: relative;overflow:clip;width:200px;height:320px;background: var(--transp5);border-radius: var(--rad-xs);}
-.post_avatar img {border-radius: var(--rad-xs)}
+.post_avatar img {border-radius: var(--rad-xs);border: 1px solid var(--transp11);}
 .presence{display:none;}
 .presence.online {position:absolute; top:var(--gap);left: var(--gap); display:block; font: 600 .65em var(--font);text-transform: uppercase; letter-spacing: .5px; padding: 1px 5px 0 5px; background:var(--transp1);}
 .post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out; display: grid; justify-items: center; align-content: center;}
