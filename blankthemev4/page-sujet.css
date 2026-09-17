@@ -209,7 +209,7 @@ button.rep-button .rep-nb{line-height:0;}
   .sticky_post .post_reactions {display:none;}
   #blog_comments{background:var(--transp1); backdrop-filter:blur(5px); border-radius:var(--rad); padding: calc(var(--gap-l) * 4) calc(var(--gap-l) * 7) ;}
   .comment{display: grid;grid-template-columns: 70px 1fr 70px;}
-  .post_message, .post_profile, .post_avatar_container{background:transparent; padding:0;backdrop-filter:none;}
+  .post_message, .post_profile, .post_avatar_container{background:transparent; padding:0;backdrop-filter:none;border: none;}
   .post_details > *:not([class$="liked"]){background:var(--transp1);}
   .comment .post_details{opacity:1;}
   .comment .post_details > *:not(.rep-button){opacity:0;transition: opacity .5s ease-in-out;}
