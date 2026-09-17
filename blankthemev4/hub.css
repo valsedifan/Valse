@@ -5,7 +5,7 @@
 .hub .panel .flex, .hub .separator{flex-grow:1;align-items: center;margin: 0 var(--gap);}
 .hub .tag {padding: 3px 12px}
 .hub_infos {display: grid;grid-template-columns: 1fr 2fr;gap:var(--gap-l);} 
-.hub_infos > div{background:var(--transp1); padding:var(--gap-l); border-radius:var(--rad);backdrop-filter: blur(5px);}
+.hub_infos > div{background:var(--transp1); padding:var(--gap-l); border-radius:var(--rad);backdrop-filter: blur(5px);border: 1px solid var(--transp11);}
 .hub_infos h2{text-transform:uppercase;margin-bottom:var(--gap);font-size: 1em;color: var(--textColorAccent);}
 
 .hub_details{position:relative; overflow:clip;}
