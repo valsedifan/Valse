@@ -49,14 +49,14 @@
 .post_profile{grid-row:1/-1;}
 .post_avatar_container {background: linear-gradient( 135deg, var(--groupecolor), 10%, transparent 50%); padding: var(--gap); border-radius: var(--rad-s);}
 .post_avatar{position: relative;overflow:clip;width:200px;height:320px;background: var(--transp5);border-radius: var(--rad-xs);}
-.post_avatar img {border-radius: var(--rad-xs);border: 1px solid var(--transp11);}
+.post_avatar img {border-radius: var(--rad-xs);border: 1px solid var(--transp11);width: 100%;height: 100%;}
 .presence{display:none;}
 .presence.online {position:absolute; top:var(--gap);left: var(--gap); display:block; font: 600 .65em var(--font);text-transform: uppercase; letter-spacing: .5px; padding: 1px 5px 0 5px; background:var(--transp1);}
 .post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out; display: grid; justify-items: center; align-content: center;}
 .post_avatar_container:hover .post_avatar_hover{transform:translateY(0);}
 
 .post_avatar_hover .user_field:not(.field-pseudo, .field-faceclaim, .field-credits){display:none;}
-.post_avatar_hover .user_field{font:.85em var(--font);}
+.post_avatar_hover .user_field{font:.85em var(--font);display:flex;flex-wrap:wrap;align-items:center;align-content: center;justify-content: center;}
 .post_avatar_hover .field_label, .post_pro_power .field_label{font-weight:550; color:var(--groupecolor);text-transform:uppercase;}
 
 .post_rank{display:block;}
@@ -94,7 +94,7 @@
 
 .post_pro_gif .user_field:not(.field-gif), .post_pro_gif .field_label{display:none;}
 .post_pro_gif {position:absolute; top: 50%; left:50%; transform: translateX(-50%) translateY(-50%);width:60px; height:60px; border-radius:50%; display:grid;place-items:center;}
-.post_pro_gif .user_field, .post_pro_gif .field_content, .post_pro_gif img{display:block;width:100%; height:100%; border-radius:50%;opacity: .9;filter: grayscale(1);}
+.post_pro_gif .user_field, .post_pro_gif .field_content, .post_pro_gif img{display:block;width: 60px;height: 60px;border-radius:50%;opacity: .9;filter: grayscale(1);}
 .post_pro_gif .user_field, .post_pro_gif .field_content, .post_pro_gif img:before{display:block;width:100%; height:100%; border-radius:50%;background:var(--bw2)}
 .post_pro_gif:before{content:'';position:absolute;width:200%;height:200%;border-radius:50%;background:radial-gradient(var(--groupecolor), transparent 50%); z-index:-1;filter: blur(10px);opacity: .8;}
 
