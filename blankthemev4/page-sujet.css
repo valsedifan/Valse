@@ -247,5 +247,6 @@ button.rep-button .rep-nb{line-height:0;}
 /* CARNET DE BORD */
 .post:has(.carnetdebord, .nosideprofile){grid-template: auto 1fr / 1fr;
   .post_profile{display:none;}
-  .post_message_content{max-width: 974px;}
+  .newmodels{max-width: 974px;width:fit-content;}
 }
+
