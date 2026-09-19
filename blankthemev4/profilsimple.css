@@ -18,8 +18,8 @@ div#field_id:empty{display:none;}
 .profile_simple .profile_field{margin:0;}
 
 .profile_simple .tab_img .ajax-profil_edit, [data-tab="home"] .tab_img .profile_field:not(#field_id1), [data-tab="home"] .tab_img label,
-[data-tab="hrp"] .tab_img .profile_field:not(#field_id7), [data-tab="hrp"] .tab_img label,
-[data-tab="chara"] .tab_img .profile_field:not(#field_id9), [data-tab="chara"] .tab_img label{display:none;}
+[data-tab="chara"] .tab_img .profile_field:not(#field_id7), [data-tab="chara"] .tab_img label,
+[data-tab="hrp"] .tab_img .profile_field:not(#field_id9), [data-tab="hrp"] .tab_img label{display:none;}
 [data-tab="home"] .tab_img img, [data-tab="hrp"] .tab_img img{right:0;mask:linear-gradient(to right, transparent,black);}
 [data-tab="home"] .tab_img, [data-tab="hrp"] .tab_img{mask:radial-gradient(circle at right, black 0%, transparent 80%);}
 [data-tab="chara"] .tab_img img{left:0; mask:linear-gradient(to left, transparent,black);}
