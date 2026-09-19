@@ -205,8 +205,9 @@ button.rep-button .rep-nb{line-height:0;}
 .main_forum:has(a.nav[href="/f13-telephones"]){max-width:900px; padding:0; margin: 0 auto;
   .post_row{
     .post_profile, .post_pro_top{display:none;}
-    .post_message_content{background:var(--transp1);}}
-  
+    .post_message_content{background:transparent}}
+
+  .sticky_post{grid-template-columns:1fr;}
   .sticky_post .post_reactions {display:none;}
   #blog_comments{background:var(--transp1); backdrop-filter:blur(5px); border-radius:var(--rad); padding: calc(var(--gap-l) * 4) calc(var(--gap-l) * 7) ;border: 1px solid var(--transp11);}
   .comment{display: grid;grid-template-columns: 70px 1fr 70px;}
