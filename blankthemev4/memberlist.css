@@ -1,4 +1,4 @@
-.userlist_profil:has(.group-2){--groupecolor: #D5B99B;}
+.userlist_profil:has(.group-2){--groupecolor: var(--athena);}
 .userlist_profil:not(:has([class^="group-"])){--groupecolor: var(--textColor);}
 
 .userlist {
