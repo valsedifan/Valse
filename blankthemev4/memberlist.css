@@ -1,6 +1,16 @@
 
-.userlist_profil:has(.group-2){--groupecolor: #D5B99B;}
-.userlist_profil:not(:has([class^="group-"])){--groupecolor: var(--textColor);}
+
+.userlist_profil:has(.group-3) {
+    --groupecolor: var(--group1);
+}
+
+.userlist_profil:has(.group-4) {
+    --groupecolor: var(--group2);
+}
+
+.userlist_profil:has(.group-5) {
+    --groupecolor: var(--group3);
+}
 
 .userlist {
     display: grid;
@@ -23,6 +33,7 @@
 
 .userlist_avatar {
     width: 300px;
+    height:100%;
     mask-image: radial-gradient(black, 20%, transparent 70%);
     position: absolute;
     top: -25%;
@@ -37,6 +48,18 @@
     object-position: center;
     filter: grayscale(1);
     border-radius: 0;
+}
+
+.userlist_avatar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--groupecolor), transparent);
+    opacity: .5;
+    mix-blend-mode: darken;
 }
 
 .userlist_details {
