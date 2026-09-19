@@ -1,1 +1,154 @@
 
+.userlist_profil:has(.group-2){--groupecolor: #D5B99B;}
+.userlist_profil:not(:has([class^="group-"])){--groupecolor: var(--textColor);}
+
+.userlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.userlist_profil {
+    position: relative;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 0 10px;
+    background: var(--transp1);
+    border-radius: 5px;
+    overflow: clip;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--transp11);
+}
+
+.userlist_avatar {
+    width: 70%; height:100%;
+    mask-image: linear-gradient(to right, black, 20%, transparent 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.userlist_avatar img {
+    width: 100%;
+    height: 100%;
+    max-width: none!important;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(1);
+    border-radius: 0;
+}
+
+.userlist_details {
+    height: 60px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: end;
+    text-align: right;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+    z-index: 2;
+}
+
+.userlist_pseudo span, .userlist_pseudo a {
+    font-family: var(--titlefont2);
+    text-transform: uppercase;
+    font-size: var(--little-size);
+}
+
+.userlist_pseudo a {
+    color: var(--groupecolor)!important;
+}
+
+.userlist_infos {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: var(--transp-theme);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.userlist_infos .userlist-field {
+    display: flex;
+    gap: 5px;
+}
+
+.userlist_infos label {
+    font: .85em var(--font);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.userlist_infos label:after {
+    content: '·';
+    padding-left: 5px;
+    color: var(--groupecolor);
+}
+
+.userlist_infos span {
+    text-transform: lowercase;
+}
+
+.userlist_infos .userlist-field.pseudo, .userlist_infos .userlist-field.faceclaim {
+    order: -1;
+}
+
+.userlist_infos .userlist-field.tw {
+    order: 1;
+}
+
+.userlist_infos .userlist-field.msgs {
+    border-bottom: 1px solid color-mix(in srgb, currentColor, transparent 70%);
+    padding-bottom: 5px
+}
+
+.userlist_infos .userlist-field.tw span {
+    display: none
+}
+
+.userlist_infos .userlist-field.tw:hover span {
+    display: block;
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    background: var(--transp8);
+    border: 1px solid var(--bw3);
+    padding: 5px 15px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    text-align: justify;
+}
+
+.userlist_infos .userlist-field.tw label:after {
+    content: '(hover)';
+    color: var(--textColor);
+}
+
+.profil_contact.right {
+    display: flex;
+    gap: 3px;
+    justify-content: end;
+}
+
+.profil_contact.right a {
+    color: var(--textColor)
+}
+
+.links_bar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--rad) 0 0 var(--rad);
+    height: 100%;
+    width: 50%;
+    background: var(--gradient-50);
+    mask: linear-gradient(45deg, black, transparent 80%);
+    opacity: .7;
+    z-index: -1;
+}
