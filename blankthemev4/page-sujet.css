@@ -52,7 +52,7 @@
 .post_avatar img {border-radius: var(--rad-xs);border: 1px solid var(--transp11);width: 100%;height: 100%;}
 .presence{display:none;}
 .presence.online {position:absolute; top:var(--gap);left: var(--gap); display:block; font: 600 .65em var(--font);text-transform: uppercase; letter-spacing: .5px; padding: 1px 5px 0 5px; background:var(--transp1);}
-.post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out; display: grid; justify-items: center; align-content: center;}
+.post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out;padding: var(--gap-l); display: grid; justify-items: center; align-content: center;}
 .post_avatar_container:hover .post_avatar_hover{transform:translateY(0);}
 
 .post_avatar_hover .user_field:not(.field-pseudo, .field-faceclaim, .field-credits){display:none;}
