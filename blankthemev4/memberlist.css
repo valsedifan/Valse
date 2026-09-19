@@ -22,11 +22,11 @@
 }
 
 .userlist_avatar {
-    width: 70%; height:100%;
-    mask-image: linear-gradient(to right, black, 20%, transparent 80%);
+    width: 300px;
+    mask-image: radial-gradient(black, 20%, transparent 70%);
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -25%;
+    left: -25%;
 }
 
 .userlist_avatar img {
