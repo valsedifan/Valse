@@ -17,7 +17,7 @@
 .newmodels .titre2 > br{display:none;}
 .newmodels .titre2{text-transform:uppercase;}
 .newmodels .ttitre2{font: 1.3em var(--titlefont2);background: var(--gradient3);background-clip: text;color: transparent;}
-.newmodels soustitre3{font: 1.1em var(--stfont);}
+.newmodels soustitre3{font: 1.1em var(--stfont); text-transform:uppercase;}
 
 .precisions{background:var(--transp9);border-radius: 0 0 5px 5px;margin-left:100px;position:relative;}
 .precisions .barre{background:var(--gradient3);display:flex;justify-content:space-between;align-items:center;padding: 5px 10px;color:var(--bw2);}
