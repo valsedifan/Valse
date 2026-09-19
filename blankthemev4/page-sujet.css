@@ -243,3 +243,8 @@ button.rep-button .rep-nb{line-height:0;}
   .post_details .comment-author{display:flex;}
   .post_row{grid-template: 1fr / 1fr;}
 }
+
+/* CARNET DE BORD */
+.post:has(.carnetdebord, .shortprofile){grid-template: auto 1fr / 1fr;
+  .post_profile{display:none;}
+}
