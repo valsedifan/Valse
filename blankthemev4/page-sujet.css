@@ -124,11 +124,16 @@ button.rep-button .rep-nb{line-height:0;}
 .blog_reactions .rep-button img{width:120%;transition:all .5s ease-in-out}
 .blog_reactions .rep-button[class$=liked]{background:var(--transp1)}
 .blog_reactions .rep-button:hover img{transform:scale(1.2,1.2)}
-.blog_reactions p[class$=like_list]{display:block!important;background:var(--transp1);height:70px;margin-left:-20px;padding:var(--gap-l) var(--gap-l) var(--gap-l) calc(var(--gap-l) * 1.5);width:100%; border-radius: var(--rad-s);
+.blog_reactions p[class$=like_list]{display:block!important;background:var(--transp1);min-height:70px;margin-left:-20px;padding:var(--gap-l) var(--gap-l) var(--gap-l) calc(var(--gap-l) * 1.5);width:100%; border-radius: var(--rad-s);
                                     text-transform: uppercase; font: .9em var(--stfont); color:color-mix(in srgb, currentColor 80%, transparent);}
 .blog_reactions .reaction_block:has(+ .reaction_block .rep-button:hover) .rep-button img,.blog_reactions .reaction_block:has(+ .reaction_block .rep-button[class$=liked]) .rep-button:not([class$=liked]) img,
 .blog_reactions .reaction_block:has(.rep-button:hover)+.reaction_block .rep-button img,.blog_reactions .reaction_block:has(.rep-button[class$=liked])+.reaction_block .rep-button:not([class$=liked]) img{filter:grayscale(1)}
 .blog_reactions .rep-button:hover img{filter:grayscale(0)!important}
+
+button.fa_like_others {background:transparent;padding:0; text-transform:lowercase; position:relative;}
+.fa_like_tooltip{display:none;position:absolute;top:100%;background:var(--transp-theme); backdrop-filter:blur(5px);padding:var(--gap);border-radius: var(--rad-s);z-index:1}
+.fa_like_tooltip > a{white-space:nowrap}
+button.fa_like_others:hover .fa_like_tooltip{display:block;}
 
 /* Liens de contact (mp, fiche, liens, ...) */
 .post_contact {display: flex;justify-content: center;gap: 5px;}
