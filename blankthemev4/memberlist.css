@@ -1,16 +1,5 @@
-
-
-.userlist_profil:has(.group-3) {
-    --groupecolor: var(--group1);
-}
-
-.userlist_profil:has(.group-4) {
-    --groupecolor: var(--group2);
-}
-
-.userlist_profil:has(.group-5) {
-    --groupecolor: var(--group3);
-}
+.userlist_profil:has(.group-2){--groupecolor: #D5B99B;}
+.userlist_profil:not(:has([class^="group-"])){--groupecolor: var(--textColor);}
 
 .userlist {
     display: grid;
