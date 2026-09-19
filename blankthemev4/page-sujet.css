@@ -63,11 +63,11 @@
 .post_prostats {display: grid;grid-template-columns: 1fr 1fr;gap: var(--gap);}
 .post_rank, .post_prostats{margin: var(--gap);margin-top:0;}
 .post_pro_msgs .user_field:not(.field-messages), .post_pro_msgs .field_label{display:none;}
-.post_pro_wons .user_field:not(.field-points), .post_pro_wons .field_label{display:none;}
+.post_pro_wons .user_field:not(.field-wons), .post_pro_wons .field_label{display:none;}
 .post_pro_msgs .user_field, .post_pro_wons .user_field{font-weight:bold;color:var(--groupecolor);display:inline;}
 
 .post_userinfo .user_field:not(.field-aesthetic, .field-fame, .field-trust-in-athena), .post_userinfo .field-aesthetic .field_label{display:none;}
-.post_userinfo {border-top:1px solid var(--textColor-50);}
+.post_userinfo {border-top:1px solid var(--textColor-50);width: 200px;margin: 0 auto;}
 .post_userinfo .field-fame{margin-bottom:5px;}
 .post_userinfo .field_label {text-transform:uppercase; font: .85em var(--stfont); padding-left:5px;}
 .post_userinfo .statbar{margin-top:0;}
