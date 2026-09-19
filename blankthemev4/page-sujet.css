@@ -122,7 +122,7 @@ button.rep-button .rep-nb{line-height:0;}
 .blog_reactions .reaction_block{display:flex;align-items:center}
 .blog_reactions .rep-button{float:left;border-radius:50%;display:grid;place-items:center;width:45px;height:45px;z-index: 1;}
 .blog_reactions .rep-button img{width:120%;transition:all .5s ease-in-out}
-.blog_reactions .rep-button[class$=liked]{background:var(--transp1)}
+.blog_reactions .rep-button[class$=liked]{background: var(--gradient-50);}
 .blog_reactions .rep-button:hover img{transform:scale(1.2,1.2)}
 .blog_reactions p[class$=like_list]{display:block!important;background:var(--transp1);min-height:70px;margin-left:-20px;padding:var(--gap-l) var(--gap-l) var(--gap-l) calc(var(--gap-l) * 1.5);width:100%; border-radius: var(--rad-s);
                                     text-transform: uppercase; font: .9em var(--stfont); color:color-mix(in srgb, currentColor 80%, transparent);}
