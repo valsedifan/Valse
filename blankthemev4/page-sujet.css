@@ -202,7 +202,7 @@ button.rep-button .rep-nb{line-height:0;}
 }
 
 /* SMS */
-.main_forum:has(a.nav[href="/f13-telephone"]){max-width:900px; padding:0; margin: 0 auto;
+.main_forum:has(a.nav[href="/f13-telephones"]){max-width:900px; padding:0; margin: 0 auto;
   .post_row{
     .post_profile, .post_pro_top{display:none;}
     .post_message_content{background:var(--transp1);}}
