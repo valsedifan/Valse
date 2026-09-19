@@ -59,7 +59,7 @@ button[class^="slider-next"]{left:600px;}
 [data-tab="chara"] .main_profile > div{overflow:auto;}
 [data-tab="chara"] .main_profile .left {border-right:1px solid var(--transp3);padding-right: var(--gap-l);}
 [data-tab="chara"] .main_profile .right{padding-left: var(--gap-l);}
-.tab_alias_class{display:flex; align-items:center;text-transform:uppercase;position:absolute;top: var(--gap-l);left:var(--gap-l);}
+.tab_alias_class{display:flex; align-items:baseline;text-transform:uppercase;position:absolute;top: var(--gap-l);left:var(--gap-l);}
 .tab_alias_class .profile_field:not(#field_id10, #field_id18), .tab_alias_class label {display:none;}
 .tab_alias_class .profile_field{display:flex;gap:0;margin:0;}
 .tab_alias_class #field_id10{font: 1.3em var(--titlefont2);}
