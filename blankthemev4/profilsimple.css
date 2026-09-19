@@ -165,7 +165,6 @@ button[class^="slider-next"]{left:600px;}
   background-image: var(--award-image);
   background-size: cover;
   background-position: center;
-  border-radius: 100%;
 }
 
 /* Bloc description de la récompenses */
@@ -177,7 +176,7 @@ button[class^="slider-next"]{left:600px;}
   left: 30px;
   background-color: var(--neutralDarker);
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: var(--rad-s);
 }
 
 /* Affiche la description au hover de la récompense */
