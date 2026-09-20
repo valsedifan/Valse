@@ -117,12 +117,12 @@ button.fa_like_others:hover .fa_like_tooltip{display:block;}
 .quickreply {padding: var(--gap-l);background: var(--transp1);border-radius:var(--rad);backdrop-filter: blur(5px);border: 1px solid var(--transp11);}
 
 /* SUJETS ADMINS */
-.post_row:has(.sujetadmin), .comment:has(.sujetadmin){grid-template: 1fr / 1fr;
+.post_row:has(.sujetadmin), .comment:has(.sujetadmin){grid-template: 1fr / 1fr!important;
   .post_profile, .post_pro_top{display:none;}
   .post_details .comment-author{display:flex;}
 }
 
-.post_row:has(.carnetdebord, .nosideprofile){grid-template: auto 1fr / 1fr;
+.post_row:has(.carnetdebord, .nosideprofile){grid-template: auto 1fr / 1fr!important;
   .post_profile{display:none;}
   .newmodels{max-width: 974px;width: 100%;}}
 
