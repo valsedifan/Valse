@@ -55,7 +55,7 @@ div#field_id:empty{display:none;}
 button[class^="slider-"], button[class^="slider-"]:hover {position:absolute;top:50%;font-size: 1.5em;line-height: 100%!important;background: var(--groupecolor);width:20px;height:20px;border-radius:50%;display:grid;place-items:center;padding:0;transform:translateY(-50%);color:var(--noirnoir);}
 button[class^="slider-next"]{left:600px;}
 
-[data-tab="chara"] .main_profile{display:grid;grid-template-columns:1fr 1fr; background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 3);}
+[data-tab="chara"] .main_profile{display:grid;grid-template-columns:1fr 1fr; background:var(--transp1);height:100%;padding:calc(var(--gap-l) * 2);}
 [data-tab="chara"] .main_profile > div{overflow:auto;}
 [data-tab="chara"] .main_profile .left {border-right:1px solid var(--transp3);padding-right: var(--gap-l);}
 [data-tab="chara"] .main_profile .right{padding-left: var(--gap-l);}
