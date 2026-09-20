@@ -353,7 +353,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 
 .instaimgs2::scroll-button(*) {
   border: 0;
-  font-size: 11px;
+  font-size: 10px;
   width:25px;
   height:25px;
   background: none;
@@ -364,7 +364,7 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
   cursor: pointer;
   position: absolute;
   position-anchor: --instaimg;
-  font-family: "Ionicons";
+  font-family:'cappuccicons';
 }
 
 .instaimgs2::scroll-button(*):hover,
@@ -382,13 +382,13 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 }
 
 .instaimgs2::scroll-button(left) {
-  content: "\f124" / "Précédent";
+  content: "\e9e3" / "Précédent";
   right: calc(anchor(left) - 50px);
   bottom: calc(anchor(top) - 35%);
 }
 
 .instaimgs2::scroll-button(right) {
-  content: "\f125" / "Suivant";
+  content: "\e9e4" / "Suivant";
   left: calc(anchor(right) - 50px);
   bottom: calc(anchor(top) - 35%);
 }
