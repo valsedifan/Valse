@@ -21,7 +21,7 @@
 .post_avatar_container:hover .post_avatar_hover{transform:translateY(0);}
 
 .post_avatar_hover .user_field:not(.field-pseudo, .field-faceclaim, .field-credits){display:none;}
-.post_avatar_hover .user_field{font:.85em var(--font);display: grid;justify-items: center;align-items: center;}
+.post_avatar_hover .user_field{font:.85em var(--font);display: grid;justify-items: center;align-items: center; text-align:center;}
 .post_avatar_hover .field_label, .post_pro_power .field_label{font-weight:550; color:var(--groupecolor);text-transform:uppercase;}
 
 .post_rank{display:block;}
