@@ -109,7 +109,7 @@
     order: -1;
 }
 
-.userlist_infos .userlist-field.tw {
+.userlist_infos .userlist-field.tw, .userlist_infos .userlist-field.cw {
     order: 1;
 }
 
@@ -118,11 +118,11 @@
     padding-bottom: 5px
 }
 
-.userlist_infos .userlist-field.tw span {
+.userlist_infos .userlist-field.tw span, .userlist_infos .userlist-field.cw span {
     display: none
 }
 
-.userlist_infos .userlist-field.tw:hover span {
+.userlist_infos .userlist-field.tw:hover span, .userlist_infos .userlist-field.cw:hover span {
     display: block;
     position: absolute;
     left: 80px;
@@ -135,7 +135,7 @@
     text-align: justify;
 }
 
-.userlist_infos .userlist-field.tw label:after {
+.userlist_infos .userlist-field.tw label:after, .userlist_infos .userlist-field.cw label:after {
     content: '(hover)';
     color: var(--textColor);
 }
