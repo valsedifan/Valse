@@ -91,6 +91,7 @@
 .post_pro_mods .profile_field_list{display:flex;gap:var(--gap);}
 .post_pro_mods .tooltip{display:none;position:absolute;top: anchor(--mod center); right: anchor(--mod right);width:max-content; background:color-mix(in srgb, transparent,var(--modrank)); padding: 2px 6px;border-radius:3px;font:500 .9em var(--font); text-transform:uppercase;}
 .post_pro_mods li{height:100%;display:grid;place-items:center;anchor-scope:--mod;}
+.post_pro_mods li:not(:has(.tooltip)){display:none;}
 .post_pro_mods li i{border:1px solid color-mix(in srgb, transparent,var(--modrank)); padding:3px 6px; border-radius:3px;anchor-name:--mod;}
 .post_pro_mods li:hover .tooltip{display:block;position-anchor: --mod;}
 .cw_label {font: .9em var(--stfont);text-transform: uppercase;background: var(--textColor-50);display: block;padding: 3px 6px;border-radius: 3px; border: 1px solid var(--textColor-50);anchor-name: --suj_cw; cursor:pointer;}
