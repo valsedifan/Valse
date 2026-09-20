@@ -172,14 +172,18 @@ button[class^="slider-next"]{left:600px;}
   width: max-content;
   display: none;
   position: absolute;
-  top: 30px;
-  left: 30px;
-  background-color: var(--neutralDarker);
+  top: 20px;
+  left: 20px;
+  background-color: var(--transp11);
+  backdrop-filter: blur(5px);
   padding: 5px 10px;
   border-radius: var(--rad-s);
+  z-index:1;
 }
 
 /* Affiche la description au hover de la récompense */
 .award:hover .award_tooltiptext {
   display: block;
 }
+
+.award_tooltiptext_title{font-weight:bold;}
