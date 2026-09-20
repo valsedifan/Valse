@@ -131,7 +131,7 @@ button.rep-button .rep-nb{line-height:0;}
 .blog_reactions .reaction_block:has(.rep-button:hover)+.reaction_block .rep-button img,.blog_reactions .reaction_block:has(.rep-button[class$=liked])+.reaction_block .rep-button:not([class$=liked]) img{filter:grayscale(1)}
 .blog_reactions .rep-button:hover img{filter:grayscale(0)!important}
 
-button.fa_like_others {background:transparent;padding:0; text-transform:lowercase; position:relative;}
+button.fa_like_others {background:transparent;padding:0;position:relative;font: inherit;font-weight: 500;}
 .fa_like_tooltip{display:none;position:absolute;top:100%;background:var(--transp-theme); backdrop-filter:blur(5px);padding:var(--gap);border-radius: var(--rad-s);z-index:1}
 .fa_like_tooltip > a{white-space:nowrap}
 button.fa_like_others:hover .fa_like_tooltip{display:block;}
