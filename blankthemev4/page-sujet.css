@@ -1,40 +1,5 @@
 /* ===== 6. PAGE D'UN SUJET ========================================= */
 /* ===== Template : viewtopic_body ================================== */
-
-/* --- 6.1 PARTICIPANTS AU SUJET ------------------ */
-
-/* Conteneur des participants */
-.poster-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -10px;
-  margin-bottom: 20px;
-}
-
-/* Avatar du participant*/
-.poster {
-  display: grid;
-  place-items: center;
-  background: var(--poster-avatar);
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  margin-left: -8px;
-  background-size: cover;
-  background-position: center;
-}
-
-/* Nombre de participants */
-.poster-count {
-  margin-left: 8px;
-}
-
-.poster-more-list {
-  display: none;
-  /* Liste des participants supplémentaires cachée */
-}
-
 /* --- 6.2 POSTS DU SUJET ------------------------- */
 .post_row {display: grid; grid-template: auto 1fr / auto 1fr; gap:var(--gap-l); margin-bottom: var(--gap-l);
   &:last-child {margin-bottom: 0;}}
@@ -52,11 +17,11 @@
 .post_avatar img {border-radius: var(--rad-xs);border: 1px solid var(--transp11);width: 100%;height: 100%;}
 .presence{display:none;}
 .presence.online {position:absolute; top:var(--gap);left: var(--gap); display:block; font: 600 .65em var(--font);text-transform: uppercase; letter-spacing: .5px; padding: 1px 5px 0 5px; background:var(--transp1);display:none;}
-.post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out;padding: var(--gap-l); display: grid; justify-items: center; align-content: center;}
+.post_avatar_hover{position:absolute;top:0;left:0;background:var(--transp5);height:100%;width:100%;border-radius:var(--rad-xs);transform:translateY(100%);transition:transform .5s ease-in-out;padding: var(--gap-l);display: grid;justify-items: center;align-content: center;gap: var(--gap);}
 .post_avatar_container:hover .post_avatar_hover{transform:translateY(0);}
 
 .post_avatar_hover .user_field:not(.field-pseudo, .field-faceclaim, .field-credits){display:none;}
-.post_avatar_hover .user_field{font:.85em var(--font);display:flex;flex-wrap:wrap;align-items:center;align-content: center;justify-content: center;}
+.post_avatar_hover .user_field{font:.85em var(--font);display: grid;justify-items: center;align-items: center;}
 .post_avatar_hover .field_label, .post_pro_power .field_label{font-weight:550; color:var(--groupecolor);text-transform:uppercase;}
 
 .post_rank{display:block;}
@@ -150,51 +115,6 @@ button.fa_like_others:hover .fa_like_tooltip{display:block;}
 /*supression de la mention "réponse rapide" */
 .quickreply div.h3,.quickreply br {display: none;}
 .quickreply {padding: var(--gap-l);background: var(--transp1);border-radius:var(--rad);backdrop-filter: blur(5px);border: 1px solid var(--transp11);}
-
-/* --- 6.3 SONDAGES ------------------------------- */
-/* --- Templates : viewtopic_poll_ballot - viewtopic_poll_body -- */
-
-/* Conteneur du sondage */
-.poll {background: var(--neutral);border-radius: 5px;margin-bottom: 10px;}
-
-/* Entête du sondage : question et bouton de gestion */
-.head_poll {
-  padding: 10px;
-  border-bottom: 1px solid var(--neutralDark);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Chaque choix du sondage */
-.poll_choice {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  align-items: center;
-
-  &>* {
-    padding: 10px 20px;
-    height: 100%;
-  }
-}
-
-/* Texte de l'option */
-.poll_option {
-  border-right: 1px solid var(--neutralDark);
-  justify-self: end;
-}
-
-.poll_send {
-  margin-left: 220px;
-  padding: 10px 20px;
-  border-left: 1px solid var(--neutralDark);
-}
-
-/* Liste des voteurs (même structure que la liste des participants du sujet) */
-.votes-users-list {
-  justify-content: start;
-  margin: 20px 0 0;
-}
 
 /* SUJETS ADMINS */
 .post:has(.sujetadmin), .comment:has(.sujetadmin){grid-template: 1fr / 1fr;
