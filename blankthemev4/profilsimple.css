@@ -8,7 +8,7 @@ div#field_id:empty{display:none;}
 .profile_simple{background: var(--bw2);position:relative;overflow: clip;border-radius: var(--rad);}
 .profile_simple > .flex{position: absolute;width: 100%;z-index: 10;padding: calc(var(--gap-l)*2 - 10px) calc(var(--gap-l)*2);font-size: var(--large-size);text-transform:uppercase;color: var(--textColor);}
 .profile_simple .tabs{display: flex;gap:var(--gap-l);align-items:center;justify-content:space-between;}
-.profile_simple .tabs a{background:transparent;font-size:1em;text-transform:uppercase;padding: 0;color:var(--textColorInvert);}
+.profile_simple .tabs a{background:transparent;font-size:1em;text-transform:uppercase;padding: 0;color:var(--textColorInvert);cursor:pointer;}
 .profile_simple a.tab.selected{color:var(--groupecolor);background:transparent;}
 .profile_simple .tab_content{padding: calc(var(--gap-l) * 4);height: 70dvh;}
 
