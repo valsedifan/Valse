@@ -590,7 +590,7 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 
 .middle-side{width:100%;min-width:200px;position:relative;display:flex;flex-direction:column;justify-content: flex-end;}
 .presa-img-fond{position:absolute; top:0; left:0; width:100%; height:80%; mask:linear-gradient(to bottom, black, transparent 80%);}
-.presa-img-fond > img{width:100%;height:100%;}
+.presa-img-fond > img{width:100%;height:100%;border-radius:0;}
 .presa-infos{position:relative;height: 75%;width:100%;mask: linear-gradient(to top, black 60%, transparent);background:var(--co-choix);overflow:auto;}
 .presa-infos > y2{display:block; margin-top:50%;font-size:1.1em; line-height:100%;}
 .presa-infos > *, .presa-player > ul > *{padding:var(--gap-l);}
