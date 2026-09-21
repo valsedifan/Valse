@@ -603,7 +603,9 @@ ul.twibuttons i.cp {font-size: 1.3em;}
 .presa-icon-block .post_pro_gif{z-index:1;}
 .presa-icon-block .post_pro_gif:before{background: radial-gradient(var(--couleur2), transparent 50%);}
 .presa-icon-block img{width:60px; height:60px;}
-.presa-icon-block .separator{width:100%;border-bottom-width: 1px; border-bottom-style: solid; border-image-source: linear-gradient(90deg, color-mix(in srgb, var(--textColor) 100%, transparent) 0%, color-mix(in srgb, var(--textColor) 100%, transparent) 42%, transparent 5%, transparent 58%, color-mix(in srgb, var(--textColor) 100%, transparent) 50%, color-mix(in srgb, var(--textColor) 100%, transparent) 100%); border-image-slice: 1; border-image-width: 1px;}
+.presa-icon-block .separator{width:100%;border-bottom-width: 1px;border-bottom-style: solid;border-image-slice: 1;border-image-width: 1px;}
+.presa-icon-block .separator:first-of-type{border-image-source: linear-gradient(90deg, color-mix(in srgb, var(--textColor) 100%, transparent) 79%, transparent 80%);}
+.presa-icon-block .separator:last-of-type{border-image-source: linear-gradient(90deg, transparent 19%, color-mix(in srgb, var(--textColor) 100%, transparent) 20%);}
 
 .presa-free{height:200px;padding-top:0!important;}
 .presa-jauges {display:flex;margin-left: var(--gap-l);}
