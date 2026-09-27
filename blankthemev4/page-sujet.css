@@ -43,6 +43,7 @@
 .post_userinfo .field-aesthetic{max-height: 180px; overflow:auto;}
 .post_userinfo .field-aesthetic::-webkit-scrollbar-thumb{background: var(--groupecolor);}
 .post_userinfo .field-aesthetic::-webkit-scrollbar-track{background: transparent;}
+.post_userinfo .field-aesthetic::-webkit-scrollbar{width: 1px;height: 3px;}
 
 .post_pro_top{display:grid; grid-template-rows: 1fr auto 1fr;}
 .post_pro_top > div {margin: 0 var(--gap);}
