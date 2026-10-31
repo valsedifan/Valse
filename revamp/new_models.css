@@ -500,8 +500,23 @@ mi{cursor: pointer;font-weight:600;color:var(--couleur3);}
 
 /* TCG COLLECTIONS PERSO */
 .tcgcollectionperso{--gradient3:linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor), transparent 95%), color-mix(in srgb,var(--rankcolor), transparent 95%)); background: var(--gradient3); padding:20px;} 
-.tcgcollectionperso soustitre3{padding-left:9px;} 
-.tcgcollectionperso .ttitre2{background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white)); color: transparent; background-clip: text;} 
+.tcgcollectionperso soustitre3{padding-left:9px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    letter-spacing: 5px;
+    font-family: var(--stfont);
+    background: var(--bw2);
+    padding: 5px;
+    margin-left: -2px;
+} 
+.tcgcollectionperso .ttitre2{    font-family: var(--titlefont2);
+    margin-bottom: -15px;
+    font-size: 22px;
+    background-image: var(--gradient3);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white)); color: transparent; background-clip: text;} 
 .tcgsection{display:flex; align-items:center; margin: 20px 0; text-transform:uppercase;} 
 .tcgsection span:first-of-type{letter-spacing: -1px; font-family: var(--font1); background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white)); color: transparent; -webkit-background-clip: text; font-size: 16px; padding-right: 5px; position:relative;} 
 .tcgsection span:first-of-type:before{content:'\eca0'; position:absolute; top:0; left: -21px; font-family: 'Cappuccicons'; background: linear-gradient(-45deg, color-mix(in srgb, var(--groupecolor) 75%, white), color-mix(in srgb,var(--rankcolor) 75%, white)); color: transparent; -webkit-background-clip: text; } 
