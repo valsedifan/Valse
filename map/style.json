@@ -63,7 +63,7 @@
       "layout": {"visibility": "visible"},
       "paint": {
         "fill-antialias": true,
-        "fill-color": "rgba(52, 52, 52, 1)",
+        "fill-color": "rgba(92, 92, 92, 1)",
         "fill-outline-color": "rgba(153, 153, 153, 1)"
       }
     },
