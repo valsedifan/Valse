@@ -1,26 +1,26 @@
 {
-    'type':'FeatureCollection',
-    'features':[
-        {'type':'Feature',
-        'properties':{
-            'name':'Athena Tower',
-            'description':'',
-            'icon':'theatre'
+    "type":"FeatureCollection",
+    "features":[
+        {"type":"Feature",
+        "properties":{
+            "name":"Athena Tower",
+            "description":"",
+            "icon":"theatre"
             }
-        'geometry': {
-            'type': 'Point',
-            'coordinates': [127.102666, 37.512153]
+        "geometry": {
+            "type": "Point",
+            "coordinates": [127.102666, 37.512153]
             }
         },
-        {'type':'Feature',
-        'properties':{
-            'name':'Heroes World',
-            'description':'',
-            'icon':'theatre'
-            }
-        'geometry': {
-            'type': 'Point',
-            'coordinates': [126.855633, 37.544569]
+        {"type":"Feature",
+        "properties":{
+            "name":"Heroes World",
+            "description":"",
+            "icon":"theatre"
+            },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [126.855633, 37.544569]
             }
         }
     ]
