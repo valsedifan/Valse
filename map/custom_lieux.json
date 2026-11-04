@@ -36,6 +36,54 @@
         "type": "Point",
         "coordinates": [127.029154, 37.516966]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "The Secret Lair",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.034970, 37.528735]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "International Heroes Museum",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.044805, 37.538727]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "Twisted Heroes",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.996382, 37.570044]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "Abandoned Hospital",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.925257, 37.639464]
+      }
     }
   ]
 }
