@@ -3,7 +3,7 @@
     "features":[
         {"type":"Feature",
         "properties":{
-            "name":"Athena Tower",
+            "lieux_name":"Athena Tower",
             "description":"",
             "icon":"theatre"
             }
@@ -14,7 +14,7 @@
         },
         {"type":"Feature",
         "properties":{
-            "name":"Heroes World",
+            "lieux_name":"Heroes World",
             "description":"",
             "icon":"theatre"
             },
