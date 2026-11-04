@@ -24,6 +24,18 @@
         "type": "Point",
         "coordinates": [126.855633, 37.544569]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "Heroes Street",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.029154, 37.516966]
+      }
     }
   ]
 }
