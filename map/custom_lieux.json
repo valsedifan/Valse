@@ -5,8 +5,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "Athena Tower",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -17,8 +16,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "Heroes World",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -29,8 +27,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "Heroes Street",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -41,8 +38,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "The Secret Lair",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -53,8 +49,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "International Heroes Museum",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -65,8 +60,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "Twisted Heroes",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
@@ -77,8 +71,7 @@
       "type": "Feature",
       "properties": {
         "lieux_name": "Abandoned Hospital",
-        "description": "",
-        "icon": "theatre"
+        "description": ""
       },
       "geometry": {
         "type": "Point",
