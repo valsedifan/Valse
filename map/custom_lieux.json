@@ -3,22 +3,24 @@
     'features':[
         {'type':'Feature',
         'properties':{
-            'description':'<strong>Make it Mount Pleasant</strong><p><a href="http://www.mtpleasantdc.com/makeitmtpleasant" target="_blank" title="Opens in a new window">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>',
+            'name':'Athena Tower',
+            'description':'',
             'icon':'theatre'
             }
         'geometry': {
             'type': 'Point',
-            'coordinates': [-77.038659, 38.931567]
+            'coordinates': [127.102666, 37.512153]
             }
         },
         {'type':'Feature',
         'properties':{
-            'description':'<strong>Make it Mount Pleasant</strong><p><a href="http://www.mtpleasantdc.com/makeitmtpleasant" target="_blank" title="Opens in a new window">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>',
+            'name':'Heroes World',
+            'description':'',
             'icon':'theatre'
             }
         'geometry': {
             'type': 'Point',
-            'coordinates': [-77.038659, 38.931567]
+            'coordinates': [126.855633, 37.544569]
             }
         }
     ]
