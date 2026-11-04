@@ -1,27 +1,29 @@
 {
-    "type":"FeatureCollection",
-    "features":[
-        {"type":"Feature",
-        "properties":{
-            "lieux_name":"Athena Tower",
-            "description":"",
-            "icon":"theatre"
-            }
-        "geometry": {
-            "type": "Point",
-            "coordinates": [127.102666, 37.512153]
-            }
-        },
-        {"type":"Feature",
-        "properties":{
-            "lieux_name":"Heroes World",
-            "description":"",
-            "icon":"theatre"
-            },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [126.855633, 37.544569]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "Athena Tower",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.102666, 37.512153]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lieux_name": "Heroes World",
+        "description": "",
+        "icon": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.855633, 37.544569]
+      }
+    }
+  ]
 }
