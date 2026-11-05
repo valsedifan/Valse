@@ -336,51 +336,6 @@
       }
     },
     {
-      "id": "label_city",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "place",
-      "minzoom": 3,
-      "filter": [
-        "all",
-        ["==", ["get", "class"], "city"],
-        ["!=", ["get", "capital"], 2]
-      ],
-      "layout": {
-        "icon-allow-overlap": true,
-        "icon-image": ["step", ["zoom"], "circle_11_black", 9, ""],
-        "icon-optional": false,
-        "icon-size": 0.4,
-        "text-anchor": "bottom",
-        "text-field": [
-          "case",
-          ["has", "name:nonlatin"],
-          ["concat", ["get", "name:latin"], "\n", ["get", "name:nonlatin"]],
-          ["coalesce", ["get", "name_en"], ["get", "name"]]
-        ],
-        "text-font": ["Noto Sans Regular"],
-        "text-max-width": 8,
-        "text-offset": [0, -0.1],
-        "text-size": [
-          "interpolate",
-          ["exponential", 1.2],
-          ["zoom"],
-          4,
-          11,
-          7,
-          13,
-          11,
-          18
-        ]
-      },
-      "paint": {
-        "text-color": "#000",
-        "text-halo-blur": 1,
-        "text-halo-color": "#fff",
-        "text-halo-width": 1
-      }
-    },
-    {
       "id": "label_country_3",
       "type": "symbol",
       "source": "openmaptiles",
