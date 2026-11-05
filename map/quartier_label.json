@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+     {
+      "type": "Feature",
+      "properties": {
+        "quartier_name": "North West",
+        "url": "/f22-north-west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.05362301561263,37.655345679647496]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "quartier_name": "North East",
+        "url": "/f21-north-east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.91896818671546,37.593583133249155]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "quartier_name": "South West",
+        "url": "/f20-south-west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.93022625688036,37.46552981401871]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "quartier_name": "South East",
+        "url": "/f18-south-east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.09215661696908, 37.4638841855772]
+      }
+    },
+]
+}
