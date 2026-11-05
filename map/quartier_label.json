@@ -4,6 +4,7 @@
      {
       "type": "Feature",
       "properties": {
+        "quartier_id":"nw",
         "quartier_name": "North West",
         "url": "/f22-north-west"
       },
@@ -15,6 +16,7 @@
      {
       "type": "Feature",
       "properties": {
+        "quartier_id":"ne",
         "quartier_name": "North East",
         "url": "/f21-north-east"
       },
@@ -26,6 +28,7 @@
      {
       "type": "Feature",
       "properties": {
+        "quartier_id":"sw",
         "quartier_name": "South West",
         "url": "/f20-south-west"
       },
@@ -37,6 +40,7 @@
      {
       "type": "Feature",
       "properties": {
+        "quartier_id":"se",
         "quartier_name": "South East",
         "url": "/f18-south-east"
       },
